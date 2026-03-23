@@ -154,6 +154,10 @@ def create_driver(download_dir):
     return webdriver.Chrome(options=opts)
 
 
+MAX_RETRIES = 2          # Tentativi extra per ogni comune fallito
+PAGE_LOAD_TIMEOUT = 40  # Timeout caricamento pagina (secondi)
+
+
 def download_zip(url, password, download_dir, timeout=120):
     """Scarica lo zip dalla dataroom. Restituisce path dello zip o None."""
     # Pulisci directory
@@ -164,9 +168,14 @@ def download_zip(url, password, download_dir, timeout=120):
 
     driver = create_driver(download_dir)
     try:
+        driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
         log_debug(f"Navigazione: {url}")
-        driver.get(url)
-        time.sleep(5)
+        try:
+            driver.get(url)
+        except TimeoutException:
+            log_debug(f"ERRORE: Timeout caricamento pagina ({PAGE_LOAD_TIMEOUT}s)")
+            return None
+        time.sleep(3)
 
         # Password
         try:
@@ -178,7 +187,7 @@ def download_zip(url, password, download_dir, timeout=120):
         except TimeoutException:
             log_debug("Campo password non trovato")
 
-        time.sleep(5)
+        time.sleep(3)
 
         # Download
         btn_found = False
@@ -510,8 +519,15 @@ def main():
 
         old_state = dashboard.get("comuni", {}).get(cid, {})
 
-        # Download
-        zip_path = download_zip(cred["url"], cred["pwd"], download_dir)
+        # Download (con retry automatico)
+        zip_path = None
+        for attempt in range(1 + MAX_RETRIES):
+            if attempt > 0:
+                log_debug(f"    Retry {attempt}/{MAX_RETRIES} per {nome}...")
+                time.sleep(15)
+            zip_path = download_zip(cred["url"], cred["pwd"], download_dir)
+            if zip_path:
+                break
         if not zip_path:
             results["errori"] += 1
             # Aggiorna almeno la data dell'ultimo tentativo
@@ -523,7 +539,7 @@ def main():
             dashboard["comuni"][cid]["info"]["comune"] = nome
             dashboard["comuni"][cid]["info"]["gestore"] = cred.get("gestore", "")
             dashboard["comuni"][cid]["info"]["url"] = cred["url"]
-            log_debug(f"    ERRORE su {nome}")
+            log_debug(f"    ERRORE su {nome} (dopo {1+MAX_RETRIES} tentativi)")
             # ── Salvataggio incrementale dopo errore ──
             processed = results["scansionati"] + results["errori"]
             save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
