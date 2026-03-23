@@ -2,8 +2,8 @@
   "comuni": {
     "1": {
       "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "zip_changed": false,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -52,6 +52,12 @@
           "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
+          "changed": true,
+          "file_count": 1
         }
       ],
       "unclassified_files": [
@@ -70,12 +76,13 @@
         "id": 1
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "00af14835ae8cb8f3f3d10cb92bd53784994dba589f017ae4cca238f16b57b77"
     },
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "zip_changed": false,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -219,6 +226,12 @@
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -230,12 +243,13 @@
         "id": 2
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "27febbff330d1fcb7db2fd71d1ea6a639e320c8bf1f6a0419b9535ccca357c2f"
     },
     "3": {
       "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "zip_changed": false,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -379,6 +393,12 @@
           "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -390,21 +410,23 @@
         "id": 3
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "32583b9a5ddc15a419da210b8d566438242e230b96fe009460233c239dd2bc1c"
     },
     "4": {
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan_error": false,
       "info": {
         "comune": "Campofilone",
         "gestore": "RIECO",
         "url": "https://www.provincia.fm.it/drive/61jpijnphm7e"
-      }
+      },
+      "last_scan_empty": true
     },
     "5": {
       "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "zip_changed": false,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -535,6 +557,12 @@
           "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -546,21 +574,23 @@
         "id": 5
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "a207b3e1f4b3ac0e8385871d56d446ff47bcfa9d842dce486c70e5f34ca4f44f"
     },
     "6": {
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan_error": false,
       "info": {
         "comune": "Fermo",
         "gestore": "ASITE SURL",
         "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm"
-      }
+      },
+      "last_scan_empty": true
     },
     "7": {
       "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
-      "last_scan": "2026-03-23T20:45:19.889244+00:00",
-      "zip_changed": false,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -704,6 +734,12 @@
           "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -715,7 +751,8 @@
         "id": 7
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "af49faabdd06007fc8e1efa2cb1bb2602ecf441906c798f8d35739084c058fa5"
     },
     "8": {
       "last_scan": "2026-03-23T20:45:19.889244+00:00",
@@ -3211,12 +3248,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-23T20:45:19.889244+00:00",
+    "last_scan": "2026-03-23T21:40:30.131933+00:00",
     "results": {
-      "scansionati": 9,
-      "aggiornati": 0,
-      "invariati": 9,
-      "errori": 6
+      "scansionati": 5,
+      "aggiornati": 5,
+      "invariati": 0,
+      "errori": 0,
+      "vuoti": 2
     },
     "total_comuni": 40,
     "scadenze": {
