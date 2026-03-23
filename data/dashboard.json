@@ -2674,15 +2674,495 @@
         "gestore": "SO.ECO",
         "url": "https://www.provincia.fm.it/drive/6mqqhoebiss7"
       }
+    },
+    "36": {
+      "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "a3b38b6f29c4a64ccfa34a80bbcf9b955d5334e8a1c6b114895e1c4a2645dbce",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  SANTA  VITTORIA IN MATENANO.xlsx",
+          "current_size": 4106022,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  SANTA  VITTORIA IN MATENANO.xlsx",
+              "hash": "a3b38b6f29c4a64ccfa34a80bbcf9b955d5334e8a1c6b114895e1c4a2645dbce",
+              "size": 4106022
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "a3b38b6f29c4a64ccfa34a80bbcf9b955d5334e8a1c6b114895e1c4a2645dbce",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  SANTA  VITTORIA IN MATENANO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "17d647bea25e2af75e5519c20bba5b744411f8b4b15785c74e6ea3e3ef7e41b3",
+          "current_file": "RELAZIONE_SANTA VITTORIA IN MATENANO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "current_size": 201540,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_SANTA VITTORIA IN MATENANO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "17d647bea25e2af75e5519c20bba5b744411f8b4b15785c74e6ea3e3ef7e41b3",
+              "size": 201540
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "17d647bea25e2af75e5519c20bba5b744411f8b4b15785c74e6ea3e3ef7e41b3",
+              "file": "RELAZIONE_SANTA VITTORIA IN MATENANO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  SANTA  VITTORIA IN MATENANO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  SANTA  VITTORIA IN MATENANO.xlsx",
+          "hash": "a3b38b6f29c4a64ccfa34a80bbcf9b955d5334e8a1c6b114895e1c4a2645dbce",
+          "size": 4106022,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_SANTA VITTORIA IN MATENANO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_SANTA VITTORIA IN MATENANO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "17d647bea25e2af75e5519c20bba5b744411f8b4b15785c74e6ea3e3ef7e41b3",
+          "size": 201540,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Santa Vittoria in Matenano",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/2ct8ban7t8x2",
+        "id": 36
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "37": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Sant'Elpidio a Mare",
+        "gestore": "IMPREGICO",
+        "url": "https://www.provincia.fm.it/drive/7fb7murgsuiw"
+      }
+    },
+    "38": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Servigliano",
+        "gestore": "SERVIGLIANO",
+        "url": "https://www.provincia.fm.it/drive/2wwqssmufmhx"
+      }
+    },
+    "39": {
+      "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+          "current_size": 4104926,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+              "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
+              "size": 4104926
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
+          "current_file": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "current_size": 161851,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
+              "size": 161851
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
+              "file": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+          "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
+          "size": 4104926,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
+          "size": 161851,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Smerillo",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/4gjc20z8zkch",
+        "id": 39
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "40": {
+      "zip_hash": "e98b069f0f8df780982b20d9efed61f2a575e0811be7d0feeae6d0f4bdde3067",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "4180ffaaae2ad3dd212f53ffe52dac9a60ae2c194e5acb2a3f865779747f63d2",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4105221,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "4180ffaaae2ad3dd212f53ffe52dac9a60ae2c194e5acb2a3f865779747f63d2",
+              "size": 4105221
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "4180ffaaae2ad3dd212f53ffe52dac9a60ae2c194e5acb2a3f865779747f63d2",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
+          "current_file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
+          "current_size": 202532,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
+              "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
+              "size": 202532
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
+              "file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "4180ffaaae2ad3dd212f53ffe52dac9a60ae2c194e5acb2a3f865779747f63d2",
+          "size": 4105221,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
+          "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
+          "size": 202532,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "e98b069f0f8df780982b20d9efed61f2a575e0811be7d0feeae6d0f4bdde3067",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Torre San Patrizio",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/6jwk5gepq0gw",
+        "id": 40
+      },
+      "last_scan_error": false,
+      "processabile": "no"
     }
   },
   "meta": {
     "last_scan": "2026-03-23T18:02:19.562480+00:00",
     "results": {
-      "scansionati": 17,
-      "aggiornati": 17,
+      "scansionati": 20,
+      "aggiornati": 20,
       "invariati": 0,
-      "errori": 18
+      "errori": 20
     },
     "total_comuni": 40,
     "scadenze": {
@@ -2690,7 +3170,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-06-15"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "notes": {}
 }
