@@ -354,7 +354,8 @@ function render(){
 
   // BANNER ERRORI
   if(nErr>0){
-    const errList=COMUNI.filter(c=>getState(c.id)?.last_scan_error===true).map(c=>c.comune);
+    const curScan=JDATA?.meta?.last_scan;
+    const errList=COMUNI.filter(c=>{const st=getState(c.id);return st?.last_scan_error===true&&st?.last_scan===curScan;}).map(c=>c.comune);
     main.appendChild(h("div",{className:"err-banner"},
       h("span",{style:{fontSize:"18px",lineHeight:"1",flexShrink:"0"}},"⚠"),
       h("div",null,
