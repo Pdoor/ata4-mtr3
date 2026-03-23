@@ -1,13 +1,545 @@
 {
-  "comuni": {},
+  "comuni": {
+    "1": {
+      "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Test_altidona.xlsx",
+          "path": "PEF Validato/Test_altidona.xlsx",
+          "hash": "3912a4bcbdba79fa1cf92157d4db209b8b6f605cd2e94bd45b40e2817ff5d884",
+          "size": 8948,
+          "doc_key": null,
+          "source": "sconosciuto"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
+          "changed": true,
+          "file_count": 1
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "Test_altidona.xlsx",
+          "path": "PEF Validato/Test_altidona.xlsx",
+          "source": "sconosciuto",
+          "size": 8948
+        }
+      ],
+      "info": {
+        "comune": "Altidona",
+        "gestore": "RIECO",
+        "advisor": "NEOPA",
+        "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2",
+        "id": 1
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "2": {
+      "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "e4e923751dd16114828804ae9fef63250dd6261da0991a3f1d6be81d5c3d6fea",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx AMANDOLA.xlsx",
+          "current_size": 4107368,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx AMANDOLA.xlsx",
+              "hash": "e4e923751dd16114828804ae9fef63250dd6261da0991a3f1d6be81d5c3d6fea",
+              "size": 4107368
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "e4e923751dd16114828804ae9fef63250dd6261da0991a3f1d6be81d5c3d6fea",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx AMANDOLA.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "63ed1ce9f50317ce0c4f1711b8b19fa3a786895571dbc7ebf24c54cc7f6f9524",
+          "current_file": "RELAZIONE_AMANDOLA  19 03 26  pef periodo 2026-2029   SOECO.pdf",
+          "current_size": 201993,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_AMANDOLA  19 03 26  pef periodo 2026-2029   SOECO.pdf",
+              "hash": "63ed1ce9f50317ce0c4f1711b8b19fa3a786895571dbc7ebf24c54cc7f6f9524",
+              "size": 201993
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "63ed1ce9f50317ce0c4f1711b8b19fa3a786895571dbc7ebf24c54cc7f6f9524",
+              "file": "RELAZIONE_AMANDOLA  19 03 26  pef periodo 2026-2029   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx AMANDOLA.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx AMANDOLA.xlsx",
+          "hash": "e4e923751dd16114828804ae9fef63250dd6261da0991a3f1d6be81d5c3d6fea",
+          "size": 4107368,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_AMANDOLA  19 03 26  pef periodo 2026-2029   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_AMANDOLA  19 03 26  pef periodo 2026-2029   SOECO.pdf",
+          "hash": "63ed1ce9f50317ce0c4f1711b8b19fa3a786895571dbc7ebf24c54cc7f6f9524",
+          "size": 201993,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Amandola",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/7cfl6rwmfexi",
+        "id": 2
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "3": {
+      "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+          "current_size": 4104054,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+              "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
+              "size": 4104054
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
+          "current_file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
+          "current_size": 201191,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
+              "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
+              "size": 201191
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
+              "file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+          "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
+          "size": 4104054,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
+          "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
+          "size": 201191,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Belmonte Piceno",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/72j0e9z4772d",
+        "id": 3
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "4": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Campofilone",
+        "gestore": "RIECO",
+        "url": "https://www.provincia.fm.it/drive/61jpijnphm7e"
+      }
+    },
+    "5": {
+      "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
+          "current_file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3985072,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
+              "size": 3985072
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
+              "file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "8f7283230642d0b68e0c42b25ff73f55c4c43b78839c05df692e83800b0b3d1d",
+          "current_file": "Allegato_2_FALERONE_Relazione_di_accompagnamento_2026-2029.pdf",
+          "current_size": 453865,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_FALERONE_Relazione_di_accompagnamento_2026-2029.pdf",
+              "hash": "8f7283230642d0b68e0c42b25ff73f55c4c43b78839c05df692e83800b0b3d1d",
+              "size": 453865
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "8f7283230642d0b68e0c42b25ff73f55c4c43b78839c05df692e83800b0b3d1d",
+              "file": "Allegato_2_FALERONE_Relazione_di_accompagnamento_2026-2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "current_file": "DIchiarazione di veridicità.pdf",
+          "current_size": 415566,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DIchiarazione di veridicità.pdf",
+              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+              "size": 415566
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+              "file": "DIchiarazione di veridicità.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
+          "size": 3985072,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "DIchiarazione di veridicità.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DIchiarazione di veridicità.pdf",
+          "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "size": 415566,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_2_FALERONE_Relazione_di_accompagnamento_2026-2029.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Allegato_2_FALERONE_Relazione_di_accompagnamento_2026-2029.pdf",
+          "hash": "8f7283230642d0b68e0c42b25ff73f55c4c43b78839c05df692e83800b0b3d1d",
+          "size": 453865,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Falerone",
+        "gestore": "PIN.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/71ma4xgfc4br",
+        "id": 5
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    }
+  },
   "meta": {
-    "last_scan": null,
+    "last_scan": "2026-03-23T18:02:19.562480+00:00",
+    "results": {
+      "scansionati": 4,
+      "aggiornati": 4,
+      "invariati": 0,
+      "errori": 1
+    },
     "total_comuni": 40,
     "scadenze": {
       "termine_arera_mtr3": "2026-07-31",
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-06-15"
-    }
+    },
+    "scan_in_progress": true
   },
   "notes": {}
 }
