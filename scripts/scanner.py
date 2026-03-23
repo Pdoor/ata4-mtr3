@@ -411,6 +411,11 @@ def compute_processabilita(docs):
 #  MAIN
 # ═══════════════════════════════════════════════════════════
 
+import subprocess
+
+COMMIT_EVERY = 5  # Commit intermedio ogni N comuni
+
+
 def save_dashboard(dashboard, output_path, scan_time, results, total_comuni):
     """
     Salva il dashboard.json in modo atomico (write su file .tmp poi rename).
@@ -428,6 +433,43 @@ def save_dashboard(dashboard, output_path, scan_time, results, total_comuni):
     with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(dashboard, f, indent=2, ensure_ascii=False)
     os.replace(tmp_path, output_path)
+
+
+def git_commit_push(output_path, processed, total):
+    """
+    Esegue git add + commit + push del JSON aggiornato.
+    Viene chiamato ogni COMMIT_EVERY comuni durante la scansione.
+    Funziona solo in ambiente GitHub Actions (GITHUB_ACTIONS=true).
+    Se il push fallisce per conflitto (un altro job ha pushato), fa pull --rebase e riprova.
+    """
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return  # In locale non fa nulla
+
+    try:
+        subprocess.run(["git", "add", output_path], check=True)
+        # Controlla se c'è qualcosa da committare
+        diff = subprocess.run(["git", "diff", "--cached", "--quiet"])
+        if diff.returncode == 0:
+            log_debug("Git: nessun cambiamento da committare")
+            return
+
+        msg = f"Scansione in corso [{processed}/{total} comuni]"
+        subprocess.run(["git", "commit", "-m", msg], check=True)
+        log_debug(f"Git commit: {msg}")
+
+        # Push con retry in caso di conflitto
+        for attempt in range(3):
+            result = subprocess.run(["git", "push"], capture_output=True, text=True)
+            if result.returncode == 0:
+                log_debug("Git push OK")
+                return
+            # Conflitto remoto: pull --rebase e riprova
+            log_debug(f"Git push fallito (tentativo {attempt+1}/3), pull --rebase...")
+            subprocess.run(["git", "pull", "--rebase"], check=True)
+
+        log_debug("WARN: git push fallito dopo 3 tentativi, continuo comunque")
+    except subprocess.CalledProcessError as e:
+        log_debug(f"WARN: git error: {e} — continuo comunque")
 
 
 def main():
@@ -483,7 +525,10 @@ def main():
             dashboard["comuni"][cid]["info"]["url"] = cred["url"]
             log_debug(f"    ERRORE su {nome}")
             # ── Salvataggio incrementale dopo errore ──
+            processed = results["scansionati"] + results["errori"]
             save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
+            if processed % COMMIT_EVERY == 0:
+                git_commit_push(args.output, processed, len(comuni))
             continue
 
         # Analizza
@@ -520,12 +565,16 @@ def main():
         os.unlink(zip_path)
 
         # ── Salvataggio incrementale dopo ogni comune ──
+        processed = results["scansionati"] + results["errori"]
         save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
+        if processed % COMMIT_EVERY == 0:
+            git_commit_push(args.output, processed, len(comuni))
 
     # ── Salvataggio finale (marca scan_in_progress = False) ──
     # ── Note manuali: preserva quelle esistenti ──
     # Le note manuali sono in dashboard["notes"][cid] e non vengono toccate dallo scanner
     save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
+    git_commit_push(args.output, len(comuni), len(comuni))
 
     log_debug("═══ REPORT FINALE ═══")
     log_debug(f"Scansionati: {results['scansionati']}")
