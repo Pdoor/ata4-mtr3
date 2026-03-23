@@ -27,11 +27,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
 def log_debug(msg):
+    """Funzione per stampare log immediati su GitHub Actions"""
     timestamp = datetime.now().strftime("%H:%M:%S")
     print(f"[{timestamp}] {msg}")
-    sys.stdout.flush() # Questo è il comando che "sblocca" i messaggi su GitHub
-
-
+    sys.stdout.flush()
 
 # ═══════════════════════════════════════════════════════════
 #  CONFIGURAZIONE SCADENZE
@@ -165,7 +164,7 @@ def download_zip(url, password, download_dir, timeout=120):
 
     driver = create_driver(download_dir)
     try:
-        print(f"    Navigazione: {url}")
+        log_debug(f"Navigazione: {url}")
         driver.get(url)
         time.sleep(5)
 
@@ -175,9 +174,9 @@ def download_zip(url, password, download_dir, timeout=120):
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'input[name="password"]'))
             )
             pwd_input.send_keys(password + Keys.ENTER)
-            print("    Password inserita")
+            log_debug("Password inserita")
         except TimeoutException:
-            print("    Campo password non trovato")
+            log_debug("Campo password non trovato")
 
         time.sleep(5)
 
@@ -189,14 +188,14 @@ def download_zip(url, password, download_dir, timeout=120):
                     EC.element_to_be_clickable((By.XPATH, f"//button[contains(text(), '{label}')]"))
                 )
                 btn.click()
-                print(f"    Click '{label}'")
+                log_debug(f"Click '{label}'")
                 btn_found = True
                 break
             except TimeoutException:
                 continue
 
         if not btn_found:
-            print("    ERRORE: Pulsante download non trovato")
+            log_debug("ERRORE: Pulsante download non trovato")
             return None
 
         # Attendi completamento
@@ -208,13 +207,14 @@ def download_zip(url, password, download_dir, timeout=120):
             zips = [f for f in files if f.endswith(".zip")]
             if not crdowns and zips:
                 time.sleep(1)
+                log_debug(f"File scaricato: {zips[0]}")
                 return os.path.join(download_dir, zips[0])
 
-        print("    ERRORE: Timeout download")
+        log_debug("ERRORE: Timeout download")
         return None
 
     except WebDriverException as e:
-        print(f"    ERRORE Selenium: {e}")
+        log_debug(f"ERRORE Selenium: {e}")
         return None
     finally:
         driver.quit()
@@ -436,17 +436,16 @@ def main():
     if args.filter:
         comuni = [c for c in comuni if args.filter.lower() in c["comune"].lower()]
 
-    print(f"═══ Scanner ATA4 MTR3 ═══")
-    print(f"Data: {scan_time}")
-    print(f"Comuni da scansionare: {len(comuni)}")
-    print()
+    log_debug("═══ Scanner ATA4 MTR3 ═══")
+    log_debug(f"Data: {scan_time}")
+    log_debug(f"Comuni da scansionare: {len(comuni)}")
 
     results = {"scansionati": 0, "aggiornati": 0, "invariati": 0, "errori": 0}
 
     for i, cred in enumerate(comuni, 1):
         cid = str(cred["id"])
         nome = cred["comune"]
-        print(f"[{i}/{len(comuni)}] === {nome} ===")
+        log_debug(f"[{i}/{len(comuni)}] === {nome} ===")
 
         old_state = dashboard.get("comuni", {}).get(cid, {})
 
@@ -463,12 +462,12 @@ def main():
             dashboard["comuni"][cid]["info"]["comune"] = nome
             dashboard["comuni"][cid]["info"]["gestore"] = cred.get("gestore", "")
             dashboard["comuni"][cid]["info"]["url"] = cred["url"]
-            print(f"    ERRORE\n")
+            log_debug(f"    ERRORE su {nome}")
             continue
 
         # Analizza
         zip_hash, files = analyze_zip(zip_path)
-        print(f"    File nello zip: {len(files)}")
+        log_debug(f"    File nello zip: {len(files)}")
 
         # Aggiorna stato
         new_state = update_comune_state(old_state, zip_hash, files, scan_time)
@@ -491,14 +490,13 @@ def main():
             results["aggiornati"] += 1
             classified = sum(1 for f in files if f["classified"])
             unclassified = len(files) - classified
-            print(f"    AGGIORNATO! {classified} classificati, {unclassified} non classificati")
+            log_debug(f"    AGGIORNATO! {classified} classificati, {unclassified} non classificati")
         else:
             results["invariati"] += 1
-            print(f"    Invariato")
+            log_debug("    Invariato")
 
         # Pulizia
         os.unlink(zip_path)
-        print()
 
     # ── Meta ──
     dashboard["meta"] = {
@@ -515,12 +513,11 @@ def main():
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(dashboard, f, indent=2, ensure_ascii=False)
 
-    print(f"═══ REPORT ═══")
-    print(f"Scansionati: {results['scansionati']}")
-    print(f"Aggiornati:  {results['aggiornati']}")
-    print(f"Invariati:   {results['invariati']}")
-    print(f"Errori:      {results['errori']}")
-    print(f"Output:      {args.output}")
+    log_debug("═══ REPORT FINALE ═══")
+    log_debug(f"Scansionati: {results['scansionati']}")
+    log_debug(f"Aggiornati:  {results['aggiornati']}")
+    log_debug(f"Invariati:   {results['invariati']}")
+    log_debug(f"Errori:      {results['errori']}")
 
 
 if __name__ == "__main__":
