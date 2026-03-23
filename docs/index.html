@@ -60,6 +60,7 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .cd{background:var(--s);border:1px solid var(--b);border-radius:11px;padding:14px 16px;cursor:pointer;transition:.15s;position:relative;overflow:hidden}
 .cd:hover{border-color:var(--blue);background:var(--s2)}
 .cd.err-card{border-color:#dc262644}
+.cd.empty-card{border-color:#d9770644}
 .cd.no-data{opacity:.75}
 .cd-p{position:absolute;top:0;left:0;height:3px;transition:width .3s}
 .cd-h{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
@@ -75,6 +76,7 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .cd-footer.dates{color:var(--t4);font-family:var(--m)}
 .cd-footer.nodata{color:var(--t4);font-style:italic}
 .cd-footer.timeout{color:#fca5a5}
+.cd-footer.empty-dr{color:#fdba74}
 .cd-footer.notes{color:var(--t2);font-style:italic}
 .det{background:var(--s);border:1px solid var(--b);border-radius:13px;padding:22px;margin-bottom:18px;position:relative;animation:sd .2s ease}
 @keyframes sd{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
@@ -86,6 +88,7 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .det-link{font-size:11px;font-family:var(--m);word-break:break-all;margin-bottom:12px}
 .det-alert{border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:12px}
 .det-alert.timeout{background:#2d1515;border:1px solid var(--rd);color:#fca5a5}
+.det-alert.empty-dr{background:#1c1408;border:1px solid var(--yd);color:#fdba74}
 .det-alert.nodata{background:#111827;border:1px solid var(--b2);color:var(--t3)}
 .det-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:768px){.det-2{grid-template-columns:1fr}}
@@ -321,23 +324,25 @@ function getFiltered(){
     if(fStat==="incompleto"&&(p===0||p===100))return false;
     if(fStat==="vuoto"&&p>0)return false;
     if(fStat==="timeout"&&!s?.last_scan_error)return false;
+    if(fStat==="empty"&&!s?.last_scan_empty)return false;
     if(fStat==="nodata"&&s!==null)return false;
     return true;
   });
 }
 function getStats(){
-  let comp=0,parz=0,vuoti=0,timeout=0,nodata=0,gC=0,cC=0,proc=0,procR=0;
+  let comp=0,parz=0,vuoti=0,timeout=0,empty=0,nodata=0,gC=0,cC=0,proc=0,procR=0;
   COMUNI.forEach(c=>{
     const s=getState(c.id),p=pct(s);
     if(s===null)nodata++;
     else if(p===100)comp++;else if(p>0)parz++;else vuoti++;
     if(s?.last_scan_error)timeout++;
+    if(s?.last_scan_empty)empty++;
     DOC_G.forEach(d=>{if(getDocSt(s,d.key).status==="received")gC++;});
     DOC_C.forEach(d=>{if(getDocSt(s,d.key).status==="received")cC++;});
     if(s?.processabile==="si")proc++;
     if(s?.processabile==="si_riserva")procR++;
   });
-  return{total:COMUNI.length,comp,parz,vuoti,timeout,nodata,gC,cC,proc,procR};
+  return{total:COMUNI.length,comp,parz,vuoti,timeout,empty,nodata,gC,cC,proc,procR};
 }
 
 // ── Export CSV ──
@@ -413,7 +418,7 @@ function render(){
     ));
   }
 
-  // BANNER ERRORI
+  // BANNER ERRORI (veri timeout/connessione)
   if(nErr>0){
     const curScan=JDATA?.meta?.last_scan;
     const errList=COMUNI.filter(c=>{const st=getState(c.id);return st?.last_scan_error===true&&st?.last_scan===curScan;}).map(c=>c.comune);
@@ -422,6 +427,19 @@ function render(){
       h("div",null,
         h("b",{style:{color:"var(--rd)"}},"Timeout: "+nErr+" comune"+(nErr!==1?"i":"")+" non raggiunto"+(nErr!==1?"i":"")),
         h("div",{style:{marginTop:"3px",color:"var(--t3)",fontFamily:"var(--m)",fontSize:"11px"}},errList.join(", "))
+      )
+    ));
+  }
+  // BANNER DATAROOM VUOTE
+  const nEmpty=JDATA?.meta?.results?.vuoti||0;
+  if(nEmpty>0){
+    const curScan=JDATA?.meta?.last_scan;
+    const emptyList=COMUNI.filter(c=>{const st=getState(c.id);return st?.last_scan_empty===true&&st?.last_scan===curScan;}).map(c=>c.comune);
+    main.appendChild(h("div",{className:"prog-banner",style:{background:"#1c1408",borderColor:"var(--yd)"}},
+      h("span",{style:{fontSize:"16px",flexShrink:"0"}},"📂"),
+      h("div",{style:{flex:"1"}},
+        h("b",{style:{color:"var(--yel)"}},"Cartella vuota: "+nEmpty+" comune"+(nEmpty!==1?"i":"")+" senza file caricati"),
+        h("div",{style:{marginTop:"3px",color:"var(--t3)",fontFamily:"var(--m)",fontSize:"11px"}},emptyList.join(", "))
       )
     ));
   }
@@ -472,6 +490,7 @@ function render(){
     {l:"Doc Gestori", v:st.gC,      c:"var(--cyan)", s:"/ "+(st.total*4)},
     {l:"Doc Comuni",  v:st.cC,      c:"var(--pink)", s:"/ "+(st.total*4)},
     {l:"Timeout",     v:st.timeout, c:"var(--rd)",   s:"ultimo scan"},
+    {l:"Cart. vuote", v:st.empty,   c:"var(--yel)",  s:"nessun file"},
   ].forEach(k=>{
     kg.appendChild(h("div",{className:"kpi"},
       h("div",{className:"kpi-bar",style:{background:k.c}}),
@@ -488,7 +507,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -512,7 +531,7 @@ function renderCard(c){
   const lastG=s?DOC_G.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
   const lastC=s?DOC_C.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
 
-  let cls="cd";if(s?.last_scan_error)cls+=" err-card";if(s===null)cls+=" no-data";
+  let cls="cd";if(s?.last_scan_error)cls+=" err-card";else if(s?.last_scan_empty)cls+=" empty-card";if(s===null)cls+=" no-data";
   const card=h("div",{className:cls,onClick:()=>{selId=c.id;render()}},
     h("div",{className:"cd-p",style:{width:p+"%",background:col}}),
     h("div",{className:"cd-h"},
@@ -529,6 +548,9 @@ function renderCard(c){
   if(s?.last_scan_error){
     card.appendChild(h("div",{className:"cd-footer timeout"},
       "⚠ Timeout nell'ultimo scan"+(s.last_scan?" · "+fmtDT(s.last_scan):"")));
+  }else if(s?.last_scan_empty){
+    card.appendChild(h("div",{className:"cd-footer empty-dr"},
+      "📂 Cartella vuota"+(s.last_scan?" · "+fmtDT(s.last_scan):"")));
   }else if(s===null){
     card.appendChild(h("div",{className:"cd-footer nodata"},"In attesa della prima scansione"));
   }else if(firstUp||lastG||lastC){
@@ -582,6 +604,9 @@ function renderDetail(id){
   if(s?.last_scan_error){
     det.appendChild(h("div",{className:"det-alert timeout"},
       "⚠ L'ultimo download è andato in timeout. I dati mostrati (se presenti) sono dell'ultima scansione andata a buon fine."));
+  }else if(s?.last_scan_empty){
+    det.appendChild(h("div",{className:"det-alert empty-dr"},
+      "📂 La dataroom è accessibile ma non contiene ancora file. Il comune o il gestore non ha ancora effettuato caricamenti."));
   }else if(!s){
     det.appendChild(h("div",{className:"det-alert nodata"},
       "Nessun dato ancora: questo comune non è stato scansionato. La prima scansione automatica popolerà questa scheda."));
