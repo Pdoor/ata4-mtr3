@@ -2,8 +2,8 @@
   "comuni": {
     "1": {
       "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-23T20:45:19.889244+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -46,6 +46,12 @@
           "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
           "changed": true,
           "file_count": 1
+        },
+        {
+          "time": "2026-03-23T20:45:19.889244+00:00",
+          "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
+          "changed": false,
+          "file_count": 1
         }
       ],
       "unclassified_files": [
@@ -68,8 +74,8 @@
     },
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-23T20:45:19.889244+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -207,6 +213,12 @@
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T20:45:19.889244+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -222,8 +234,8 @@
     },
     "3": {
       "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-23T20:45:19.889244+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -361,6 +373,12 @@
           "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T20:45:19.889244+00:00",
+          "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -375,7 +393,7 @@
       "processabile": "no"
     },
     "4": {
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan": "2026-03-23T20:45:19.889244+00:00",
       "last_scan_error": true,
       "info": {
         "comune": "Campofilone",
@@ -385,8 +403,8 @@
     },
     "5": {
       "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-23T20:45:19.889244+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -510,6 +528,12 @@
           "time": "2026-03-23T18:02:19.562480+00:00",
           "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
           "changed": true,
+          "file_count": 3
+        },
+        {
+          "time": "2026-03-23T20:45:19.889244+00:00",
+          "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
+          "changed": false,
           "file_count": 3
         }
       ],
@@ -3157,12 +3181,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-23T18:02:19.562480+00:00",
+    "last_scan": "2026-03-23T20:45:19.889244+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 20,
-      "invariati": 0,
-      "errori": 20
+      "scansionati": 4,
+      "aggiornati": 0,
+      "invariati": 4,
+      "errori": 1
     },
     "total_comuni": 40,
     "scadenze": {
@@ -3170,7 +3194,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-06-15"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "notes": {}
 }
