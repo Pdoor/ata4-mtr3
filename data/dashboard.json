@@ -2270,15 +2270,419 @@
         "gestore": "RIECO",
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims"
       }
+    },
+    "31": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Petritoli",
+        "gestore": "ECO INNOVA SRL",
+        "url": "https://www.provincia.fm.it/drive/7gyyk7h9omge"
+      }
+    },
+    "32": {
+      "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+          "current_size": 4105527,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+              "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
+              "size": 4105527
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
+          "current_file": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+          "current_size": 202280,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+              "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
+              "size": 202280
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
+              "file": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+          "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
+          "size": 4105527,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+          "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
+          "size": 202280,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Ponzano di Fermo",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/3739lu5r8gjy",
+        "id": 32
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "33": {
+      "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "a5d28f9c7c6173f623d6d25ba8158f5b7125cc5aaa2e5f10c4b0670dbb0a2ead",
+          "current_file": "Allegato1_pef grezzo_2026-2029_gestore.xlsx",
+          "current_size": 3998229,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Porto San Giorgio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "e32622c4b7bf1ec6b05f390ba8706e6808009f8a9ccf4c7e7778dd030363a08f",
+              "size": 3969221
+            },
+            {
+              "name": "Allegato1_pef grezzo_2026-2029_gestore.xlsx",
+              "hash": "a5d28f9c7c6173f623d6d25ba8158f5b7125cc5aaa2e5f10c4b0670dbb0a2ead",
+              "size": 3998229
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "a5d28f9c7c6173f623d6d25ba8158f5b7125cc5aaa2e5f10c4b0670dbb0a2ead",
+              "file": "Allegato1_pef grezzo_2026-2029_gestore.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "8617250ff94d19ea65efca74b2bc3ec6ef7dfc1480ef15c05c9af1f9348f9963",
+          "current_file": "Allegato2_Relazione di accompagnamento.pdf",
+          "current_size": 4224677,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione di accompagnamento.pdf",
+              "hash": "8617250ff94d19ea65efca74b2bc3ec6ef7dfc1480ef15c05c9af1f9348f9963",
+              "size": 4224677
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "8617250ff94d19ea65efca74b2bc3ec6ef7dfc1480ef15c05c9af1f9348f9963",
+              "file": "Allegato2_Relazione di accompagnamento.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5000fc589f37f8826a820a380628f11041afe92ebf5c3a236a65103795cbda07",
+          "current_file": "Allegato3_Dichiarazione di veridicita.pdf",
+          "current_size": 226338,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato3_Dichiarazione di veridicita.pdf",
+              "hash": "5000fc589f37f8826a820a380628f11041afe92ebf5c3a236a65103795cbda07",
+              "size": 226338
+            },
+            {
+              "name": "CARTA DI IDENTITA lanciotti.pdf",
+              "hash": "36fe7bdaaf79db36087a15fbc6da38b80bf64b661e228c7f6d9d64fb33630f59",
+              "size": 121763
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5000fc589f37f8826a820a380628f11041afe92ebf5c3a236a65103795cbda07",
+              "file": "Allegato3_Dichiarazione di veridicita.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "42a54ecde5803e9baad4922f6425e16dbd10f345101611e304e11fbf99297230",
+          "current_file": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.pdf",
+          "current_size": 746923,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.docx",
+              "hash": "0b4c63372acf3f76c3d188f6a568963c716ec8f93e9d7946368120b45c1c7b13",
+              "size": 159878
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.pdf",
+              "hash": "42a54ecde5803e9baad4922f6425e16dbd10f345101611e304e11fbf99297230",
+              "size": 746923
+            },
+            {
+              "name": "Dichiarazione_Veridicita_pef grezzo Comune-signed.pdf",
+              "hash": "54f873fd88c6b8da8fe95c7b48161726d792efca63a2a131d42d5fd1b3b8e6bc",
+              "size": 269992
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "42a54ecde5803e9baad4922f6425e16dbd10f345101611e304e11fbf99297230",
+              "file": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Porto San Giorgio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Porto San Giorgio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "e32622c4b7bf1ec6b05f390ba8706e6808009f8a9ccf4c7e7778dd030363a08f",
+          "size": 3969221,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.docx",
+          "hash": "0b4c63372acf3f76c3d188f6a568963c716ec8f93e9d7946368120b45c1c7b13",
+          "size": 159878,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Porto San Giorgio 2026-2029_Allegato 2.pdf",
+          "hash": "42a54ecde5803e9baad4922f6425e16dbd10f345101611e304e11fbf99297230",
+          "size": 746923,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_pef grezzo Comune-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_pef grezzo Comune-signed.pdf",
+          "hash": "54f873fd88c6b8da8fe95c7b48161726d792efca63a2a131d42d5fd1b3b8e6bc",
+          "size": 269992,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato1_pef grezzo_2026-2029_gestore.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato1_pef grezzo_2026-2029_gestore.xlsx",
+          "hash": "a5d28f9c7c6173f623d6d25ba8158f5b7125cc5aaa2e5f10c4b0670dbb0a2ead",
+          "size": 3998229,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato3_Dichiarazione di veridicita.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato3_Dichiarazione di veridicita.pdf",
+          "hash": "5000fc589f37f8826a820a380628f11041afe92ebf5c3a236a65103795cbda07",
+          "size": 226338,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "CARTA DI IDENTITA lanciotti.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/CARTA DI IDENTITA lanciotti.pdf",
+          "hash": "36fe7bdaaf79db36087a15fbc6da38b80bf64b661e228c7f6d9d64fb33630f59",
+          "size": 121763,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato2_Relazione di accompagnamento.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Allegato2_Relazione di accompagnamento.pdf",
+          "hash": "8617250ff94d19ea65efca74b2bc3ec6ef7dfc1480ef15c05c9af1f9348f9963",
+          "size": 4224677,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
+          "changed": true,
+          "file_count": 8
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Porto San Giorgio",
+        "gestore": "SGDS Multiservizi",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
+        "id": 33
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "34": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Porto Sant'Elpidio",
+        "gestore": "ECO ELPIDIENSE",
+        "url": "https://www.provincia.fm.it/drive/ga22vc27tw6"
+      }
+    },
+    "35": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Rapagnano",
+        "gestore": "SO.ECO",
+        "url": "https://www.provincia.fm.it/drive/6mqqhoebiss7"
+      }
     }
   },
   "meta": {
     "last_scan": "2026-03-23T18:02:19.562480+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 15,
+      "scansionati": 17,
+      "aggiornati": 17,
       "invariati": 0,
-      "errori": 15
+      "errori": 18
     },
     "total_comuni": 40,
     "scadenze": {
