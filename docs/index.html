@@ -69,7 +69,8 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .badge{font-size:9px;padding:2px 6px;border-radius:4px;font-weight:600;white-space:nowrap}
 .dl{font-size:9px;color:var(--t4);margin-bottom:3px;text-transform:uppercase;letter-spacing:.05em}
 .dots{display:flex;gap:3px}
-.dot{width:22px;height:18px;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600}
+.dot{width:22px;height:28px;border-radius:3px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;font-size:9px;font-weight:600}
+.dot-date{font-size:7px;font-weight:500;line-height:1;opacity:.9;font-family:var(--m)}
 .cd-footer{margin-top:6px;font-size:10px;border-top:1px solid var(--b);padding-top:5px}
 .cd-footer.dates{color:var(--t4);font-family:var(--m)}
 .cd-footer.nodata{color:var(--t4);font-style:italic}
@@ -244,6 +245,7 @@ function h(t,a,...ch){
 function fmtDate(iso){if(!iso)return"—";try{return new Date(iso).toLocaleDateString("it-IT",{day:"2-digit",month:"2-digit",year:"numeric"})}catch(e){return"—"}}
 function fmtDT(iso){if(!iso)return"—";try{return new Date(iso).toLocaleString("it-IT",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"})}catch(e){return"—"}}
 function fmtSize(b){if(!b)return"";if(b<1024)return b+"B";if(b<1048576)return(b/1024).toFixed(1)+"KB";return(b/1048576).toFixed(1)+"MB"}
+function fmtShortDate(iso){if(!iso)return"";try{const d=new Date(iso);return String(d.getUTCDate()).padStart(2,"0")+"/"+String(d.getUTCMonth()+1).padStart(2,"0");}catch(e){return""}}
 function daysUntil(s){if(!s)return null;return Math.ceil((new Date(s)-new Date())/864e5)}
 function getState(id){if(!JDATA?.comuni)return null;return JDATA.comuni[String(id)]||null;}
 function getDocSt(s,key){if(!s)return{status:"missing"};return s.docs?.[key]||{status:"missing"};}
@@ -489,8 +491,12 @@ function makeDots(label,docs,s){
     if(ds.first_upload)title+="\nPrimo: "+fmtDate(ds.first_upload);
     if(ds.last_upload&&ds.last_upload!==ds.first_upload)title+="\nUltimo: "+fmtDate(ds.last_upload);
     if(ds.replaced&&ds.upload_history?.length)title+="\n(Sostituito "+(ds.upload_history.length-1)+"x)";
+    const uploadDate=ds.status==="received"?fmtShortDate(ds.last_upload||ds.first_upload):"";
     dots.appendChild(h("div",{className:"dot",title:title,
-      style:{background:cfg.bg,border:"1px solid "+cfg.color+"33",color:cfg.color}},cfg.icon));
+      style:{background:cfg.bg,border:"1px solid "+cfg.color+"33",color:cfg.color}},
+      cfg.icon,
+      uploadDate?h("span",{className:"dot-date"},uploadDate):null
+    ));
   });
   return h("div",null,h("div",{className:"dl"},label),dots);
 }
