@@ -523,15 +523,205 @@
       },
       "last_scan_error": false,
       "processabile": "no"
+    },
+    "6": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Fermo",
+        "gestore": "ASITE SURL",
+        "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm"
+      }
+    },
+    "7": {
+      "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "359ddea13cab8207cc10f270c0ba9c6334747864406db751f025440a7f8c3a70",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx FRANCAVILLA DETE.xlsx",
+          "current_size": 4106280,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx FRANCAVILLA DETE.xlsx",
+              "hash": "359ddea13cab8207cc10f270c0ba9c6334747864406db751f025440a7f8c3a70",
+              "size": 4106280
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "359ddea13cab8207cc10f270c0ba9c6334747864406db751f025440a7f8c3a70",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx FRANCAVILLA DETE.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "8bb0593772e5736a46f353189fe2c7ff53986026c5f729e7181a2b59e6c87e48",
+          "current_file": "RELAZIONE_FRANCAVILLA  DETE _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "current_size": 160951,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_FRANCAVILLA  DETE _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "8bb0593772e5736a46f353189fe2c7ff53986026c5f729e7181a2b59e6c87e48",
+              "size": 160951
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "8bb0593772e5736a46f353189fe2c7ff53986026c5f729e7181a2b59e6c87e48",
+              "file": "RELAZIONE_FRANCAVILLA  DETE _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx FRANCAVILLA DETE.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx FRANCAVILLA DETE.xlsx",
+          "hash": "359ddea13cab8207cc10f270c0ba9c6334747864406db751f025440a7f8c3a70",
+          "size": 4106280,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_FRANCAVILLA  DETE _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_FRANCAVILLA  DETE _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "8bb0593772e5736a46f353189fe2c7ff53986026c5f729e7181a2b59e6c87e48",
+          "size": 160951,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Francavilla d'Ete",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/2vxelssno0pf",
+        "id": 7
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "8": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Grottazzolina",
+        "gestore": "ECO INNOVA SRL",
+        "url": "https://www.provincia.fm.it/drive/3ahoqjicoqlx"
+      }
+    },
+    "9": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Lapedona",
+        "gestore": "SO.ECO",
+        "url": "https://www.provincia.fm.it/drive/777cf7yak6om"
+      }
+    },
+    "10": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Magliano di Tenna",
+        "gestore": "ECO INNOVA SRL",
+        "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev"
+      }
     }
   },
   "meta": {
     "last_scan": "2026-03-23T18:02:19.562480+00:00",
     "results": {
-      "scansionati": 4,
-      "aggiornati": 4,
+      "scansionati": 5,
+      "aggiornati": 5,
       "invariati": 0,
-      "errori": 1
+      "errori": 5
     },
     "total_comuni": 40,
     "scadenze": {
