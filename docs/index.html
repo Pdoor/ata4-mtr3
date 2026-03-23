@@ -37,6 +37,12 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .dl-label{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.05em}
 .dl-date{font-size:14px;font-weight:700;font-family:var(--m)}
 .dl-days{font-size:11px;font-weight:600;margin-top:2px}
+.dl-card{position:relative}
+.dl-edit{position:absolute;top:7px;right:8px;background:0;border:0;color:var(--t4);font-size:13px;cursor:pointer;padding:2px 4px;line-height:1;border-radius:4px;opacity:.55;transition:.15s}
+.dl-edit:hover{color:var(--blue);opacity:1;background:var(--b)}
+.dl-edit.custom{color:var(--yd);opacity:.8}
+.dl-inp{background:var(--b);border:1px solid var(--blue);border-radius:5px;color:var(--t);font-family:var(--m);font-size:12px;padding:3px 6px;margin-top:4px;width:100%;outline:0}
+.dl-inp:focus{border-color:var(--pur)}
 .sync{font-size:11px;color:var(--t4);font-family:var(--m);margin-bottom:10px;display:flex;align-items:center;gap:8px}
 .sync-dot{width:8px;height:8px;border-radius:50%;background:var(--gd);animation:pulse 2s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
@@ -175,9 +181,9 @@ const DOC_C=[
 const ALL_DOCS=[...DOC_G,...DOC_C];
 
 const SCADENZE_DEFAULT={
-  termine_arera_mtr3:"2026-05-31",
-  termine_ata_gestori:"2026-03-31",
-  termine_ata_comuni:"2026-03-31",
+  termine_arera_mtr3:"2026-07-31",
+  termine_ata_gestori:"2026-05-31",
+  termine_ata_comuni:"2026-06-15",
 };
 
 const ST={
@@ -201,6 +207,13 @@ const LS_NOTES="ata4_notes_v1";
 let LOCAL_NOTES={};
 try{const n=localStorage.getItem(LS_NOTES);if(n)LOCAL_NOTES=JSON.parse(n);}catch(e){}
 function saveNotes(){try{localStorage.setItem(LS_NOTES,JSON.stringify(LOCAL_NOTES));}catch(e){}}
+
+// ── Scadenze locali (localStorage) ──
+const LS_SCADENZE="ata4_scadenze_v1";
+let LOCAL_SCADENZE={};
+try{const s=localStorage.getItem(LS_SCADENZE);if(s)LOCAL_SCADENZE=JSON.parse(s);}catch(e){}
+function saveScadenze(){try{localStorage.setItem(LS_SCADENZE,JSON.stringify(LOCAL_SCADENZE));}catch(e){}}
+let editingScad=null;
 
 // ── Stato globale ──
 let JDATA=null;
@@ -292,7 +305,7 @@ function exportCSV(){
 function render(){
   const app=document.getElementById("app");app.innerHTML="";
   const st=getStats(),fil=getFiltered();
-  const scad=JDATA?.meta?.scadenze||SCADENZE_DEFAULT;
+  const scad={...(JDATA?.meta?.scadenze||SCADENZE_DEFAULT),...LOCAL_SCADENZE};
   const inProg=JDATA?.meta?.scan_in_progress===true;
   const nErr=JDATA?.meta?.results?.errori||0;
 
@@ -355,11 +368,31 @@ function render(){
     const d=scad[k],days=daysUntil(d);
     const col=days===null?"var(--t3)":days<0?"var(--rd)":days<14?"var(--yd)":"var(--gd)";
     const daysTxt=days===null?"—":days<0?"Scaduto da "+Math.abs(days)+" gg":days===0?"OGGI!":days+" gg rimasti";
-    dlDiv.appendChild(h("div",{className:"dl-card"},
-      h("div",{className:"dl-label"},l),
-      h("div",{className:"dl-date",style:{color:col}},d?fmtDate(d):"Da definire"),
-      h("div",{className:"dl-days",style:{color:col}},daysTxt)
-    ));
+    const isCustom=!!LOCAL_SCADENZE[k];
+    const isEditing=editingScad===k;
+    const editBtn=h("button",{
+      className:"dl-edit"+(isCustom?" custom":""),
+      title:isCustom?"Data personalizzata — clicca per modificare":"Clicca per modificare la data",
+      onClick:e=>{e.stopPropagation();editingScad=isEditing?null:k;render();}
+    },"✏");
+    const card=h("div",{className:"dl-card"},
+      editBtn,
+      h("div",{className:"dl-label"},l+(isCustom?" ●":"")),
+      isEditing
+        ? h("input",{className:"dl-inp",type:"date",value:d||"",
+            onInput:ev=>{
+              const val=ev.target.value;
+              if(val){LOCAL_SCADENZE[k]=val;}else{delete LOCAL_SCADENZE[k];}
+              saveScadenze();
+            },
+            onBlur:()=>{editingScad=null;render();},
+            onKeyDown:ev=>{if(ev.key==="Enter"||ev.key==="Escape"){editingScad=null;render();}}
+          })
+        : h("div",{className:"dl-date",style:{color:col}},d?fmtDate(d):"Da definire"),
+      isEditing?null:h("div",{className:"dl-days",style:{color:col}},daysTxt)
+    );
+    dlDiv.appendChild(card);
+    if(isEditing){requestAnimationFrame(()=>{const inp=card.querySelector(".dl-inp");if(inp)inp.focus();});}
   });
   main.appendChild(dlDiv);
 
