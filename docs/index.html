@@ -108,6 +108,13 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .notes-area{width:100%;height:72px;padding:8px 10px;border-radius:8px;border:1px solid var(--b2);background:var(--s2);color:var(--t);font-size:12px;resize:vertical;outline:0}
 .notes-area:focus{border-color:var(--blue)}
 .tw{overflow-x:auto;border-radius:11px;border:1px solid var(--b)}
+.pwd-btn{margin-left:10px;padding:2px 9px;border-radius:5px;border:1px solid var(--b2);background:0;color:var(--t4);font-size:11px;cursor:pointer;transition:.15s;font-family:var(--f);vertical-align:middle}
+.pwd-btn:hover{border-color:var(--pur);color:var(--pur)}
+.pwd-box{display:flex;align-items:center;gap:7px;background:var(--b);border:1px solid var(--b2);border-radius:7px;padding:5px 10px;margin-top:6px;animation:sd .15s ease}
+.pwd-val{font-family:var(--m);font-size:13px;font-weight:600;color:var(--t);letter-spacing:.08em;min-width:90px}
+.pwd-act{background:0;border:0;color:var(--t3);cursor:pointer;font-size:14px;line-height:1;padding:2px 5px;border-radius:4px;transition:.1s}
+.pwd-act:hover{color:var(--t);background:var(--b2)}
+.pwd-timer{font-size:10px;color:var(--t4);font-family:var(--m);margin-left:auto}
 table{width:100%;border-collapse:collapse;font-size:11px}
 thead tr{background:var(--b)}
 th{padding:8px 6px;font-size:10px;color:var(--t2);font-weight:600;text-align:center;white-space:nowrap;border-bottom:2px solid var(--b2)}
@@ -180,6 +187,9 @@ const DOC_C=[
   {key:"altre_com_c",       label:"Altre Comunicazioni", short:"Altre"},
 ];
 const ALL_DOCS=[...DOC_G,...DOC_C];
+// Documenti obbligatori ai fini regolatori (Tool + Relazione + Dich. Veridicità per Gestore e Comune)
+// "Altre Comunicazioni" escluse: non obbligatorie per MTR3
+const DOC_MANDATORY=ALL_DOCS.filter(d=>!["altre_com","altre_com_c"].includes(d.key));
 
 const SCADENZE_DEFAULT={
   termine_arera_mtr3:"2026-07-31",
@@ -223,6 +233,57 @@ let search="",fGest="all",fStat="all";
 let openHist={};
 const DATA_URLS = ["https://pdoor.github.io/ata4-mtr3/data/dashboard.json"];
 
+// ── Password cifrate (AES-256-GCM / PBKDF2-SHA256 · 100k iter) ──
+const ENC_PWD="AJONZdanOBYYMYz8vWzD58hAFWrsuePUHz3f1fqDl+Q9B+84zcww8IYVZTfUJMEtLiLEy4LkkcXBBHv1Pbe/NrQfrVnK7C4fHsVvprkLOnZTqy2Cb6s3YZtv9nqIbvN84axnYniYyc3Wj0i8uklaDflF0UY9o5KEgnKZ8qsQ7LQdWNZNSSYldWoiMJeFYG7RITVT9sGs+ggN6KzDDK+2UO/kCR8JgSdba5CDoDurQFPTeSmJFN/NTS4svTLL1Nhrh9LEDa7UJMvhE5zhvzhSSB6nR73RSllQocu8ObsSfmDzv/323K3JPvXAyMgzyWMtDic5rKYKA72agJsjufaEx5C3085YFnwI3AUFsgCg2I0EkBj+FRVRc+NHPJ5Pq+marlZ9By091UgnejFZiFVTs+50qCw02PVc5mPGjkrE8oSsE+wsNsergTde8XOeizuz03heUKvqFCc82Q507CbmHhQcSOknOlqxEoyCJhfncWUbDqqdgNDiyy1LnHHnhCS4I1XJ1OPoDLg85guHvFNcjZbGPEPi9z0+YHGdlMwYlGd1PogrdOWE4y8iGRQszIlomYAaU0eywyfvTXCF1x6rX7ju1JanAJjyW/aD3NMb8s50FiWErG8fRMqq1wELMXnhauQfCMzzkh+dQwrh3X16k3XB+zeTyHNw5MbpwdvKRanErfgV3PObGcC2X41Lcx+HW8SJeUnnR/9zJBEO7cveHmNvYjQmaJ44vH6HUFcU7IYLuHRbRX8WVbjZW9LzcCXmoIAiksu6fwfDwbKrpmQUqH1o2NmQH9E/nFN9R+ivZrme69dH7JD8eFIxkuWLqMOfvsJbF2IeBt7zbTm734mm9VJ3MJRZccWytV1HcmcW2YfFgXNHOKZ2BPIB8g8y+CUOzd5ikaaG+jtCUW6/Dh0c0dbvo6JEs+4ZlqaE28Xv8VBNFDPVCgwxS611G58rwckkeRt5k8UI23QHNkdWbLixdN72/RY47mpkTYsQ5PcyXq6LURNOVxmg0A9SEFUETXtY/T7tWJv+IBnvy0SdmaR578OCfctDxocS2odltHm/wCPspVjdx0FKmOySdr+lmVNE+Ws/9evEPZuF9wx/8KXGV7GzOEtaoNMwHdEdsB7dR0D9V9+wBgiX2MAd4rHhTpR5u+by/mimnElubK7j+WynHhJZu7FWDjm/4wGJRlmaCVt3ceT3U6vjclFQ5dJyzez1dJwdL71gSFdXlWkquM5r7Rm9dl/VhZWR7lenb9I5Nc7cDo9U9CytJNtkTJKIKcTgjd9+otKWNAT0JwC2QS3pZwZ3E2lSh2ykcNTzk8xl/6q5QfybtNe6ESiWovOFBLdTb4Bgy6hMCunNoIelnE36hKF+WlttVzKR3Gu26JCQy8L/19Leti1BxoaF7fiIwUr5bn6V1xKA6zITJbgpGih/OPgq8wKK+g==";
+let _pwdMap=null;
+const _pwdTimers={};
+
+async function _derivePwdKey(pass,salt){
+  const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:100000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,["decrypt"]);
+}
+async function _unlockPwd(pass){
+  try{
+    const b=Uint8Array.from(atob(ENC_PWD),c=>c.charCodeAt(0));
+    const k=await _derivePwdKey(pass,b.slice(0,16));
+    const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(16,28)},k,b.slice(28));
+    return JSON.parse(new TextDecoder().decode(pt));
+  }catch(e){return null;}
+}
+function _urlKey(url){return url.split("/").pop();}
+
+async function _requireUnlock(){
+  if(_pwdMap)return true;
+  const pass=prompt("Master password richiesta:");
+  if(!pass)return false;
+  _pwdMap=await _unlockPwd(pass);
+  if(!_pwdMap){alert("Password non corretta.");return false;}
+  return true;
+}
+
+async function showPwd(id,url,container){
+  const old=container.querySelector(".pwd-box");
+  if(old){clearInterval(_pwdTimers[id]);delete _pwdTimers[id];old.remove();return;}
+  if(!await _requireUnlock())return;
+  const pwd=_pwdMap[_urlKey(url)];
+  if(!pwd)return;
+  let visible=false,countdown=30;
+  const val=h("span",{className:"pwd-val"},"••••••••");
+  const eye=h("button",{className:"pwd-act",title:"Mostra/Nascondi",onClick:()=>{
+    visible=!visible;val.textContent=visible?pwd:"••••••••";eye.textContent=visible?"🙈":"👁";
+  }},"👁");
+  const copy=h("button",{className:"pwd-act",title:"Copia negli appunti",onClick:()=>{
+    navigator.clipboard.writeText(pwd);copy.textContent="✓";setTimeout(()=>{copy.textContent="📋";},1200);
+  }},"📋");
+  const timer=h("span",{className:"pwd-timer"},countdown+"s");
+  const box=h("div",{className:"pwd-box"},val,eye,copy,timer);
+  container.appendChild(box);
+  _pwdTimers[id]=setInterval(()=>{
+    countdown--;timer.textContent=countdown+"s";
+    if(countdown<=0){clearInterval(_pwdTimers[id]);delete _pwdTimers[id];box.remove();}
+  },1000);
+}
+
 async function loadJSON(){
   for(const url of DATA_URLS){
     try{const r=await fetch(url+"?t="+Date.now());if(r.ok){JDATA=await r.json();return;}}catch(e){}
@@ -249,7 +310,7 @@ function fmtShortDate(iso){if(!iso)return"";try{const d=new Date(iso);return Str
 function daysUntil(s){if(!s)return null;return Math.ceil((new Date(s)-new Date())/864e5)}
 function getState(id){if(!JDATA?.comuni)return null;return JDATA.comuni[String(id)]||null;}
 function getDocSt(s,key){if(!s)return{status:"missing"};return s.docs?.[key]||{status:"missing"};}
-function pct(s){if(!s)return 0;return Math.round(ALL_DOCS.filter(d=>getDocSt(s,d.key).status==="received").length/ALL_DOCS.length*100);}
+function pct(s){if(!s)return 0;return Math.round(DOC_MANDATORY.filter(d=>getDocSt(s,d.key).status==="received").length/DOC_MANDATORY.length*100);}
 function getGestori(){return[...new Set(COMUNI.map(c=>c.gestore))].sort()}
 function getFiltered(){
   return COMUNI.filter(c=>{
@@ -376,7 +437,7 @@ function render(){
     const editBtn=h("button",{
       className:"dl-edit"+(isCustom?" custom":""),
       title:isCustom?"Data personalizzata — clicca per modificare":"Clicca per modificare la data",
-      onClick:e=>{e.stopPropagation();editingScad=isEditing?null:k;render();}
+      onClick:async e=>{e.stopPropagation();if(isEditing){editingScad=null;render();return;}if(!await _requireUnlock())return;editingScad=k;render();}
     },"✏");
     const card=h("div",{className:"dl-card"},
       editBtn,
@@ -513,7 +574,10 @@ function renderDetail(id){
   meta.innerHTML=`Gestore: <b>${c.gestore}</b>${c.advisor?` · Advisor: <b>${c.advisor}</b>`:""}`;
   if(s?.last_scan)meta.innerHTML+=` · Ultimo scan: <b>${fmtDT(s.last_scan)}</b>`;
   det.appendChild(meta);
-  det.appendChild(h("div",{className:"det-link"},h("a",{href:c.url,target:"_blank"},c.url)));
+  const pwdRow=h("div",{className:"det-link"});
+  pwdRow.appendChild(h("a",{href:c.url,target:"_blank"},c.url));
+  pwdRow.appendChild(h("button",{className:"pwd-btn",onClick:()=>showPwd(c.id,c.url,pwdRow)},"🔑 password"));
+  det.appendChild(pwdRow);
 
   if(s?.last_scan_error){
     det.appendChild(h("div",{className:"det-alert timeout"},
