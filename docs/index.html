@@ -200,13 +200,30 @@ function render(){
 
   // Sync status
   const lastScan=DATA.meta?.last_scan;
-  const syncErr=DATA.meta?.results?.errori>0;
+  const nErr=DATA.meta?.results?.errori||0;
+  const syncErr=nErr>0;
+  const inProgress=DATA.meta?.scan_in_progress===true;
   const syncDiv=h("div",{className:"sync"+(syncErr?" err":"")},
-    h("div",{className:"sync-dot"}),
-    lastScan?"Ultima scansione: "+fmtDateTime(lastScan):"Nessuna scansione effettuata",
-    DATA.meta?.results?` · ${DATA.meta.results.aggiornati||0} aggiornati, ${DATA.meta.results.invariati||0} invariati, ${DATA.meta.results.errori||0} errori`:""
+    h("div",{className:"sync-dot",style:inProgress?{background:"var(--yel)"}:{}}),
+    lastScan?(inProgress?"Scansione in corso — ultimo aggiornamento: ":"Ultima scansione: ")+fmtDateTime(lastScan):"Nessuna scansione effettuata",
+    DATA.meta?.results?` · ${DATA.meta.results.aggiornati||0} aggiornati, ${DATA.meta.results.invariati||0} invariati`:""
   );
   main.appendChild(syncDiv);
+  // Banner errori timeout — visibile se ci sono errori nell'ultimo scan
+  if(syncErr){
+    const errList=getComuniList().filter(c=>c.state.last_scan_error===true).map(c=>c.info.comune||"?");
+    const errBanner=h("div",{style:{
+      background:"#2d1515",border:"1px solid var(--rd)",borderRadius:"9px",padding:"10px 14px",
+      marginBottom:"14px",fontSize:"12px",color:"#fca5a5",display:"flex",alignItems:"flex-start",gap:"10px"
+    }},
+      h("span",{style:{fontSize:"18px",lineHeight:"1",flexShrink:"0"}},"⚠"),
+      h("div",null,
+        h("b",{style:{color:"var(--rd)"}},"Timeout download: "+nErr+" comune"+(nErr!==1?"i":"")+" non raggiunto"+(nErr!==1?"i":"")),
+        h("div",{style:{marginTop:"3px",color:"var(--t3)",fontFamily:"var(--m)",fontSize:"11px"}},errList.join(", "))
+      )
+    );
+    main.appendChild(errBanner);
+  }
 
   // Scadenze
   const dlDiv=h("div",{className:"deadlines"});
@@ -227,6 +244,7 @@ function render(){
     {l:"Processabili",v:st.proc,c:"var(--pur)",s:"+ "+st.procR+" con riserva"},
     {l:"Doc Gestori",v:st.gC,c:"var(--cyan)",s:"/ "+(st.total*4)},
     {l:"Doc Comuni",v:st.cC,c:"var(--pink)",s:"/ "+(st.total*4)},
+    {l:"Timeout",v:DATA.meta?.results?.errori||0,c:"var(--red)",s:"ultimo scan"},
   ];
   const kg=h("div",{className:"kpi-g"});
   kpis.forEach(k=>kg.appendChild(h("div",{className:"kpi"},h("div",{className:"kpi-bar",style:{background:k.c}}),h("div",{className:"kpi-v",style:{color:k.c}},String(k.v)),h("div",{className:"kpi-l"},k.l),h("div",{className:"kpi-sub"},k.s))));

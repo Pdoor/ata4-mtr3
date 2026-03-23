@@ -411,6 +411,25 @@ def compute_processabilita(docs):
 #  MAIN
 # ═══════════════════════════════════════════════════════════
 
+def save_dashboard(dashboard, output_path, scan_time, results, total_comuni):
+    """
+    Salva il dashboard.json in modo atomico (write su file .tmp poi rename).
+    Aggiorna il meta con lo stato corrente prima di salvare.
+    Può essere chiamato dopo ogni comune per salvataggi incrementali.
+    """
+    dashboard["meta"] = {
+        "last_scan": scan_time,
+        "results": results,
+        "total_comuni": total_comuni,
+        "scadenze": SCADENZE,
+        "scan_in_progress": results["scansionati"] + results["errori"] < total_comuni,
+    }
+    tmp_path = output_path + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(dashboard, f, indent=2, ensure_ascii=False)
+    os.replace(tmp_path, output_path)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Scanner Dataroom ATA4 MTR3")
     parser.add_argument("--credentials", required=True, help="Path al file credentials.json")
@@ -463,6 +482,8 @@ def main():
             dashboard["comuni"][cid]["info"]["gestore"] = cred.get("gestore", "")
             dashboard["comuni"][cid]["info"]["url"] = cred["url"]
             log_debug(f"    ERRORE su {nome}")
+            # ── Salvataggio incrementale dopo errore ──
+            save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
             continue
 
         # Analizza
@@ -498,20 +519,13 @@ def main():
         # Pulizia
         os.unlink(zip_path)
 
-    # ── Meta ──
-    dashboard["meta"] = {
-        "last_scan": scan_time,
-        "results": results,
-        "total_comuni": len(credentials),
-        "scadenze": SCADENZE,
-    }
+        # ── Salvataggio incrementale dopo ogni comune ──
+        save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
 
+    # ── Salvataggio finale (marca scan_in_progress = False) ──
     # ── Note manuali: preserva quelle esistenti ──
     # Le note manuali sono in dashboard["notes"][cid] e non vengono toccate dallo scanner
-
-    # Salva
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(dashboard, f, indent=2, ensure_ascii=False)
+    save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
 
     log_debug("═══ REPORT FINALE ═══")
     log_debug(f"Scansionati: {results['scansionati']}")
