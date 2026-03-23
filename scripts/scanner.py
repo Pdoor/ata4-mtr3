@@ -26,6 +26,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
+def log_debug(msg):
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    print(f"[{timestamp}] {msg}")
+    sys.stdout.flush() # Questo è il comando che "sblocca" i messaggi su GitHub
+
+
+
 # ═══════════════════════════════════════════════════════════
 #  CONFIGURAZIONE SCADENZE
 # ═══════════════════════════════════════════════════════════
