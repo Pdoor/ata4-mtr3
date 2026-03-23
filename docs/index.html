@@ -207,7 +207,11 @@ let JDATA=null;
 let view="dashboard",selId=null;
 let search="",fGest="all",fStat="all";
 let openHist={};
-const DATA_URLS=["../data/dashboard.json","./data/dashboard.json","data/dashboard.json"];
+const DATA_URLS=[
+  "/ata4-mtr3/data/dashboard.json", 
+  "../data/dashboard.json", 
+  "data/dashboard.json"
+];
 
 async function loadJSON(){
   for(const url of DATA_URLS){
