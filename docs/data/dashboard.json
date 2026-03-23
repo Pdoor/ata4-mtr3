@@ -1433,35 +1433,38 @@
       "last_scan_empty": true
     },
     "16": {
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan_error": false,
       "info": {
         "comune": "Monte San Pietrangeli",
         "gestore": "ECO ELPIDIENSE",
         "url": "https://www.provincia.fm.it/drive/3f5d1ahwmas"
-      }
+      },
+      "last_scan_empty": true
     },
     "17": {
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan_error": false,
       "info": {
         "comune": "Monte Urano",
         "gestore": "ECO ELPIDIENSE",
         "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz"
-      }
+      },
+      "last_scan_empty": true
     },
     "18": {
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan_error": false,
       "info": {
         "comune": "Monte Vidon Combatte",
         "gestore": "ECO INNOVA SRL",
         "url": "https://www.provincia.fm.it/drive/dqu9khjlx77"
-      }
+      },
+      "last_scan_empty": true
     },
     "19": {
       "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
-      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan": "2026-03-23T21:40:30.131933+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -1600,6 +1603,12 @@
           "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
           "changed": true,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-23T21:40:30.131933+00:00",
+          "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -1611,7 +1620,8 @@
         "id": 19
       },
       "last_scan_error": false,
-      "processabile": "no"
+      "processabile": "no",
+      "content_fingerprint": "a078a44fd01298c7a80d62469408a8cba223a8f40ffe1848ab977d174ab90c75"
     },
     "20": {
       "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
@@ -3282,11 +3292,11 @@
   "meta": {
     "last_scan": "2026-03-23T21:40:30.131933+00:00",
     "results": {
-      "scansionati": 9,
-      "aggiornati": 9,
+      "scansionati": 10,
+      "aggiornati": 10,
       "invariati": 0,
       "errori": 0,
-      "vuoti": 6
+      "vuoti": 9
     },
     "total_comuni": 40,
     "scadenze": {
