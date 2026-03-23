@@ -189,6 +189,15 @@ def download_zip(url, password, download_dir, timeout=120):
 
         time.sleep(3)
 
+        # Controlla se la dataroom è vuota prima di tentare il download
+        try:
+            src = driver.page_source
+            if "Nessun files in questa pagina" in src or "No files in this page" in src:
+                log_debug("Dataroom vuota: nessun file al livello radice")
+                return "EMPTY_DATAROOM"
+        except Exception:
+            pass
+
         # Download
         btn_found = False
         for label in ["Scarica tutto", "Download all"]:
@@ -218,6 +227,14 @@ def download_zip(url, password, download_dir, timeout=120):
                 time.sleep(1)
                 log_debug(f"File scaricato: {zips[0]}")
                 return os.path.join(download_dir, zips[0])
+
+        # Ultimo controllo: potrebbe essere diventato vuoto dopo il click
+        try:
+            if "Nessun files in questa pagina" in driver.page_source:
+                log_debug("Dataroom vuota rilevata post-click")
+                return "EMPTY_DATAROOM"
+        except Exception:
+            pass
 
         log_debug("ERRORE: Timeout download")
         return None
@@ -515,7 +532,7 @@ def main():
     log_debug(f"Data: {scan_time}")
     log_debug(f"Comuni da scansionare: {len(comuni)}")
 
-    results = {"scansionati": 0, "aggiornati": 0, "invariati": 0, "errori": 0}
+    results = {"scansionati": 0, "aggiornati": 0, "invariati": 0, "errori": 0, "vuoti": 0}
 
     for i, cred in enumerate(comuni, 1):
         cid = str(cred["id"])
@@ -524,15 +541,37 @@ def main():
 
         old_state = dashboard.get("comuni", {}).get(cid, {})
 
-        # Download (con retry automatico)
+        # Download (con retry automatico; non ritenta le dataroom vuote)
         zip_path = None
         for attempt in range(1 + MAX_RETRIES):
             if attempt > 0:
                 log_debug(f"    Retry {attempt}/{MAX_RETRIES} per {nome}...")
                 time.sleep(15)
             zip_path = download_zip(cred["url"], cred["pwd"], download_dir)
-            if zip_path:
+            if zip_path:  # path reale o "EMPTY_DATAROOM": esci comunque
                 break
+
+        if zip_path == "EMPTY_DATAROOM":
+            # Dataroom raggiungibile ma priva di file: non è un vero errore
+            results["vuoti"] += 1
+            dashboard.setdefault("comuni", {})[cid] = {
+                **dashboard.get("comuni", {}).get(cid, {}),
+                "last_scan": scan_time,
+                "last_scan_error": False,
+                "last_scan_empty": True,
+                "info": {
+                    "comune": nome,
+                    "gestore": cred.get("gestore", ""),
+                    "url": cred["url"],
+                },
+            }
+            log_debug(f"    VUOTO: dataroom senza file ({nome})")
+            processed = results["scansionati"] + results["errori"] + results["vuoti"]
+            save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
+            if processed % COMMIT_EVERY == 0:
+                git_commit_push(args.output, processed, len(comuni))
+            continue
+
         if not zip_path:
             results["errori"] += 1
             # Aggiorna almeno la data dell'ultimo tentativo
@@ -540,13 +579,14 @@ def main():
                 dashboard.setdefault("comuni", {})[cid] = {}
             dashboard["comuni"][cid]["last_scan"] = scan_time
             dashboard["comuni"][cid]["last_scan_error"] = True
+            dashboard["comuni"][cid]["last_scan_empty"] = False
             dashboard["comuni"][cid].setdefault("info", {})
             dashboard["comuni"][cid]["info"]["comune"] = nome
             dashboard["comuni"][cid]["info"]["gestore"] = cred.get("gestore", "")
             dashboard["comuni"][cid]["info"]["url"] = cred["url"]
             log_debug(f"    ERRORE su {nome} (dopo {1+MAX_RETRIES} tentativi)")
             # ── Salvataggio incrementale dopo errore ──
-            processed = results["scansionati"] + results["errori"]
+            processed = results["scansionati"] + results["errori"] + results["vuoti"]
             save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
             if processed % COMMIT_EVERY == 0:
                 git_commit_push(args.output, processed, len(comuni))
