@@ -280,10 +280,15 @@ def update_comune_state(old_state, zip_hash, files, scan_time):
     """
     state = old_state.copy() if old_state else {}
 
-    old_zip_hash = state.get("zip_hash")
-    state["zip_hash"] = zip_hash
+    # Fingerprint sul contenuto reale dei file, indipendente dai metadati
+    # dello zip (timestamp, ecc.) che cambiano ad ogni generazione dinamica.
+    sorted_file_hashes = sorted((f["name"], f["hash"]) for f in files)
+    content_fp = hashlib.sha256(json.dumps(sorted_file_hashes).encode()).hexdigest()
+    old_fp = state.get("content_fingerprint", "")
+    state["zip_hash"] = zip_hash                  # conservato per storico/debug
+    state["content_fingerprint"] = content_fp
     state["last_scan"] = scan_time
-    state["zip_changed"] = (zip_hash != old_zip_hash)
+    state["zip_changed"] = (content_fp != old_fp)
 
     if "docs" not in state:
         state["docs"] = {}
