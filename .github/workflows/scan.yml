@@ -1,0 +1,66 @@
+name: Scansione Dataroom ATA4
+
+on:
+  # Ogni 6 ore
+  schedule:
+    - cron: '0 */6 * * *'
+  # Manuale dal tab Actions
+  workflow_dispatch:
+    inputs:
+      comuni_filter:
+        description: 'Filtra per comune (vuoto = tutti)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Setup ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Install dependencies
+        run: pip install selenium
+
+      - name: Decode credentials
+        run: echo "${{ secrets.CREDENTIALS_JSON }}" | base64 -d > data/credentials.json
+
+      - name: Run scanner
+        run: python scripts/scanner.py --credentials data/credentials.json --output data/dashboard.json --filter "${{ github.event.inputs.comuni_filter || '' }}"
+        env:
+          DISPLAY: ':99'
+
+      - name: Remove credentials
+        if: always()
+        run: rm -f data/credentials.json
+
+      - name: Commit results
+        run: |
+          git config user.name "ATA4 Scanner Bot"
+          git config user.email "scanner@ata4.local"
+          git add data/dashboard.json
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento rilevato."
+          else
+            TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+            git commit -m "Aggiornamento scansione ${TIMESTAMP}"
+            git push
+          fi

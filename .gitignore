@@ -1,0 +1,16 @@
+# Credenziali - MAI committare
+data/credentials.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
