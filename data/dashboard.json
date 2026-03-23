@@ -1308,15 +1308,333 @@
         "gestore": "ECO INNOVA SRL",
         "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79"
       }
+    },
+    "16": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Monte San Pietrangeli",
+        "gestore": "ECO ELPIDIENSE",
+        "url": "https://www.provincia.fm.it/drive/3f5d1ahwmas"
+      }
+    },
+    "17": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Monte Urano",
+        "gestore": "ECO ELPIDIENSE",
+        "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz"
+      }
+    },
+    "18": {
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "last_scan_error": true,
+      "info": {
+        "comune": "Monte Vidon Combatte",
+        "gestore": "ECO INNOVA SRL",
+        "url": "https://www.provincia.fm.it/drive/dqu9khjlx77"
+      }
+    },
+    "19": {
+      "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "eb771c73fadc786c5d0ee2dad4ea6b24af445fbaf3208cf1ea2018b15fc34983",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTE VIDON CORRADO.xlsx",
+          "current_size": 4106321,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTE VIDON CORRADO.xlsx",
+              "hash": "eb771c73fadc786c5d0ee2dad4ea6b24af445fbaf3208cf1ea2018b15fc34983",
+              "size": 4106321
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "eb771c73fadc786c5d0ee2dad4ea6b24af445fbaf3208cf1ea2018b15fc34983",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTE VIDON CORRADO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "4b717e865c52e7cb9a7ef703217ce7fb795f3115bea2991564de4255a6f76436",
+          "current_file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.pdf",
+          "current_size": 270821,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.pdf",
+              "hash": "4b717e865c52e7cb9a7ef703217ce7fb795f3115bea2991564de4255a6f76436",
+              "size": 270821
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "4b717e865c52e7cb9a7ef703217ce7fb795f3115bea2991564de4255a6f76436",
+              "file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTE VIDON CORRADO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTE VIDON CORRADO.xlsx",
+          "hash": "eb771c73fadc786c5d0ee2dad4ea6b24af445fbaf3208cf1ea2018b15fc34983",
+          "size": 4106321,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.pdf",
+          "hash": "4b717e865c52e7cb9a7ef703217ce7fb795f3115bea2991564de4255a6f76436",
+          "size": 270821,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Monte Vidon Corrado",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/6vl3xqxodq94",
+        "id": 19
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "20": {
+      "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
+      "last_scan": "2026-03-23T18:02:19.562480+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "6ec81649753b40fc002918fd63bf5a8cd5d9ca3f8abdd23107a2376245746b45",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFALCONE APPENNINO.xlsx",
+          "current_size": 4105555,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFALCONE APPENNINO.xlsx",
+              "hash": "6ec81649753b40fc002918fd63bf5a8cd5d9ca3f8abdd23107a2376245746b45",
+              "size": 4105555
+            },
+            {
+              "name": "RELAZIONE_MONTEFALCONE APPENNINO   _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "3bad610846657cbf630ac8e329fec81531e1d316df2158c1b24af05ee3b62940",
+              "size": 200332
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "6ec81649753b40fc002918fd63bf5a8cd5d9ca3f8abdd23107a2376245746b45",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFALCONE APPENNINO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-23T18:02:19.562480+00:00",
+          "last_upload": "2026-03-23T18:02:19.562480+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-23T18:02:19.562480+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFALCONE APPENNINO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFALCONE APPENNINO.xlsx",
+          "hash": "6ec81649753b40fc002918fd63bf5a8cd5d9ca3f8abdd23107a2376245746b45",
+          "size": 4105555,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTEFALCONE APPENNINO   _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTEFALCONE APPENNINO   _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "3bad610846657cbf630ac8e329fec81531e1d316df2158c1b24af05ee3b62940",
+          "size": 200332,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-23T18:02:19.562480+00:00",
+          "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Montefalcone Appennino",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/6hcaeqftrsla",
+        "id": 20
+      },
+      "last_scan_error": false,
+      "processabile": "no"
     }
   },
   "meta": {
     "last_scan": "2026-03-23T18:02:19.562480+00:00",
     "results": {
-      "scansionati": 9,
-      "aggiornati": 9,
+      "scansionati": 11,
+      "aggiornati": 11,
       "invariati": 0,
-      "errori": 6
+      "errori": 9
     },
     "total_comuni": 40,
     "scadenze": {
