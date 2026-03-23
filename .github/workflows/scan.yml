@@ -44,7 +44,7 @@ jobs:
         run: echo "${{ secrets.CREDENTIALS_JSON }}" | base64 -d > data/credentials.json
 
       - name: Run scanner
-        run: python scripts/test_debug.py.py --credentials data/credentials.json --output data/dashboard.json --filter "${{ github.event.inputs.comuni_filter || '' }}"
+        run: python scripts/test_debug.py --credentials data/credentials.json --output data/dashboard.json --filter "${{ github.event.inputs.comuni_filter || '' }}"
         env:
           DISPLAY: ':99'
 
