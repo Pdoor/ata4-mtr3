@@ -302,6 +302,7 @@ def update_comune_state(old_state, zip_hash, files, scan_time):
     sorted_file_hashes = sorted((f["name"], f["hash"]) for f in files)
     content_fp = hashlib.sha256(json.dumps(sorted_file_hashes).encode()).hexdigest()
     old_fp = state.get("content_fingerprint", "")
+    old_zip_hash = old_state.get("zip_hash") if old_state else None
     state["zip_hash"] = zip_hash                  # conservato per storico/debug
     state["content_fingerprint"] = content_fp
     state["last_scan"] = scan_time
@@ -466,17 +467,52 @@ def save_dashboard(dashboard, output_path, scan_time, results, total_comuni):
     os.replace(tmp_path, output_path)
 
 
-def git_commit_push(output_path, processed, total):
+def merge_remote_dashboard(output_path, dashboard):
+    """
+    Legge il dashboard.json dal remote (via git fetch + git show) e lo fonde
+    semanticamente con quello in memoria: per ogni comune vince la versione
+    con last_scan più recente. Così nessun job sovrascrive i dati degli altri.
+    Aggiorna anche il file su disco se c'è stato almeno un merge.
+    """
+    try:
+        subprocess.run(["git", "fetch", "origin", "--quiet"], check=True, capture_output=True)
+        result = subprocess.run(
+            ["git", "show", f"origin/HEAD:{output_path}"],
+            capture_output=True, text=True
+        )
+        if result.returncode != 0:
+            return  # File non ancora presente sul remote, nulla da fondare
+        remote = json.loads(result.stdout)
+        merged = False
+        for cid, remote_state in remote.get("comuni", {}).items():
+            local_state = dashboard.get("comuni", {}).get(cid, {})
+            if remote_state.get("last_scan", "") > local_state.get("last_scan", ""):
+                dashboard.setdefault("comuni", {})[cid] = remote_state
+                merged = True
+        if merged:
+            tmp = output_path + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(dashboard, f, indent=2, ensure_ascii=False)
+            os.replace(tmp, output_path)
+            log_debug("Merge semantico con remote eseguito")
+    except Exception as e:
+        log_debug(f"WARN: merge remote fallito ({e}), continuo con versione locale")
+
+
+def git_commit_push(output_path, processed, total, dashboard):
     """
     Esegue git add + commit + push del JSON aggiornato.
-    Viene chiamato ogni COMMIT_EVERY comuni durante la scansione.
+    Prima di ogni commit esegue un merge semantico con la versione remota
+    per evitare di sovrascrivere dati di job concorrenti.
     Funziona solo in ambiente GitHub Actions (GITHUB_ACTIONS=true).
-    Se il push fallisce per conflitto (un altro job ha pushato), fa pull --rebase e riprova.
     """
     if os.environ.get("GITHUB_ACTIONS") != "true":
         return  # In locale non fa nulla
 
     try:
+        # Merge semantico con il remote prima di committare
+        merge_remote_dashboard(output_path, dashboard)
+
         subprocess.run(["git", "add", output_path], check=True)
         # Controlla se c'è qualcosa da committare
         diff = subprocess.run(["git", "diff", "--cached", "--quiet"])
@@ -494,9 +530,12 @@ def git_commit_push(output_path, processed, total):
             if result.returncode == 0:
                 log_debug("Git push OK")
                 return
-            # Conflitto remoto: pull --rebase e riprova
-            log_debug(f"Git push fallito (tentativo {attempt+1}/3), pull --rebase...")
-            subprocess.run(["git", "pull", "--rebase"], check=True)
+            # Conflitto remoto: reintegra la storia git, poi rifai il merge semantico
+            log_debug(f"Git push fallito (tentativo {attempt+1}/3), remerge e riprova...")
+            subprocess.run(["git", "pull", "--rebase"], capture_output=True)
+            merge_remote_dashboard(output_path, dashboard)
+            subprocess.run(["git", "add", output_path], check=True)
+            subprocess.run(["git", "commit", "--amend", "--no-edit"], check=True)
 
         log_debug("WARN: git push fallito dopo 3 tentativi, continuo comunque")
     except subprocess.CalledProcessError as e:
@@ -569,7 +608,7 @@ def main():
             processed = results["scansionati"] + results["errori"] + results["vuoti"]
             save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
             if processed % COMMIT_EVERY == 0:
-                git_commit_push(args.output, processed, len(comuni))
+                git_commit_push(args.output, processed, len(comuni), dashboard)
             continue
 
         if not zip_path:
@@ -589,7 +628,7 @@ def main():
             processed = results["scansionati"] + results["errori"] + results["vuoti"]
             save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
             if processed % COMMIT_EVERY == 0:
-                git_commit_push(args.output, processed, len(comuni))
+                git_commit_push(args.output, processed, len(comuni), dashboard)
             continue
 
         # Analizza
@@ -629,13 +668,13 @@ def main():
         processed = results["scansionati"] + results["errori"]
         save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
         if processed % COMMIT_EVERY == 0:
-            git_commit_push(args.output, processed, len(comuni))
+            git_commit_push(args.output, processed, len(comuni), dashboard)
 
     # ── Salvataggio finale (marca scan_in_progress = False) ──
     # ── Note manuali: preserva quelle esistenti ──
     # Le note manuali sono in dashboard["notes"][cid] e non vengono toccate dallo scanner
     save_dashboard(dashboard, args.output, scan_time, results, len(credentials))
-    git_commit_push(args.output, len(comuni), len(comuni))
+    git_commit_push(args.output, len(comuni), len(comuni), dashboard)
 
     log_debug("═══ REPORT FINALE ═══")
     log_debug(f"Scansionati: {results['scansionati']}")
