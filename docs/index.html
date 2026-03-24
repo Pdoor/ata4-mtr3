@@ -126,6 +126,20 @@ td{padding:7px 6px;border-bottom:1px solid var(--b)}
 tbody tr{background:var(--s);cursor:pointer;transition:.1s}
 tbody tr:hover{background:var(--s2)}
 .drive-lnk{color:var(--blue);font-size:13px}
+.ov-btn{background:0;border:0;font-size:11px;cursor:pointer;padding:1px 5px;border-radius:3px;color:var(--t4);line-height:1;transition:.1s;margin-left:4px;vertical-align:middle}
+.ov-btn:hover{color:var(--blue);background:var(--b)}.ov-btn.active{color:var(--yd)}
+.ov-badge{padding:1px 5px;border-radius:3px;font-size:9px;background:#422006;color:#fdba74;font-weight:700;margin-left:4px;vertical-align:middle}
+.ov-form{width:100%;margin-top:6px;background:#0d1b2a;border:1px solid var(--yd);border-radius:7px;padding:8px 10px;animation:sd .15s ease}
+.ov-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
+.ov-row:last-child{margin-bottom:0}
+.ov-st{padding:3px 9px;border-radius:5px;border:1px solid var(--b2);background:var(--b);color:var(--t2);font-size:11px;cursor:pointer;transition:.1s;font-family:var(--f)}
+.ov-st.sel{border-color:var(--rd);background:#2d1515;color:#fca5a5;font-weight:600}
+.ov-st.sel-g{border-color:var(--gd);background:#052e16;color:#86efac;font-weight:600}
+.ov-inp{background:var(--b);border:1px solid var(--blue);border-radius:5px;color:var(--t);font-family:var(--m);font-size:11px;padding:3px 7px;outline:0}
+.ov-inp:focus{border-color:var(--pur)}
+.ov-save{padding:3px 10px;border-radius:5px;border:1px solid var(--gd);background:#052e16;color:#86efac;font-size:11px;cursor:pointer;font-family:var(--f)}
+.ov-del{padding:3px 10px;border-radius:5px;border:1px solid var(--b2);background:0;color:var(--t4);font-size:11px;cursor:pointer;font-family:var(--f)}
+.ov-del:hover{border-color:var(--rd);color:var(--rd)}
 </style>
 </head>
 <body>
@@ -229,6 +243,43 @@ try{const s=localStorage.getItem(LS_SCADENZE);if(s)LOCAL_SCADENZE=JSON.parse(s);
 function saveScadenze(){try{localStorage.setItem(LS_SCADENZE,JSON.stringify(LOCAL_SCADENZE));}catch(e){}}
 let editingScad=null;
 
+// ── Override manuali data/stato documenti (localStorage) ──
+const LS_OVERRIDES="ata4_overrides_v1";
+let LOCAL_OVERRIDES={};
+try{const o=localStorage.getItem(LS_OVERRIDES);if(o)LOCAL_OVERRIDES=JSON.parse(o);}catch(e){}
+function saveOverrides(){try{localStorage.setItem(LS_OVERRIDES,JSON.stringify(LOCAL_OVERRIDES));}catch(e){}}
+let editingOv=null; // {id, key} del documento in modifica
+
+function jsProcessabilita(s){
+  if(!s?.docs)return null;
+  const obb=["tool_mtr3","relazione","tool_mtr3_c","relazione_c"];
+  const dich=["dich_veridicita","dich_veridicita_c"];
+  const allObb=obb.every(k=>(s.docs[k]?.status||"missing")==="received");
+  const allDich=dich.every(k=>(s.docs[k]?.status||"missing")==="received");
+  if(allObb&&allDich)return"si";if(allObb)return"si_riserva";return"no";
+}
+function applyOverrides(id,s){
+  const sid=String(id);
+  const keys=Object.keys(LOCAL_OVERRIDES).filter(k=>k.startsWith(sid+"_"));
+  if(!keys.length)return s;
+  const base=s?JSON.parse(JSON.stringify(s)):{docs:{},last_scan:null,last_scan_error:false,last_scan_empty:false};
+  if(!base.docs)base.docs={};
+  keys.forEach(k=>{
+    const docKey=k.slice(sid.length+1);
+    const ov=LOCAL_OVERRIDES[k];
+    // Lo scanner vince sempre: l'override vale solo come tappabuchi
+    // quando lo script non ha trovato il documento (missing/removed/assente)
+    if(base.docs[docKey]?.status==="received")return;
+    base.docs[docKey]={...(base.docs[docKey]||{}),status:ov.status,
+      first_upload:ov.date||base.docs[docKey]?.first_upload||null,
+      last_upload:ov.date||base.docs[docKey]?.last_upload||null,
+      _manual:true};
+  });
+  base.processabile=jsProcessabilita(base);
+  return base;
+}
+function getEffectiveState(id){return applyOverrides(id,getState(id));}
+
 // ── Stato globale ──
 let JDATA=null;
 let view="dashboard",selId=null;
@@ -319,7 +370,7 @@ function getFiltered(){
   return COMUNI.filter(c=>{
     if(search&&!c.comune.toLowerCase().includes(search.toLowerCase())&&!c.gestore.toLowerCase().includes(search.toLowerCase()))return false;
     if(fGest!=="all"&&c.gestore!==fGest)return false;
-    const s=getState(c.id),p=pct(s);
+    const s=getEffectiveState(c.id),p=pct(s);
     if(fStat==="completo"&&p<100)return false;
     if(fStat==="incompleto"&&(p===0||p===100))return false;
     if(fStat==="vuoto"&&p>0)return false;
@@ -332,8 +383,8 @@ function getFiltered(){
 function getStats(){
   let comp=0,parz=0,vuoti=0,timeout=0,empty=0,nodata=0,gC=0,cC=0,proc=0,procR=0;
   COMUNI.forEach(c=>{
-    const s=getState(c.id),p=pct(s);
-    if(s===null)nodata++;
+    const s=getEffectiveState(c.id),p=pct(s);
+    if(getState(c.id)===null&&s===null)nodata++;
     else if(p===100)comp++;else if(p>0)parz++;else vuoti++;
     if(s?.last_scan_error)timeout++;
     if(s?.last_scan_empty)empty++;
@@ -349,7 +400,7 @@ function getStats(){
 function exportCSV(){
   const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","Note"]];
   COMUNI.forEach(c=>{
-    const s=getState(c.id),p=pct(s);
+    const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
     const lastG=s?DOC_G.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
     const lastC=s?DOC_C.map(d=>getDocSt(s,d.key).last_upload).filter(Boolean).sort().pop():null;
@@ -524,7 +575,7 @@ function render(){
 
 // ── CARD ──
 function renderCard(c){
-  const s=getState(c.id),p=pct(s);
+  const s=getEffectiveState(c.id),p=pct(s);
   const pc=s?.processabile?PR[s.processabile]:null;
   const col=s===null?"var(--t4)":p===100?"var(--green)":p>0?"var(--yel)":"var(--red)";
   const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -588,7 +639,7 @@ function makeDots(label,docs,s){
 // ── DETAIL ──
 function renderDetail(id){
   const c=COMUNI.find(x=>x.id===id);if(!c)return h("div");
-  const s=getState(id);
+  const s=getEffectiveState(id);
   const det=h("div",{className:"det"});
   det.appendChild(h("button",{className:"det-x",onClick:()=>{selId=null;render()}},"×"));
   det.appendChild(h("div",{className:"det-t"},c.comune));
@@ -651,10 +702,16 @@ function makeDocPanel(title,docs,s,comuneId){
   docs.forEach(d=>{
     const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
     const hk=comuneId+"_"+d.key,hOpen=openHist[hk];
+    const ovKey=String(comuneId)+"_"+d.key;
+    const hasOv=!!LOCAL_OVERRIDES[ovKey];
+    const isEditing=editingOv?.id===comuneId&&editingOv?.key===d.key;
     const row=h("div",{className:"dr"});
 
     // Info documento
-    const left=h("div",null,h("span",{style:{fontSize:"12px",color:"#cbd5e1"}},d.label));
+    const left=h("div",null,
+      h("span",{style:{fontSize:"12px",color:"#cbd5e1"}},d.label),
+      hasOv?h("span",{className:"ov-badge"},"✏ manuale"):null
+    );
     if(ds.first_upload)
       left.appendChild(h("div",{style:{fontSize:"10px",color:"var(--t4)",fontFamily:"var(--m)",marginTop:"2px"}},"Primo: "+fmtDate(ds.first_upload)));
     if(ds.last_upload&&ds.last_upload!==ds.first_upload)
@@ -664,7 +721,7 @@ function makeDocPanel(title,docs,s,comuneId){
         ds.current_file+(ds.current_size?" ("+fmtSize(ds.current_size)+")":"")));
     row.appendChild(left);
 
-    // Badge e storico
+    // Badge, storico e pulsante override
     const right=h("div",{className:"dr-st"});
     right.appendChild(h("span",{className:"dr-badge",style:{background:cfg.bg,color:cfg.color}},cfg.icon+" "+cfg.label));
     if(ds.replaced)right.appendChild(h("span",{className:"dr-badge",style:{background:"#fef3c7",color:"var(--yd)"}},"Sostituito"));
@@ -673,8 +730,60 @@ function makeDocPanel(title,docs,s,comuneId){
       right.appendChild(h("span",{className:"dr-hist",
         onClick:e=>{e.stopPropagation();openHist[hk]=!hOpen;render();}},
         (hOpen?"▲":"▼")+" "+ds.upload_history.length+" versioni"));
+    right.appendChild(h("button",{
+      className:"ov-btn"+(hasOv?" active":""),
+      title:hasOv?"Override manuale attivo — clicca per modificare":"Inserisci data/stato manuale",
+      onClick:async e=>{
+        e.stopPropagation();
+        if(!await _requireUnlock())return;
+        editingOv=isEditing?null:{id:comuneId,key:d.key};
+        render();
+      }
+    },"✏"));
     row.appendChild(right);
     pan.appendChild(row);
+
+    // Form override inline
+    if(isEditing){
+      const ov=LOCAL_OVERRIDES[ovKey]||{status:ds.status||"missing",date:ds.first_upload?ds.first_upload.slice(0,10):"",note:""};
+      const form=h("div",{className:"ov-form"});
+      form.appendChild(h("div",{style:{fontSize:"10px",color:"var(--yd)",marginBottom:"7px",fontWeight:"600"}},"✏ Override manuale — "+d.label));
+
+      // Stato
+      const stRow=h("div",{className:"ov-row"});
+      stRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Stato:"));
+      [{st:"received",label:"✓ Ricevuto"},{st:"missing",label:"✗ Mancante"}].forEach(({st,label})=>{
+        const active=ov.status===st;
+        stRow.appendChild(h("button",{
+          className:"ov-st"+(active?(st==="received"?" sel-g":" sel"):""),
+          onClick:()=>{
+            LOCAL_OVERRIDES[ovKey]={...ov,status:st};
+            saveOverrides();render();
+          }
+        },label));
+      });
+      form.appendChild(stRow);
+
+      // Data ricezione
+      const dateRow=h("div",{className:"ov-row"});
+      dateRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Data ricezione:"));
+      const dateInp=h("input",{className:"ov-inp",type:"date",value:ov.date||""});
+      dateInp.addEventListener("change",e=>{
+        LOCAL_OVERRIDES[ovKey]={...(LOCAL_OVERRIDES[ovKey]||ov),date:e.target.value};
+        saveOverrides();
+      });
+      dateRow.appendChild(dateInp);
+      form.appendChild(dateRow);
+
+      // Azioni
+      const btnRow=h("div",{className:"ov-row"});
+      btnRow.appendChild(h("button",{className:"ov-save",onClick:()=>{editingOv=null;render();}},"✓ Chiudi"));
+      btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{
+        delete LOCAL_OVERRIDES[ovKey];saveOverrides();editingOv=null;render();
+      }},"↩ Ripristina automatico"));
+      form.appendChild(btnRow);
+      pan.appendChild(form);
+    }
 
     // Storico espanso
     if(hOpen&&ds.upload_history?.length){
@@ -701,7 +810,7 @@ function renderTable(fil){
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
   fil.forEach(c=>{
-    const s=getState(c.id),p=pct(s);
+    const s=getEffectiveState(c.id),p=pct(s);
     const pc=s?.processabile?PR[s.processabile]:null;
     const col=s===null?"var(--t4)":p===100?"var(--green)":p>0?"var(--yel)":"var(--t3)";
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
