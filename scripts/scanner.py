@@ -39,7 +39,7 @@ def log_debug(msg):
 SCADENZE = {
     "termine_arera_mtr3": "2026-07-31",    # Scadenza circolare ARERA MTR3
     "termine_ata_gestori": "2026-05-31",   # Scadenza ATA per i gestori
-    "termine_ata_comuni": "2026-06-15",    # Scadenza ATA per i comuni
+    "termine_ata_comuni": "2026-05-31",    # Scadenza ATA per i comuni
 }
 
 # ═══════════════════════════════════════════════════════════
