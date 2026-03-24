@@ -1,9 +1,10 @@
 name: Scansione Dataroom ATA4
 
 on:
-  # Ogni 6 ore
+  # Ogni ora dalle 9:00 alle 20:00 ora italiana (CET = UTC+1)
+  # Adeguare a '0 7-18 * * *' quando scatta l'ora legale (CEST = UTC+2)
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 8-19 * * *'
   # Manuale dal tab Actions
   workflow_dispatch:
     inputs:
@@ -14,6 +15,11 @@ on:
 
 permissions:
   contents: write
+
+# Evita run paralleli: se uno scan è ancora in corso, il successivo aspetta
+concurrency:
+  group: scan-dataroom
+  cancel-in-progress: false
 
 jobs:
   scan:
