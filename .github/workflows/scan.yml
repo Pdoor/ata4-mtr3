@@ -50,7 +50,9 @@ jobs:
         run: pip install selenium
 
       - name: Decode credentials
-        run: echo "${{ secrets.CREDENTIALS_JSON }}" | base64 -d > data/credentials.json
+        run: |
+          mkdir -p data
+          echo "${{ secrets.CREDENTIALS_JSON }}" | base64 -d > data/credentials.json
 
       - name: Configure git
         run: |
