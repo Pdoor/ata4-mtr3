@@ -100,40 +100,30 @@ FOLDER_HINTS = {
 
 def classify_file(filepath):
     """
-    Classifica un file ESCLUSIVAMENTE in base alla struttura delle cartelle dello zip.
-    Il nome del file non viene mai usato per la classificazione.
+    Classifica un file in base alla struttura delle cartelle dello zip.
 
-    Lo zip è generato dal sito della Provincia pacchettizzando i file caricati
-    dagli utenti nelle rispettive cartelle — la struttura è quindi sempre coerente:
+    Priorità 1 — struttura cartelle (affidabile):
+      {Fonte}/{Allegato N - descrizione}/{filename}
+      Fonte    : "Comune" o "Gestore"
+      Allegato : 1=Tool, 2=Relazione, 3=Dich.Veridicità, 4=Altre Comunicazioni
 
-      Gestore/{Allegato N - descrizione}/{filename}   → doc Gestore
-      Comune/{Allegato N - descrizione}/{filename}    → doc Comune
-      PEF Validato/{filename}                         → doc ATA4 (no sottocartelle)
-
-    Allegato 1 = Tool MTR3 | 2 = Relazione | 3 = Dich. Veridicità | 4 = Altre Com.
-    Se la struttura non corrisponde a nessun caso noto → unclassified.
+    Priorità 2 — regex su nome/path completo (fallback legacy).
     """
     name_lower = filepath.lower().replace("\\", "/")
     basename = os.path.basename(name_lower)
 
-    # Ignora file di sistema
+    # Ignora file di sistema, thumbs, desktop.ini, ecc.
     if basename.startswith(".") or basename in ("thumbs.db", "desktop.ini", ".ds_store"):
         return None, None
 
     parts = name_lower.split("/")
-    if not parts:
-        return None, "sconosciuto"
 
-    root = parts[0].strip()
-
-    # ── ATA4: PEF Validato (file diretti nella radice, senza sottocartelle) ──
-    if re.search(r'pef.*validat|validat.*pef', root):
-        return "pef_validato", "ata4"
-
-    # ── Comune / Gestore: richiedono radice + sottocartella Allegato N ──
+    # ── Priorità 1: struttura cartelle ──
     if len(parts) >= 2:
+        root      = parts[0].strip()
         subfolder = parts[1].strip()
 
+        # Fonte dalla cartella radice
         if re.search(r'\bcomune\b', root):
             source = "comune"
         elif re.search(r'\b(gestore|operatore)\b', root):
@@ -142,7 +132,7 @@ def classify_file(filepath):
             source = None
 
         if source:
-            # Normalizza "Allegato2" → "Allegato 2"
+            # Normalizza "Allegato2" → "Allegato 2" per uniformità
             subfolder_norm = re.sub(r'allegato(\d)', r'allegato \1', subfolder)
 
             if   re.search(r'allegato\s*1\b', subfolder_norm): allegato = 1
@@ -166,7 +156,13 @@ def classify_file(filepath):
                 if doc_key:
                     return doc_key, source
 
-    # Struttura non riconosciuta → unclassified (nessun fallback su nome file)
+    # ── Priorità 2: regex sul path completo (legacy fallback) ──
+    for doc in DOC_PATTERNS:
+        for pat in doc["patterns"]:
+            if re.search(pat, name_lower):
+                return doc["key"], doc["source"]
+
+    # Fallback fonte: cerca indizi nel path
     source_guess = "sconosciuto"
     for src, hints in FOLDER_HINTS.items():
         for hint in hints:
@@ -389,8 +385,8 @@ def update_comune_state(old_state, zip_hash, files, scan_time):
         if f["doc_key"]:
             classified_now.setdefault(f["doc_key"], []).append(f)
 
-    # Per ogni tipo di documento possibile (Gestore + Comune + ATA4)
-    all_doc_keys = [d["key"] for d in DOC_PATTERNS] + ["pef_validato"]
+    # Per ogni tipo di documento possibile
+    all_doc_keys = [d["key"] for d in DOC_PATTERNS]
     for dk in all_doc_keys:
         old_doc = old_docs.get(dk, {})
         found_files = classified_now.get(dk, [])
