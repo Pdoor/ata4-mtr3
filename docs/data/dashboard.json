@@ -2,7 +2,7 @@
   "comuni": {
     "1": {
       "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -70,6 +70,12 @@
           "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
+          "changed": false,
+          "file_count": 1
         }
       ],
       "unclassified_files": [
@@ -93,7 +99,7 @@
     },
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -256,6 +262,12 @@
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -272,7 +284,7 @@
     },
     "3": {
       "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -435,6 +447,12 @@
           "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -450,7 +468,7 @@
       "content_fingerprint": "32583b9a5ddc15a419da210b8d566438242e230b96fe009460233c239dd2bc1c"
     },
     "4": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Campofilone",
@@ -460,17 +478,22 @@
       "last_scan_empty": true
     },
     "5": {
-      "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
-      "zip_changed": false,
+      "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
           "current_hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
           "current_file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "current_size": 3985072,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
+            {
+              "name": "Falerone_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "75c21438b9d76a2d13a3998c0b03ad7355bfa07507948ca2e3deaa40f9c3ae55",
+              "size": 3973797
+            },
             {
               "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
@@ -546,16 +569,84 @@
           "status": "missing"
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "91a72bc3b4cc9e163a746c9b8cf60eef931469f691ef58400c9f2f4bfa2087ff",
+          "current_file": "Falerone_Allegato_2_-_Relazione_di_accompagnamento_2026-2029_24_03_2026.pdf",
+          "current_size": 437484,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Falerone_Allegato_2_-_Relazione_di_accompagnamento_2026-2029_24_03_2026.pdf",
+              "hash": "91a72bc3b4cc9e163a746c9b8cf60eef931469f691ef58400c9f2f4bfa2087ff",
+              "size": 437484
+            }
+          ],
+          "first_upload": "2026-03-24T09:52:48.643978+00:00",
+          "last_upload": "2026-03-24T09:52:48.643978+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T09:52:48.643978+00:00",
+              "hash": "91a72bc3b4cc9e163a746c9b8cf60eef931469f691ef58400c9f2f4bfa2087ff",
+              "file": "Falerone_Allegato_2_-_Relazione_di_accompagnamento_2026-2029_24_03_2026.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "3e1775223881ac48520f6cd349190a6c6d9d50708f08530eab1e9b628b562851",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 573786,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "3e1775223881ac48520f6cd349190a6c6d9d50708f08530eab1e9b628b562851",
+              "size": 573786
+            }
+          ],
+          "first_upload": "2026-03-24T09:52:48.643978+00:00",
+          "last_upload": "2026-03-24T09:52:48.643978+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T09:52:48.643978+00:00",
+              "hash": "3e1775223881ac48520f6cd349190a6c6d9d50708f08530eab1e9b628b562851",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Falerone_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Falerone_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "75c21438b9d76a2d13a3998c0b03ad7355bfa07507948ca2e3deaa40f9c3ae55",
+          "size": 3973797,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Falerone_Allegato_2_-_Relazione_di_accompagnamento_2026-2029_24_03_2026.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Falerone_Allegato_2_-_Relazione_di_accompagnamento_2026-2029_24_03_2026.pdf",
+          "hash": "91a72bc3b4cc9e163a746c9b8cf60eef931469f691ef58400c9f2f4bfa2087ff",
+          "size": 437484,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "3e1775223881ac48520f6cd349190a6c6d9d50708f08530eab1e9b628b562851",
+          "size": 573786,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
@@ -611,6 +702,12 @@
           "zip_hash": "82bf65dc5ab4e5d8bd47db1a81b3d13c5c37e4f008dc975c239b3c6bdded69ab",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -623,10 +720,10 @@
       },
       "last_scan_error": false,
       "processabile": "no",
-      "content_fingerprint": "a207b3e1f4b3ac0e8385871d56d446ff47bcfa9d842dce486c70e5f34ca4f44f"
+      "content_fingerprint": "3f0eeb6d617dabded3dfd2d19bb39879f241c83dbd47d686f252b90557c68948"
     },
     "6": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Fermo",
@@ -637,7 +734,7 @@
     },
     "7": {
       "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -797,6 +894,12 @@
         },
         {
           "time": "2026-03-24T08:47:08.257300+00:00",
+          "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
+          "changed": false,
+          "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
           "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
           "changed": false,
           "file_count": 4
@@ -3611,13 +3714,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-24T08:47:08.257300+00:00",
+    "last_scan": "2026-03-24T09:52:48.643978+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
-      "vuoti": 20
+      "vuoti": 2
     },
     "total_comuni": 40,
     "scadenze": {
