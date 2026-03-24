@@ -1878,7 +1878,7 @@
     },
     "20": {
       "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2018,6 +2018,12 @@
           "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -2034,7 +2040,7 @@
     },
     "21": {
       "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2191,6 +2197,12 @@
           "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -2206,7 +2218,7 @@
       "content_fingerprint": "05af2d74c1f9c42dd7fb325413eec0a683a39d3853d0e3073182a0b87d36735b"
     },
     "22": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Montegiorgio",
@@ -2217,7 +2229,7 @@
     },
     "23": {
       "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2361,6 +2373,12 @@
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -2377,7 +2395,7 @@
     },
     "24": {
       "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2534,6 +2552,12 @@
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T09:52:48.643978+00:00",
+          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -2549,7 +2573,7 @@
       "content_fingerprint": "cf7c27b565db476e0da6e9754714a31f82ad7d1eb51aed3e46584e7646ddbf3a"
     },
     "25": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Montelparo",
@@ -3746,11 +3770,11 @@
   "meta": {
     "last_scan": "2026-03-24T09:52:48.643978+00:00",
     "results": {
-      "scansionati": 10,
+      "scansionati": 14,
       "aggiornati": 1,
-      "invariati": 9,
+      "invariati": 13,
       "errori": 0,
-      "vuoti": 9
+      "vuoti": 11
     },
     "total_comuni": 40,
     "scadenze": {
