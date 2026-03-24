@@ -1487,7 +1487,7 @@
       "last_scan_empty": true
     },
     "16": {
-      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan": "2026-03-24T07:31:02.525831+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Monte San Pietrangeli",
@@ -1497,7 +1497,7 @@
       "last_scan_empty": true
     },
     "17": {
-      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan": "2026-03-24T07:31:02.525831+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Monte Urano",
@@ -1507,7 +1507,7 @@
       "last_scan_empty": true
     },
     "18": {
-      "last_scan": "2026-03-23T21:40:30.131933+00:00",
+      "last_scan": "2026-03-24T07:31:02.525831+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Monte Vidon Combatte",
@@ -1518,8 +1518,8 @@
     },
     "19": {
       "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
-      "last_scan": "2026-03-23T21:40:30.131933+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-24T07:31:02.525831+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -1662,6 +1662,12 @@
           "time": "2026-03-23T21:40:30.131933+00:00",
           "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
           "changed": true,
+          "file_count": 4
+        },
+        {
+          "time": "2026-03-24T07:31:02.525831+00:00",
+          "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
+          "changed": false,
           "file_count": 4
         }
       ],
@@ -3427,11 +3433,11 @@
   "meta": {
     "last_scan": "2026-03-24T07:31:02.525831+00:00",
     "results": {
-      "scansionati": 9,
+      "scansionati": 10,
       "aggiornati": 0,
-      "invariati": 9,
+      "invariati": 10,
       "errori": 0,
-      "vuoti": 6
+      "vuoti": 9
     },
     "total_comuni": 40,
     "scadenze": {
