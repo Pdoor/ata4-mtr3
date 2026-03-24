@@ -3451,7 +3451,7 @@
     },
     "36": {
       "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
-      "last_scan": "2026-03-24T10:48:22.347312+00:00",
+      "last_scan": "2026-03-24T13:03:17.246696+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3620,6 +3620,12 @@
           "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T13:03:17.246696+00:00",
+          "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -3635,7 +3641,7 @@
       "content_fingerprint": "46fc5fb46c40e29d10cfb6c08336a6245612c1015fcde4e3eb6087fc41dbfed9"
     },
     "37": {
-      "last_scan": "2026-03-24T10:48:22.347312+00:00",
+      "last_scan": "2026-03-24T13:03:17.246696+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Sant'Elpidio a Mare",
@@ -3645,7 +3651,7 @@
       "last_scan_empty": true
     },
     "38": {
-      "last_scan": "2026-03-24T10:48:22.347312+00:00",
+      "last_scan": "2026-03-24T13:03:17.246696+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Servigliano",
@@ -3656,7 +3662,7 @@
     },
     "39": {
       "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
-      "last_scan": "2026-03-24T10:48:22.347312+00:00",
+      "last_scan": "2026-03-24T13:03:17.246696+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3825,6 +3831,12 @@
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T13:03:17.246696+00:00",
+          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -3841,7 +3853,7 @@
     },
     "40": {
       "zip_hash": "e98b069f0f8df780982b20d9efed61f2a575e0811be7d0feeae6d0f4bdde3067",
-      "last_scan": "2026-03-24T10:48:22.347312+00:00",
+      "last_scan": "2026-03-24T13:03:17.246696+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4010,6 +4022,12 @@
           "zip_hash": "e98b069f0f8df780982b20d9efed61f2a575e0811be7d0feeae6d0f4bdde3067",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-24T13:03:17.246696+00:00",
+          "zip_hash": "e98b069f0f8df780982b20d9efed61f2a575e0811be7d0feeae6d0f4bdde3067",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -4028,11 +4046,11 @@
   "meta": {
     "last_scan": "2026-03-24T13:03:17.246696+00:00",
     "results": {
-      "scansionati": 17,
+      "scansionati": 20,
       "aggiornati": 0,
-      "invariati": 17,
+      "invariati": 20,
       "errori": 0,
-      "vuoti": 18
+      "vuoti": 20
     },
     "total_comuni": 40,
     "scadenze": {
