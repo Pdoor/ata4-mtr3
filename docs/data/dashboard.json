@@ -918,7 +918,7 @@
       "content_fingerprint": "af49faabdd06007fc8e1efa2cb1bb2602ecf441906c798f8d35739084c058fa5"
     },
     "8": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Grottazzolina",
@@ -928,7 +928,7 @@
       "last_scan_empty": true
     },
     "9": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Lapedona",
@@ -938,7 +938,7 @@
       "last_scan_empty": true
     },
     "10": {
-      "last_scan": "2026-03-24T08:47:08.257300+00:00",
+      "last_scan": "2026-03-24T09:52:48.643978+00:00",
       "last_scan_error": false,
       "info": {
         "comune": "Magliano di Tenna",
@@ -3720,7 +3720,7 @@
       "aggiornati": 1,
       "invariati": 4,
       "errori": 0,
-      "vuoti": 2
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
