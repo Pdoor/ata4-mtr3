@@ -638,7 +638,13 @@ function render(){
   main.appendChild(kg);
 
   // FILTRI
-  const si=h("input",{className:"fi",placeholder:"Cerca comune o gestore…",value:search,style:{width:"240px"},onInput:e=>{search=e.target.value;render()}});
+  const si=h("input",{className:"fi",placeholder:"Cerca comune o gestore…",value:search,style:{width:"240px"},onInput:e=>{
+    search=e.target.value;
+    const sel=e.target.selectionStart;
+    render();
+    const inp=document.querySelector('input.fi');
+    if(inp){inp.focus();try{inp.setSelectionRange(sel,sel);}catch(x){}}
+  }});
   const gs=h("select",{className:"fi",onChange:e=>{fGest=e.target.value;render()}});
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
