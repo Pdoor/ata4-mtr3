@@ -100,8 +100,14 @@ FOLDER_HINTS = {
 
 def classify_file(filepath):
     """
-    Classifica un file in base al suo nome e percorso.
-    Restituisce (doc_key, source) oppure (None, source_guess).
+    Classifica un file in base alla struttura delle cartelle dello zip.
+
+    Priorità 1 — struttura cartelle (affidabile):
+      {Fonte}/{Allegato N - descrizione}/{filename}
+      Fonte    : "Comune" o "Gestore"
+      Allegato : 1=Tool, 2=Relazione, 3=Dich.Veridicità, 4=Altre Comunicazioni
+
+    Priorità 2 — regex su nome/path completo (fallback legacy).
     """
     name_lower = filepath.lower().replace("\\", "/")
     basename = os.path.basename(name_lower)
@@ -110,13 +116,53 @@ def classify_file(filepath):
     if basename.startswith(".") or basename in ("thumbs.db", "desktop.ini", ".ds_store"):
         return None, None
 
-    # Prova pattern specifici
+    parts = name_lower.split("/")
+
+    # ── Priorità 1: struttura cartelle ──
+    if len(parts) >= 2:
+        root      = parts[0].strip()
+        subfolder = parts[1].strip()
+
+        # Fonte dalla cartella radice
+        if re.search(r'\bcomune\b', root):
+            source = "comune"
+        elif re.search(r'\b(gestore|operatore)\b', root):
+            source = "gestore"
+        else:
+            source = None
+
+        if source:
+            # Normalizza "Allegato2" → "Allegato 2" per uniformità
+            subfolder_norm = re.sub(r'allegato(\d)', r'allegato \1', subfolder)
+
+            if   re.search(r'allegato\s*1\b', subfolder_norm): allegato = 1
+            elif re.search(r'allegato\s*2\b', subfolder_norm): allegato = 2
+            elif re.search(r'allegato\s*3\b', subfolder_norm): allegato = 3
+            elif re.search(r'allegato\s*4\b', subfolder_norm): allegato = 4
+            else:                                               allegato = None
+
+            if allegato is not None:
+                key_map = {
+                    ("comune",  1): "tool_mtr3_c",
+                    ("comune",  2): "relazione_c",
+                    ("comune",  3): "dich_veridicita_c",
+                    ("comune",  4): "altre_com_c",
+                    ("gestore", 1): "tool_mtr3",
+                    ("gestore", 2): "relazione",
+                    ("gestore", 3): "dich_veridicita",
+                    ("gestore", 4): "altre_com",
+                }
+                doc_key = key_map.get((source, allegato))
+                if doc_key:
+                    return doc_key, source
+
+    # ── Priorità 2: regex sul path completo (legacy fallback) ──
     for doc in DOC_PATTERNS:
         for pat in doc["patterns"]:
             if re.search(pat, name_lower):
                 return doc["key"], doc["source"]
 
-    # Fallback: cerca indizi nel path per capire gestore vs comune
+    # Fallback fonte: cerca indizi nel path
     source_guess = "sconosciuto"
     for src, hints in FOLDER_HINTS.items():
         for hint in hints:
