@@ -796,6 +796,606 @@
         "gestore": "ECO INNOVA SRL",
         "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev"
       }
+    },
+    "11": {
+      "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
+      "content_fingerprint": "e0776099c727085fb23f8f0c9dd36cf8913ae5f46d1458f651c8b4242b8b4539",
+      "last_scan": "2026-03-24T15:49:11.707393+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+          "current_size": 4107390,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+              "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
+              "size": 4107390
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
+          "current_file": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "current_size": 161444,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
+              "size": 161444
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
+              "file": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
+              "size": 87428
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+          "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
+          "size": 4107390,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
+          "size": 87428,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
+          "size": 161444,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-24T15:49:11.707393+00:00",
+          "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Massa Fermana",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/1ev2qj0yvrx9",
+        "id": 11
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "12": {
+      "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+      "content_fingerprint": "7b2d3df0e9d93ff28de58d1fddb857fd51d015d392eb83c6859f5c058a59e59b",
+      "last_scan": "2026-03-24T15:49:11.707393+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "9d913106ded6ded8f700bfd04ebdd32fc4c055091ec919c1f88ebc61d915ad5e",
+          "current_file": "Allegato_1_MONSAMPIETRO MORICO_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 4051364,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_MONSAMPIETRO MORICO_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "9d913106ded6ded8f700bfd04ebdd32fc4c055091ec919c1f88ebc61d915ad5e",
+              "size": 4051364
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "9d913106ded6ded8f700bfd04ebdd32fc4c055091ec919c1f88ebc61d915ad5e",
+              "file": "Allegato_1_MONSAMPIETRO MORICO_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "c45b2883f2b943aeff0951cfd922886a45c929fabf565730e5b17b6e23d93148",
+          "current_file": "Allegato_2_MONSAMPIETRO MORICO_Relazione_di_accompagnamento_2026-2029.pdf",
+          "current_size": 457077,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_MONSAMPIETRO MORICO_Relazione_di_accompagnamento_2026-2029.pdf",
+              "hash": "c45b2883f2b943aeff0951cfd922886a45c929fabf565730e5b17b6e23d93148",
+              "size": 457077
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "c45b2883f2b943aeff0951cfd922886a45c929fabf565730e5b17b6e23d93148",
+              "file": "Allegato_2_MONSAMPIETRO MORICO_Relazione_di_accompagnamento_2026-2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "current_file": "DIchiarazione di veridicità.pdf",
+          "current_size": 415566,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DIchiarazione di veridicità.pdf",
+              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+              "size": 415566
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+              "file": "DIchiarazione di veridicità.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_MONSAMPIETRO MORICO_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_MONSAMPIETRO MORICO_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "9d913106ded6ded8f700bfd04ebdd32fc4c055091ec919c1f88ebc61d915ad5e",
+          "size": 4051364,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "DIchiarazione di veridicità.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DIchiarazione di veridicità.pdf",
+          "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "size": 415566,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_2_MONSAMPIETRO MORICO_Relazione_di_accompagnamento_2026-2029.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Allegato_2_MONSAMPIETRO MORICO_Relazione_di_accompagnamento_2026-2029.pdf",
+          "hash": "c45b2883f2b943aeff0951cfd922886a45c929fabf565730e5b17b6e23d93148",
+          "size": 457077,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-24T15:49:11.707393+00:00",
+          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Monsampietro Morico",
+        "gestore": "PIN.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/73nl638n4sp0",
+        "id": 12
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "13": {
+      "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
+      "content_fingerprint": "17f5bdfd12ee5114650f7e99915952e0dbf773a8980e20a36c267250d020f082",
+      "last_scan": "2026-03-24T15:49:11.707393+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+          "current_size": 4105449,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+              "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
+              "size": 4105449
+            },
+            {
+              "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
+              "size": 161440
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "current_size": 258008,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
+              "size": 87428
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "size": 258008
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+          "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
+          "size": 4105449,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
+          "size": 87428,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
+          "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
+          "size": 258008,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
+          "size": 161440,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-24T15:49:11.707393+00:00",
+          "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Montappone",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/396z4nzv4y99",
+        "id": 13
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "14": {
+      "zip_hash": "befc2e11cae8ca73e7c46d107b2050b858ad165a1d456974031c5f37f4a1f2e0",
+      "content_fingerprint": "15d186e5b422f1d2daeb4d87718df1e158181e320caef80da097bf7d50bf593b",
+      "last_scan": "2026-03-24T15:49:11.707393+00:00",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+          "current_size": 4105110,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+              "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
+              "size": 4105110
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
+          "current_file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
+          "current_size": 202728,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
+              "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
+              "size": 202728
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
+              "file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
+          "current_file": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
+          "current_size": 254460,
+          "file_count": 2,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+              "size": 87387
+            },
+            {
+              "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
+              "hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
+              "size": 254460
+            }
+          ],
+          "first_upload": "2026-03-24T15:49:11.707393+00:00",
+          "last_upload": "2026-03-24T15:49:11.707393+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-24T15:49:11.707393+00:00",
+              "hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
+              "file": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+          "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
+          "size": 4105110,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
+          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
+          "size": 87387,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf",
+          "hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
+          "size": 254460,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
+          "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
+          "size": 202728,
+          "doc_key": "relazione",
+          "source": "gestore"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-24T15:49:11.707393+00:00",
+          "zip_hash": "befc2e11cae8ca73e7c46d107b2050b858ad165a1d456974031c5f37f4a1f2e0",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [],
+      "info": {
+        "comune": "Monte Giberto",
+        "gestore": "SO.ECO",
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/7fg582zhd3t5",
+        "id": 14
+      },
+      "last_scan_error": false,
+      "processabile": "no"
+    },
+    "15": {
+      "last_scan": "2026-03-24T15:49:11.707393+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
+      "info": {
+        "comune": "Monte Rinaldo",
+        "gestore": "ECO INNOVA SRL",
+        "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79"
+      }
     }
   },
   "last_run": null,
@@ -810,11 +1410,11 @@
   "meta": {
     "last_scan": "2026-03-24T15:49:11.707393+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 5,
+      "scansionati": 9,
+      "aggiornati": 9,
       "invariati": 0,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 6
     },
     "total_comuni": 40,
     "scadenze": {
