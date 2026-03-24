@@ -2372,7 +2372,7 @@
       }
     },
     "26": {
-      "last_scan": "2026-03-24T17:27:38.274504+00:00",
+      "last_scan": "2026-03-24T18:45:47.766875+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2384,8 +2384,8 @@
     "27": {
       "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
       "content_fingerprint": "4ac9c2bcfabdaae623892ba6c5dabc084b1a4b79730d8274d64e41832974a743",
-      "last_scan": "2026-03-24T17:27:38.274504+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-03-24T18:45:47.766875+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -2510,6 +2510,12 @@
           "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
           "changed": true,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-24T18:45:47.766875+00:00",
+          "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -2524,7 +2530,7 @@
       "processabile": "no"
     },
     "28": {
-      "last_scan": "2026-03-24T17:27:38.274504+00:00",
+      "last_scan": "2026-03-24T18:45:47.766875+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -2534,9 +2540,9 @@
       }
     },
     "29": {
-      "last_scan": "2026-03-24T17:27:38.274504+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-03-24T18:45:47.766875+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Ortezzano",
         "gestore": "ECO INNOVA SRL",
@@ -2544,7 +2550,7 @@
       }
     },
     "30": {
-      "last_scan": "2026-03-24T17:27:38.274504+00:00",
+      "last_scan": "2026-03-24T18:45:47.766875+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -3485,11 +3491,11 @@
   "meta": {
     "last_scan": "2026-03-24T18:45:47.766875+00:00",
     "results": {
-      "scansionati": 12,
+      "scansionati": 13,
       "aggiornati": 0,
-      "invariati": 12,
-      "errori": 3,
-      "vuoti": 10
+      "invariati": 13,
+      "errori": 4,
+      "vuoti": 13
     },
     "total_comuni": 40,
     "scadenze": {
