@@ -1,10 +1,10 @@
 {
   "comuni": {
     "1": {
-      "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
-      "content_fingerprint": "00af14835ae8cb8f3f3d10cb92bd53784994dba589f017ae4cca238f16b57b77",
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
-      "zip_changed": false,
+      "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
+      "content_fingerprint": "0bfcdc72940b7348f09519d8357c33582cf47f98d182ad563fb084ba451cfad3",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -29,16 +29,41 @@
         },
         "altre_com_c": {
           "status": "missing"
+        },
+        "pef_validato": {
+          "status": "received",
+          "current_hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
+          "current_file": "test-altidona-pef-da-validare.txt",
+          "current_size": 11,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "test-altidona-pef-da-validare.txt",
+              "hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
+              "size": 11
+            }
+          ],
+          "first_upload": "2026-03-25T08:09:31.444184+00:00",
+          "last_upload": "2026-03-25T08:09:31.444184+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-25T08:09:31.444184+00:00",
+              "hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
+              "file": "test-altidona-pef-da-validare.txt",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
         {
-          "name": "Test_altidona.xlsx",
-          "path": "PEF Validato/Test_altidona.xlsx",
-          "hash": "3912a4bcbdba79fa1cf92157d4db209b8b6f605cd2e94bd45b40e2817ff5d884",
-          "size": 8948,
-          "doc_key": null,
-          "source": "sconosciuto"
+          "name": "test-altidona-pef-da-validare.txt",
+          "path": "PEF Validato/test-altidona-pef-da-validare.txt",
+          "hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
+          "size": 11,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
@@ -65,16 +90,15 @@
           "zip_hash": "92a71faf9abf3fcf2c8a44c18b5a182c43e4440202f2d7338fb18c8c39c0e5c5",
           "changed": false,
           "file_count": 1
-        }
-      ],
-      "unclassified_files": [
+        },
         {
-          "name": "Test_altidona.xlsx",
-          "path": "PEF Validato/Test_altidona.xlsx",
-          "source": "sconosciuto",
-          "size": 8948
+          "time": "2026-03-25T08:09:31.444184+00:00",
+          "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
+          "changed": true,
+          "file_count": 1
         }
       ],
+      "unclassified_files": [],
       "info": {
         "comune": "Altidona",
         "gestore": "RIECO",
@@ -88,7 +112,7 @@
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
       "content_fingerprint": "27febbff330d1fcb7db2fd71d1ea6a639e320c8bf1f6a0419b9535ccca357c2f",
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -245,6 +269,12 @@
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-25T08:09:31.444184+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -261,7 +291,7 @@
     "3": {
       "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
       "content_fingerprint": "32583b9a5ddc15a419da210b8d566438242e230b96fe009460233c239dd2bc1c",
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -418,6 +448,12 @@
           "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-25T08:09:31.444184+00:00",
+          "zip_hash": "569a0119c035b337d58b31024ad5b1f005fd0a0af1e09cc714d0bbcb94cc9ce4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -432,7 +468,7 @@
       "processabile": "no"
     },
     "4": {
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -444,7 +480,7 @@
     "5": {
       "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
       "content_fingerprint": "3f0eeb6d617dabded3dfd2d19bb39879f241c83dbd47d686f252b90557c68948",
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -672,6 +708,12 @@
           "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-03-25T08:09:31.444184+00:00",
+          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -687,7 +729,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -699,7 +741,7 @@
     "7": {
       "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
       "content_fingerprint": "af49faabdd06007fc8e1efa2cb1bb2602ecf441906c798f8d35739084c058fa5",
-      "last_scan": "2026-03-24T22:24:27.473943+00:00",
+      "last_scan": "2026-03-25T08:09:31.444184+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -853,6 +895,12 @@
         },
         {
           "time": "2026-03-24T22:24:27.473943+00:00",
+          "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
+          "changed": false,
+          "file_count": 4
+        },
+        {
+          "time": "2026-03-25T08:09:31.444184+00:00",
           "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
           "changed": false,
           "file_count": 4
@@ -3639,13 +3687,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-24T22:24:27.473943+00:00",
+    "last_scan": "2026-03-25T08:09:31.444184+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 0,
-      "invariati": 20,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
-      "vuoti": 20
+      "vuoti": 2
     },
     "total_comuni": 40,
     "scadenze": {
