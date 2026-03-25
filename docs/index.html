@@ -361,9 +361,24 @@ const DATA_URLS = ["https://pdoor.github.io/ata4-mtr3/data/dashboard.json"];
 const GH_REPO={owner:"Pdoor",repo:"ata4-mtr3",path:"docs/data/overrides.json"};
 const OVERRIDES_URL="https://pdoor.github.io/ata4-mtr3/data/overrides.json";
 
-// ── Password cifrate (AES-256-GCM / PBKDF2-SHA256 · 100k iter) ──
-const ENC_PWD="AJONZdanOBYYMYz8vWzD58hAFWrsuePUHz3f1fqDl+Q9B+84zcww8IYVZTfUJMEtLiLEy4LkkcXBBHv1Pbe/NrQfrVnK7C4fHsVvprkLOnZTqy2Cb6s3YZtv9nqIbvN84axnYniYyc3Wj0i8uklaDflF0UY9o5KEgnKZ8qsQ7LQdWNZNSSYldWoiMJeFYG7RITVT9sGs+ggN6KzDDK+2UO/kCR8JgSdba5CDoDurQFPTeSmJFN/NTS4svTLL1Nhrh9LEDa7UJMvhE5zhvzhSSB6nR73RSllQocu8ObsSfmDzv/323K3JPvXAyMgzyWMtDic5rKYKA72agJsjufaEx5C3085YFnwI3AUFsgCg2I0EkBj+FRVRc+NHPJ5Pq+marlZ9By091UgnejFZiFVTs+50qCw02PVc5mPGjkrE8oSsE+wsNsergTde8XOeizuz03heUKvqFCc82Q507CbmHhQcSOknOlqxEoyCJhfncWUbDqqdgNDiyy1LnHHnhCS4I1XJ1OPoDLg85guHvFNcjZbGPEPi9z0+YHGdlMwYlGd1PogrdOWE4y8iGRQszIlomYAaU0eywyfvTXCF1x6rX7ju1JanAJjyW/aD3NMb8s50FiWErG8fRMqq1wELMXnhauQfCMzzkh+dQwrh3X16k3XB+zeTyHNw5MbpwdvKRanErfgV3PObGcC2X41Lcx+HW8SJeUnnR/9zJBEO7cveHmNvYjQmaJ44vH6HUFcU7IYLuHRbRX8WVbjZW9LzcCXmoIAiksu6fwfDwbKrpmQUqH1o2NmQH9E/nFN9R+ivZrme69dH7JD8eFIxkuWLqMOfvsJbF2IeBt7zbTm734mm9VJ3MJRZccWytV1HcmcW2YfFgXNHOKZ2BPIB8g8y+CUOzd5ikaaG+jtCUW6/Dh0c0dbvo6JEs+4ZlqaE28Xv8VBNFDPVCgwxS611G58rwckkeRt5k8UI23QHNkdWbLixdN72/RY47mpkTYsQ5PcyXq6LURNOVxmg0A9SEFUETXtY/T7tWJv+IBnvy0SdmaR578OCfctDxocS2odltHm/wCPspVjdx0FKmOySdr+lmVNE+Ws/9evEPZuF9wx/8KXGV7GzOEtaoNMwHdEdsB7dR0D9V9+wBgiX2MAd4rHhTpR5u+by/mimnElubK7j+WynHhJZu7FWDjm/4wGJRlmaCVt3ceT3U6vjclFQ5dJyzez1dJwdL71gSFdXlWkquM5r7Rm9dl/VhZWR7lenb9I5Nc7cDo9U9CytJNtkTJKIKcTgjd9+otKWNAT0JwC2QS3pZwZ3E2lSh2ykcNTzk8xl/6q5QfybtNe6ESiWovOFBLdTb4Bgy6hMCunNoIelnE36hKF+WlttVzKR3Gu26JCQy8L/19Leti1BxoaF7fiIwUr5bn6V1xKA6zITJbgpGih/OPgq8wKK+g==";
+// ── Sistema multi-utente (AES-256-GCM / PBKDF2-SHA256 · 100k iter) ──
+// Password dataroom cifrate per ciascun utente
+const ENC_PWD_USERS={
+  GM:"2nj592mbNxAmXVAyc0pM5BlmRCzYzmZk3Jd/HLE2F8zaARKBRsJp889vWykY7R/Fj3GioWuyESnHNmdVfoGKpfALoenadaP2UGiWah/WitY6fBrkyzHhX4AZzYkbXxT064cGBhffux2SpubXHXPTI0LKEDCrGMNJNCGYETmfqKeZxRRNhrClY+DwcC2lPI5hhzlWqy/YfBq5fDstIGzMx7FTXGdJFH2D9yQQzIDyGAGdMhcysJkomsY83Zi5ztTdlZG/yT6L9QmvJlxkhKCqNmyntQ8EvxPEaqckBw+GbYwH0gLavBugZeAYp0jDOFRTNuP+BNMEteIFNwucL5XTOSrHOr6vKFoGI20jWNWiAxJKj+ustfeJAkIRXuv8hRTO+h0WGBiE1WCk+lSjlBTmSn03/BNF7VT7LgQglKhwZP6c7c9NF8b/GL7cO/fLMn6//pBte32v+qqg7GMpnUZNOxQ+WlLjU5uU377zNAGmdmFRPHW46lEHTlC8NsADBCrB6fhlFdkK4ImJHX4OTolfVLFgV9zGZlgz8Fy5CNDybU+/M/0DgWdSBPi8qPyRe6b2AAYfxqzcTVkp05VohKfGHb85wPEJRK46OcdQVA0WvYjLZVSut37W22OyLoPZOvxfJFLTcOkaeL5TesRrTQosW1VfzIQohlzw/+bUa0EMYz58dUpdGbYWhMy0cNlpgiqtQmkjzk71uu0iGWapmUvfKwUyfCMG9wecz3tWEFxq2YZB9xKFre9mRHXf6nEUUl1sUFGjpM9GLi11rGK0m/tkXBrpdQE1cJ4he/XEXDNgP/hkB7a02WRnjDJu35PlI143EczaMB7iiL2UuD0obIFp5RoX1zL9IxWLh2OC03riShPdIuHJDw0JODRH/tZzppBKzCxTd6EF7WUaq4KqNe+lYnHFmDtVay+oTmkkmqLDJ/o7ujTFI2jfZlRufWYamUWleJVVi3ymIi4KcdDSuc2/CbSDG/shojpuzPwshrUs8j/78bMPQwRamz0twlTX9LnQilg2HnrIaWJbMZc9fVUz6xs2425kVkhGQyi8d54QswfjshuOZSdCD1F3RfrEimALrO5MHMb/Bg61jBtSNjBiPEvYhXE+/7I/Qbgje+ZqC3lophiw7oMUqdW+LUroG3MhN8geR4TJogk/byjwVMjIAfZTS0cOU/06Mq7ruKLxGQXuaJ0gbCGPlEBahBIE/g4zLPylSCPTJEpuRMibsynjm/DHnaiUeVu3f7lyJbECLN7bv4h+coFy3u4YAw59WkIfTZ4QE8h/2ULaGvcchBFZPw5CsqCVuwbxq+tCdnFLKR1UgeCv7Vr3Et0uxFGcLCQ+tN5b+nVirWVG40eGkaVaGsj8o+zyhAXI9PEPAhhhVArQV+emh07zovZm8UFqgo2CvjhFx9jgIQTa5iX/kDe/241CJntt9A==",
+  GN:"nUhyY97cGymDQcmpUPdL4eUSdbqcCAjs5CevJITeTaTGL47Nb161hNM6G7PWiwcxn2rM7qMlgXvr+JBOvFHGoBP6fTUM3dGwfH+7KSg25z4VCxtJOzPuVuvRWmMeQP3AOHELIbJSNr4dqqn0cKH1R9FtvtV4E6ypoBC15pnMO8GQ1lpbhJGa7WyAkn4sZ4oShSeAFJ4tLrv27QRy0EfjSbzpxmPxTiR/pNxKTzJsfQXVE3A8SYM1D2uMFj0eUXPIoauKZkdZH/NUdgUfP9drK5tMPDuqVWbz4o/G8cRDY6R06KjilNhvcgS8CSQXhjVVg26u8/CKZ9vsw6a/uOMCGEzpx0mLcEMNln7kXuEXlSQ/hGFYBBaZn146dnEhqQ1sbMEXQZhXAh/vfLAdcERTs+JOcvPQGnIUeA9hVDQT2tIYBLrMrIyZ0Kok4x/s9N9hLuDIcRpLeT5cYECejmNS7gD6a3F/CVhgaMJ6iCa5n4IC6/LgQUXNsAZOnxWNw20qeGbyiyIxvTz9vkkSYqfgo0GmyhSAoPC1Lcmemr9K5FmUtS8SNAr/S1jbTt2yrITW72aNidmvxsFVt0IlXBgGzcmSL+wPJpT91aj86/FLEjo9YfVaYmzfbX7xNZmghlcSX1IZ1QXz95vr2EHCCdR5cIh7GCG1HN/3/IqN9yBuwHYSU4DEquTfIrp5rDIsrf95qx8ZfGBqgdXoiRyIR7LZhLDbtnVcOK6ju6hOKGvc7X2AFX+Pa4RNBEtrkGSTDb0CM49LCH8CXAt1jQlEvue529Q/Pc4l45K1xrhROEtnhBfNeYTqhFfFFlkJh1Hv6U4z3QJYsbXv/UfX58REW9QSaVxDut91Lm6X2wEoIzyUJvBta8T8tVn6yoydtf5ZEQRfxDWDUdEygXN0zgDBm6aSWPiknYA+dAEwTGv5UsFxbx2WFmSZpLU5R/N9xemiZXPImui27+aZrHkn9hdpFuy45qJtP7rzztCsUGlgdLHulP/ZmRL11w9k7PkgG1jh/FWM8HgCmkRf8IMsv4s15BgOL6FF6NkYn/83qg/uNtLaKaFI3r0oFDtrbwBcZnZLImAXA0lvkCRc8bDOeLyWNWhgfOcH0kZKM61pa1lM5uTk6jNu1GCkYhPC2UYhDP+FJsvvIEAwfFlpX9Jy32qx2HQuaQNOsafZy5gdCrU5qTXIGhPjLrwX5qFvaN2TMsEyZ6RKCVLNJMQ8m02WM6eeSACzDx1SEHHcdrCOmG52baf3Gy30fl0GP3xd65UgKKn8fu7z7OHEmqeBcLQUTpleuqkH5fNUnjtEDf4pD9VylObuvI00xivyjJ+gInzmQWOn7TjionmLGaGB5TOdADZAm/8Oyc1CvWPrmwjldnFc8hc28SsHj98PKd+dznmvSNi/R+lqJeTrlzRKvPWAU0RjxcBfDNQl3CEqDQ==",
+  ATA:"Km9qdsb0w5Vr/Hwo0SbDCUPaIxGZGYGwctdmxjuG1yy/Uznzlhy0qsao148WXZzoeNrHufmEOLmiIfIYlZCNWXkkNeKEi0U9rssSsjxZEWwUAZiHUvRjGosEqL3Jo97g47lHEctN/q0itD80GWDWZn5PRLMDT6DoV40Hctqa8pFhobkF5IVRxjZ2MI137LQnu7RPpHEojt7A/c2PW7c4S7hoC1PscEVCO1Ftb9P4Qdft9A7kPK8jtfx67d1XMWIna9P9iV3C73Oi0XuRK09ndUHuDlOP2opH+o6DjrI3Cj4RDJK963XtJvBfZIM8oB+0UoP1W+EHKh7mL8OiH3EKUW9hsGvAMsWrGa6dbz64TINIl7CjQ5Es1AGVTM9ywoqIruC4WVKrxfZLyAu+/elNBOuo4/EAWquTu642UodxKSCcqxiQiFzxC/RLXgqLVij60gxycgrIYjmZAgyP2QjX9snnQjXizX0jlpsKju6Ni4x9UXeQAzaDQgaha1r0HEjksXHp8AVMwdemLHF3sLiBDwHaGpIFPDCWhlE2dS+AfXSwiRsFSmspyBhATu+aYL4CL22CwxKODBY5qvz5FZD/7HqWcICcUCE0MQeWljcJ/rPM3da64ne56y2m9CPWFholL7Iz4kq2sV+8B/7AvV8f4Vgt2SfFtAhvStryrrWMfA6GDTgB7Y7FuvVgW9zXNF8OjigfiDq9cRhvKOyIP10xHt13MtSs6ZAHBrTsH1aqmauqCcZpJKWTG74Xg8/0qPNq24tC9LFjI+vLmjkZSOs8kHlcMpckSnE6UwNghJded00n2nTdygNz3iubrW6LT4KihwWcdU/RZJyIYZVrwv3mbPfMB7UT+FN6iqL2QViGyjPBZddqLQTb8+9v6ybVlyF3cAuTJirKhy4bVtkVKI+N4qEm34YP99PcuN3NVsBRl/5ytmYJ/+QBvMa8Z/T1ZqMZ+7EZY0rtFql+SQS0yeMjCvrpVHdfa68U0QYNuN5l/h7pyy+FczqdwcBbxFcRWSJ7BqHySNKeCfr3kS5+gQvwbGQWNAuNbBlkBcK5hNJpkGCy02xkqTk++un2bx+DFiC2mblerw5TMu2TSjZuHwZXh7VEBswSzsk6AW+4e+Nk1Bgz4HEReA7c1EHcSNG1zEw1SY6wuk50666gcGSZoOgygyVyUws1iOXAn7b4dFaglEARHINSp2ld+pvgHpDJ5LGrwYtoESirLaAZYMCOvRveg5TSlRbnFseP44wp/iYbU7eUVWfFbHJeZW5mkp5t/vrCr626zkaUV2kCsGjWpNKVkK2/pg4bjzIdDcIxwDMRqsHAxm/Zl9CeAAGVsuE3riznlPt/ACrXrvHdcNh5Mq1P297ZqRbjSG2+SHrO7mwrzgzHAhh+v8Cmc8r63Z8FhWwruUlZaAAumiQnEs6FueA7nA4axxoeLA=="
+};
+// Chiave cifratura note, cifrata per ciascun utente
+const ENC_NKEY_USERS={
+  GM:"hgqsHw9abmTcE+wX4QZLh30NWeU/7Y09C12MwPr8ARnspnN87yWBhtz0rbPvbJpErYflQGeRAzXCC/LFGVK1NwxMQqsVD2i3TYpx56U5+LE+cF6jlBon8Q==",
+  GN:"XJpOu7mneGA8JbAY7ZaXnMWCKTh6FlOE5K7C+5DC30XHR75d7Qg+lHAZkO8hbqQ1h0snVvZvYyAPIJBrTbE5aiZ24GBICNJhLrnrMJVkuJ/8aapbf2hMug==",
+  ATA:"i+UHjm6bzGMd3W/t0m5h9wcIhJQcP9dtFWpqM7MNsF4i6HOqgBGv6MKi/IFUIsFeoAf3NaIVchkgBZ2rlqaPuYWFK6j/l+0QON2O5E9mDPv6O+GHyOZNQg=="
+};
+const USER_ROLES={GM:"admin",GN:"admin",ATA:"readonly"};
 let _pwdMap=null;
+let _currentUser=null;   // "GM","GN","ATA"
+let _userRole=null;      // "admin","readonly"
+let _notesKey=null;      // chiave AES per cifrare/decifrare note
 const _pwdTimers={};
 
 async function _derivePwdKey(pass,salt,usage=["decrypt"]){
@@ -387,29 +402,52 @@ async function _decryptText(b64,pass){
     return new TextDecoder().decode(pt);
   }catch(e){return null;}
 }
-async function _unlockPwd(pass){
+async function _tryDecrypt(b64,pass){
   try{
-    const b=Uint8Array.from(atob(ENC_PWD),c=>c.charCodeAt(0));
+    const b=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
     const k=await _derivePwdKey(pass,b.slice(0,16));
     const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(16,28)},k,b.slice(28));
     return JSON.parse(new TextDecoder().decode(pt));
+  }catch(e){return null;}
+}
+async function _tryDecryptRaw(b64,pass){
+  try{
+    const b=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
+    const k=await _derivePwdKey(pass,b.slice(0,16));
+    const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(16,28)},k,b.slice(28));
+    return new TextDecoder().decode(pt);
   }catch(e){return null;}
 }
 function _urlKey(url){return url.split("/").pop();}
 
 async function _requireUnlock(){
   if(_pwdMap)return true;
-  const pass=prompt("Master password richiesta:");
+  const pass=prompt("Inserisci la tua password di accesso:");
   if(!pass)return false;
-  _pwdMap=await _unlockPwd(pass);
-  if(!_pwdMap){alert("Password non corretta.");return false;}
-  _sessionPass=pass;
-  // Carica automaticamente il token GitHub cifrato, se presente
-  if(!_ghToken){
-    const enc=localStorage.getItem(LS_GH_TOKEN);
-    if(enc){const tok=await _decryptText(enc,pass);if(tok)_ghToken=tok;}
+  // Prova ogni utente
+  for(const[userId,blob] of Object.entries(ENC_PWD_USERS)){
+    const map=await _tryDecrypt(blob,pass);
+    if(map){
+      _pwdMap=map;
+      _currentUser=userId;
+      _userRole=USER_ROLES[userId];
+      _sessionPass=pass;
+      // Decripta chiave note
+      const nkBlob=ENC_NKEY_USERS[userId];
+      if(nkBlob){_notesKey=await _tryDecryptRaw(nkBlob,pass);}
+      // Carica token GitHub cifrato
+      if(!_ghToken){
+        const enc=localStorage.getItem(LS_GH_TOKEN);
+        if(enc){const tok=await _decryptText(enc,pass);if(tok)_ghToken=tok;}
+      }
+      // Dopo login, decripta le note se presenti
+      if(_notesKey)await _decryptOnlineNotes();
+      render();
+      return true;
+    }
   }
-  return true;
+  alert("Password non corretta.");
+  return false;
 }
 
 async function showPwd(id,url,container){
@@ -449,6 +487,22 @@ async function setupGhToken(){
   alert("✓ Token salvato e cifrato.");
 }
 
+// ── Cifratura/decifratura note ──
+async function _encryptNotes(notesObj){
+  if(!_notesKey)return null;
+  const json=JSON.stringify(notesObj);
+  return await _encryptText(json,_notesKey);
+}
+async function _decryptOnlineNotes(){
+  // Decripta notes_encrypted in ONLINE_NOTES
+  if(!_notesKey||!_encNotesRaw)return;
+  try{
+    const json=await _decryptText(_encNotesRaw,_notesKey);
+    if(json){ONLINE_NOTES=_migrateNotes(JSON.parse(json));}
+  }catch(e){console.warn("_decryptOnlineNotes:",e);}
+}
+let _encNotesRaw=null; // blob cifrato grezzo, salvato al load per decifrare dopo login
+
 // ── Carica overrides da GitHub Pages ──
 async function loadOverrides(){
   try{
@@ -459,7 +513,14 @@ async function loadOverrides(){
       if(d&&d.docs!==undefined){
         ONLINE_OVERRIDES=d.docs||{};
         ONLINE_SCADENZE=d.scadenze||{};
-        ONLINE_NOTES=_migrateNotes(d.notes||{});
+        // Note cifrate: salva blob, decripta solo se loggato
+        if(d.notes_encrypted){
+          _encNotesRaw=d.notes_encrypted;
+          if(_notesKey)await _decryptOnlineNotes();
+        }else if(d.notes){
+          // Retrocompatibilità: note in chiaro (vecchio formato)
+          ONLINE_NOTES=_migrateNotes(d.notes);
+        }
       }else{
         ONLINE_OVERRIDES=d||{};
       }
@@ -479,7 +540,11 @@ async function saveOverrideOnline(){
     const getR=await fetch(apiUrl,{headers});
     if(getR.ok){const gd=await getR.json();sha=gd.sha||null;}
     // Prepara contenuto (base64 UTF-8)
-    const payload={docs:ONLINE_OVERRIDES,scadenze:ONLINE_SCADENZE,notes:ONLINE_NOTES};
+    // Cifra le note prima di salvare
+    let notesEnc=null;
+    if(_notesKey){try{notesEnc=await _encryptNotes(ONLINE_NOTES);}catch(e){}}
+    const payload={docs:ONLINE_OVERRIDES,scadenze:ONLINE_SCADENZE};
+    if(notesEnc){payload.notes_encrypted=notesEnc;}else{payload.notes=ONLINE_NOTES;}
     const json=JSON.stringify(payload,null,2);
     const bytes=new TextEncoder().encode(json);
     let b64="";const chunk=8192;
@@ -599,7 +664,12 @@ function render(){
       h("button",{className:"nbtn"+(view==="dashboard"?" on":""),onClick:()=>{view="dashboard";selId=null;render()}},"Cruscotto"),
       h("button",{className:"nbtn"+(view==="table"?" on":""),onClick:()=>{view="table";selId=null;render()}},"Tabella"),
       h("button",{className:"btn-exp",onClick:exportCSV},"Esporta CSV"),
-      h("button",{className:"nbtn",style:{borderColor:"var(--yd)",color:_ghToken?"#fde68a":"var(--t4)"},title:_ghToken?"Token GitHub configurato":"Configura token GitHub per override condivisi",onClick:setupGhToken},_ghToken?"🔐 Token GH":"⚙ Token GH"),
+      _currentUser
+        ?h("button",{className:"nbtn",style:{borderColor:"var(--gd)",color:"#86efac"},title:"Connesso come "+_currentUser+" ("+_userRole+")"},_currentUser+" 🟢")
+        :h("button",{className:"nbtn",style:{borderColor:"var(--pur)",color:"var(--pur)"},onClick:async()=>{await _requireUnlock();}},"🔑 Accedi"),
+      _userRole==="admin"
+        ?h("button",{className:"nbtn",style:{borderColor:"var(--yd)",color:_ghToken?"#fde68a":"var(--t4)"},title:_ghToken?"Token GitHub configurato":"Configura token GitHub per override condivisi",onClick:setupGhToken},_ghToken?"🔐 Token GH":"⚙ Token GH")
+        :null,
     )
   )));
 
@@ -665,7 +735,7 @@ function render(){
     const editBtn=h("button",{
       className:"dl-edit"+(isCustom?" custom":""),
       title:isCustom?"Data personalizzata — clicca per modificare":"Clicca per modificare la data",
-      onClick:async e=>{e.stopPropagation();if(isEditing){editingScad=null;render();return;}if(!await _requireUnlock())return;editingScad=k;render();}
+      onClick:async e=>{e.stopPropagation();if(isEditing){editingScad=null;render();return;}if(!await _requireUnlock())return;if(_userRole!=="admin"){alert("Accesso in sola lettura.");return;}editingScad=k;render();}
     },"✏");
     const card=h("div",{className:"dl-card"},
       editBtn,
@@ -778,7 +848,7 @@ function renderCard(c){
     if(lastC)parts.push("C: "+fmtDate(lastC));
     card.appendChild(h("div",{className:"cd-footer dates"},parts.join(" · ")));
   }
-  const _cardNotes=_getNotes(c.id);
+  const _cardNotes=_currentUser?_getNotes(c.id):[];
   if(_cardNotes.length){
     const last=_cardNotes[0]; // prima nota (ordinate per data desc)
     const catLbl=NOTE_CATS.find(x=>x.key===last.cat)?.label||"";
@@ -833,8 +903,13 @@ function renderDetail(id){
       "Nessun dato ancora: questo comune non è stato scansionato. La prima scansione automatica popolerà questa scheda."));
   }
 
-  // Note strutturate ad albero (array di oggetti con cat/date/text/author/children)
+  // Note strutturate ad albero — visibili solo dopo login, modificabili solo admin
   const nw=h("div",{className:"notes-wrap"},h("label",{className:"notes-lbl"},"Note / Anomalie / Interlocuzioni"));
+  if(!_currentUser){
+    nw.appendChild(h("div",{style:{fontSize:"11px",color:"var(--t4)",padding:"8px 0",fontStyle:"italic"}},
+      "🔒 Effettua il login per visualizzare le note"));
+    det.appendChild(nw);
+  } else {
   const notes=_getNotes(id);
 
   function renderNoteTree(noteArr,parentPath){
@@ -851,26 +926,28 @@ function renderDetail(id){
         ),
         h("div",{className:"note-text"},note.text)
       );
-      // Pulsanti azioni (hover, protetti)
-      const acts=h("div",{className:"note-actions"});
-      acts.appendChild(h("button",{className:"note-act",title:"Rispondi",onClick:async e=>{
-        e.stopPropagation();if(!await _requireUnlock())return;
-        editingNote={comuneId:id,path,mode:"reply"};render();
-      }},"↩"));
-      acts.appendChild(h("button",{className:"note-act",title:"Modifica",onClick:async e=>{
-        e.stopPropagation();if(!await _requireUnlock())return;
-        editingNote={comuneId:id,path,mode:"edit"};render();
-      }},"✏"));
-      acts.appendChild(h("button",{className:"note-act",title:"Elimina",onClick:async e=>{
-        e.stopPropagation();if(!await _requireUnlock())return;
-        if(!confirm("Eliminare questa nota"+(note.children?.length?" e le sue risposte":"")+"?"))return;
-        const arr=JSON.parse(JSON.stringify(_getNotes(id)));
-        _removeAtPath(arr,path);
-        const sid=String(id);
-        ONLINE_NOTES[sid]=arr;LOCAL_NOTES[sid]=arr;
-        saveNotes();saveOverrideOnline();render();
-      }},"🗑"));
-      ni.appendChild(acts);
+      // Pulsanti azioni (hover, solo admin)
+      if(_userRole==="admin"){
+        const acts=h("div",{className:"note-actions"});
+        acts.appendChild(h("button",{className:"note-act",title:"Rispondi",onClick:async e=>{
+          e.stopPropagation();
+          editingNote={comuneId:id,path,mode:"reply"};render();
+        }},"↩"));
+        acts.appendChild(h("button",{className:"note-act",title:"Modifica",onClick:async e=>{
+          e.stopPropagation();
+          editingNote={comuneId:id,path,mode:"edit"};render();
+        }},"✏"));
+        acts.appendChild(h("button",{className:"note-act",title:"Elimina",onClick:async e=>{
+          e.stopPropagation();
+          if(!confirm("Eliminare questa nota"+(note.children?.length?" e le sue risposte":"")+"?"))return;
+          const arr=JSON.parse(JSON.stringify(_getNotes(id)));
+          _removeAtPath(arr,path);
+          const sid=String(id);
+          ONLINE_NOTES[sid]=arr;LOCAL_NOTES[sid]=arr;
+          saveNotes();saveOverrideOnline();render();
+        }},"🗑"));
+        ni.appendChild(acts);
+      }
       container.appendChild(ni);
       // Form modifica inline
       if(editingNote?.comuneId===id&&editingNote?.mode==="edit"&&editingNote?.path?.join(".")===pathStr){
@@ -891,16 +968,18 @@ function renderDetail(id){
   }
   nw.appendChild(renderNoteTree(notes,[]));
 
-  // Pulsante "Inserisci nota" (protetto da password)
-  if(!(editingNote?.comuneId===id&&editingNote?.mode==="new")){
-    nw.appendChild(h("button",{className:"note-add",onClick:async()=>{
-      if(!await _requireUnlock())return;
-      editingNote={comuneId:id,path:[],mode:"new"};render();
-    }},"＋ Inserisci nota"));
-  }else{
-    nw.appendChild(_renderNoteForm(id,[],"new",null));
+  // Pulsante "Inserisci nota" (solo admin)
+  if(_userRole==="admin"){
+    if(!(editingNote?.comuneId===id&&editingNote?.mode==="new")){
+      nw.appendChild(h("button",{className:"note-add",onClick:async()=>{
+        editingNote={comuneId:id,path:[],mode:"new"};render();
+      }},"＋ Inserisci nota"));
+    }else{
+      nw.appendChild(_renderNoteForm(id,[],"new",null));
+    }
   }
   det.appendChild(nw);
+  } // fine else _currentUser
 
   // Pannelli documenti
   const cols=h("div",{className:"det-2"});
@@ -954,7 +1033,7 @@ function _renderNoteForm(comuneId,path,mode,existing){
   let cat=existing?.cat||"comune";
   let date=existing?.date||new Date().toISOString().slice(0,10);
   let text=existing?.text||"";
-  let author=existing?.author||NOTE_AUTHORS[0].key;
+  let author=existing?.author||_currentUser||NOTE_AUTHORS[0].key;
   const titleMap={new:"Nuova nota",edit:"Modifica nota",reply:"Rispondi alla nota"};
   const form=h("div",{className:"note-form"});
   form.appendChild(h("div",{style:{fontSize:"10px",color:"var(--blue)",marginBottom:"5px",fontWeight:"600"}},titleMap[mode]||"Nota"));
@@ -1065,6 +1144,7 @@ function makeDocPanel(title,docs,s,comuneId){
       onClick:async e=>{
         e.stopPropagation();
         if(!await _requireUnlock())return;
+        if(_userRole!=="admin"){alert("Accesso in sola lettura.");return;}
         editingOv=isEditing?null:{id:comuneId,key:d.key};
         render();
       }
