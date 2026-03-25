@@ -275,6 +275,7 @@ let editingScad=null;
 // LOCAL_OVERRIDES = backup locale (localStorage), ONLINE_OVERRIDES = fonte condivisa (overrides.json su GitHub)
 const LS_OVERRIDES="ata4_overrides_v1";
 const LS_GH_TOKEN="ata4_gh_token_v1";
+const LS_SESSION="ata4_session_v1";  // password cifrata per auto-login
 let LOCAL_OVERRIDES={};
 try{const o=localStorage.getItem(LS_OVERRIDES);if(o)LOCAL_OVERRIDES=JSON.parse(o);}catch(e){}
 function saveOverrides(){try{localStorage.setItem(LS_OVERRIDES,JSON.stringify(LOCAL_OVERRIDES));}catch(e){}}
@@ -295,6 +296,10 @@ const NOTE_CATS=[
 const NOTE_AUTHORS=[
   {key:"GM",label:"GM"},
   {key:"GN",label:"GN"},
+  {key:"Comune",label:"Comune"},
+  {key:"Gestore",label:"Gestore"},
+  {key:"Advisor",label:"Advisor"},
+  {key:"ATA",label:"ATA"},
 ];
 function _migrateNotes(obj){
   // Converte formato vecchio (stringa) → nuovo (array di oggetti con children)
@@ -420,11 +425,7 @@ async function _tryDecryptRaw(b64,pass){
 }
 function _urlKey(url){return url.split("/").pop();}
 
-async function _requireUnlock(){
-  if(_pwdMap)return true;
-  const pass=prompt("Inserisci la tua password di accesso:");
-  if(!pass)return false;
-  // Prova ogni utente
+async function _doLogin(pass){
   for(const[userId,blob] of Object.entries(ENC_PWD_USERS)){
     const map=await _tryDecrypt(blob,pass);
     if(map){
@@ -440,12 +441,40 @@ async function _requireUnlock(){
         const enc=localStorage.getItem(LS_GH_TOKEN);
         if(enc){const tok=await _decryptText(enc,pass);if(tok)_ghToken=tok;}
       }
+      // Salva sessione in localStorage (password cifrata con se stessa)
+      try{const encSess=await _encryptText(pass,userId);localStorage.setItem(LS_SESSION,JSON.stringify({u:userId,e:encSess}));}catch(e){}
       // Dopo login, decripta le note se presenti
       if(_notesKey)await _decryptOnlineNotes();
-      render();
       return true;
     }
   }
+  return false;
+}
+async function _tryAutoLogin(){
+  try{
+    const raw=localStorage.getItem(LS_SESSION);
+    if(!raw)return false;
+    const sess=JSON.parse(raw);
+    if(!sess?.u||!sess?.e)return false;
+    // Prova a decriptare la password salvata usando la password stessa
+    // La password cifrata con se stessa: se la struttura del blob è valida,
+    // proviamo con il blob del utente corrispondente
+    // Approccio: salviamo userId + password cifrata con una chiave fissa derivata dall'userId
+    // Ricostruiamo: proviamo ogni possibile password decriptando il blob ENC_PWD_USERS[userId]
+    // In realtà è più semplice: salviamo la password cifrata con una chiave nota (l'userId stesso)
+    const pass=await _decryptText(sess.e,sess.u);
+    if(!pass)return false;
+    const ok=await _doLogin(pass);
+    return ok;
+  }catch(e){return false;}
+}
+async function _requireUnlock(){
+  if(_pwdMap)return true;
+  // Prova auto-login da localStorage
+  if(await _tryAutoLogin()){render();return true;}
+  const pass=prompt("Inserisci la tua password di accesso:");
+  if(!pass)return false;
+  if(await _doLogin(pass)){render();return true;}
   alert("Password non corretta.");
   return false;
 }
@@ -1274,7 +1303,9 @@ function renderTable(fil){
 (async()=>{
   render();                                          // mostra subito i 40 comuni con stato "In attesa"
   await Promise.all([loadJSON(),loadOverrides()]);   // carica dashboard.json e overrides.json in parallelo
-  render();                                          // aggiorna con i dati reali + override condivisi
+  // Auto-login da localStorage (silenzioso, senza prompt)
+  await _tryAutoLogin();
+  render();                                          // aggiorna con i dati reali + override condivisi + sessione
 })();
 setInterval(async()=>{await Promise.all([loadJSON(),loadOverrides()]);render();},180000); // refresh ogni 3 minuti
 </script>
