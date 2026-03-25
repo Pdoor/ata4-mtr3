@@ -100,14 +100,14 @@ FOLDER_HINTS = {
 
 def classify_file(filepath):
     """
-    Classifica un file in base alla struttura delle cartelle dello zip.
+    Classifica un file in base SOLO alla struttura delle cartelle dello zip.
 
-    Priorità 1 — struttura cartelle (affidabile):
+    Struttura attesa:
       {Fonte}/{Allegato N - descrizione}/{filename}
-      Fonte    : "Comune" o "Gestore"
+      Fonte    : "Comune", "Gestore"/"Operatore", oppure "PEF Validato" (ATA4)
       Allegato : 1=Tool, 2=Relazione, 3=Dich.Veridicità, 4=Altre Comunicazioni
 
-    Priorità 2 — regex su nome/path completo (fallback legacy).
+    NESSUN fallback regex su nomi file — la classificazione è SOLO per cartelle.
     """
     name_lower = filepath.lower().replace("\\", "/")
     basename = os.path.basename(name_lower)
@@ -117,10 +117,17 @@ def classify_file(filepath):
         return None, None
 
     parts = name_lower.split("/")
+    if not parts:
+        return None, "sconosciuto"
 
-    # ── Priorità 1: struttura cartelle ──
+    root = parts[0].strip()
+
+    # ── ATA4: PEF Validato ──
+    if re.search(r'pef.*validat|validat.*pef', root):
+        return "pef_validato", "ata4"
+
+    # ── Comune / Gestore con sottocartelle Allegato ──
     if len(parts) >= 2:
-        root      = parts[0].strip()
         subfolder = parts[1].strip()
 
         # Fonte dalla cartella radice
@@ -156,13 +163,8 @@ def classify_file(filepath):
                 if doc_key:
                     return doc_key, source
 
-    # ── Priorità 2: regex sul path completo (legacy fallback) ──
-    for doc in DOC_PATTERNS:
-        for pat in doc["patterns"]:
-            if re.search(pat, name_lower):
-                return doc["key"], doc["source"]
-
-    # Fallback fonte: cerca indizi nel path
+    # Nessun fallback regex — solo struttura cartelle
+    # Tenta almeno di individuare la fonte dal path
     source_guess = "sconosciuto"
     for src, hints in FOLDER_HINTS.items():
         for hint in hints:
@@ -386,7 +388,7 @@ def update_comune_state(old_state, zip_hash, files, scan_time):
             classified_now.setdefault(f["doc_key"], []).append(f)
 
     # Per ogni tipo di documento possibile
-    all_doc_keys = [d["key"] for d in DOC_PATTERNS]
+    all_doc_keys = [d["key"] for d in DOC_PATTERNS] + ["pef_validato"]
     for dk in all_doc_keys:
         old_doc = old_docs.get(dk, {})
         found_files = classified_now.get(dk, [])
