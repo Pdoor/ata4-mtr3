@@ -110,6 +110,31 @@ button{cursor:pointer;font-family:var(--f)}input,select,textarea{font-family:var
 .notes-lbl{font-size:11px;color:var(--t3);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.05em}
 .notes-area{width:100%;height:72px;padding:8px 10px;border-radius:8px;border:1px solid var(--b2);background:var(--s2);color:var(--t);font-size:12px;resize:vertical;outline:0}
 .notes-area:focus{border-color:var(--blue)}
+.note-item{background:var(--s2);border:1px solid var(--b);border-radius:8px;padding:9px 11px;margin-bottom:6px;position:relative}
+.note-item:hover{border-color:var(--b2)}
+.note-cat{font-size:9px;font-weight:700;padding:1px 6px;border-radius:3px;text-transform:uppercase;letter-spacing:.04em;display:inline-block;margin-right:6px}
+.note-cat.cat-comune{background:#1e3a5f;color:#93c5fd}
+.note-cat.cat-gestore{background:#052e16;color:#86efac}
+.note-cat.cat-pef{background:#431407;color:#fdba74}
+.note-date{font-size:10px;color:var(--t4);font-family:var(--m)}
+.note-text{font-size:12px;color:var(--t);margin-top:4px;line-height:1.4;white-space:pre-wrap}
+.note-actions{position:absolute;top:7px;right:8px;display:flex;gap:3px;opacity:0;transition:.15s}
+.note-item:hover .note-actions{opacity:1}
+.note-act{background:0;border:0;color:var(--t4);font-size:12px;cursor:pointer;padding:2px 4px;border-radius:3px;line-height:1}
+.note-act:hover{color:var(--t);background:var(--b)}
+.note-add{display:flex;align-items:center;gap:6px;padding:7px 12px;border-radius:7px;border:1px dashed var(--b2);background:0;color:var(--t3);font-size:11px;cursor:pointer;width:100%;transition:.15s;font-family:var(--f)}
+.note-add:hover{border-color:var(--blue);color:var(--blue);background:var(--s2)}
+.note-form{background:#0d1b2a;border:1px solid var(--blue);border-radius:8px;padding:10px 12px;margin-top:6px;animation:sd .15s ease}
+.note-form-row{display:flex;gap:8px;align-items:center;margin-bottom:7px;flex-wrap:wrap}
+.note-form-row:last-child{margin-bottom:0}
+.note-cat-btn{padding:4px 10px;border-radius:5px;border:1px solid var(--b2);background:var(--b);color:var(--t3);font-size:10px;cursor:pointer;font-weight:600;transition:.15s;font-family:var(--f)}
+.note-cat-btn.sel{border-color:var(--blue);background:#1e3a5f;color:#93c5fd}
+.note-children{margin-left:18px;border-left:2px solid var(--b);padding-left:10px;margin-top:4px}
+.note-reply-btn{background:0;border:0;color:var(--t4);font-size:10px;cursor:pointer;padding:1px 5px;border-radius:3px;font-family:var(--f);transition:.1s;margin-top:3px}
+.note-reply-btn:hover{color:var(--blue);background:var(--b)}
+.note-author{font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px;background:var(--b);color:var(--t2);margin-right:4px}
+.note-author-btn{padding:4px 10px;border-radius:5px;border:1px solid var(--b2);background:var(--b);color:var(--t3);font-size:10px;cursor:pointer;font-weight:700;transition:.15s;font-family:var(--f)}
+.note-author-btn.sel{border-color:var(--pur);background:#2e1065;color:#c4b5fd}
 .tw{overflow-x:auto;border-radius:11px;border:1px solid var(--b)}
 .pwd-btn{margin-left:10px;padding:2px 9px;border-radius:5px;border:1px solid var(--b2);background:0;color:var(--t4);font-size:11px;cursor:pointer;transition:.15s;font-family:var(--f);vertical-align:middle}
 .pwd-btn:hover{border-color:var(--pur);color:var(--pur)}
@@ -236,7 +261,7 @@ const EV_STYLE={
 // ── Note locali (localStorage) ──
 const LS_NOTES="ata4_notes_v1";
 let LOCAL_NOTES={};
-try{const n=localStorage.getItem(LS_NOTES);if(n)LOCAL_NOTES=JSON.parse(n);}catch(e){}
+try{const n=localStorage.getItem(LS_NOTES);if(n)LOCAL_NOTES=_migrateNotes(JSON.parse(n));}catch(e){}
 function saveNotes(){try{localStorage.setItem(LS_NOTES,JSON.stringify(LOCAL_NOTES));}catch(e){}}
 
 // ── Scadenze locali (localStorage) ──
@@ -261,6 +286,36 @@ let _sessionPass=null;     // master password (in memoria per la sessione)
 let editingOv=null;        // {id, key} del documento in modifica
 let _ovSaving=false;       // flag UI durante salvataggio remoto
 let _notesSaveTimer=null;  // debounce timer per salvataggio note online
+let editingNote=null;      // {comuneId, idx} nota in modifica, oppure {comuneId, idx:-1} per nuova
+const NOTE_CATS=[
+  {key:"comune",  label:"Comune",         cls:"cat-comune"},
+  {key:"gestore", label:"Gestore",        cls:"cat-gestore"},
+  {key:"pef",     label:"PEF da Validare",cls:"cat-pef"},
+];
+const NOTE_AUTHORS=[
+  {key:"GM",label:"GM"},
+  {key:"GN",label:"GN"},
+];
+function _migrateNotes(obj){
+  // Converte formato vecchio (stringa) → nuovo (array di oggetti con children)
+  if(!obj)return{};
+  const out={};
+  for(const[k,v] of Object.entries(obj)){
+    if(typeof v==="string"&&v.trim()){
+      out[k]=[{cat:"comune",date:new Date().toISOString().slice(0,10),text:v,author:"GM",children:[]}];
+    }else if(Array.isArray(v)){
+      out[k]=v.map(n=>({...n,children:n.children||[]}));
+    }
+  }
+  return out;
+}
+function _getNotes(id){
+  const sid=String(id);
+  const online=ONLINE_NOTES[sid]||[];
+  const local=LOCAL_NOTES[sid]||[];
+  // ONLINE vince se presente, altrimenti LOCAL
+  return Array.isArray(online)&&online.length?online:Array.isArray(local)&&local.length?local:[];
+}
 
 function jsProcessabilita(s){
   if(!s?.docs)return null;
@@ -404,7 +459,7 @@ async function loadOverrides(){
       if(d&&d.docs!==undefined){
         ONLINE_OVERRIDES=d.docs||{};
         ONLINE_SCADENZE=d.scadenze||{};
-        ONLINE_NOTES=d.notes||{};
+        ONLINE_NOTES=_migrateNotes(d.notes||{});
       }else{
         ONLINE_OVERRIDES=d||{};
       }
@@ -513,7 +568,7 @@ function exportCSV(){
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
       s?.last_scan_error?"SI":"",
-      (ONLINE_NOTES[c.id]||LOCAL_NOTES[c.id]||"").replace(/[\n\r]+/g," ")
+      (function flatNotes(arr,depth){return arr.map(n=>(" ".repeat(depth))+n.author+" ["+n.cat+"] "+n.date+": "+n.text+(n.children?.length?"\n"+flatNotes(n.children,depth+1):"")).join("\n");}(_getNotes(c.id),0)).replace(/[\n\r]+/g," | ")
     ]);
   });
   const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(";")).join("\n");
@@ -723,9 +778,11 @@ function renderCard(c){
     if(lastC)parts.push("C: "+fmtDate(lastC));
     card.appendChild(h("div",{className:"cd-footer dates"},parts.join(" · ")));
   }
-  const _cardNote=ONLINE_NOTES[c.id]||LOCAL_NOTES[c.id];
-  if(_cardNote){
-    const n=_cardNote;
+  const _cardNotes=_getNotes(c.id);
+  if(_cardNotes.length){
+    const last=_cardNotes[0]; // prima nota (ordinate per data desc)
+    const catLbl=NOTE_CATS.find(x=>x.key===last.cat)?.label||"";
+    const n=(last.author?last.author+" · ":"")+(catLbl?"["+catLbl+"] ":"")+last.text;
     card.appendChild(h("div",{className:"cd-footer notes"},n.length>80?n.slice(0,80)+"…":n));
   }
   return card;
@@ -776,18 +833,74 @@ function renderDetail(id){
       "Nessun dato ancora: questo comune non è stato scansionato. La prima scansione automatica popolerà questa scheda."));
   }
 
-  // Note (ONLINE ha priorità su LOCAL, salvataggio con debounce)
+  // Note strutturate ad albero (array di oggetti con cat/date/text/author/children)
   const nw=h("div",{className:"notes-wrap"},h("label",{className:"notes-lbl"},"Note / Anomalie / Interlocuzioni"));
-  const ta=h("textarea",{className:"notes-area",placeholder:"Note, anomalie, richieste chiarimenti…"});
-  ta.value=ONLINE_NOTES[id]||LOCAL_NOTES[id]||"";
-  ta.addEventListener("input",e=>{
-    const v=e.target.value;
-    LOCAL_NOTES[id]=v;saveNotes();
-    ONLINE_NOTES[id]=v;
-    if(_notesSaveTimer)clearTimeout(_notesSaveTimer);
-    _notesSaveTimer=setTimeout(()=>{saveOverrideOnline();_notesSaveTimer=null;},2000);
-  });
-  nw.appendChild(ta);det.appendChild(nw);
+  const notes=_getNotes(id);
+
+  function renderNoteTree(noteArr,parentPath){
+    const container=h("div",parentPath.length?{className:"note-children"}:{});
+    noteArr.forEach((note,idx)=>{
+      const path=[...parentPath,idx];
+      const pathStr=path.join(".");
+      const catCfg=NOTE_CATS.find(c=>c.key===note.cat)||NOTE_CATS[0];
+      const ni=h("div",{className:"note-item"},
+        h("div",null,
+          h("span",{className:"note-author"},note.author||"—"),
+          h("span",{className:"note-cat "+catCfg.cls},catCfg.label),
+          h("span",{className:"note-date"},fmtDate(note.date))
+        ),
+        h("div",{className:"note-text"},note.text)
+      );
+      // Pulsanti azioni (hover, protetti)
+      const acts=h("div",{className:"note-actions"});
+      acts.appendChild(h("button",{className:"note-act",title:"Rispondi",onClick:async e=>{
+        e.stopPropagation();if(!await _requireUnlock())return;
+        editingNote={comuneId:id,path,mode:"reply"};render();
+      }},"↩"));
+      acts.appendChild(h("button",{className:"note-act",title:"Modifica",onClick:async e=>{
+        e.stopPropagation();if(!await _requireUnlock())return;
+        editingNote={comuneId:id,path,mode:"edit"};render();
+      }},"✏"));
+      acts.appendChild(h("button",{className:"note-act",title:"Elimina",onClick:async e=>{
+        e.stopPropagation();if(!await _requireUnlock())return;
+        if(!confirm("Eliminare questa nota"+(note.children?.length?" e le sue risposte":"")+"?"))return;
+        const arr=JSON.parse(JSON.stringify(_getNotes(id)));
+        _removeAtPath(arr,path);
+        const sid=String(id);
+        ONLINE_NOTES[sid]=arr;LOCAL_NOTES[sid]=arr;
+        saveNotes();saveOverrideOnline();render();
+      }},"🗑"));
+      ni.appendChild(acts);
+      container.appendChild(ni);
+      // Form modifica inline
+      if(editingNote?.comuneId===id&&editingNote?.mode==="edit"&&editingNote?.path?.join(".")===pathStr){
+        container.appendChild(_renderNoteForm(id,path,"edit",note));
+      }
+      // Figli ricorsivi
+      if(note.children?.length){
+        container.appendChild(renderNoteTree(note.children,path));
+      }
+      // Form reply inline (dopo i figli)
+      if(editingNote?.comuneId===id&&editingNote?.mode==="reply"&&editingNote?.path?.join(".")===pathStr){
+        const replyWrap=h("div",{className:"note-children"});
+        replyWrap.appendChild(_renderNoteForm(id,path,"reply",null));
+        container.appendChild(replyWrap);
+      }
+    });
+    return container;
+  }
+  nw.appendChild(renderNoteTree(notes,[]));
+
+  // Pulsante "Inserisci nota" (protetto da password)
+  if(!(editingNote?.comuneId===id&&editingNote?.mode==="new")){
+    nw.appendChild(h("button",{className:"note-add",onClick:async()=>{
+      if(!await _requireUnlock())return;
+      editingNote={comuneId:id,path:[],mode:"new"};render();
+    }},"＋ Inserisci nota"));
+  }else{
+    nw.appendChild(_renderNoteForm(id,[],"new",null));
+  }
+  det.appendChild(nw);
 
   // Pannelli documenti
   const cols=h("div",{className:"det-2"});
@@ -816,6 +929,101 @@ function renderDetail(id){
     det.appendChild(ub);
   }
   return det;
+}
+
+// Navigazione albero note via path [0,2,1] = notes[0].children[2].children[1]
+function _getAtPath(arr,path){
+  let node=null;
+  let list=arr;
+  for(const idx of path){node=list[idx];list=node?.children||[];}
+  return node;
+}
+function _removeAtPath(arr,path){
+  if(path.length===1){arr.splice(path[0],1);return;}
+  const parent=_getAtPath(arr,path.slice(0,-1));
+  if(parent?.children)parent.children.splice(path[path.length-1],1);
+}
+function _setAtPath(arr,path,val){
+  if(path.length===1){arr[path[0]]=val;return;}
+  const parent=_getAtPath(arr,path.slice(0,-1));
+  if(parent?.children)parent.children[path[path.length-1]]=val;
+}
+
+function _renderNoteForm(comuneId,path,mode,existing){
+  const isNew=mode==="new"||mode==="reply";
+  let cat=existing?.cat||"comune";
+  let date=existing?.date||new Date().toISOString().slice(0,10);
+  let text=existing?.text||"";
+  let author=existing?.author||NOTE_AUTHORS[0].key;
+  const titleMap={new:"Nuova nota",edit:"Modifica nota",reply:"Rispondi alla nota"};
+  const form=h("div",{className:"note-form"});
+  form.appendChild(h("div",{style:{fontSize:"10px",color:"var(--blue)",marginBottom:"5px",fontWeight:"600"}},titleMap[mode]||"Nota"));
+  // Sync GitHub indicator
+  form.appendChild(h("div",{style:{fontSize:"9px",color:_ghToken?"var(--gd)":"var(--t4)",marginBottom:"7px"}},
+    _ghToken?"☁ Sincronizzazione GitHub attiva":"⚠ Solo locale — configura ⚙ Token GH per condividere"));
+  // Autore
+  const authRow=h("div",{className:"note-form-row"});
+  authRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Autore:"));
+  NOTE_AUTHORS.forEach(a=>{
+    const btn=h("button",{className:"note-author-btn"+(author===a.key?" sel":""),onClick:()=>{
+      author=a.key;
+      authRow.querySelectorAll(".note-author-btn").forEach(b=>b.classList.remove("sel"));
+      btn.classList.add("sel");
+    }},a.label);
+    authRow.appendChild(btn);
+  });
+  form.appendChild(authRow);
+  // Categoria
+  const catRow=h("div",{className:"note-form-row"});
+  catRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Riferimento:"));
+  NOTE_CATS.forEach(c=>{
+    const btn=h("button",{className:"note-cat-btn"+(cat===c.key?" sel":""),onClick:()=>{
+      cat=c.key;
+      catRow.querySelectorAll(".note-cat-btn").forEach(b=>b.classList.remove("sel"));
+      btn.classList.add("sel");
+    }},c.label);
+    catRow.appendChild(btn);
+  });
+  form.appendChild(catRow);
+  // Data
+  const dateRow=h("div",{className:"note-form-row"});
+  dateRow.appendChild(h("span",{style:{fontSize:"10px",color:"var(--t3)"}},"Data:"));
+  const dateInp=h("input",{className:"ov-inp",type:"date",value:date});
+  dateInp.addEventListener("change",e=>{date=e.target.value;});
+  dateRow.appendChild(dateInp);
+  form.appendChild(dateRow);
+  // Testo
+  const ta=h("textarea",{className:"notes-area",placeholder:"Testo della nota…",style:{height:"60px",marginBottom:"7px"}});
+  ta.value=text;
+  ta.addEventListener("input",e=>{text=e.target.value;});
+  form.appendChild(ta);
+  requestAnimationFrame(()=>ta.focus());
+  // Azioni
+  const btnRow=h("div",{className:"note-form-row"});
+  btnRow.appendChild(h("button",{className:"ov-save",onClick:()=>{
+    if(!text.trim()){alert("Inserisci il testo della nota.");return;}
+    const sid=String(comuneId);
+    const arr=JSON.parse(JSON.stringify(_getNotes(comuneId)));
+    const noteObj={cat,date,text:text.trim(),author,children:[]};
+    if(mode==="new"){
+      arr.push(noteObj);
+      arr.sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+    }else if(mode==="edit"){
+      const old=_getAtPath(arr,path);
+      noteObj.children=old?.children||[];
+      _setAtPath(arr,path,noteObj);
+    }else if(mode==="reply"){
+      const parent=_getAtPath(arr,path);
+      if(!parent.children)parent.children=[];
+      parent.children.push(noteObj);
+    }
+    ONLINE_NOTES[sid]=arr;LOCAL_NOTES[sid]=arr;
+    saveNotes();saveOverrideOnline();
+    editingNote=null;render();
+  }},isNew?"✓ Salva":"✓ Aggiorna"));
+  btnRow.appendChild(h("button",{className:"ov-del",onClick:()=>{editingNote=null;render();}},"✗ Annulla"));
+  form.appendChild(btnRow);
+  return form;
 }
 
 function makeDocPanel(title,docs,s,comuneId){
