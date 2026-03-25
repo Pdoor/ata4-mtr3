@@ -1008,7 +1008,7 @@
       "processabile": "no"
     },
     "8": {
-      "last_scan": "2026-03-25T10:41:56.728231+00:00",
+      "last_scan": "2026-03-25T11:37:17.124216+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1018,7 +1018,7 @@
       }
     },
     "9": {
-      "last_scan": "2026-03-25T10:41:56.728231+00:00",
+      "last_scan": "2026-03-25T11:37:17.124216+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -1028,7 +1028,7 @@
       }
     },
     "10": {
-      "last_scan": "2026-03-25T10:41:56.728231+00:00",
+      "last_scan": "2026-03-25T11:37:17.124216+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -4053,7 +4053,7 @@
       "aggiornati": 0,
       "invariati": 5,
       "errori": 0,
-      "vuoti": 2
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
