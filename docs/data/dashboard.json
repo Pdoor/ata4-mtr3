@@ -1506,7 +1506,7 @@
     "12": {
       "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
       "content_fingerprint": "7b2d3df0e9d93ff28de58d1fddb857fd51d015d392eb83c6859f5c058a59e59b",
-      "last_scan": "2026-03-27T08:57:05.946186+00:00",
+      "last_scan": "2026-03-27T09:59:36.664090+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1722,6 +1722,12 @@
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-27T09:59:36.664090+00:00",
+          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -1738,7 +1744,7 @@
     "13": {
       "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
       "content_fingerprint": "17f5bdfd12ee5114650f7e99915952e0dbf773a8980e20a36c267250d020f082",
-      "last_scan": "2026-03-27T08:57:05.946186+00:00",
+      "last_scan": "2026-03-27T09:59:36.664090+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1967,6 +1973,12 @@
           "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-27T09:59:36.664090+00:00",
+          "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -1981,10 +1993,10 @@
       "processabile": "no"
     },
     "14": {
-      "zip_hash": "befc2e11cae8ca73e7c46d107b2050b858ad165a1d456974031c5f37f4a1f2e0",
-      "content_fingerprint": "15d186e5b422f1d2daeb4d87718df1e158181e320caef80da097bf7d50bf593b",
-      "last_scan": "2026-03-27T08:57:05.946186+00:00",
-      "zip_changed": false,
+      "zip_hash": "e96e931dc71d74de5cbd098f52a2b1cd55a27594eaa21b55f09944539767e0f7",
+      "content_fingerprint": "6b650377eb5163d24fb613a38ad98bad296f9d8c397aa34e4a5b6d2944d70d0e",
+      "last_scan": "2026-03-27T09:59:36.664090+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -2076,13 +2088,46 @@
           "status": "missing"
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "7032d49d1ecd5d7f00d1c83e1b650c66b7cb014ce009fae1d946037598125842",
+          "current_file": "Allegato_4_Dichiarazione Veridicita Comuni_signed.pdf",
+          "current_size": 179114,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_Dichiarazione Veridicita Comuni_signed.pdf",
+              "hash": "7032d49d1ecd5d7f00d1c83e1b650c66b7cb014ce009fae1d946037598125842",
+              "size": 179114
+            }
+          ],
+          "first_upload": "2026-03-27T09:59:36.664090+00:00",
+          "last_upload": "2026-03-27T09:59:36.664090+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-27T09:59:36.664090+00:00",
+              "hash": "7032d49d1ecd5d7f00d1c83e1b650c66b7cb014ce009fae1d946037598125842",
+              "file": "Allegato_4_Dichiarazione Veridicita Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_4_Dichiarazione Veridicita Comuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_Dichiarazione Veridicita Comuni_signed.pdf",
+          "hash": "7032d49d1ecd5d7f00d1c83e1b650c66b7cb014ce009fae1d946037598125842",
+          "size": 179114,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
@@ -2212,6 +2257,12 @@
           "zip_hash": "befc2e11cae8ca73e7c46d107b2050b858ad165a1d456974031c5f37f4a1f2e0",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-27T09:59:36.664090+00:00",
+          "zip_hash": "e96e931dc71d74de5cbd098f52a2b1cd55a27594eaa21b55f09944539767e0f7",
+          "changed": true,
+          "file_count": 5
         }
       ],
       "unclassified_files": [],
@@ -2226,7 +2277,7 @@
       "processabile": "no"
     },
     "15": {
-      "last_scan": "2026-03-27T08:57:05.946186+00:00",
+      "last_scan": "2026-03-27T09:59:36.664090+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -5080,11 +5131,11 @@
   "meta": {
     "last_scan": "2026-03-27T09:59:36.664090+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 8,
+      "aggiornati": 1,
+      "invariati": 7,
       "errori": 0,
-      "vuoti": 6
+      "vuoti": 7
     },
     "total_comuni": 40,
     "scadenze": {
