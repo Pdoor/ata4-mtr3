@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
       "content_fingerprint": "0bfcdc72940b7348f09519d8357c33582cf47f98d182ad563fb084ba451cfad3",
-      "last_scan": "2026-03-30T11:04:50.835360+00:00",
+      "last_scan": "2026-03-30T13:25:57.313917+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -122,14 +122,14 @@
         "gestore": "RIECO",
         "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2"
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "no",
-      "last_scan_empty": true
+      "last_scan_empty": false
     },
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
       "content_fingerprint": "27febbff330d1fcb7db2fd71d1ea6a639e320c8bf1f6a0419b9535ccca357c2f",
-      "last_scan": "2026-03-30T11:04:50.835360+00:00",
+      "last_scan": "2026-03-30T13:25:57.313917+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -548,13 +548,14 @@
         "url": "https://www.provincia.fm.it/drive/7cfl6rwmfexi",
         "id": 2
       },
-      "last_scan_error": false,
-      "processabile": "no"
+      "last_scan_error": true,
+      "processabile": "no",
+      "last_scan_empty": false
     },
     "3": {
       "zip_hash": "a0c1dda741b1fe3dc153d6542900a12c4d8781e70e7834b1885b56f55b6b3585",
       "content_fingerprint": "2355f7d4ad86d889eed3bdfa4f8fe105548c76c26c082e7e8d0d9ba6a99b1154",
-      "last_scan": "2026-03-30T11:04:50.835360+00:00",
+      "last_scan": "2026-03-30T13:25:57.313917+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1049,13 +1050,14 @@
         "url": "https://www.provincia.fm.it/drive/72j0e9z4772d",
         "id": 3
       },
-      "last_scan_error": false,
-      "processabile": "no"
+      "last_scan_error": true,
+      "processabile": "no",
+      "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-03-30T11:04:50.835360+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-03-30T13:25:57.313917+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Campofilone",
         "gestore": "RIECO",
@@ -1065,7 +1067,7 @@
     "5": {
       "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
       "content_fingerprint": "3f0eeb6d617dabded3dfd2d19bb39879f241c83dbd47d686f252b90557c68948",
-      "last_scan": "2026-03-30T11:04:50.835360+00:00",
+      "last_scan": "2026-03-30T13:25:57.313917+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1555,7 +1557,7 @@
         "url": "https://www.provincia.fm.it/drive/71ma4xgfc4br",
         "id": 5
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -9337,13 +9339,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-30T11:04:50.835360+00:00",
+    "last_scan": "2026-03-30T13:25:57.313917+00:00",
     "results": {
-      "scansionati": 22,
+      "scansionati": 0,
       "aggiornati": 0,
-      "invariati": 22,
-      "errori": 0,
-      "vuoti": 18
+      "invariati": 0,
+      "errori": 5,
+      "vuoti": 0
     },
     "total_comuni": 40,
     "scadenze": {
