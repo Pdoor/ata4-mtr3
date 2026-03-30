@@ -5864,7 +5864,7 @@
       }
     },
     "26": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -5876,7 +5876,7 @@
     "27": {
       "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
       "content_fingerprint": "4ac9c2bcfabdaae623892ba6c5dabc084b1a4b79730d8274d64e41832974a743",
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -6254,6 +6254,12 @@
           "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -6268,7 +6274,7 @@
       "processabile": "no"
     },
     "28": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -6278,14 +6284,150 @@
       }
     },
     "29": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Ortezzano",
         "gestore": "ECO INNOVA SRL",
-        "url": "https://www.provincia.fm.it/drive/7s5e5627fjs"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/7s5e5627fjs",
+        "id": 29
+      },
+      "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
+      "content_fingerprint": "87cf5a52b08e2567dfcbd2e80629a60cf816b67d032035bfba34465dec9cbbef",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "fe35e453e619947d4cbc2572c85be73c4ad38b4c10dd307fce8445e2e1c8bd5b",
+          "current_file": "ORTEZZANO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3972301,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "ORTEZZANO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "fe35e453e619947d4cbc2572c85be73c4ad38b4c10dd307fce8445e2e1c8bd5b",
+              "size": 3972301
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "fe35e453e619947d4cbc2572c85be73c4ad38b4c10dd307fce8445e2e1c8bd5b",
+              "file": "ORTEZZANO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "7bbecc6858b0f528a169a444271dc9ca62676808f4ee651b2c807e5b0308d7f3",
+          "current_file": "ORTEZZANO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf",
+          "current_size": 265710,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "ORTEZZANO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf",
+              "hash": "7bbecc6858b0f528a169a444271dc9ca62676808f4ee651b2c807e5b0308d7f3",
+              "size": 265710
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "7bbecc6858b0f528a169a444271dc9ca62676808f4ee651b2c807e5b0308d7f3",
+              "file": "ORTEZZANO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "e5b000a69d3eb9e0e7e87dd9a91204cc0dc7a125daf112db76b50801b28a1234",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.docx.p7m",
+          "current_size": 33751,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.docx.p7m",
+              "hash": "e5b000a69d3eb9e0e7e87dd9a91204cc0dc7a125daf112db76b50801b28a1234",
+              "size": 33751
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "e5b000a69d3eb9e0e7e87dd9a91204cc0dc7a125daf112db76b50801b28a1234",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.docx.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "ORTEZZANO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/ORTEZZANO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "fe35e453e619947d4cbc2572c85be73c4ad38b4c10dd307fce8445e2e1c8bd5b",
+          "size": 3972301,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "ORTEZZANO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/ORTEZZANO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf",
+          "hash": "7bbecc6858b0f528a169a444271dc9ca62676808f4ee651b2c807e5b0308d7f3",
+          "size": 265710,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.docx.p7m",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni.docx.p7m",
+          "hash": "e5b000a69d3eb9e0e7e87dd9a91204cc0dc7a125daf112db76b50801b28a1234",
+          "size": 33751,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "30": {
       "last_scan": "2026-03-29T18:47:25.036393+00:00",
@@ -8800,11 +8942,11 @@
   "meta": {
     "last_scan": "2026-03-30T09:15:32.512921+00:00",
     "results": {
-      "scansionati": 13,
-      "aggiornati": 1,
-      "invariati": 12,
+      "scansionati": 15,
+      "aggiornati": 2,
+      "invariati": 13,
       "errori": 0,
-      "vuoti": 12
+      "vuoti": 14
     },
     "total_comuni": 40,
     "scadenze": {
