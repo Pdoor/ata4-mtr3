@@ -6440,7 +6440,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -6452,7 +6452,7 @@
     "32": {
       "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
       "content_fingerprint": "5cd253c3ac8df436516324d0412d3c22db0ed5a7e1e1652ef562bf7337660ac5",
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -6843,6 +6843,12 @@
           "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -6859,7 +6865,7 @@
     "33": {
       "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
       "content_fingerprint": "10352595c1a9098222629291adee5f732657e4eca680f908d95c33de4636ea0a",
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7353,6 +7359,12 @@
           "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -7367,7 +7379,7 @@
       "processabile": "si"
     },
     "34": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7377,7 +7389,7 @@
       }
     },
     "35": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -7692,6 +7704,12 @@
           "zip_hash": "3dd75baf82a3b8b79117b3cb21e11772a03a7f2fc3a8dd20b87dff667622d02a",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "3dd75baf82a3b8b79117b3cb21e11772a03a7f2fc3a8dd20b87dff667622d02a",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -7700,7 +7718,7 @@
     "36": {
       "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
       "content_fingerprint": "46fc5fb46c40e29d10cfb6c08336a6245612c1015fcde4e3eb6087fc41dbfed9",
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8091,6 +8109,12 @@
           "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -8105,14 +8129,150 @@
       "processabile": "no"
     },
     "37": {
-      "last_scan": "2026-03-29T18:47:25.036393+00:00",
+      "last_scan": "2026-03-30T09:15:32.512921+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Sant'Elpidio a Mare",
         "gestore": "IMPREGICO",
-        "url": "https://www.provincia.fm.it/drive/7fb7murgsuiw"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/7fb7murgsuiw",
+        "id": 37
+      },
+      "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
+      "content_fingerprint": "7445b2b937ae661493e995c533211aac2c2376672174530199d32e04b4bb1491",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "29d484a8a8cbfc0536ab5b06b6ff1cf50e307261e26a344c9cecb3832e9cd6a1",
+          "current_file": "SantElpidio a Mare_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3968952,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "SantElpidio a Mare_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "29d484a8a8cbfc0536ab5b06b6ff1cf50e307261e26a344c9cecb3832e9cd6a1",
+              "size": 3968952
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "29d484a8a8cbfc0536ab5b06b6ff1cf50e307261e26a344c9cecb3832e9cd6a1",
+              "file": "SantElpidio a Mare_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "e398d31dddaf5f6d6fe36963d12fe61246998158826f59e98d95464f6963d4ce",
+          "current_file": "Predisposizione PEF grezzo Comune di SantElpidio a Mare.docx",
+          "current_size": 155594,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune di SantElpidio a Mare.docx",
+              "hash": "e398d31dddaf5f6d6fe36963d12fe61246998158826f59e98d95464f6963d4ce",
+              "size": 155594
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "e398d31dddaf5f6d6fe36963d12fe61246998158826f59e98d95464f6963d4ce",
+              "file": "Predisposizione PEF grezzo Comune di SantElpidio a Mare.docx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "033fcc0182c07f869d9fa2e598ce6683015efc5ecf9ba30d1e3cfb8179469926",
+          "current_file": "Dichiarazione di Veridicità.pdf",
+          "current_size": 48821,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione di Veridicità.pdf",
+              "hash": "033fcc0182c07f869d9fa2e598ce6683015efc5ecf9ba30d1e3cfb8179469926",
+              "size": 48821
+            }
+          ],
+          "first_upload": "2026-03-30T09:15:32.512921+00:00",
+          "last_upload": "2026-03-30T09:15:32.512921+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-03-30T09:15:32.512921+00:00",
+              "hash": "033fcc0182c07f869d9fa2e598ce6683015efc5ecf9ba30d1e3cfb8179469926",
+              "file": "Dichiarazione di Veridicità.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "SantElpidio a Mare_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/SantElpidio a Mare_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "29d484a8a8cbfc0536ab5b06b6ff1cf50e307261e26a344c9cecb3832e9cd6a1",
+          "size": 3968952,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di SantElpidio a Mare.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di SantElpidio a Mare.docx",
+          "hash": "e398d31dddaf5f6d6fe36963d12fe61246998158826f59e98d95464f6963d4ce",
+          "size": 155594,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione di Veridicità.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di Veridicità.pdf",
+          "hash": "033fcc0182c07f869d9fa2e598ce6683015efc5ecf9ba30d1e3cfb8179469926",
+          "size": 48821,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-03-30T09:15:32.512921+00:00",
+          "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "38": {
       "last_scan": "2026-03-29T18:47:25.036393+00:00",
@@ -8942,11 +9102,11 @@
   "meta": {
     "last_scan": "2026-03-30T09:15:32.512921+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 2,
-      "invariati": 13,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
-      "vuoti": 15
+      "vuoti": 17
     },
     "total_comuni": 40,
     "scadenze": {
