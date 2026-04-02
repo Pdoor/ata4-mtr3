@@ -4193,9 +4193,9 @@
       }
     },
     "16": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Monte San Pietrangeli",
         "gestore": "ECO ELPIDIENSE",
@@ -4203,19 +4203,155 @@
       }
     },
     "17": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monte Urano",
         "gestore": "ECO ELPIDIENSE",
-        "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz",
+        "id": 17
+      },
+      "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
+      "content_fingerprint": "61bfd0f9379cc78a0d8f5e0fa5592fb0f9f32088e3329d90e45ae5cd023dce97",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "810347c17df619895a6c805dc7561f7af4db2eb4ba557c2a3f55a1e7f2a1bde3",
+          "current_file": "Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3991297,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "810347c17df619895a6c805dc7561f7af4db2eb4ba557c2a3f55a1e7f2a1bde3",
+              "size": 3991297
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "810347c17df619895a6c805dc7561f7af4db2eb4ba557c2a3f55a1e7f2a1bde3",
+              "file": "Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "c810eb4c145c9bfd49d35f6b969836166dfd5871abbd936e3ad40b50a1704f21",
+          "current_file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
+          "current_size": 328736,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
+              "hash": "c810eb4c145c9bfd49d35f6b969836166dfd5871abbd936e3ad40b50a1704f21",
+              "size": 328736
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "c810eb4c145c9bfd49d35f6b969836166dfd5871abbd936e3ad40b50a1704f21",
+              "file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "cfd4d2dee699d43e77c31eeb280ddc6dc32000d649cf847744c9a2855fc7fd2e",
+          "current_file": "Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
+          "current_size": 133929,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
+              "hash": "cfd4d2dee699d43e77c31eeb280ddc6dc32000d649cf847744c9a2855fc7fd2e",
+              "size": 133929
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "cfd4d2dee699d43e77c31eeb280ddc6dc32000d649cf847744c9a2855fc7fd2e",
+              "file": "Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "810347c17df619895a6c805dc7561f7af4db2eb4ba557c2a3f55a1e7f2a1bde3",
+          "size": 3991297,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
+          "hash": "c810eb4c145c9bfd49d35f6b969836166dfd5871abbd936e3ad40b50a1704f21",
+          "size": 328736,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
+          "hash": "cfd4d2dee699d43e77c31eeb280ddc6dc32000d649cf847744c9a2855fc7fd2e",
+          "size": 133929,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "18": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Monte Vidon Combatte",
         "gestore": "ECO INNOVA SRL",
@@ -4225,7 +4361,7 @@
     "19": {
       "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
       "content_fingerprint": "a078a44fd01298c7a80d62469408a8cba223a8f40ffe1848ab977d174ab90c75",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4628,6 +4764,12 @@
           "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -4638,14 +4780,14 @@
         "url": "https://www.provincia.fm.it/drive/6vl3xqxodq94",
         "id": 19
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "20": {
       "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
       "content_fingerprint": "06c5b2527188a022eed2bb8831d4a2a4b4ea12878f9f6b2eddbab01bd40e6dee",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5048,6 +5190,12 @@
           "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -5058,14 +5206,14 @@
         "url": "https://www.provincia.fm.it/drive/6hcaeqftrsla",
         "id": 20
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "21": {
       "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
       "content_fingerprint": "05af2d74c1f9c42dd7fb325413eec0a683a39d3853d0e3073182a0b87d36735b",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5468,6 +5616,12 @@
           "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -5478,14 +5632,14 @@
         "url": "https://www.provincia.fm.it/drive/5dwl3bv05h9x",
         "id": 21
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Montegiorgio",
         "gestore": "TEKNEKO",
@@ -5495,7 +5649,7 @@
     "23": {
       "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
       "content_fingerprint": "848af14939ca02ef06a617687b8a97137dcdfb956e62e9982b5b82a6940f21ca",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5885,6 +6039,12 @@
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -5895,7 +6055,7 @@
         "url": "https://www.provincia.fm.it/drive/3gku6o5lz661",
         "id": 23
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
@@ -9727,11 +9887,11 @@
   "meta": {
     "last_scan": "2026-04-02T11:19:15.277201+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 3,
-      "invariati": 7,
+      "scansionati": 15,
+      "aggiornati": 4,
+      "invariati": 11,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 8
     },
     "total_comuni": 40,
     "scadenze": {
