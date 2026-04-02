@@ -7663,9 +7663,9 @@
       "last_scan_empty": false
     },
     "33": {
-      "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
+      "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
       "content_fingerprint": "10352595c1a9098222629291adee5f732657e4eca680f908d95c33de4636ea0a",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8171,6 +8171,12 @@
           "zip_hash": "760003fb9be48d9f61b3384faf4b3b5e97fb878d2ea2c7d0076f0cf6c8cb14b6",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -8181,23 +8187,159 @@
         "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
         "id": 33
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Porto Sant'Elpidio",
         "gestore": "ECO ELPIDIENSE",
-        "url": "https://www.provincia.fm.it/drive/ga22vc27tw6"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/ga22vc27tw6",
+        "id": 34
+      },
+      "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
+      "content_fingerprint": "67bb0b8583140efa1a2ca9d5e5e631c5b43121505582752bf4194ef020b25de8",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
+          "current_file": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3969080,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
+              "size": 3969080
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
+              "file": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
+          "current_file": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
+          "current_size": 172273,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
+              "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
+              "size": 172273
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
+              "file": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
+          "current_file": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
+          "current_size": 194004,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
+              "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
+              "size": 194004
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
+              "file": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
+          "size": 3969080,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
+          "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
+          "size": 172273,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
+          "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
+          "size": 194004,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Rapagnano",
@@ -8206,9 +8348,9 @@
         "url": "https://www.provincia.fm.it/drive/6mqqhoebiss7",
         "id": 35
       },
-      "zip_hash": "3dd75baf82a3b8b79117b3cb21e11772a03a7f2fc3a8dd20b87dff667622d02a",
-      "content_fingerprint": "e03707389aae7f5fa094f6e9f10859e8b1269a5bc962bea74599a75b04b3b5bc",
-      "zip_changed": false,
+      "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
+      "content_fingerprint": "0ca980aa10e11464d1f8e702bb124f50c9d4a1bf7f92b477bedb941c0d5b5b9c",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8294,13 +8436,79 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "84267e72fc132e9e8b405c88d0ebcea741b320eb5f868bb19d31f36b79a272c7",
+          "current_file": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3970057,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "84267e72fc132e9e8b405c88d0ebcea741b320eb5f868bb19d31f36b79a272c7",
+              "size": 3970057
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "84267e72fc132e9e8b405c88d0ebcea741b320eb5f868bb19d31f36b79a272c7",
+              "file": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "2cdf5a487d49536e9805ba0096be6c8c6606c62045891756d276410d01620110",
+          "current_file": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2.docx",
+          "current_size": 193424,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2.docx",
+              "hash": "2cdf5a487d49536e9805ba0096be6c8c6606c62045891756d276410d01620110",
+              "size": 193424
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "2cdf5a487d49536e9805ba0096be6c8c6606c62045891756d276410d01620110",
+              "file": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "3783c92c1abff46076dbbabdd44c7b7633b7a225b7fc641bc53790cbe113005a",
+          "current_file": "DICHIARAZIONE VERIDICITA PEF.pdf",
+          "current_size": 504072,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DICHIARAZIONE VERIDICITA PEF.pdf",
+              "hash": "3783c92c1abff46076dbbabdd44c7b7633b7a225b7fc641bc53790cbe113005a",
+              "size": 504072
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "3783c92c1abff46076dbbabdd44c7b7633b7a225b7fc641bc53790cbe113005a",
+              "file": "DICHIARAZIONE VERIDICITA PEF.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -8310,6 +8518,30 @@
         }
       },
       "all_files": [
+        {
+          "name": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "84267e72fc132e9e8b405c88d0ebcea741b320eb5f868bb19d31f36b79a272c7",
+          "size": 3970057,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2.docx",
+          "hash": "2cdf5a487d49536e9805ba0096be6c8c6606c62045891756d276410d01620110",
+          "size": 193424,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "DICHIARAZIONE VERIDICITA PEF.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/DICHIARAZIONE VERIDICITA PEF.pdf",
+          "hash": "3783c92c1abff46076dbbabdd44c7b7633b7a225b7fc641bc53790cbe113005a",
+          "size": 504072,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx.  RAPAGNANO 2026.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx.  RAPAGNANO 2026.xlsx",
@@ -8523,15 +8755,21 @@
           "zip_hash": "3dd75baf82a3b8b79117b3cb21e11772a03a7f2fc3a8dd20b87dff667622d02a",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "36": {
       "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
       "content_fingerprint": "46fc5fb46c40e29d10cfb6c08336a6245612c1015fcde4e3eb6087fc41dbfed9",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8934,6 +9172,12 @@
           "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -8944,13 +9188,13 @@
         "url": "https://www.provincia.fm.it/drive/2ct8ban7t8x2",
         "id": 36
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "37": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Sant'Elpidio a Mare",
@@ -9092,6 +9336,12 @@
         },
         {
           "time": "2026-03-30T11:04:50.835360+00:00",
+          "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
           "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
           "changed": false,
           "file_count": 3
@@ -10047,9 +10297,9 @@
   "meta": {
     "last_scan": "2026-04-02T11:19:15.277201+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 5,
-      "invariati": 15,
+      "scansionati": 25,
+      "aggiornati": 7,
+      "invariati": 18,
       "errori": 0,
       "vuoti": 12
     },
