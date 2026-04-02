@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
       "content_fingerprint": "0bfcdc72940b7348f09519d8357c33582cf47f98d182ad563fb084ba451cfad3",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -122,14 +122,14 @@
         "gestore": "RIECO",
         "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2"
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
-      "last_scan_empty": false
+      "last_scan_empty": true
     },
     "2": {
       "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
       "content_fingerprint": "27febbff330d1fcb7db2fd71d1ea6a639e320c8bf1f6a0419b9535ccca357c2f",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -538,6 +538,12 @@
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -548,15 +554,15 @@
         "url": "https://www.provincia.fm.it/drive/7cfl6rwmfexi",
         "id": 2
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "3": {
-      "zip_hash": "a0c1dda741b1fe3dc153d6542900a12c4d8781e70e7834b1885b56f55b6b3585",
-      "content_fingerprint": "2355f7d4ad86d889eed3bdfa4f8fe105548c76c26c082e7e8d0d9ba6a99b1154",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "zip_changed": false,
+      "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
+      "content_fingerprint": "1cc9bd9b89aee794178cecaec1a33a9030db40a8e1deaacce3f550587126bc22",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -643,31 +649,59 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "d41dda0759c04e000c241a6fcaad19a977826d0cd1e66c455e558ecd5e065c3b",
+          "current_hash": "883ca0e315b161efd703929d7c2ec95c00143620b9c84e88a0b3aa5f19dc86fb",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3970522,
+          "current_size": 3970382,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "d41dda0759c04e000c241a6fcaad19a977826d0cd1e66c455e558ecd5e065c3b",
-              "size": 3970522
+              "hash": "883ca0e315b161efd703929d7c2ec95c00143620b9c84e88a0b3aa5f19dc86fb",
+              "size": 3970382
             }
           ],
           "first_upload": "2026-03-27T13:12:06.296054+00:00",
-          "last_upload": "2026-03-27T13:12:06.296054+00:00",
-          "replaced": false,
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-27T13:12:06.296054+00:00",
               "hash": "d41dda0759c04e000c241a6fcaad19a977826d0cd1e66c455e558ecd5e065c3b",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "883ca0e315b161efd703929d7c2ec95c00143620b9c84e88a0b3aa5f19dc86fb",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "cea7562f3cfdf9f9649d28ea705cfdc891634abb5143514ee284827ef6c2868a",
+          "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "current_size": 121266,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+              "hash": "cea7562f3cfdf9f9649d28ea705cfdc891634abb5143514ee284827ef6c2868a",
+              "size": 121266
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "cea7562f3cfdf9f9649d28ea705cfdc891634abb5143514ee284827ef6c2868a",
+              "file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
           "status": "received",
@@ -710,9 +744,17 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "d41dda0759c04e000c241a6fcaad19a977826d0cd1e66c455e558ecd5e065c3b",
-          "size": 3970522,
+          "hash": "883ca0e315b161efd703929d7c2ec95c00143620b9c84e88a0b3aa5f19dc86fb",
+          "size": 3970382,
           "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029.docx",
+          "hash": "cea7562f3cfdf9f9649d28ea705cfdc891634abb5143514ee284827ef6c2868a",
+          "size": 121266,
+          "doc_key": "relazione_c",
           "source": "comune"
         },
         {
@@ -1040,6 +1082,12 @@
           "zip_hash": "a0c1dda741b1fe3dc153d6542900a12c4d8781e70e7834b1885b56f55b6b3585",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1050,24 +1098,160 @@
         "url": "https://www.provincia.fm.it/drive/72j0e9z4772d",
         "id": 3
       },
-      "last_scan_error": true,
-      "processabile": "no",
+      "last_scan_error": false,
+      "processabile": "si",
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Campofilone",
         "gestore": "RIECO",
-        "url": "https://www.provincia.fm.it/drive/61jpijnphm7e"
-      }
+        "advisor": "NEOPA",
+        "url": "https://www.provincia.fm.it/drive/61jpijnphm7e",
+        "id": 4
+      },
+      "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
+      "content_fingerprint": "57f65c4dc16605fd247d66a3c4aab3d78120bc1b11e3fd30f148bec10b986482",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "17b2f5eb2f523b9c97e73a5c07c9305501eb743e744ed46eafd324e3840b1f60",
+          "current_file": "Campofilone_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3981415,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Campofilone_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "17b2f5eb2f523b9c97e73a5c07c9305501eb743e744ed46eafd324e3840b1f60",
+              "size": 3981415
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "17b2f5eb2f523b9c97e73a5c07c9305501eb743e744ed46eafd324e3840b1f60",
+              "file": "Campofilone_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "58fcd8a125c55d4dd615f19bf760f57a4bbc0b58237a2c87e5f3536db0c2b915",
+          "current_file": "Predisposizione PEF grezzo Comune di Campofilone(non ETC) 2026-2029_Allegato 2.pdf",
+          "current_size": 667712,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune di Campofilone(non ETC) 2026-2029_Allegato 2.pdf",
+              "hash": "58fcd8a125c55d4dd615f19bf760f57a4bbc0b58237a2c87e5f3536db0c2b915",
+              "size": 667712
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "58fcd8a125c55d4dd615f19bf760f57a4bbc0b58237a2c87e5f3536db0c2b915",
+              "file": "Predisposizione PEF grezzo Comune di Campofilone(non ETC) 2026-2029_Allegato 2.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "d2887dfc1173139d371afe31c0ada47df02e7ba40a9cd9b2730b94a98680038e",
+          "current_file": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "current_size": 213942,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+              "hash": "d2887dfc1173139d371afe31c0ada47df02e7ba40a9cd9b2730b94a98680038e",
+              "size": 213942
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "d2887dfc1173139d371afe31c0ada47df02e7ba40a9cd9b2730b94a98680038e",
+              "file": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Campofilone_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Campofilone_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "17b2f5eb2f523b9c97e73a5c07c9305501eb743e744ed46eafd324e3840b1f60",
+          "size": 3981415,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Campofilone(non ETC) 2026-2029_Allegato 2.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Campofilone(non ETC) 2026-2029_Allegato 2.pdf",
+          "hash": "58fcd8a125c55d4dd615f19bf760f57a4bbc0b58237a2c87e5f3536db0c2b915",
+          "size": 667712,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "hash": "d2887dfc1173139d371afe31c0ada47df02e7ba40a9cd9b2730b94a98680038e",
+          "size": 213942,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "5": {
       "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
       "content_fingerprint": "3f0eeb6d617dabded3dfd2d19bb39879f241c83dbd47d686f252b90557c68948",
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1547,6 +1731,12 @@
           "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -1557,19 +1747,170 @@
         "url": "https://www.provincia.fm.it/drive/71ma4xgfc4br",
         "id": 5
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-03-30T16:59:17.328421+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-02T11:19:15.277201+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Fermo",
         "gestore": "ASITE SURL",
-        "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm",
+        "id": 6
+      },
+      "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
+      "content_fingerprint": "0efeef30317875e02711fdf14866db3777c337cc142501d3e232a08e1f96ffeb",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "received",
+          "current_hash": "2d8a3037759b2b1ca4864cd0872f269a2a0d4c5a821b3a9073ab325e4b826997",
+          "current_file": "Asite Fermo_Tool_di_calcolo_MTR-3_2026-2029 + COnew.xlsx",
+          "current_size": 4059639,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Asite Fermo_Tool_di_calcolo_MTR-3_2026-2029 + COnew.xlsx",
+              "hash": "2d8a3037759b2b1ca4864cd0872f269a2a0d4c5a821b3a9073ab325e4b826997",
+              "size": 4059639
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "2d8a3037759b2b1ca4864cd0872f269a2a0d4c5a821b3a9073ab325e4b826997",
+              "file": "Asite Fermo_Tool_di_calcolo_MTR-3_2026-2029 + COnew.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione": {
+          "status": "received",
+          "current_hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
+          "current_file": "Relazione di accompagnamento PEF 2026-2029.pdf",
+          "current_size": 1804261,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione di accompagnamento PEF 2026-2029.pdf",
+              "hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
+              "size": 1804261
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
+              "file": "Relazione di accompagnamento PEF 2026-2029.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita": {
+          "status": "received",
+          "current_hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
+          "current_file": "all 3.pdf",
+          "current_size": 445896,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "all 3.pdf",
+              "hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
+              "size": 445896
+            }
+          ],
+          "first_upload": "2026-04-02T11:19:15.277201+00:00",
+          "last_upload": "2026-04-02T11:19:15.277201+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-02T11:19:15.277201+00:00",
+              "hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
+              "file": "all 3.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "missing"
+        },
+        "relazione_c": {
+          "status": "missing"
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Asite Fermo_Tool_di_calcolo_MTR-3_2026-2029 + COnew.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Asite Fermo_Tool_di_calcolo_MTR-3_2026-2029 + COnew.xlsx",
+          "hash": "2d8a3037759b2b1ca4864cd0872f269a2a0d4c5a821b3a9073ab325e4b826997",
+          "size": 4059639,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "all 3.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/all 3.pdf",
+          "hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
+          "size": 445896,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione di accompagnamento PEF 2026-2029.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione di accompagnamento PEF 2026-2029.pdf",
+          "hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
+          "size": 1804261,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "C.I. PARADISI ALBERTO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/C.I. PARADISI ALBERTO.pdf",
+          "hash": "7460eea5bdaa89ee493a6c2fa39bd5e7190b15795f9eb4b0054af3344b02d74c",
+          "size": 46564,
+          "doc_key": null,
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-02T11:19:15.277201+00:00",
+          "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
+          "changed": true,
+          "file_count": 4
+        }
+      ],
+      "unclassified_files": [
+        {
+          "name": "C.I. PARADISI ALBERTO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/C.I. PARADISI ALBERTO.pdf",
+          "source": "comune",
+          "size": 46564
+        }
+      ],
+      "processabile": "no"
     },
     "7": {
       "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
@@ -9354,13 +9695,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-03-30T16:59:17.328421+00:00",
+    "last_scan": "2026-04-02T11:19:15.277201+00:00",
     "results": {
-      "scansionati": 0,
-      "aggiornati": 0,
-      "invariati": 0,
-      "errori": 40,
-      "vuoti": 0
+      "scansionati": 5,
+      "aggiornati": 3,
+      "invariati": 2,
+      "errori": 0,
+      "vuoti": 1
     },
     "total_comuni": 40,
     "scadenze": {
@@ -9368,7 +9709,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
