@@ -9651,7 +9651,7 @@
       "processabile": "no"
     },
     "38": {
-      "last_scan": "2026-04-02T12:53:17.303529+00:00",
+      "last_scan": "2026-04-02T14:18:43.080827+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9663,7 +9663,7 @@
     "39": {
       "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
       "content_fingerprint": "13d0b4189df5562db7a4f819ac99252063f574b66c9c1fde162095503ec9b7ab",
-      "last_scan": "2026-04-02T12:53:17.303529+00:00",
+      "last_scan": "2026-04-02T14:18:43.080827+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10078,6 +10078,12 @@
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-02T14:18:43.080827+00:00",
+          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -10095,7 +10101,7 @@
     "40": {
       "zip_hash": "137e0882fbb3dba51fdac8f7d44d04d5136980e3f670bfcd6c25785c1ca255f9",
       "content_fingerprint": "f3913ff400868f171213acecfaf79e96f834713aaa6224db74024f771daffbae",
-      "last_scan": "2026-04-02T12:53:17.303529+00:00",
+      "last_scan": "2026-04-02T14:18:43.080827+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10603,6 +10609,12 @@
           "zip_hash": "137e0882fbb3dba51fdac8f7d44d04d5136980e3f670bfcd6c25785c1ca255f9",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-02T14:18:43.080827+00:00",
+          "zip_hash": "137e0882fbb3dba51fdac8f7d44d04d5136980e3f670bfcd6c25785c1ca255f9",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -10621,11 +10633,11 @@
   "meta": {
     "last_scan": "2026-04-02T14:18:43.080827+00:00",
     "results": {
-      "scansionati": 25,
+      "scansionati": 27,
       "aggiornati": 0,
-      "invariati": 25,
+      "invariati": 27,
       "errori": 0,
-      "vuoti": 12
+      "vuoti": 13
     },
     "total_comuni": 40,
     "scadenze": {
