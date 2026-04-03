@@ -5263,7 +5263,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-04-03T17:26:53.677963+00:00",
+      "last_scan": "2026-04-03T18:36:28.978884+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -13313,7 +13313,7 @@
       "aggiornati": 0,
       "invariati": 10,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
