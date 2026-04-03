@@ -8865,7 +8865,7 @@
     "33": {
       "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
       "content_fingerprint": "10352595c1a9098222629291adee5f732657e4eca680f908d95c33de4636ea0a",
-      "last_scan": "2026-04-03T09:45:59.166783+00:00",
+      "last_scan": "2026-04-03T10:35:35.205637+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9431,6 +9431,12 @@
           "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-03T10:35:35.205637+00:00",
+          "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -9446,7 +9452,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-04-03T09:45:59.166783+00:00",
+      "last_scan": "2026-04-03T10:35:35.205637+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -9640,13 +9646,19 @@
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-03T10:35:35.205637+00:00",
+          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-04-03T09:45:59.166783+00:00",
+      "last_scan": "2026-04-03T10:35:35.205637+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -10123,6 +10135,12 @@
           "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-03T10:35:35.205637+00:00",
+          "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -10131,7 +10149,7 @@
     "36": {
       "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
       "content_fingerprint": "46fc5fb46c40e29d10cfb6c08336a6245612c1015fcde4e3eb6087fc41dbfed9",
-      "last_scan": "2026-04-03T09:45:59.166783+00:00",
+      "last_scan": "2026-04-03T10:35:35.205637+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10594,6 +10612,12 @@
           "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-03T10:35:35.205637+00:00",
+          "zip_hash": "9649d764208c81f773695354ba9a4523c08465e7b3d420f453d5c576f9fb8e8e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -10609,7 +10633,7 @@
       "last_scan_empty": false
     },
     "37": {
-      "last_scan": "2026-04-03T09:45:59.166783+00:00",
+      "last_scan": "2026-04-03T10:35:35.205637+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -10812,6 +10836,12 @@
         },
         {
           "time": "2026-04-03T09:45:59.166783+00:00",
+          "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-04-03T10:35:35.205637+00:00",
           "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
           "changed": false,
           "file_count": 3
@@ -11887,9 +11917,9 @@
   "meta": {
     "last_scan": "2026-04-03T10:35:35.205637+00:00",
     "results": {
-      "scansionati": 20,
+      "scansionati": 25,
       "aggiornati": 0,
-      "invariati": 20,
+      "invariati": 25,
       "errori": 0,
       "vuoti": 12
     },
