@@ -9051,7 +9051,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-04-03T15:33:37.456615+00:00",
+      "last_scan": "2026-04-03T16:30:51.110925+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -9061,10 +9061,10 @@
       }
     },
     "32": {
-      "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
-      "content_fingerprint": "5cd253c3ac8df436516324d0412d3c22db0ed5a7e1e1652ef562bf7337660ac5",
-      "last_scan": "2026-04-03T15:33:37.456615+00:00",
-      "zip_changed": false,
+      "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
+      "content_fingerprint": "0c646a021f5785ee237bc2dff7efc337a6b091b8fb743592444952ca5dc02a6d",
+      "last_scan": "2026-04-03T16:30:51.110925+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -9150,19 +9150,112 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "c5a91d4e971bf448789e5ecd8cd83e5861a862686610d1422710d32eaef6dacc",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PONZANO_DI_FERMO_FM.xlsx",
+          "current_size": 4697724,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PONZANO_DI_FERMO_FM.xlsx",
+              "hash": "c5a91d4e971bf448789e5ecd8cd83e5861a862686610d1422710d32eaef6dacc",
+              "size": 4697724
+            }
+          ],
+          "first_upload": "2026-04-03T16:30:51.110925+00:00",
+          "last_upload": "2026-04-03T16:30:51.110925+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-03T16:30:51.110925+00:00",
+              "hash": "c5a91d4e971bf448789e5ecd8cd83e5861a862686610d1422710d32eaef6dacc",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PONZANO_DI_FERMO_FM.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "d31ad60ea7c4f18f16ece4fb452bf67ad6b402a0dc719b88f21f1ad0605b8878",
+          "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_PONZANO_DI_FERMO_FM.docx",
+          "current_size": 1052693,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_PONZANO_DI_FERMO_FM.docx",
+              "hash": "d31ad60ea7c4f18f16ece4fb452bf67ad6b402a0dc719b88f21f1ad0605b8878",
+              "size": 1052693
+            }
+          ],
+          "first_upload": "2026-04-03T16:30:51.110925+00:00",
+          "last_upload": "2026-04-03T16:30:51.110925+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-03T16:30:51.110925+00:00",
+              "hash": "d31ad60ea7c4f18f16ece4fb452bf67ad6b402a0dc719b88f21f1ad0605b8878",
+              "file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_PONZANO_DI_FERMO_FM.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "180242b4e96c9f6a1275fe858d3359cefcb087369999e3810b59660eb5691158",
+          "current_file": "Allegato_4_Dichiarazione di veridicita_comuni_PONZANO_DI_FERMO_FM_signed.pdf",
+          "current_size": 117845,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_Dichiarazione di veridicita_comuni_PONZANO_DI_FERMO_FM_signed.pdf",
+              "hash": "180242b4e96c9f6a1275fe858d3359cefcb087369999e3810b59660eb5691158",
+              "size": 117845
+            }
+          ],
+          "first_upload": "2026-04-03T16:30:51.110925+00:00",
+          "last_upload": "2026-04-03T16:30:51.110925+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-03T16:30:51.110925+00:00",
+              "hash": "180242b4e96c9f6a1275fe858d3359cefcb087369999e3810b59660eb5691158",
+              "file": "Allegato_4_Dichiarazione di veridicita_comuni_PONZANO_DI_FERMO_FM_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PONZANO_DI_FERMO_FM.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PONZANO_DI_FERMO_FM.xlsx",
+          "hash": "c5a91d4e971bf448789e5ecd8cd83e5861a862686610d1422710d32eaef6dacc",
+          "size": 4697724,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_PONZANO_DI_FERMO_FM.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029_PONZANO_DI_FERMO_FM.docx",
+          "hash": "d31ad60ea7c4f18f16ece4fb452bf67ad6b402a0dc719b88f21f1ad0605b8878",
+          "size": 1052693,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_Dichiarazione di veridicita_comuni_PONZANO_DI_FERMO_FM_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_Dichiarazione di veridicita_comuni_PONZANO_DI_FERMO_FM_signed.pdf",
+          "hash": "180242b4e96c9f6a1275fe858d3359cefcb087369999e3810b59660eb5691158",
+          "size": 117845,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
@@ -9562,6 +9655,12 @@
           "zip_hash": "a43953cdfe27679705f89ef3fb1478bb7304b64208a58b22be84ff5cd39a42bf",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-03T16:30:51.110925+00:00",
+          "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -9573,7 +9672,7 @@
         "id": 32
       },
       "last_scan_error": false,
-      "processabile": "no",
+      "processabile": "si",
       "last_scan_empty": false
     },
     "33": {
@@ -12946,11 +13045,11 @@
   "meta": {
     "last_scan": "2026-04-03T16:30:51.110925+00:00",
     "results": {
-      "scansionati": 19,
-      "aggiornati": 0,
+      "scansionati": 20,
+      "aggiornati": 1,
       "invariati": 19,
       "errori": 0,
-      "vuoti": 11
+      "vuoti": 12
     },
     "total_comuni": 40,
     "scadenze": {
