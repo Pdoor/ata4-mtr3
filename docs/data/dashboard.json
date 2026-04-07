@@ -13965,7 +13965,7 @@
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-04-07T18:51:48.320585+00:00",
+      "last_scan": "2026-04-07T19:52:36.539156+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -20143,7 +20143,7 @@
       "aggiornati": 0,
       "invariati": 20,
       "errori": 0,
-      "vuoti": 9
+      "vuoti": 10
     },
     "total_comuni": 40,
     "scadenze": {
