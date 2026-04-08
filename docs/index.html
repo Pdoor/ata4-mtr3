@@ -366,9 +366,10 @@ function applyOverrides(id,s){
     const ov=merged[k];
     // Workflow validazione PEF: date manuali per step non-scanner
     if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null};return;}
-    // Lo scanner vince sempre: l'override vale solo come tappabuchi
-    // quando lo script non ha trovato il documento (missing/removed/assente)
-    if(base.docs[docKey]?.status==="received")return;
+    // Lo scanner vince solo se l'override NON sta degradando lo stato.
+    // Un override esplicito (es. "missing") riflette una decisione manuale
+    // successiva allo scan e deve prevalere.
+    if(base.docs[docKey]?.status==="received" && ov.status==="received")return;
     base.docs[docKey]={...(base.docs[docKey]||{}),status:ov.status,
       first_upload:ov.date||base.docs[docKey]?.first_upload||null,
       last_upload:ov.date||base.docs[docKey]?.last_upload||null,
