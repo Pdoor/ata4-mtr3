@@ -364,6 +364,8 @@ function applyOverrides(id,s){
   keys.forEach(k=>{
     const docKey=k.slice(sid.length+1);
     const ov=merged[k];
+    // Flag OneDrive: boolean manuale, non è un documento
+    if(docKey==="ondrive"){base.cart_ondrive=ov.ondrive===true;base.cart_ondrive_by=ov.by||null;base.cart_ondrive_at=ov.at||null;return;}
     // Workflow validazione PEF: date manuali per step non-scanner
     if(docKey.indexOf("wf_")===0){const wfKey=docKey.slice(3);if(!base.workflow)base.workflow={};base.workflow[wfKey]={date:ov.date||null,by:ov.by||null,at:ov.at||null};return;}
     // Lo scanner vince solo se l'override NON sta degradando lo stato.
@@ -653,6 +655,7 @@ function getFiltered(){
     if(fStat==="wfstart"&&getWorkflowProgress(s)===0)return false;
     if(fStat==="wfpending"){const _p=getWorkflowProgress(s);if(_p===0||_p===WORKFLOW_STEPS.length)return false;}
     if(fStat==="wfdelib"&&getWorkflowProgress(s)!==WORKFLOW_STEPS.length)return false;
+    if(fStat==="odko"){const hasReceived=s&&ALL_DOCS.some(d=>getDocSt(s,d.key).status==="received");if(!hasReceived||s?.cart_ondrive===true)return false;}
     return true;
   });
 }
@@ -679,7 +682,7 @@ function getStats(){
 
 // ── Export CSV ──
 function exportCSV(){
-  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","WF Fase","WF Grezzi OD","WF Avvio","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
+  const rows=[["#","Comune","Gestore","Advisor","G:Tool","G:Rel","G:Dich","G:Altre","C:Tool","C:Rel","C:Dich","C:Altre","PEF Validato","%","Processabile","Primo Upload","Ultimo G","Ultimo C","Timeout","OneDrive","WF Fase","WF Grezzi OD","WF Avvio","WF Comune","WF Conferma","WF Drive Prov","WF Delibera","Note"]];
   COMUNI.forEach(c=>{
     const s=getEffectiveState(c.id),p=pct(s);
     const firstUp=s?ALL_DOCS.map(d=>getDocSt(s,d.key).first_upload).filter(Boolean).sort()[0]:null;
@@ -692,6 +695,7 @@ function exportCSV(){
       p+"%",s?.processabile?PR[s.processabile]?.label||"":"-",
       fmtDate(firstUp),fmtDate(lastG),fmtDate(lastC),
       s?.last_scan_error?"SI":"",
+      s?.cart_ondrive===true?"SI":"",
       getWorkflowProgress(s)+"/"+WORKFLOW_STEPS.length,
       ...WORKFLOW_STEPS.map(st=>{const w=getWorkflowStep(s,st);return w.date||"";}),
       (function flatNotes(arr,depth){return arr.map(n=>(" ".repeat(depth))+n.author+" ["+n.cat+"] "+n.date+": "+n.text+(n.children?.length?"\n"+flatNotes(n.children,depth+1):"")).join("\n");}(_getNotes(c.id),0)).replace(/[\n\r]+/g," | ")
@@ -857,7 +861,7 @@ function render(){
   gs.appendChild(h("option",{value:"all"},"Tutti i gestori"));
   getGestori().forEach(g=>{const o=h("option",{value:g},g);if(g===fGest)o.selected=true;gs.appendChild(o)});
   const ss=h("select",{className:"fi",onChange:e=>{fStat=e.target.value;render()}});
-  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"wfstart",l:"WF: Avviato"},{v:"wfpending",l:"WF: In corso"},{v:"wfdelib",l:"WF: Deliberati"}].forEach(o=>{
+  [{v:"all",l:"Tutti"},{v:"completo",l:"Completi"},{v:"incompleto",l:"Incompleti"},{v:"vuoto",l:"Nessun doc"},{v:"nodata",l:"In attesa scan"},{v:"timeout",l:"Solo timeout"},{v:"empty",l:"Cartella vuota"},{v:"wfstart",l:"WF: Avviato"},{v:"wfpending",l:"WF: In corso"},{v:"wfdelib",l:"WF: Deliberati"},{v:"odko",l:"Disponibile su ONEDRIVE"}].forEach(o=>{
     const opt=h("option",{value:o.v},o.l);if(o.v===fStat)opt.selected=true;ss.appendChild(opt)});
   main.appendChild(h("div",{className:"fil"},si,gs,ss,h("span",{className:"fc"},fil.length+"/"+st.total)));
 
@@ -889,6 +893,7 @@ function renderCard(c){
       h("div",{style:{display:"flex",alignItems:"center",gap:"6px"}},
         h("span",{className:"cd-pct",style:{color:col}},s!==null?p+"%":"—"),
         pc?h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label):null,
+        s?.cart_ondrive===true?h("span",{className:"badge",style:{background:"#14532d",color:"#86efac"},title:"Copiato su OneDrive"+(s.cart_ondrive_by?" da "+s.cart_ondrive_by:"")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"")},"☁ OD"):null,
         (function(){const _p=getWorkflowProgress(s),_t=WORKFLOW_STEPS.length;if(_p===0)return null;const _bg=_p===_t?"#14532d":"#78350f",_fg=_p===_t?"#86efac":"#fde68a";return h("span",{className:"badge",style:{background:_bg,color:_fg},title:"Workflow: "+_p+"/"+_t+" fasi completate"},"⚙ "+_p+"/"+_t);})()
       )
     ),
@@ -1362,7 +1367,7 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1389,6 +1394,27 @@ function renderTable(fil){
     if(pc)ptd.appendChild(h("span",{className:"badge",style:{background:pc.bg,color:pc.color}},pc.label));
     else ptd.appendChild(h("span",{style:{color:"var(--t4)",fontSize:"10px"}},"—"));
     tr.appendChild(ptd);
+    // Colonna OneDrive: checkbox modificabile da admin
+    const odtd=h("td",{style:{textAlign:"center"}});
+    const odChk=h("input",{type:"checkbox"});
+    odChk.checked=s?.cart_ondrive===true;
+    odChk.disabled=_userRole!=="admin";
+    if(s?.cart_ondrive_by||s?.cart_ondrive_at){
+      odtd.title="Segnato da "+(s.cart_ondrive_by||"?")+(s.cart_ondrive_at?" il "+fmtDate(s.cart_ondrive_at):"");
+    }
+    odChk.addEventListener("click",e=>e.stopPropagation());
+    odChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_ondrive";
+      if(e.target.checked){
+        const v={ondrive:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odtd.appendChild(odChk);tr.appendChild(odtd);
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
