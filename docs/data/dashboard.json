@@ -11023,7 +11023,7 @@
     "20": {
       "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
       "content_fingerprint": "06c5b2527188a022eed2bb8831d4a2a4b4ea12878f9f6b2eddbab01bd40e6dee",
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11158,12 +11158,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-04T10:24:49.086185+00:00",
-          "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-04T11:23:23.745463+00:00",
           "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
           "changed": false,
@@ -11756,6 +11750,12 @@
           "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-14T11:55:35.989813+00:00",
+          "zip_hash": "2f7faf35ecdbd523afed919c046cff86e1e818c3cb529ab759ed6fbefd85f133",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -11771,10 +11771,10 @@
       "last_scan_empty": false
     },
     "21": {
-      "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
-      "content_fingerprint": "05af2d74c1f9c42dd7fb325413eec0a683a39d3853d0e3073182a0b87d36735b",
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
-      "zip_changed": false,
+      "zip_hash": "979685528840fc715157b1093bd1c64d08300d714b33c6f2677a45ea4b1d2847",
+      "content_fingerprint": "5d4f63047c54e7566226f96cf3dd8c8e1354e258a97dff7d81f3b0732e9710ec",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -11860,19 +11860,112 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "d2b2b17466f9b7c15b19f98750ef8aaf55da4b39a6027fc7e62844b9011ef3dd",
+          "current_file": "MONTEFORTINO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3982072,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "MONTEFORTINO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "d2b2b17466f9b7c15b19f98750ef8aaf55da4b39a6027fc7e62844b9011ef3dd",
+              "size": 3982072
+            }
+          ],
+          "first_upload": "2026-04-14T11:55:35.989813+00:00",
+          "last_upload": "2026-04-14T11:55:35.989813+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-14T11:55:35.989813+00:00",
+              "hash": "d2b2b17466f9b7c15b19f98750ef8aaf55da4b39a6027fc7e62844b9011ef3dd",
+              "file": "MONTEFORTINO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "084f084a5fc796a54a795c06cf5f073b5786f7bbc5665e38572e2781e9db602b",
+          "current_file": "Allegato2 Relazione accompagnamento Comune di Montefortino.pdf",
+          "current_size": 202045,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2 Relazione accompagnamento Comune di Montefortino.pdf",
+              "hash": "084f084a5fc796a54a795c06cf5f073b5786f7bbc5665e38572e2781e9db602b",
+              "size": 202045
+            }
+          ],
+          "first_upload": "2026-04-14T11:55:35.989813+00:00",
+          "last_upload": "2026-04-14T11:55:35.989813+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-14T11:55:35.989813+00:00",
+              "hash": "084f084a5fc796a54a795c06cf5f073b5786f7bbc5665e38572e2781e9db602b",
+              "file": "Allegato2 Relazione accompagnamento Comune di Montefortino.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "86cd189ddf2890cf4c41447c0bca38cbe2e5fee9a5b6517b85752378a9fe0998",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 119003,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "86cd189ddf2890cf4c41447c0bca38cbe2e5fee9a5b6517b85752378a9fe0998",
+              "size": 119003
+            }
+          ],
+          "first_upload": "2026-04-14T11:55:35.989813+00:00",
+          "last_upload": "2026-04-14T11:55:35.989813+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-14T11:55:35.989813+00:00",
+              "hash": "86cd189ddf2890cf4c41447c0bca38cbe2e5fee9a5b6517b85752378a9fe0998",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "MONTEFORTINO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/MONTEFORTINO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "d2b2b17466f9b7c15b19f98750ef8aaf55da4b39a6027fc7e62844b9011ef3dd",
+          "size": 3982072,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2 Relazione accompagnamento Comune di Montefortino.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Allegato2 Relazione accompagnamento Comune di Montefortino.pdf",
+          "hash": "084f084a5fc796a54a795c06cf5f073b5786f7bbc5665e38572e2781e9db602b",
+          "size": 202045,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "86cd189ddf2890cf4c41447c0bca38cbe2e5fee9a5b6517b85752378a9fe0998",
+          "size": 119003,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFORTINO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx MONTEFORTINO.xlsx",
@@ -11907,12 +12000,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-04T10:24:49.086185+00:00",
-          "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-04T11:23:23.745463+00:00",
           "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
@@ -12506,6 +12593,12 @@
           "zip_hash": "2a324c5cec456d5d8d124a78c44c54e242550d76f6e7f8c44c734e50267e49b4",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-14T11:55:35.989813+00:00",
+          "zip_hash": "979685528840fc715157b1093bd1c64d08300d714b33c6f2677a45ea4b1d2847",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -12517,11 +12610,11 @@
         "id": 21
       },
       "last_scan_error": false,
-      "processabile": "no",
+      "processabile": "si",
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -12533,7 +12626,7 @@
     "23": {
       "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
       "content_fingerprint": "848af14939ca02ef06a617687b8a97137dcdfb956e62e9982b5b82a6940f21ca",
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -12655,12 +12748,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-04T10:24:49.086185+00:00",
-          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-04T11:23:23.745463+00:00",
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
           "changed": false,
@@ -13253,6 +13340,12 @@
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-14T11:55:35.989813+00:00",
+          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -13270,7 +13363,7 @@
     "24": {
       "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
       "content_fingerprint": "cf7c27b565db476e0da6e9754714a31f82ad7d1eb51aed3e46584e7646ddbf3a",
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -13405,12 +13498,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-04T10:24:49.086185+00:00",
-          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-04T11:23:23.745463+00:00",
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
@@ -14003,6 +14090,12 @@
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-14T11:55:35.989813+00:00",
+          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -14018,7 +14111,7 @@
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-04-14T10:57:01.795965+00:00",
+      "last_scan": "2026-04-14T11:55:35.989813+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -14030,7 +14123,7 @@
       },
       "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
       "content_fingerprint": "52c3aa8056ec2e81c39b347eaff5dc933cc319e67021c967dbee6fd2dc2ac43b",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -14157,6 +14250,12 @@
           "time": "2026-04-14T10:57:01.795965+00:00",
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
           "changed": true,
+          "file_count": 3
+        },
+        {
+          "time": "2026-04-14T11:55:35.989813+00:00",
+          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
+          "changed": false,
           "file_count": 3
         }
       ],
@@ -23510,11 +23609,11 @@
   "meta": {
     "last_scan": "2026-04-14T11:55:35.989813+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
