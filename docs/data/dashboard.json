@@ -9017,7 +9017,7 @@
       }
     },
     "16": {
-      "last_scan": "2026-04-15T16:54:18.090623+00:00",
+      "last_scan": "2026-04-15T18:00:12.023612+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -9622,6 +9622,12 @@
           "zip_hash": "f7de40f08482ff99faf54ef5f4084bfb9ca06accdd338f42ec1135bc41f1917d",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-15T18:00:12.023612+00:00",
+          "zip_hash": "f7de40f08482ff99faf54ef5f4084bfb9ca06accdd338f42ec1135bc41f1917d",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -9653,7 +9659,7 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-04-15T16:54:18.090623+00:00",
+      "last_scan": "2026-04-15T18:00:12.023612+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -9788,12 +9794,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-05T10:25:39.022374+00:00",
-          "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-05T11:23:08.675658+00:00",
           "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
@@ -10387,20 +10387,162 @@
           "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-15T18:00:12.023612+00:00",
+          "zip_hash": "fc71fe3af3d61034c0b006637e489db2712607649cdc5b05d18680358b4ab00c",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "18": {
-      "last_scan": "2026-04-15T16:54:18.090623+00:00",
+      "last_scan": "2026-04-15T18:00:12.023612+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Monte Vidon Combatte",
         "gestore": "ECO INNOVA SRL",
-        "url": "https://www.provincia.fm.it/drive/dqu9khjlx77"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/dqu9khjlx77",
+        "id": 18
+      },
+      "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
+      "content_fingerprint": "71391a17119bc4eb79e2376c67df841e8094929277c7ae563a839bfe52bb39f3",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "946675f8ce247b0ef14c1b94fbc3afa9bf36d8e9e6d8f3f8230fac5ff56fa1c2",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "current_size": 3985443,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "hash": "946675f8ce247b0ef14c1b94fbc3afa9bf36d8e9e6d8f3f8230fac5ff56fa1c2",
+              "size": 3985443
+            }
+          ],
+          "first_upload": "2026-04-15T18:00:12.023612+00:00",
+          "last_upload": "2026-04-15T18:00:12.023612+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-15T18:00:12.023612+00:00",
+              "hash": "946675f8ce247b0ef14c1b94fbc3afa9bf36d8e9e6d8f3f8230fac5ff56fa1c2",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "b6d814dc7ad18b2638cdeee180c0aedaf48082210ec7107313b35029a71eb38a",
+          "current_file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "current_size": 47702,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+              "hash": "b6d814dc7ad18b2638cdeee180c0aedaf48082210ec7107313b35029a71eb38a",
+              "size": 47702
+            }
+          ],
+          "first_upload": "2026-04-15T18:00:12.023612+00:00",
+          "last_upload": "2026-04-15T18:00:12.023612+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-15T18:00:12.023612+00:00",
+              "hash": "b6d814dc7ad18b2638cdeee180c0aedaf48082210ec7107313b35029a71eb38a",
+              "file": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "received",
+          "current_hash": "be1ca678c793ed63fd3b937186f4dd3eea72f53a72e56e40abb744fa99962597",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 388174,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "be1ca678c793ed63fd3b937186f4dd3eea72f53a72e56e40abb744fa99962597",
+              "size": 388174
+            }
+          ],
+          "first_upload": "2026-04-15T18:00:12.023612+00:00",
+          "last_upload": "2026-04-15T18:00:12.023612+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-15T18:00:12.023612+00:00",
+              "hash": "be1ca678c793ed63fd3b937186f4dd3eea72f53a72e56e40abb744fa99962597",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 (1).xlsx",
+          "hash": "946675f8ce247b0ef14c1b94fbc3afa9bf36d8e9e6d8f3f8230fac5ff56fa1c2",
+          "size": 3985443,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Allegato2_Relazione_di_accompagnamento_agg2026-2029.docx",
+          "hash": "b6d814dc7ad18b2638cdeee180c0aedaf48082210ec7107313b35029a71eb38a",
+          "size": 47702,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "be1ca678c793ed63fd3b937186f4dd3eea72f53a72e56e40abb744fa99962597",
+          "size": 388174,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-04-15T18:00:12.023612+00:00",
+          "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
+          "changed": true,
+          "file_count": 3
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "19": {
       "zip_hash": "6c1a36da1f553589ddda27548a7363df3cd43ec82dcae324d0a9abe305712a1a",
@@ -23879,9 +24021,9 @@
   "meta": {
     "last_scan": "2026-04-15T18:00:12.023612+00:00",
     "results": {
-      "scansionati": 12,
-      "aggiornati": 0,
-      "invariati": 12,
+      "scansionati": 15,
+      "aggiornati": 1,
+      "invariati": 14,
       "errori": 0,
       "vuoti": 3
     },
