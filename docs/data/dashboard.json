@@ -1,10 +1,10 @@
 {
   "comuni": {
     "1": {
-      "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
-      "content_fingerprint": "0bfcdc72940b7348f09519d8357c33582cf47f98d182ad563fb084ba451cfad3",
-      "last_scan": "2026-04-16T19:00:35.838646+00:00",
-      "zip_changed": false,
+      "zip_hash": "d7c4d3f91ca5aa2b7ec253308ab9c2e17159ca5aa69d44c26c1bbffc927455f9",
+      "content_fingerprint": "78176aea0decada062f11a9c15d42d1ccaec69b051fdfbeddc49beb8b6a276ab",
+      "last_scan": "2026-04-17T09:09:00.703979+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -19,19 +19,85 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "a7e347fab6544bc0f8cda2a1c75921fa119fca4e014632842653155822a04ad2",
+          "current_file": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "current_size": 3983649,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "hash": "a7e347fab6544bc0f8cda2a1c75921fa119fca4e014632842653155822a04ad2",
+              "size": 3983649
+            }
+          ],
+          "first_upload": "2026-04-17T09:09:00.703979+00:00",
+          "last_upload": "2026-04-17T09:09:00.703979+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-17T09:09:00.703979+00:00",
+              "hash": "a7e347fab6544bc0f8cda2a1c75921fa119fca4e014632842653155822a04ad2",
+              "file": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "5c3e0c112672f6fd007ca5d9ccf5f7f4938c7cd37a1e45b589a0f42b9e0cfb31",
+          "current_file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona (1).docx",
+          "current_size": 178394,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona (1).docx",
+              "hash": "5c3e0c112672f6fd007ca5d9ccf5f7f4938c7cd37a1e45b589a0f42b9e0cfb31",
+              "size": 178394
+            }
+          ],
+          "first_upload": "2026-04-17T09:09:00.703979+00:00",
+          "last_upload": "2026-04-17T09:09:00.703979+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-17T09:09:00.703979+00:00",
+              "hash": "5c3e0c112672f6fd007ca5d9ccf5f7f4938c7cd37a1e45b589a0f42b9e0cfb31",
+              "file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona (1).docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "8eb036f9b90db129e022d4fad57014fd248cfee0c2fa1cf3d07f7b671c786770",
+          "current_file": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "current_size": 389592,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+              "hash": "8eb036f9b90db129e022d4fad57014fd248cfee0c2fa1cf3d07f7b671c786770",
+              "size": 389592
+            }
+          ],
+          "first_upload": "2026-04-17T09:09:00.703979+00:00",
+          "last_upload": "2026-04-17T09:09:00.703979+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-17T09:09:00.703979+00:00",
+              "hash": "8eb036f9b90db129e022d4fad57014fd248cfee0c2fa1cf3d07f7b671c786770",
+              "file": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
         },
         "pef_validato": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
           "current_file": "test-altidona-pef-da-validare.txt",
           "current_size": 11,
@@ -52,18 +118,41 @@
               "hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
               "file": "test-altidona-pef-da-validare.txt",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-04-17T09:09:00.703979+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-04-17T09:09:00.703979+00:00"
         }
       },
       "all_files": [
         {
-          "name": "test-altidona-pef-da-validare.txt",
-          "path": "PEF Validato/test-altidona-pef-da-validare.txt",
-          "hash": "fa5ef3fe62c2b325b34c9b96a916ea95a4ee270e0950ccd5513af7cc6a0d9cc7",
-          "size": 11,
-          "doc_key": "pef_validato",
-          "source": "ata4"
+          "name": "Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni-signed.pdf",
+          "hash": "8eb036f9b90db129e022d4fad57014fd248cfee0c2fa1cf3d07f7b671c786770",
+          "size": 389592,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona (1).docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona (1).docx",
+          "hash": "5c3e0c112672f6fd007ca5d9ccf5f7f4938c7cd37a1e45b589a0f42b9e0cfb31",
+          "size": 178394,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
+          "hash": "a7e347fab6544bc0f8cda2a1c75921fa119fca4e014632842653155822a04ad2",
+          "size": 3983649,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -114,13 +203,21 @@
           "zip_hash": "ae9e37a49a27a1dfeb8382b7852e33c475ffdfc1da29e8568d309ab374dd7713",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-04-17T09:09:00.703979+00:00",
+          "zip_hash": "d7c4d3f91ca5aa2b7ec253308ab9c2e17159ca5aa69d44c26c1bbffc927455f9",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "info": {
         "comune": "Altidona",
         "gestore": "RIECO",
-        "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2"
+        "advisor": "NEOPA",
+        "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2",
+        "id": 1
       },
       "last_scan_error": false,
       "processabile": "no",
@@ -129,7 +226,7 @@
     "2": {
       "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
       "content_fingerprint": "7d88ba6b2b0f7412e8e10e9fba37475f8bf02eb0befb1d970ea0ccfdcd15ab5f",
-      "last_scan": "2026-04-16T19:00:35.838646+00:00",
+      "last_scan": "2026-04-17T09:09:00.703979+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -369,12 +466,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-05T18:31:47.628413+00:00",
-          "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-05T19:28:15.358743+00:00",
           "zip_hash": "07eb11bc82b54105b200fb1c6a9b07e9b496413a01dce5007006b8bbcdacc062",
@@ -968,6 +1059,12 @@
           "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-17T09:09:00.703979+00:00",
+          "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -985,7 +1082,7 @@
     "3": {
       "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
       "content_fingerprint": "1cc9bd9b89aee794178cecaec1a33a9030db40a8e1deaacce3f550587126bc22",
-      "last_scan": "2026-04-16T19:00:35.838646+00:00",
+      "last_scan": "2026-04-17T09:09:00.703979+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1232,12 +1329,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-05T17:23:11.726427+00:00",
-          "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-04-05T18:31:47.628413+00:00",
           "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
           "changed": false,
@@ -1830,6 +1921,12 @@
           "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-17T09:09:00.703979+00:00",
+          "zip_hash": "e1ab90f7e61b089d5439c8916b4af10e17a5be735f76de8c3d7ec0fd3a745ffb",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1845,7 +1942,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-04-16T19:00:35.838646+00:00",
+      "last_scan": "2026-04-17T09:09:00.703979+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -1980,12 +2077,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-05T18:31:47.628413+00:00",
-          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-05T19:28:15.358743+00:00",
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
@@ -2579,6 +2670,12 @@
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-17T09:09:00.703979+00:00",
+          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -2587,7 +2684,7 @@
     "5": {
       "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
       "content_fingerprint": "3f0eeb6d617dabded3dfd2d19bb39879f241c83dbd47d686f252b90557c68948",
-      "last_scan": "2026-04-16T19:00:35.838646+00:00",
+      "last_scan": "2026-04-17T09:09:00.703979+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2799,12 +2896,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-05T18:31:47.628413+00:00",
-          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-04-05T19:28:15.358743+00:00",
           "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
           "changed": false,
@@ -3394,6 +3485,12 @@
         },
         {
           "time": "2026-04-16T19:00:35.838646+00:00",
+          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-04-17T09:09:00.703979+00:00",
           "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
           "changed": false,
           "file_count": 6
@@ -24241,13 +24338,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-16T19:00:35.838646+00:00",
+    "last_scan": "2026-04-17T09:09:00.703979+00:00",
     "results": {
-      "scansionati": 33,
-      "aggiornati": 0,
-      "invariati": 33,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
-      "vuoti": 7
+      "vuoti": 0
     },
     "total_comuni": 40,
     "scadenze": {
