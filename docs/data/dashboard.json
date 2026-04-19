@@ -3690,8 +3690,8 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-04-19T13:54:59.695995+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-04-19T14:36:15.272896+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Fermo",
@@ -4447,7 +4447,7 @@
     "7": {
       "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
       "content_fingerprint": "af49faabdd06007fc8e1efa2cb1bb2602ecf441906c798f8d35739084c058fa5",
-      "last_scan": "2026-04-19T13:54:59.695995+00:00",
+      "last_scan": "2026-04-19T14:36:15.272896+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5190,14 +5190,14 @@
         "url": "https://www.provincia.fm.it/drive/2vxelssno0pf",
         "id": 7
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "no",
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-04-19T13:54:59.695995+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-04-19T14:36:15.272896+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Grottazzolina",
         "gestore": "ECO INNOVA SRL",
@@ -5205,8 +5205,8 @@
       }
     },
     "9": {
-      "last_scan": "2026-04-19T13:54:59.695995+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-04-19T14:36:15.272896+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Lapedona",
@@ -5945,8 +5945,8 @@
       "processabile": "no"
     },
     "10": {
-      "last_scan": "2026-04-19T13:54:59.695995+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-04-19T14:36:15.272896+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Magliano di Tenna",
@@ -25319,7 +25319,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 5,
+      "errori": 10,
       "vuoti": 0
     },
     "total_comuni": 40,
