@@ -18122,9 +18122,9 @@
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-04-19T14:36:15.272896+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-19T16:40:50.394392+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Pedaso",
         "gestore": "RIECO",
@@ -25344,7 +25344,7 @@
       "aggiornati": 0,
       "invariati": 25,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
