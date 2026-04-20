@@ -18441,7 +18441,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-04-20T16:56:08.132652+00:00",
+      "last_scan": "2026-04-20T17:52:50.406382+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18576,12 +18576,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-10T09:00:36.849828+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-10T10:44:38.463984+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -19175,6 +19169,12 @@
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-20T17:52:50.406382+00:00",
+          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -19183,7 +19183,7 @@
     "32": {
       "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
       "content_fingerprint": "0c646a021f5785ee237bc2dff7efc337a6b091b8fb743592444952ca5dc02a6d",
-      "last_scan": "2026-04-20T16:56:08.132652+00:00",
+      "last_scan": "2026-04-20T17:52:50.406382+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19411,12 +19411,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-10T09:00:36.849828+00:00",
-          "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-04-10T10:44:38.463984+00:00",
           "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
           "changed": false,
@@ -20009,6 +20003,12 @@
           "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-20T17:52:50.406382+00:00",
+          "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -20026,7 +20026,7 @@
     "33": {
       "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
       "content_fingerprint": "10352595c1a9098222629291adee5f732657e4eca680f908d95c33de4636ea0a",
-      "last_scan": "2026-04-20T16:56:08.132652+00:00",
+      "last_scan": "2026-04-20T17:52:50.406382+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20264,12 +20264,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-10T09:00:36.849828+00:00",
-          "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-04-10T10:44:38.463984+00:00",
           "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
           "changed": false,
@@ -20862,6 +20856,12 @@
           "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-20T17:52:50.406382+00:00",
+          "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -20877,7 +20877,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-04-20T16:56:08.132652+00:00",
+      "last_scan": "2026-04-20T17:52:50.406382+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -21013,12 +21013,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-10T09:00:36.849828+00:00",
-          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-10T10:44:38.463984+00:00",
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
@@ -21611,13 +21605,19 @@
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-20T17:52:50.406382+00:00",
+          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-04-20T16:56:08.132652+00:00",
+      "last_scan": "2026-04-20T17:52:50.406382+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -21627,9 +21627,9 @@
         "url": "https://www.provincia.fm.it/drive/6mqqhoebiss7",
         "id": 35
       },
-      "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
-      "content_fingerprint": "0ca980aa10e11464d1f8e702bb124f50c9d4a1bf7f92b477bedb941c0d5b5b9c",
-      "zip_changed": false,
+      "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
+      "content_fingerprint": "3398af12f8f7d1597b1636d896eec17ec9875870d8b4bce90867c9048d69f2cd",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -21822,6 +21822,30 @@
           "source": "comune"
         },
         {
+          "name": "dichiarazione veidicità.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/dichiarazione veidicità.pdf",
+          "hash": "4128a1248223e3adc401793577858e6e5006cc96f06f7ca41a310a8f34d81863",
+          "size": 500740,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "hash": "7d6ba23f1436f9b5c3087d0adf34b0343c7c61c7f221881e619c63da8b88cc69",
+          "size": 192407,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "hash": "b14fa6f7c67790afeacdb62cc7d0731e97b7b876832c0e7371d8ca8715c69a5a",
+          "size": 3972706,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx.  RAPAGNANO 2026.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx.  RAPAGNANO 2026.xlsx",
           "hash": "646fa4bce5a5dc17a9f1c4e40184347e86fd59af3dca0a13146dd9bdfaa3474e",
@@ -21855,12 +21879,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-10T09:00:36.849828+00:00",
-          "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-10T10:44:38.463984+00:00",
           "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
@@ -22454,9 +22472,34 @@
           "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-20T17:52:50.406382+00:00",
+          "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "dichiarazione veidicità.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/dichiarazione veidicità.pdf",
+          "source": "comune",
+          "size": 500740
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "source": "comune",
+          "size": 192407
+        },
+        {
+          "name": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "source": "comune",
+          "size": 3972706
+        }
+      ],
       "processabile": "si"
     },
     "36": {
@@ -25649,9 +25692,9 @@
   "meta": {
     "last_scan": "2026-04-20T17:52:50.406382+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 0,
-      "invariati": 25,
+      "scansionati": 30,
+      "aggiornati": 1,
+      "invariati": 29,
       "errori": 0,
       "vuoti": 5
     },
