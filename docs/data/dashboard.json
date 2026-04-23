@@ -19390,8 +19390,8 @@
       }
     },
     "31": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Petritoli",
@@ -19525,12 +19525,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -20124,6 +20118,12 @@
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -20132,7 +20132,7 @@
     "32": {
       "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
       "content_fingerprint": "82154f693073cfa4454b902726faf6bb1231c0d2b498b27c721bd0281aab0423",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20392,12 +20392,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "0f27350062ee335ad2ba437a7400bee8e5c85dfb65e80768f49d5e78cf56ca4f",
@@ -20991,6 +20985,12 @@
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -21008,14 +21008,14 @@
         "url": "https://www.provincia.fm.it/drive/3739lu5r8gjy",
         "id": 32
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "33": {
       "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
       "content_fingerprint": "d907be4d2bd39b82e28d6a22ed51325c134938eee81a38a6b4edf34182bede46",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21301,12 +21301,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "64365fb0bc671d5366b378d2bc0999811d62f182df6852cf8328e59e024c7eb1",
           "changed": false,
@@ -21899,6 +21893,12 @@
           "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -21909,13 +21909,13 @@
         "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
         "id": 33
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Porto Sant'Elpidio",
@@ -22050,12 +22050,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
@@ -22645,6 +22639,12 @@
         },
         {
           "time": "2026-04-23T13:05:09.200163+00:00",
+          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
           "file_count": 3
@@ -26786,9 +26786,9 @@
   "meta": {
     "last_scan": "2026-04-23T18:57:13.361884+00:00",
     "results": {
-      "scansionati": 26,
+      "scansionati": 30,
       "aggiornati": 3,
-      "invariati": 23,
+      "invariati": 27,
       "errori": 0,
       "vuoti": 4
     },
