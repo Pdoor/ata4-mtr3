@@ -3870,8 +3870,8 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Fermo",
@@ -4013,12 +4013,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
@@ -4612,6 +4606,12 @@
           "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [
@@ -4627,7 +4627,7 @@
     "7": {
       "zip_hash": "e548475e8af027141cc21b9dae59bc1be1f2490d784c1359f760e048a1b1aa9f",
       "content_fingerprint": "157e427460c3f419e8aacb0bd01f11e0026459ac13b285c4110ee1445a90d716",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4868,12 +4868,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "90fbe2e02b81d8caf3219cadd8e6023b66ddeba06f2514f608b764bb36a7e493",
           "changed": false,
@@ -5466,6 +5460,12 @@
           "zip_hash": "e548475e8af027141cc21b9dae59bc1be1f2490d784c1359f760e048a1b1aa9f",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "e548475e8af027141cc21b9dae59bc1be1f2490d784c1359f760e048a1b1aa9f",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -5476,13 +5476,13 @@
         "url": "https://www.provincia.fm.it/drive/2vxelssno0pf",
         "id": 7
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Grottazzolina",
@@ -5491,9 +5491,9 @@
         "url": "https://www.provincia.fm.it/drive/3ahoqjicoqlx",
         "id": 8
       },
-      "zip_hash": "31b33d1c881c98934883cb8262ed79070bb3611a7fa3849bbef32a32a629e453",
-      "content_fingerprint": "a35262511f40fd418abbc4f141c8be831fcc7c7202d8ce363816ee77931cbff1",
-      "zip_changed": false,
+      "zip_hash": "f8cf1f13c0eec2c9980ef4633012c5bf1466b91cee4f0be3a1097efba60a47ce",
+      "content_fingerprint": "9eb02c07bd116212a0bdf7b9ad9fdb4cbc13346da938b28d9a6eaac0894dc89f",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -5533,10 +5533,54 @@
           ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "047b35a57bb589b84c3cebea50e47ae6a623249275053601200dc611b1aae925",
+          "current_file": "Grottazzolina_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "current_size": 421285,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Grottazzolina_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+              "hash": "047b35a57bb589b84c3cebea50e47ae6a623249275053601200dc611b1aae925",
+              "size": 421285
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "047b35a57bb589b84c3cebea50e47ae6a623249275053601200dc611b1aae925",
+              "file": "Grottazzolina_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "deb6d87e4c73fda47c30332dc816cece321f7effe076f524d5f089aff5547de9",
+          "current_file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "current_size": 173263,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+              "hash": "deb6d87e4c73fda47c30332dc816cece321f7effe076f524d5f089aff5547de9",
+              "size": 173263
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "deb6d87e4c73fda47c30332dc816cece321f7effe076f524d5f089aff5547de9",
+              "file": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -5553,6 +5597,22 @@
           "size": 3971912,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
+        },
+        {
+          "name": "Grottazzolina_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Grottazzolina_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "hash": "047b35a57bb589b84c3cebea50e47ae6a623249275053601200dc611b1aae925",
+          "size": 421285,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_-_Dichiarazione_Veridicita_Comuni.pdf.p7m",
+          "hash": "deb6d87e4c73fda47c30332dc816cece321f7effe076f524d5f089aff5547de9",
+          "size": 173263,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -5567,14 +5627,20 @@
           "zip_hash": "31b33d1c881c98934883cb8262ed79070bb3611a7fa3849bbef32a32a629e453",
           "changed": false,
           "file_count": 1
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "f8cf1f13c0eec2c9980ef4633012c5bf1466b91cee4f0be3a1097efba60a47ce",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "9": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Lapedona",
@@ -5709,12 +5775,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
           "changed": false,
@@ -6307,14 +6367,20 @@
           "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "10": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Magliano di Tenna",
@@ -6948,6 +7014,12 @@
         },
         {
           "time": "2026-04-23T13:05:09.200163+00:00",
+          "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
           "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
           "changed": false,
           "file_count": 3
@@ -26487,9 +26559,9 @@
   "meta": {
     "last_scan": "2026-04-23T18:57:13.361884+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
