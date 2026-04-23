@@ -7029,10 +7029,10 @@
       "processabile": "no"
     },
     "11": {
-      "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
-      "content_fingerprint": "e0776099c727085fb23f8f0c9dd36cf8913ae5f46d1458f651c8b4242b8b4539",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "zip_changed": false,
+      "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
+      "content_fingerprint": "89ec0198903c2e3d4f29bc9a0f3772485182667fb97f017f53105b503b6dbef1",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -7118,19 +7118,112 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "0d85e43a35982dc696a94eb244919febc957896fbbfc372433f53931ab303bde",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MASSA_FERMANA.xlsx",
+          "current_size": 3990194,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MASSA_FERMANA.xlsx",
+              "hash": "0d85e43a35982dc696a94eb244919febc957896fbbfc372433f53931ab303bde",
+              "size": 3990194
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "0d85e43a35982dc696a94eb244919febc957896fbbfc372433f53931ab303bde",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MASSA_FERMANA.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9bb63b7838da3587c637fc09ad2e3a71239d4b7ff7deada8b174289d46050ddd",
+          "current_file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_MASSA_FERMANA.docx",
+          "current_size": 85147,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_MASSA_FERMANA.docx",
+              "hash": "9bb63b7838da3587c637fc09ad2e3a71239d4b7ff7deada8b174289d46050ddd",
+              "size": 85147
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "9bb63b7838da3587c637fc09ad2e3a71239d4b7ff7deada8b174289d46050ddd",
+              "file": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_MASSA_FERMANA.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9bda2fd8e1c56df70b447bfb72ab576c6ec2594c1229a8055270529265cdb221",
+          "current_file": "DICHIARAZIONE_VERIDICITA_MASSA_FERMANA_all4_signed.pdf",
+          "current_size": 112040,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DICHIARAZIONE_VERIDICITA_MASSA_FERMANA_all4_signed.pdf",
+              "hash": "9bda2fd8e1c56df70b447bfb72ab576c6ec2594c1229a8055270529265cdb221",
+              "size": 112040
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "9bda2fd8e1c56df70b447bfb72ab576c6ec2594c1229a8055270529265cdb221",
+              "file": "DICHIARAZIONE_VERIDICITA_MASSA_FERMANA_all4_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MASSA_FERMANA.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MASSA_FERMANA.xlsx",
+          "hash": "0d85e43a35982dc696a94eb244919febc957896fbbfc372433f53931ab303bde",
+          "size": 3990194,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_2_-_Relazione_di_accompagnamento_2026-2029_MASSA_FERMANA.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Allegato_2_-_Relazione_di_accompagnamento_2026-2029_MASSA_FERMANA.docx",
+          "hash": "9bb63b7838da3587c637fc09ad2e3a71239d4b7ff7deada8b174289d46050ddd",
+          "size": 85147,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "DICHIARAZIONE_VERIDICITA_MASSA_FERMANA_all4_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/DICHIARAZIONE_VERIDICITA_MASSA_FERMANA_all4_signed.pdf",
+          "hash": "9bda2fd8e1c56df70b447bfb72ab576c6ec2594c1229a8055270529265cdb221",
+          "size": 112040,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
@@ -7165,12 +7258,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
@@ -7764,6 +7851,12 @@
           "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -7774,14 +7867,14 @@
         "url": "https://www.provincia.fm.it/drive/1ev2qj0yvrx9",
         "id": 11
       },
-      "last_scan_error": true,
-      "processabile": "no",
+      "last_scan_error": false,
+      "processabile": "si",
       "last_scan_empty": false
     },
     "12": {
       "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
       "content_fingerprint": "7b2d3df0e9d93ff28de58d1fddb857fd51d015d392eb83c6859f5c058a59e59b",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -7903,12 +7996,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
@@ -8501,6 +8588,12 @@
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -8511,14 +8604,14 @@
         "url": "https://www.provincia.fm.it/drive/73nl638n4sp0",
         "id": 12
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "13": {
       "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
       "content_fingerprint": "37e30091ed077e5a90ef0050e01887ea0dd80e8e40f3a9e9f98249b811659836",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8745,12 +8838,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "1b1e428ca3a766b669ce5c0cf9b3212c11722627a6f8504c140f51b20b45d020",
@@ -9344,6 +9431,12 @@
           "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -9354,14 +9447,14 @@
         "url": "https://www.provincia.fm.it/drive/396z4nzv4y99",
         "id": 13
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "14": {
       "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
       "content_fingerprint": "16d03b555717842d019c02f1e97eb77c127d8c06267630f7d945b22df59f7b4d",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9588,12 +9681,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
@@ -10187,6 +10274,12 @@
           "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -10197,14 +10290,14 @@
         "url": "https://www.provincia.fm.it/drive/7fg582zhd3t5",
         "id": 14
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Monte Rinaldo",
         "gestore": "ECO INNOVA SRL",
@@ -26559,11 +26652,11 @@
   "meta": {
     "last_scan": "2026-04-23T18:57:13.361884+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 1,
-      "invariati": 9,
+      "scansionati": 14,
+      "aggiornati": 2,
+      "invariati": 12,
       "errori": 0,
-      "vuoti": 0
+      "vuoti": 1
     },
     "total_comuni": 40,
     "scadenze": {
