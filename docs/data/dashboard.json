@@ -14827,9 +14827,9 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Montegiorgio",
         "gestore": "TEKNEKO",
@@ -14837,19 +14837,85 @@
       }
     },
     "23": {
-      "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
-      "content_fingerprint": "848af14939ca02ef06a617687b8a97137dcdfb956e62e9982b5b82a6940f21ca",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "zip_changed": false,
+      "zip_hash": "51429a9687fcb1771d3ed4a27cd70ac340ba4f08975b03c5c20aea0f17790e9f",
+      "content_fingerprint": "8faacdfc56d151545e9b2e3560b881f7bdcb1bf2c0123d234b9c592f2e09b995",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "6a5652a6ed82eb4ac85f62f2db6d615cddac794c1868d53188bf25f7a6f09502",
+          "current_file": "Montegranaro Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 24 25.xlsx",
+          "current_size": 4009321,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Montegranaro Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 24 25.xlsx",
+              "hash": "6a5652a6ed82eb4ac85f62f2db6d615cddac794c1868d53188bf25f7a6f09502",
+              "size": 4009321
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "6a5652a6ed82eb4ac85f62f2db6d615cddac794c1868d53188bf25f7a6f09502",
+              "file": "Montegranaro Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 24 25.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "c73aa92d2d5e24211c73f36d3850eb71c9507dc0ebcdf8b25c72694b2447d7e2",
+          "current_file": "Relazione Accompagnatoria ATA rifiuti 4 - Fermo_MM.pdf",
+          "current_size": 831347,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione Accompagnatoria ATA rifiuti 4 - Fermo_MM.pdf",
+              "hash": "c73aa92d2d5e24211c73f36d3850eb71c9507dc0ebcdf8b25c72694b2447d7e2",
+              "size": 831347
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "c73aa92d2d5e24211c73f36d3850eb71c9507dc0ebcdf8b25c72694b2447d7e2",
+              "file": "Relazione Accompagnatoria ATA rifiuti 4 - Fermo_MM.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "088b8f152bb19cc58bdd43337e217ec7fac5c5530019d17879f5c23ea096d511",
+          "current_file": "Dichiarazione di veridicità_signed.pdf",
+          "current_size": 502448,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Dichiarazione di veridicità_signed.pdf",
+              "hash": "088b8f152bb19cc58bdd43337e217ec7fac5c5530019d17879f5c23ea096d511",
+              "size": 502448
+            }
+          ],
+          "first_upload": "2026-04-23T18:57:13.361884+00:00",
+          "last_upload": "2026-04-23T18:57:13.361884+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-23T18:57:13.361884+00:00",
+              "hash": "088b8f152bb19cc58bdd43337e217ec7fac5c5530019d17879f5c23ea096d511",
+              "file": "Dichiarazione di veridicità_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -14931,6 +14997,9 @@
         },
         "altre_com_c": {
           "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
         }
       },
       "all_files": [
@@ -14957,15 +15026,49 @@
           "size": 173148,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "Montegranaro Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 24 25.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Montegranaro Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029 24 25.xlsx",
+          "hash": "6a5652a6ed82eb4ac85f62f2db6d615cddac794c1868d53188bf25f7a6f09502",
+          "size": 4009321,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Dichiarazione di veridicità_signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Dichiarazione di veridicità_signed.pdf",
+          "hash": "088b8f152bb19cc58bdd43337e217ec7fac5c5530019d17879f5c23ea096d511",
+          "size": 502448,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione Accompagnatoria ATA rifiuti 4 - Fermo_MM.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione Accompagnatoria ATA rifiuti 4 - Fermo_MM.pdf",
+          "hash": "c73aa92d2d5e24211c73f36d3850eb71c9507dc0ebcdf8b25c72694b2447d7e2",
+          "size": 831347,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "TEK CESP 2 DEFINITIVO 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEK CESP 2 DEFINITIVO 2024.pdf",
+          "hash": "4348be3b136a60fc1fcd4294738cb8d6ad029cd74b3ed334fe59fec37b210729",
+          "size": 565237,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "hash": "0445d58ff9bfa28f2be4d871c7d0240be7ef624412d7f067b7232d313267b2c8",
+          "size": 1971596,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T17:24:49.575891+00:00",
-          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-11T18:32:11.419285+00:00",
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
@@ -15559,9 +15662,28 @@
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "51429a9687fcb1771d3ed4a27cd70ac340ba4f08975b03c5c20aea0f17790e9f",
+          "changed": true,
+          "file_count": 8
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "TEK CESP 2 DEFINITIVO 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEK CESP 2 DEFINITIVO 2024.pdf",
+          "source": "comune",
+          "size": 565237
+        },
+        {
+          "name": "TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "source": "comune",
+          "size": 1971596
+        }
+      ],
       "info": {
         "comune": "Montegranaro",
         "gestore": "TEKNEKO",
@@ -15569,14 +15691,14 @@
         "url": "https://www.provincia.fm.it/drive/3gku6o5lz661",
         "id": 23
       },
-      "last_scan_error": true,
-      "processabile": "no",
+      "last_scan_error": false,
+      "processabile": "si",
       "last_scan_empty": false
     },
     "24": {
       "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
       "content_fingerprint": "cf7c27b565db476e0da6e9754714a31f82ad7d1eb51aed3e46584e7646ddbf3a",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -15711,12 +15833,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-11T17:24:49.575891+00:00",
-          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-04-11T18:32:11.419285+00:00",
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
@@ -16309,6 +16425,12 @@
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -16319,13 +16441,13 @@
         "url": "https://www.provincia.fm.it/drive/3e8e8w57qh10",
         "id": 24
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montelparo",
@@ -16926,14 +17048,20 @@
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "26": {
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monterubbiano",
@@ -17067,12 +17195,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
@@ -17666,6 +17788,12 @@
           "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -17674,7 +17802,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-04-23T15:45:38.664894+00:00",
+      "last_scan": "2026-04-23T18:57:13.361884+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17888,12 +18016,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-11T18:32:11.419285+00:00",
-          "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-11T19:29:44.843435+00:00",
           "zip_hash": "5896d45d4f17fc36e1dd635b6f46335661ec6c994e5e48c97b51245d75df44b7",
@@ -18487,6 +18609,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-04-23T18:57:13.361884+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -18497,7 +18625,7 @@
         "url": "https://www.provincia.fm.it/drive/71b5l2mf2m8z",
         "id": 27
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -26658,11 +26786,11 @@
   "meta": {
     "last_scan": "2026-04-23T18:57:13.361884+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 2,
-      "invariati": 18,
+      "scansionati": 25,
+      "aggiornati": 3,
+      "invariati": 22,
       "errori": 0,
-      "vuoti": 1
+      "vuoti": 2
     },
     "total_comuni": 40,
     "scadenze": {
