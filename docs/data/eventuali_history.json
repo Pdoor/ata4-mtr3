@@ -1,9 +1,202 @@
 {
   "meta": {
     "version": 1,
-    "last_update": null,
-    "dashboard_last_scan": null,
-    "files_tracked": 0
+    "last_update": "2026-04-27T10:02:28.400614+00:00",
+    "dashboard_last_scan": "2026-04-27T09:42:26.114681+00:00",
+    "files_tracked": 9
   },
-  "comuni": {}
+  "comuni": {
+    "1": {
+      "gestore": [
+        {
+          "filename": "test.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/test.xlsx",
+          "current_hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
+          "current_size": 8846,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "7e157e66b95b22346b643460bfa8c23a13cb182481afca6513365abee045ff79",
+              "size": 8846
+            }
+          ]
+        }
+      ],
+      "comune": []
+    },
+    "6": {
+      "gestore": [
+        {
+          "filename": "C.I. PARADISI ALBERTO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/C.I. PARADISI ALBERTO.pdf",
+          "current_hash": "7460eea5bdaa89ee493a6c2fa39bd5e7190b15795f9eb4b0054af3344b02d74c",
+          "current_size": 46564,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "7460eea5bdaa89ee493a6c2fa39bd5e7190b15795f9eb4b0054af3344b02d74c",
+              "size": 46564
+            }
+          ]
+        }
+      ],
+      "comune": []
+    },
+    "16": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "all.4 nota esplicativa.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/all.4 nota esplicativa.pdf",
+          "current_hash": "7a879e60ed0e4dcef69a9f92125e07ef08cce4d060a2226f438484df75edb1e0",
+          "current_size": 51861,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "7a879e60ed0e4dcef69a9f92125e07ef08cce4d060a2226f438484df75edb1e0",
+              "size": 51861
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "gestore": [
+        {
+          "filename": "TEK CESP 2 DEFINITIVO 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEK CESP 2 DEFINITIVO 2024.pdf",
+          "current_hash": "4348be3b136a60fc1fcd4294738cb8d6ad029cd74b3ed334fe59fec37b210729",
+          "current_size": 565237,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "4348be3b136a60fc1fcd4294738cb8d6ad029cd74b3ed334fe59fec37b210729",
+              "size": 565237
+            }
+          ]
+        },
+        {
+          "filename": "TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
+          "current_hash": "0445d58ff9bfa28f2be4d871c7d0240be7ef624412d7f067b7232d313267b2c8",
+          "current_size": 1971596,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "0445d58ff9bfa28f2be4d871c7d0240be7ef624412d7f067b7232d313267b2c8",
+              "size": 1971596
+            }
+          ]
+        }
+      ],
+      "comune": []
+    },
+    "32": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "INTEGRAZIONE PER CHIARIMENTI PEF 2026_RISCONTRO_DEL_21_04_2026.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/INTEGRAZIONE PER CHIARIMENTI PEF 2026_RISCONTRO_DEL_21_04_2026.docx",
+          "current_hash": "2f5fa659092a5397c8441c88325d4060bb42d003b368f6f7c3e5aa0e78eaeac9",
+          "current_size": 15427,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "2f5fa659092a5397c8441c88325d4060bb42d003b368f6f7c3e5aa0e78eaeac9",
+              "size": 15427
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "gestore": [],
+      "comune": [
+        {
+          "filename": "dichiarazione veidicità.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/dichiarazione veidicità.pdf",
+          "current_hash": "4128a1248223e3adc401793577858e6e5006cc96f06f7ca41a310a8f34d81863",
+          "current_size": 500740,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "4128a1248223e3adc401793577858e6e5006cc96f06f7ca41a310a8f34d81863",
+              "size": 500740
+            }
+          ]
+        },
+        {
+          "filename": "Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Predisposizione PEF grezzo Comune di Rapagnano (non ETC) 2026-2029_Allegato 2_2.0.docx",
+          "current_hash": "7d6ba23f1436f9b5c3087d0adf34b0343c7c61c7f221881e619c63da8b88cc69",
+          "current_size": 192407,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "7d6ba23f1436f9b5c3087d0adf34b0343c7c61c7f221881e619c63da8b88cc69",
+              "size": 192407
+            }
+          ]
+        },
+        {
+          "filename": "Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Rapagnano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "current_hash": "b14fa6f7c67790afeacdb62cc7d0731e97b7b876832c0e7371d8ca8715c69a5a",
+          "current_size": 3972706,
+          "first_seen": "2026-04-27T09:42:26.114681+00:00",
+          "last_seen": "2026-04-27T09:42:26.114681+00:00",
+          "status": "presente",
+          "removed_at": null,
+          "history": [
+            {
+              "event": "primo_caricamento",
+              "time": "2026-04-27T09:42:26.114681+00:00",
+              "hash": "b14fa6f7c67790afeacdb62cc7d0731e97b7b876832c0e7371d8ca8715c69a5a",
+              "size": 3972706
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
