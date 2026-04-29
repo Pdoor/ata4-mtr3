@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATA4 — Pivot Esplorazione MTR3</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.23.0/pivot.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.23.0/pivot.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0c0f1a;--s:#111827;--s2:#0f172a;--b:#1e293b;--b2:#334155;
+  --t:#e2e8f0;--t2:#94a3b8;--t3:#64748b;--t4:#475569;
+  --blue:#3b82f6;--green:#22c55e;--gd:#16a34a;--yel:#f59e0b;--yd:#d97706;
+  --red:#ef4444;--rd:#dc2626;--pur:#8b5cf6;--cyan:#06b6d4;--pink:#ec4899;
+  --f:'DM Sans','Segoe UI',system-ui,sans-serif;--m:'JetBrains Mono',monospace
+}
+body{font-family:var(--f);background:var(--bg);color:var(--t);min-height:100vh}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+button{cursor:pointer;font-family:var(--f)}
+.hdr{background:linear-gradient(135deg,#1a1f3a,#0d1225);border-bottom:1px solid var(--b);padding:18px 24px}
+.hdr-in{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1900px;margin:0 auto}
+.logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--pur),var(--blue));display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#fff;flex-shrink:0}
+.hdr-t{font-size:20px;font-weight:700;letter-spacing:-.02em;color:#f1f5f9}
+.hdr-s{font-size:11px;color:var(--t3);font-family:var(--m)}
+.hdr-l{display:flex;align-items:center;gap:12px}
+.hdr-r{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.nbtn{padding:7px 14px;border-radius:7px;border:1px solid var(--b2);background:0;color:var(--t2);font-size:12px;font-weight:600;transition:.15s;text-decoration:none;display:inline-block}
+.nbtn:hover{border-color:var(--blue);color:var(--t)}
+.nbtn.on{border-color:var(--blue);background:#1e3a5f;color:#93c5fd}
+.nbtn.green{border-color:var(--gd);color:#86efac}
+.nbtn.purple{border-color:var(--pur);color:#c4b5fd}
+.main{padding:18px 24px;max-width:1900px;margin:0 auto}
+.status{font-size:12px;color:var(--t3);font-family:var(--m);margin-bottom:14px;padding:8px 12px;background:var(--s);border:1px solid var(--b);border-radius:7px;display:inline-block}
+.status.err{color:#fecaca;background:#7f1d1d;border-color:#b91c1c}
+.status.ok{color:#86efac}
+.status.warn{color:#fde68a}
+.modesw{display:inline-flex;gap:0;border:1px solid var(--b2);border-radius:7px;overflow:hidden}
+.modesw button{background:0;border:0;color:var(--t2);padding:7px 14px;font-size:12px;font-weight:600;border-right:1px solid var(--b2)}
+.modesw button:last-child{border-right:0}
+.modesw button.on{background:#1e3a5f;color:#93c5fd}
+.help{font-size:11px;color:var(--t3);margin-bottom:14px;padding:10px 14px;background:var(--s2);border-left:3px solid var(--blue);border-radius:5px;line-height:1.5}
+.help b{color:var(--t)}
+/* ── PivotTable.js dark-theme overrides ── */
+table.pvtTable,table.pvtTable thead tr th,table.pvtTable tbody tr th{
+  background:var(--s);color:var(--t);border:1px solid var(--b2);font-family:var(--f);font-size:12px}
+table.pvtTable thead tr th{background:#1e293b;font-weight:700}
+table.pvtTable tbody tr th.pvtRowLabel,table.pvtTable tbody tr th.pvtAxisLabel,
+table.pvtTable tbody tr th.pvtTotalLabel,table.pvtTable thead tr th.pvtAxisLabel{
+  background:#0f172a;color:#cbd5e1;font-weight:600}
+table.pvtTable tbody tr td{background:var(--s2);color:var(--t);border:1px solid var(--b)}
+table.pvtTable tbody tr td.pvtTotal,table.pvtTable tbody tr td.pvtGrandTotal{
+  background:#1e3a5f;color:#dbeafe;font-weight:700}
+.pvtUi{color:var(--t);background:0}
+.pvtUi td{vertical-align:top;padding:4px}
+.pvtAxisContainer,.pvtVals{background:var(--s);border:1px solid var(--b2);border-radius:6px;padding:6px;min-height:30px}
+.pvtAxisContainer.pvtHorizList li,.pvtAxisContainer.pvtVertList li,
+.pvtVals .pvtAttr{background:var(--b);color:var(--t);border:1px solid var(--b2);border-radius:4px;padding:3px 8px;margin:2px;font-size:11px;font-weight:600;display:inline-block}
+.pvtAttr.pvtFilteredAttribute{background:#7f1d1d;color:#fecaca;border-color:#b91c1c}
+.pvtTriangle{color:var(--blue)}
+.pvtDropdown,.pvtRenderers,.pvtAggregator{background:var(--s);color:var(--t);border:1px solid var(--b2);border-radius:5px;padding:4px 8px;font-family:var(--f);font-size:12px}
+.pvtDropdownCurrent{background:var(--s);color:var(--t)}
+.pvtDropdownMenu{background:var(--s2);color:var(--t);border:1px solid var(--b2)}
+.pvtDropdownValue{background:var(--s);color:var(--t)}
+.pvtDropdownValue:hover,.pvtDropdownActiveValue{background:var(--b);color:#93c5fd}
+.pvtFilterBox{background:var(--s);border:1px solid var(--b2);color:var(--t);box-shadow:0 6px 20px rgba(0,0,0,.5)}
+.pvtFilterBox h4{color:var(--t);background:#1e293b;padding:8px;margin:-1px -1px 8px -1px}
+.pvtFilterBox input[type="text"]{background:var(--bg);color:var(--t);border:1px solid var(--b2);padding:4px 8px;border-radius:4px}
+.pvtFilterBox button{background:var(--b);color:var(--t);border:1px solid var(--b2);padding:4px 10px;border-radius:4px;margin:2px}
+.pvtFilterBox button:hover{background:var(--blue);color:#fff}
+.pvtCheckContainer{color:var(--t);max-height:200px;overflow-y:auto;background:var(--s);padding:6px}
+.pvtCheckContainer p{padding:3px 6px;border-bottom:1px solid var(--b)}
+.pvtCheckContainer p:hover,.pvtCheckContainer p.selected{background:var(--b)}
+.pvtVal{color:var(--t)}
+.pvtSearch{background:var(--bg);color:var(--t);border:1px solid var(--b2);border-radius:4px;padding:4px 8px;width:100%}
+input.pvtSearch{margin-bottom:6px}
+.ui-sortable-helper{background:var(--blue)!important;color:#fff!important}
+</style>
+</head>
+<body>
+<div class="hdr">
+  <div class="hdr-in">
+    <div class="hdr-l">
+      <div class="logo">ATA4</div>
+      <div>
+        <div class="hdr-t">ATA4 — Pivot Esplorazione MTR3</div>
+        <div class="hdr-s" id="hdr-sub">read-only · auto-refresh 3 min</div>
+      </div>
+    </div>
+    <div class="hdr-r">
+      <div class="modesw">
+        <button id="mode-A" class="on">A · per documento</button>
+        <button id="mode-B">B · per evento</button>
+      </div>
+      <button class="nbtn" id="reload-btn">↻ Ricarica</button>
+      <button class="nbtn" id="login-btn">🔑 Accedi</button>
+      <a href="index.html" class="nbtn">← Cruscotto</a>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div class="status" id="status">Caricamento dati…</div>
+  <div class="help">
+    <b>Come si usa.</b> Trascina i campi nelle aree <b>righe</b> e <b>colonne</b> per costruire la tua pivot. Clicca sui campi per filtrare i valori. Cambia aggregatore (Conteggio, Somma, Media…) dal menu a tendina in alto a sinistra. Cambia tipo di vista (Tabella/Heatmap/Grafico) dal menu a destra. La modalità <b>A</b> ha 1 riga per (comune × tipo documento) — buona per stato corrente. La modalità <b>B</b> denormalizza ogni evento di upload — buona per analisi temporali. La pivot è <b>read-only</b>: per modificare i dati torna al cruscotto.
+  </div>
+  <div id="pivot-output"></div>
+</div>
+<script>
+/* ═══════════════════ COSTANTI APPLICATIVE ═══════════════════ */
+const APP_NAME = "ATA4";
+const LS_OVERRIDES="ata4_overrides_v1";
+const LS_GH_TOKEN="ata4_gh_token_v1";
+const LS_SESSION="ata4_session_v1";
+const LS_PIVOT_CFG="ata4_pivot_cfg_v1";
+
+const DATA_URLS = ["https://pdoor.github.io/ata4-mtr3/data/dashboard.json"];
+const OVERRIDES_URL="https://pdoor.github.io/ata4-mtr3/data/overrides.json";
+/* GH_REPO non serve nella pivot (read-only), ma lo lascio per coerenza */
+
+const COMUNI=[
+  {id:1, comune:"Altidona",                   gestore:"RIECO",             advisor:"NEOPA",url:"https://www.provincia.fm.it/drive/9v3mdoy6ti2"},
+  {id:2, comune:"Amandola",                   gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/7cfl6rwmfexi"},
+  {id:3, comune:"Belmonte Piceno",            gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/72j0e9z4772d"},
+  {id:4, comune:"Campofilone",                gestore:"RIECO",             advisor:"NEOPA",url:"https://www.provincia.fm.it/drive/61jpijnphm7e"},
+  {id:5, comune:"Falerone",                   gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/71ma4xgfc4br"},
+  {id:6, comune:"Fermo",                      gestore:"ASITE SURL",        advisor:"",    url:"https://www.provincia.fm.it/drive/5kjjqgjp52bm"},
+  {id:7, comune:"Francavilla d'Ete",          gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/2vxelssno0pf"},
+  {id:8, comune:"Grottazzolina",              gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/3ahoqjicoqlx"},
+  {id:9, comune:"Lapedona",                   gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/777cf7yak6om"},
+  {id:10,comune:"Magliano di Tenna",          gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/1vz0zkp2tqev"},
+  {id:11,comune:"Massa Fermana",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/1ev2qj0yvrx9"},
+  {id:12,comune:"Monsampietro Morico",        gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/73nl638n4sp0"},
+  {id:13,comune:"Montappone",                 gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/396z4nzv4y99"},
+  {id:14,comune:"Monte Giberto",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/7fg582zhd3t5"},
+  {id:15,comune:"Monte Rinaldo",              gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/4pkotlmc0c79"},
+  {id:16,comune:"Monte San Pietrangeli",      gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/3f5d1ahwmas"},
+  {id:17,comune:"Monte Urano",                gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/4bfxoupe20oz"},
+  {id:18,comune:"Monte Vidon Combatte",       gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/dqu9khjlx77"},
+  {id:19,comune:"Monte Vidon Corrado",        gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6vl3xqxodq94"},
+  {id:20,comune:"Montefalcone Appennino",     gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6hcaeqftrsla"},
+  {id:21,comune:"Montefortino",               gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/5dwl3bv05h9x"},
+  {id:22,comune:"Montegiorgio",               gestore:"RIECO",             advisor:"",    url:"https://www.provincia.fm.it/drive/tlw4r2r9hau"},
+  {id:23,comune:"Montegranaro",               gestore:"TEKNEKO",           advisor:"",    url:"https://www.provincia.fm.it/drive/3gku6o5lz661"},
+  {id:24,comune:"Monteleone di Fermo",        gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/3e8e8w57qh10"},
+  {id:25,comune:"Montelparo",                 gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/nypzmc5ct79"},
+  {id:26,comune:"Monterubbiano",              gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6o5i523jjoxk"},
+  {id:27,comune:"Montottone",                 gestore:"PIN.ECO",           advisor:"",    url:"https://www.provincia.fm.it/drive/71b5l2mf2m8z"},
+  {id:28,comune:"Moresco",                    gestore:"SOECO→ECOINNOVA",   advisor:"",    url:"https://www.provincia.fm.it/drive/7c7tieb5szm0"},
+  {id:29,comune:"Ortezzano",                  gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/7s5e5627fjs"},
+  {id:30,comune:"Pedaso",                     gestore:"RIECO",             advisor:"",    url:"https://www.provincia.fm.it/drive/47bsbtq69ims"},
+  {id:31,comune:"Petritoli",                  gestore:"ECO INNOVA SRL",    advisor:"",    url:"https://www.provincia.fm.it/drive/7gyyk7h9omge"},
+  {id:32,comune:"Ponzano di Fermo",           gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/3739lu5r8gjy"},
+  {id:33,comune:"Porto San Giorgio",          gestore:"SGDS Multiservizi", advisor:"",    url:"https://www.provincia.fm.it/drive/4ze5yejrap67"},
+  {id:34,comune:"Porto Sant'Elpidio",         gestore:"ECO ELPIDIENSE",    advisor:"",    url:"https://www.provincia.fm.it/drive/ga22vc27tw6"},
+  {id:35,comune:"Rapagnano",                  gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6mqqhoebiss7"},
+  {id:36,comune:"Santa Vittoria in Matenano", gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/2ct8ban7t8x2"},
+  {id:37,comune:"Sant'Elpidio a Mare",        gestore:"IMPREGICO",         advisor:"",    url:"https://www.provincia.fm.it/drive/7fb7murgsuiw"},
+  {id:38,comune:"Servigliano",                gestore:"SERVIGLIANO",       advisor:"",    url:"https://www.provincia.fm.it/drive/2wwqssmufmhx"},
+  {id:39,comune:"Smerillo",                   gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/4gjc20z8zkch"},
+  {id:40,comune:"Torre San Patrizio",         gestore:"SO.ECO",            advisor:"",    url:"https://www.provincia.fm.it/drive/6jwk5gepq0gw"},
+];
+
+const DOC_G=[
+  {key:"tool_mtr3",       label:"Tool MTR3",           short:"Tool"},
+  {key:"relazione",       label:"Relazione",           short:"Rel."},
+  {key:"dich_veridicita", label:"Dich. Veridicità",    short:"Dich."},
+  {key:"altre_com",       label:"Altre comunicazioni - Prosp. riconciliazione (Gestore)", short:"Altre"},
+];
+
+const DOC_C=[
+  {key:"tool_mtr3_c",       label:"Tool MTR3",           short:"Tool"},
+  {key:"relazione_c",       label:"Relazione",           short:"Rel."},
+  {key:"dich_veridicita_c", label:"Dich. Veridicità",    short:"Dich."},
+  {key:"altre_com_c",       label:"Altre comunicazioni", short:"Altre"},
+];
+
+const DOC_ATA4=[
+  {key:"pef_validato", label:"PEF Validato", short:"PEF"},
+];
+
+const ALL_DOCS=[...DOC_G,...DOC_C,...DOC_ATA4];
+const DOC_MANDATORY=ALL_DOCS.filter(d=>!["altre_com","altre_com_c","pef_validato"].includes(d.key));
+
+const WORKFLOW_STEPS=[
+  {key:"pef_grezzi_od",        label:"PEF Grezzi caricati su ONEDRIVE",                    short:"Grezzi OD",   source:"manual"},
+  {key:"avvio_interloc",       label:"Avvio interlocuzione e validazione",                 short:"Avvio",       source:"manual"},
+  {key:"prospetto_riconciliaz",label:"Prospetto di riconciliazione (Gestore)",             short:"Riconc.",     source:"manual"},
+  {key:"comune_visione",       label:"PEF trasmesso al Comune in visione",                 short:"→ Comune",    source:"manual"},
+  {key:"conferma_com",         label:"Conferma COMUNE validazione / Attestazione rinunce", short:"Conferma",    source:"manual"},
+  {key:"pef_drive_prov",       label:"PEF da validare su Drive provincia",                 short:"Drive prov.", source:"scanner", docKey:"pef_validato"},
+  {key:"delibera",             label:"Data delibera di approvazione",                      short:"Delibera",    source:"manual"},
+];
+
+/* ═══════════════════ CIFRATURA / LOGIN ═══════════════════ */
+const ENC_PWD_USERS={
+  GM:"2nj592mbNxAmXVAyc0pM5BlmRCzYzmZk3Jd/HLE2F8zaARKBRsJp889vWykY7R/Fj3GioWuyESnHNmdVfoGKpfALoenadaP2UGiWah/WitY6fBrkyzHhX4AZzYkbXxT064cGBhffux2SpubXHXPTI0LKEDCrGMNJNCGYETmfqKeZxRRNhrClY+DwcC2lPI5hhzlWqy/YfBq5fDstIGzMx7FTXGdJFH2D9yQQzIDyGAGdMhcysJkomsY83Zi5ztTdlZG/yT6L9QmvJlxkhKCqNmyntQ8EvxPEaqckBw+GbYwH0gLavBugZeAYp0jDOFRTNuP+BNMEteIFNwucL5XTOSrHOr6vKFoGI20jWNWiAxJKj+ustfeJAkIRXuv8hRTO+h0WGBiE1WCk+lSjlBTmSn03/BNF7VT7LgQglKhwZP6c7c9NF8b/GL7cO/fLMn6//pBte32v+qqg7GMpnUZNOxQ+WlLjU5uU377zNAGmdmFRPHW46lEHTlC8NsADBCrB6fhlFdkK4ImJHX4OTolfVLFgV9zGZlgz8Fy5CNDybU+/M/0DgWdSBPi8qPyRe6b2AAYfxqzcTVkp05VohKfGHb85wPEJRK46OcdQVA0WvYjLZVSut37W22OyLoPZOvxfJFLTcOkaeL5TesRrTQosW1VfzIQohlzw/+bUa0EMYz58dUpdGbYWhMy0cNlpgiqtQmkjzk71uu0iGWapmUvfKwUyfCMG9wecz3tWEFxq2YZB9xKFre9mRHXf6nEUUl1sUFGjpM9GLi11rGK0m/tkXBrpdQE1cJ4he/XEXDNgP/hkB7a02WRnjDJu35PlI143EczaMB7iiL2UuD0obIFp5RoX1zL9IxWLh2OC03riShPdIuHJDw0JODRH/tZzppBKzCxTd6EF7WUaq4KqNe+lYnHFmDtVay+oTmkkmqLDJ/o7ujTFI2jfZlRufWYamUWleJVVi3ymIi4KcdDSuc2/CbSDG/shojpuzPwshrUs8j/78bMPQwRamz0twlTX9LnQilg2HnrIaWJbMZc9fVUz6xs2425kVkhGQyi8d54QswfjshuOZSdCD1F3RfrEimALrO5MHMb/Bg61jBtSNjBiPEvYhXE+/7I/Qbgje+ZqC3lophiw7oMUqdW+LUroG3MhN8geR4TJogk/byjwVMjIAfZTS0cOU/06Mq7ruKLxGQXuaJ0gbCGPlEBahBIE/g4zLPylSCPTJEpuRMibsynjm/DHnaiUeVu3f7lyJbECLN7bv4h+coFy3u4YAw59WkIfTZ4QE8h/2ULaGvcchBFZPw5CsqCVuwbxq+tCdnFLKR1UgeCv7Vr3Et0uxFGcLCQ+tN5b+nVirWVG40eGkaVaGsj8o+zyhAXI9PEPAhhhVArQV+emh07zovZm8UFqgo2CvjhFx9jgIQTa5iX/kDe/241CJntt9A==",
+  GN:"nUhyY97cGymDQcmpUPdL4eUSdbqcCAjs5CevJITeTaTGL47Nb161hNM6G7PWiwcxn2rM7qMlgXvr+JBOvFHGoBP6fTUM3dGwfH+7KSg25z4VCxtJOzPuVuvRWmMeQP3AOHELIbJSNr4dqqn0cKH1R9FtvtV4E6ypoBC15pnMO8GQ1lpbhJGa7WyAkn4sZ4oShSeAFJ4tLrv27QRy0EfjSbzpxmPxTiR/pNxKTzJsfQXVE3A8SYM1D2uMFj0eUXPIoauKZkdZH/NUdgUfP9drK5tMPDuqVWbz4o/G8cRDY6R06KjilNhvcgS8CSQXhjVVg26u8/CKZ9vsw6a/uOMCGEzpx0mLcEMNln7kXuEXlSQ/hGFYBBaZn146dnEhqQ1sbMEXQZhXAh/vfLAdcERTs+JOcvPQGnIUeA9hVDQT2tIYBLrMrIyZ0Kok4x/s9N9hLuDIcRpLeT5cYECejmNS7gD6a3F/CVhgaMJ6iCa5n4IC6/LgQUXNsAZOnxWNw20qeGbyiyIxvTz9vkkSYqfgo0GmyhSAoPC1Lcmemr9K5FmUtS8SNAr/S1jbTt2yrITW72aNidmvxsFVt0IlXBgGzcmSL+wPJpT91aj86/FLEjo9YfVaYmzfbX7xNZmghlcSX1IZ1QXz95vr2EHCCdR5cIh7GCG1HN/3/IqN9yBuwHYSU4DEquTfIrp5rDIsrf95qx8ZfGBqgdXoiRyIR7LZhLDbtnVcOK6ju6hOKGvc7X2AFX+Pa4RNBEtrkGSTDb0CM49LCH8CXAt1jQlEvue529Q/Pc4l45K1xrhROEtnhBfNeYTqhFfFFlkJh1Hv6U4z3QJYsbXv/UfX58REW9QSaVxDut91Lm6X2wEoIzyUJvBta8T8tVn6yoydtf5ZEQRfxDWDUdEygXN0zgDBm6aSWPiknYA+dAEwTGv5UsFxbx2WFmSZpLU5R/N9xemiZXPImui27+aZrHkn9hdpFuy45qJtP7rzztCsUGlgdLHulP/ZmRL11w9k7PkgG1jh/FWM8HgCmkRf8IMsv4s15BgOL6FF6NkYn/83qg/uNtLaKaFI3r0oFDtrbwBcZnZLImAXA0lvkCRc8bDOeLyWNWhgfOcH0kZKM61pa1lM5uTk6jNu1GCkYhPC2UYhDP+FJsvvIEAwfFlpX9Jy32qx2HQuaQNOsafZy5gdCrU5qTXIGhPjLrwX5qFvaN2TMsEyZ6RKCVLNJMQ8m02WM6eeSACzDx1SEHHcdrCOmG52baf3Gy30fl0GP3xd65UgKKn8fu7z7OHEmqeBcLQUTpleuqkH5fNUnjtEDf4pD9VylObuvI00xivyjJ+gInzmQWOn7TjionmLGaGB5TOdADZAm/8Oyc1CvWPrmwjldnFc8hc28SsHj98PKd+dznmvSNi/R+lqJeTrlzRKvPWAU0RjxcBfDNQl3CEqDQ==",
+  ATA:"Km9qdsb0w5Vr/Hwo0SbDCUPaIxGZGYGwctdmxjuG1yy/Uznzlhy0qsao148WXZzoeNrHufmEOLmiIfIYlZCNWXkkNeKEi0U9rssSsjxZEWwUAZiHUvRjGosEqL3Jo97g47lHEctN/q0itD80GWDWZn5PRLMDT6DoV40Hctqa8pFhobkF5IVRxjZ2MI137LQnu7RPpHEojt7A/c2PW7c4S7hoC1PscEVCO1Ftb9P4Qdft9A7kPK8jtfx67d1XMWIna9P9iV3C73Oi0XuRK09ndUHuDlOP2opH+o6DjrI3Cj4RDJK963XtJvBfZIM8oB+0UoP1W+EHKh7mL8OiH3EKUW9hsGvAMsWrGa6dbz64TINIl7CjQ5Es1AGVTM9ywoqIruC4WVKrxfZLyAu+/elNBOuo4/EAWquTu642UodxKSCcqxiQiFzxC/RLXgqLVij60gxycgrIYjmZAgyP2QjX9snnQjXizX0jlpsKju6Ni4x9UXeQAzaDQgaha1r0HEjksXHp8AVMwdemLHF3sLiBDwHaGpIFPDCWhlE2dS+AfXSwiRsFSmspyBhATu+aYL4CL22CwxKODBY5qvz5FZD/7HqWcICcUCE0MQeWljcJ/rPM3da64ne56y2m9CPWFholL7Iz4kq2sV+8B/7AvV8f4Vgt2SfFtAhvStryrrWMfA6GDTgB7Y7FuvVgW9zXNF8OjigfiDq9cRhvKOyIP10xHt13MtSs6ZAHBrTsH1aqmauqCcZpJKWTG74Xg8/0qPNq24tC9LFjI+vLmjkZSOs8kHlcMpckSnE6UwNghJded00n2nTdygNz3iubrW6LT4KihwWcdU/RZJyIYZVrwv3mbPfMB7UT+FN6iqL2QViGyjPBZddqLQTb8+9v6ybVlyF3cAuTJirKhy4bVtkVKI+N4qEm34YP99PcuN3NVsBRl/5ytmYJ/+QBvMa8Z/T1ZqMZ+7EZY0rtFql+SQS0yeMjCvrpVHdfa68U0QYNuN5l/h7pyy+FczqdwcBbxFcRWSJ7BqHySNKeCfr3kS5+gQvwbGQWNAuNbBlkBcK5hNJpkGCy02xkqTk++un2bx+DFiC2mblerw5TMu2TSjZuHwZXh7VEBswSzsk6AW+4e+Nk1Bgz4HEReA7c1EHcSNG1zEw1SY6wuk50666gcGSZoOgygyVyUws1iOXAn7b4dFaglEARHINSp2ld+pvgHpDJ5LGrwYtoESirLaAZYMCOvRveg5TSlRbnFseP44wp/iYbU7eUVWfFbHJeZW5mkp5t/vrCr626zkaUV2kCsGjWpNKVkK2/pg4bjzIdDcIxwDMRqsHAxm/Zl9CeAAGVsuE3riznlPt/ACrXrvHdcNh5Mq1P297ZqRbjSG2+SHrO7mwrzgzHAhh+v8Cmc8r63Z8FhWwruUlZaAAumiQnEs6FueA7nA4axxoeLA=="
+};
+
+const ENC_NKEY_USERS={
+  GM:"hgqsHw9abmTcE+wX4QZLh30NWeU/7Y09C12MwPr8ARnspnN87yWBhtz0rbPvbJpErYflQGeRAzXCC/LFGVK1NwxMQqsVD2i3TYpx56U5+LE+cF6jlBon8Q==",
+  GN:"XJpOu7mneGA8JbAY7ZaXnMWCKTh6FlOE5K7C+5DC30XHR75d7Qg+lHAZkO8hbqQ1h0snVvZvYyAPIJBrTbE5aiZ24GBICNJhLrnrMJVkuJ/8aapbf2hMug==",
+  ATA:"i+UHjm6bzGMd3W/t0m5h9wcIhJQcP9dtFWpqM7MNsF4i6HOqgBGv6MKi/IFUIsFeoAf3NaIVchkgBZ2rlqaPuYWFK6j/l+0QON2O5E9mDPv6O+GHyOZNQg=="
+};
+
+const USER_ROLES={GM:"admin",GN:"admin",ATA:"readonly"};
+
+let _pwdMap=null;
+let _currentUser=null;
+let _userRole=null;
+let _sessionPass=null;
+
+async function _derivePwdKey(pass,salt,usage=["decrypt"]){
+  const km=await crypto.subtle.importKey("raw",new TextEncoder().encode(pass),"PBKDF2",false,["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2",salt,iterations:100000,hash:"SHA-256"},km,{name:"AES-GCM",length:256},false,usage);
+}
+async function _decryptText(b64,pass){
+  try{
+    const b=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
+    const key=await _derivePwdKey(pass,b.slice(0,16),["decrypt"]);
+    const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(16,28)},key,b.slice(28));
+    return new TextDecoder().decode(pt);
+  }catch(e){return null;}
+}
+async function _tryDecrypt(b64,pass){
+  try{
+    const b=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
+    const k=await _derivePwdKey(pass,b.slice(0,16));
+    const pt=await crypto.subtle.decrypt({name:"AES-GCM",iv:b.slice(16,28)},k,b.slice(28));
+    return JSON.parse(new TextDecoder().decode(pt));
+  }catch(e){return null;}
+}
+async function _doLogin(pass){
+  for(const[userId,blob] of Object.entries(ENC_PWD_USERS)){
+    const map=await _tryDecrypt(blob,pass);
+    if(map){
+      _pwdMap=map;_currentUser=userId;_userRole=USER_ROLES[userId];_sessionPass=pass;
+      try{
+        const salt=crypto.getRandomValues(new Uint8Array(16));
+        const iv=crypto.getRandomValues(new Uint8Array(12));
+        const key=await _derivePwdKey(userId,salt,["encrypt"]);
+        const ct=await crypto.subtle.encrypt({name:"AES-GCM",iv},key,new TextEncoder().encode(pass));
+        const out=new Uint8Array(16+12+ct.byteLength);
+        out.set(salt,0);out.set(iv,16);out.set(new Uint8Array(ct),28);
+        const encSess=btoa(String.fromCharCode(...out));
+        localStorage.setItem(LS_SESSION,JSON.stringify({u:userId,e:encSess}));
+      }catch(e){}
+      return true;
+    }
+  }
+  return false;
+}
+async function _tryAutoLogin(){
+  try{
+    const raw=localStorage.getItem(LS_SESSION);
+    if(!raw)return false;
+    const sess=JSON.parse(raw);
+    if(!sess?.u||!sess?.e)return false;
+    const pass=await _decryptText(sess.e,sess.u);
+    if(!pass)return false;
+    return await _doLogin(pass);
+  }catch(e){return false;}
+}
+async function _login(){
+  if(_currentUser){
+    if(confirm("Disconnettere "+_currentUser+"?")){
+      _pwdMap=null;_currentUser=null;_userRole=null;_sessionPass=null;
+      localStorage.removeItem(LS_SESSION);
+      updateLoginBtn();
+    }
+    return;
+  }
+  if(await _tryAutoLogin()){updateLoginBtn();render();return;}
+  const pass=prompt("Inserisci la tua password di accesso:");
+  if(!pass)return;
+  if(await _doLogin(pass)){updateLoginBtn();render();}
+  else alert("Password non corretta.");
+}
+function updateLoginBtn(){
+  const b=document.getElementById("login-btn");
+  if(_currentUser){
+    b.textContent=_currentUser+" 🟢"; b.className="nbtn green";
+    b.title="Connesso come "+_currentUser+" ("+_userRole+") — clicca per disconnettere";
+  }else{
+    b.textContent="🔑 Accedi"; b.className="nbtn purple";
+    b.title="Login opzionale: la pivot funziona anche senza login";
+  }
+}
+
+/* ═══════════════════ DATA LOADER ═══════════════════ */
+let JDATA=null;
+let LOCAL_OVERRIDES={};
+let ONLINE_OVERRIDES={};
+let MERGED={};
+let CURRENT_MODE="A";
+
+try{const o=localStorage.getItem(LS_OVERRIDES);if(o)LOCAL_OVERRIDES=JSON.parse(o);}catch(e){}
+
+async function loadJSON(){
+  for(const u of DATA_URLS){
+    try{const r=await fetch(u+"?t="+Date.now());if(r.ok){JDATA=await r.json();return;}}catch(e){}
+  }
+  JDATA=null;
+}
+async function loadOverrides(){
+  try{
+    const r=await fetch(OVERRIDES_URL+"?t="+Date.now());
+    if(r.ok){
+      const d=await r.json();
+      ONLINE_OVERRIDES=(d&&d.docs!==undefined)?(d.docs||{}):(d||{});
+    }
+  }catch(e){ONLINE_OVERRIDES={};}
+  // Merge: ONLINE prevale, LOCAL fa da fallback
+  MERGED=Object.assign({},LOCAL_OVERRIDES,ONLINE_OVERRIDES);
+}
+
+/* ═══════════════════ HELPERS ═══════════════════ */
+function _docMeta(key){
+  const inG=DOC_G.find(d=>d.key===key);
+  if(inG)return{label:inG.label,short:inG.short,lato:"Gestore",cat:_categoria(inG.key)};
+  const inC=DOC_C.find(d=>d.key===key);
+  if(inC)return{label:inC.label,short:inC.short,lato:"Comune",cat:_categoria(inC.key)};
+  const inA=DOC_ATA4.find(d=>d.key===key);
+  if(inA)return{label:inA.label,short:inA.short,lato:"PEF",cat:"PEF Validato"};
+  return{label:key,short:key,lato:"?",cat:"?"};
+}
+function _categoria(key){
+  if(key.startsWith("tool_"))return"Tool MTR3";
+  if(key.startsWith("relazione"))return"Relazione";
+  if(key.startsWith("dich_veridicita"))return"Dichiarazione";
+  if(key.startsWith("altre_com"))return"Altre comunicazioni";
+  if(key==="pef_validato")return"PEF Validato";
+  return"?";
+}
+function _comuneInfo(id){return COMUNI.find(c=>String(c.id)===String(id))||null;}
+function _yearMonth(iso){if(!iso)return null;return iso.slice(0,7);}
+function _year(iso){if(!iso)return null;return iso.slice(0,4);}
+function _month(iso){if(!iso)return null;return iso.slice(5,7);}
+function _dayName(iso){if(!iso)return null;
+  const d=new Date(iso);if(isNaN(d))return null;
+  return["Dom","Lun","Mar","Mer","Gio","Ven","Sab"][d.getDay()];}
+function _hour(iso){if(!iso)return null;return iso.slice(11,13);}
+function _ovGet(cid,suff){const k=cid+"_"+suff;return MERGED[k]||null;}
+function _wfDoneCount(cid){
+  let n=0;
+  for(const st of WORKFLOW_STEPS){
+    if(st.source==="scanner"){
+      const doc=JDATA?.comuni?.[String(cid)]?.docs?.[st.docKey];
+      if(doc?.status==="received")n++;
+    }else{
+      const ov=_ovGet(cid,"wf_"+st.key);
+      if(ov?.date)n++;
+    }
+  }
+  return n;
+}
+function _hasOverride(cid){
+  for(const k in MERGED){if(k.startsWith(cid+"_"))return true;}
+  return false;
+}
+function _docsReceived(cid){
+  const docs=JDATA?.comuni?.[String(cid)]?.docs||{};
+  let r=0,t=0;
+  for(const d of DOC_MANDATORY){t++;if(docs[d.key]?.status==="received")r++;}
+  return{received:r,total:t,pct:t?Math.round(r/t*100):0};
+}
+
+/* ═══════════════════ FACT TABLE BUILDERS ═══════════════════ */
+function buildFactTableA(){
+  /* Una riga per (comune × tipo_documento). 9 doc_types × N comuni */
+  const rows=[];
+  if(!JDATA?.comuni)return rows;
+  for(const c of COMUNI){
+    const cid=String(c.id);
+    const cdata=JDATA.comuni[cid];
+    const wfDone=_wfDoneCount(c.id);
+    const hasOv=_hasOverride(c.id);
+    const dr=_docsReceived(c.id);
+    const ondrive=_ovGet(c.id,"ondrive")?.ondrive===true;
+    const odg=_ovGet(c.id,"odg")?.odg===true;
+    const odc=_ovGet(c.id,"odc")?.odc===true;
+    for(const d of ALL_DOCS){
+      const meta=_docMeta(d.key);
+      const ds=cdata?.docs?.[d.key]||{status:"missing"};
+      const ovDoc=_ovGet(c.id,d.key);
+      const status=ovDoc?.status||ds.status||"missing";
+      const fu=ds.first_upload||null;
+      const lu=ds.last_upload||null;
+      const fc=ds.file_count||0;
+      const sz=ds.current_size||0;
+      const replaced=ds.replaced===true;
+      rows.push({
+        "Comune":c.comune,
+        "ID Comune":c.id,
+        "Gestore":c.gestore,
+        "Advisor":c.advisor||"(nessuno)",
+        "Doc tipo":d.key,
+        "Doc label":meta.label,
+        "Doc lato":meta.lato,
+        "Doc categoria":meta.cat,
+        "Stato":status,
+        "Stato (manuale?)":ovDoc?"sì":"no",
+        "File count":fc,
+        "File count classe":fc===0?"0":fc===1?"1":fc===2?"2":"3+",
+        "Sostituito":replaced?"sì":"no",
+        "Dimensione (byte)":sz,
+        "Dimensione (MB)":sz?Math.round(sz/1048576*100)/100:0,
+        "First upload":fu?fu.slice(0,10):null,
+        "Last upload":lu?lu.slice(0,10):null,
+        "First upload anno":_year(fu),
+        "First upload mese":_yearMonth(fu),
+        "Last upload anno":_year(lu),
+        "Last upload mese":_yearMonth(lu),
+        "Giorni da first upload":fu?Math.floor((Date.now()-new Date(fu))/864e5):null,
+        "Giorni first→last":(fu&&lu)?Math.floor((new Date(lu)-new Date(fu))/864e5):null,
+        "Comune scan error":cdata?.last_scan_error?"sì":"no",
+        "Comune scan empty":cdata?.last_scan_empty?"sì":"no",
+        "Comune nodata":!cdata?"sì":"no",
+        "Comune processabile":cdata?.processabile||"(nd)",
+        "Comune ondrive (OD)":ondrive?"sì":"no",
+        "Comune ODG":odg?"sì":"no",
+        "Comune ODC":odc?"sì":"no",
+        "Comune fasi WF":wfDone,
+        "Comune ha override":hasOv?"sì":"no",
+        "Comune % completamento":dr.pct,
+        "Conteggio":1
+      });
+    }
+  }
+  return rows;
+}
+
+function buildFactTableB(){
+  /* Una riga per ogni elemento di upload_history. */
+  const rows=[];
+  if(!JDATA?.comuni)return rows;
+  for(const c of COMUNI){
+    const cid=String(c.id);
+    const cdata=JDATA.comuni[cid];
+    if(!cdata?.docs)continue;
+    const ondrive=_ovGet(c.id,"ondrive")?.ondrive===true;
+    const odg=_ovGet(c.id,"odg")?.odg===true;
+    const odc=_ovGet(c.id,"odc")?.odc===true;
+    for(const dkey in cdata.docs){
+      const ds=cdata.docs[dkey];
+      const meta=_docMeta(dkey);
+      const hist=ds.upload_history||[];
+      for(const ev of hist){
+        rows.push({
+          "Comune":c.comune,
+          "ID Comune":c.id,
+          "Gestore":c.gestore,
+          "Advisor":c.advisor||"(nessuno)",
+          "Doc tipo":dkey,
+          "Doc label":meta.label,
+          "Doc lato":meta.lato,
+          "Doc categoria":meta.cat,
+          "Evento":ev.event||"?",
+          "Evento data":ev.time?ev.time.slice(0,10):null,
+          "Evento anno":_year(ev.time),
+          "Evento mese":_yearMonth(ev.time),
+          "Evento giorno":_dayName(ev.time),
+          "Evento ora":_hour(ev.time),
+          "File":ev.file||"(?)",
+          "Hash":ev.hash?ev.hash.slice(0,12):"(?)",
+          "Comune ondrive (OD)":ondrive?"sì":"no",
+          "Comune ODG":odg?"sì":"no",
+          "Comune ODC":odc?"sì":"no",
+          "Conteggio":1
+        });
+      }
+    }
+  }
+  return rows;
+}
+
+/* ═══════════════════ PRESET ═══════════════════ */
+const PRESETS_A={
+  rows:["Gestore","Doc lato"],
+  cols:["Stato"],
+  vals:["Conteggio"],
+  aggregatorName:"Count",
+  rendererName:"Table"
+};
+const PRESETS_B={
+  rows:["Gestore"],
+  cols:["Evento mese"],
+  vals:["Conteggio"],
+  aggregatorName:"Count",
+  rendererName:"Heatmap"
+};
+
+/* ═══════════════════ RENDER ═══════════════════ */
+function setStatus(msg,cls){
+  const el=document.getElementById("status");
+  el.textContent=msg;
+  el.className="status "+(cls||"");
+}
+function loadPivotConfig(){
+  try{const raw=localStorage.getItem(LS_PIVOT_CFG+"_"+CURRENT_MODE);
+    return raw?JSON.parse(raw):null;}catch(e){return null;}
+}
+function savePivotConfig(cfg){
+  try{
+    const lean={rows:cfg.rows,cols:cfg.cols,vals:cfg.vals,
+      aggregatorName:cfg.aggregatorName,rendererName:cfg.rendererName,
+      inclusions:cfg.inclusions,exclusions:cfg.exclusions};
+    localStorage.setItem(LS_PIVOT_CFG+"_"+CURRENT_MODE,JSON.stringify(lean));
+  }catch(e){}
+}
+function render(){
+  const data=CURRENT_MODE==="A"?buildFactTableA():buildFactTableB();
+  if(!data.length){setStatus("Nessun dato disponibile (controlla che dashboard.json sia raggiungibile)","err");return;}
+  const meta=JDATA?.meta||{};
+  setStatus(
+    "✓ "+data.length.toLocaleString()+" righe · modalità "+CURRENT_MODE+
+    " · "+COMUNI.length+" comuni · ultimo scan: "+(meta.last_scan?meta.last_scan.slice(0,16).replace("T"," "):"n/d")+
+    (_currentUser?" · loggato come "+_currentUser:" · accesso pubblico"),
+    "ok"
+  );
+  const cfg=loadPivotConfig()||(CURRENT_MODE==="A"?PRESETS_A:PRESETS_B);
+  cfg.onRefresh=function(c){savePivotConfig(c);};
+  cfg.unusedAttrsVertical=false;
+  $("#pivot-output").pivotUI(data,cfg,true);
+}
+function setMode(m){
+  CURRENT_MODE=m;
+  document.getElementById("mode-A").className=m==="A"?"on":"";
+  document.getElementById("mode-B").className=m==="B"?"on":"";
+  render();
+}
+
+/* ═══════════════════ BOOT ═══════════════════ */
+(async()=>{
+  setStatus("Caricamento dashboard.json…");
+  await loadJSON();
+  setStatus("Caricamento overrides.json…");
+  await loadOverrides();
+  await _tryAutoLogin();
+  updateLoginBtn();
+  render();
+})();
+setInterval(async()=>{await loadJSON();await loadOverrides();render();},180000);
+
+/* ═══════════════════ EVENT BINDINGS ═══════════════════ */
+document.getElementById("mode-A").addEventListener("click",()=>setMode("A"));
+document.getElementById("mode-B").addEventListener("click",()=>setMode("B"));
+document.getElementById("reload-btn").addEventListener("click",async()=>{
+  setStatus("Ricarico…");await loadJSON();await loadOverrides();render();
+});
+document.getElementById("login-btn").addEventListener("click",_login);
+</script>
+</body>
+</html>
