@@ -23628,7 +23628,7 @@
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23890,12 +23890,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-17T11:43:44.455640+00:00",
-          "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-17T12:59:18.229619+00:00",
           "zip_hash": "396ca6ac34ab7bc30d33ce6f37c684ff0020539b8cbe13a82a79954be058f50a",
@@ -24489,6 +24483,12 @@
           "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-04-29T12:19:52.057313+00:00",
+          "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -24516,7 +24516,7 @@
     "36": {
       "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
       "content_fingerprint": "7557acba03f5be8019a4c08b85e5c7b93254e597d1902b3fad7eb06b147654c7",
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24744,12 +24744,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-17T11:43:44.455640+00:00",
-          "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-04-17T12:59:18.229619+00:00",
           "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
           "changed": false,
@@ -25342,6 +25336,12 @@
           "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-04-29T12:19:52.057313+00:00",
+          "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -25357,7 +25357,7 @@
       "last_scan_empty": false
     },
     "37": {
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25493,12 +25493,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-17T11:43:44.455640+00:00",
-          "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-17T12:59:18.229619+00:00",
           "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
           "changed": false,
@@ -26091,13 +26085,19 @@
           "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-04-29T12:19:52.057313+00:00",
+          "zip_hash": "52ac0f703f210c5584ab05aa7b45ad40447a347fd2836a25d45e6b19c2ba73cd",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "38": {
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -26107,10 +26107,10 @@
       }
     },
     "39": {
-      "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
-      "content_fingerprint": "13d0b4189df5562db7a4f819ac99252063f574b66c9c1fde162095503ec9b7ab",
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
-      "zip_changed": false,
+      "zip_hash": "f3832d10dba88cf543902505536a02666debf669393170abc6171ec9310d6f4c",
+      "content_fingerprint": "d9e9c07761966645f4a3ce43f630b2c6c1531ef09e6585c7a7d65fbbe63bbac5",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26196,19 +26196,112 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3972071,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
+              "size": 3972071
+            }
+          ],
+          "first_upload": "2026-04-29T12:19:52.057313+00:00",
+          "last_upload": "2026-04-29T12:19:52.057313+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-29T12:19:52.057313+00:00",
+              "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
+          "current_file": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+          "current_size": 502539,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+              "hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
+              "size": 502539
+            }
+          ],
+          "first_upload": "2026-04-29T12:19:52.057313+00:00",
+          "last_upload": "2026-04-29T12:19:52.057313+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-29T12:19:52.057313+00:00",
+              "hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
+              "file": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "f1eb26742e32e199d5a0fd1712a51d73a14555070261e6a06a123832b52b85cd",
+          "current_file": "Allegato_4_Dichiarazione_di_Veridicità_SMERILLO_signed.pdf",
+          "current_size": 459543,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_4_Dichiarazione_di_Veridicità_SMERILLO_signed.pdf",
+              "hash": "f1eb26742e32e199d5a0fd1712a51d73a14555070261e6a06a123832b52b85cd",
+              "size": 459543
+            }
+          ],
+          "first_upload": "2026-04-29T12:19:52.057313+00:00",
+          "last_upload": "2026-04-29T12:19:52.057313+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-04-29T12:19:52.057313+00:00",
+              "hash": "f1eb26742e32e199d5a0fd1712a51d73a14555070261e6a06a123832b52b85cd",
+              "file": "Allegato_4_Dichiarazione_di_Veridicità_SMERILLO_signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
           "status": "missing"
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
+          "size": 3972071,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+          "hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
+          "size": 502539,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Allegato_4_Dichiarazione_di_Veridicità_SMERILLO_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato_4_Dichiarazione_di_Veridicità_SMERILLO_signed.pdf",
+          "hash": "f1eb26742e32e199d5a0fd1712a51d73a14555070261e6a06a123832b52b85cd",
+          "size": 459543,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
@@ -26243,12 +26336,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-17T11:43:44.455640+00:00",
-          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-17T12:59:18.229619+00:00",
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
@@ -26842,6 +26929,12 @@
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-04-29T12:19:52.057313+00:00",
+          "zip_hash": "f3832d10dba88cf543902505536a02666debf669393170abc6171ec9310d6f4c",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -26853,13 +26946,13 @@
         "id": 39
       },
       "last_scan_error": false,
-      "processabile": "no",
+      "processabile": "si",
       "last_scan_empty": false
     },
     "40": {
       "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
       "content_fingerprint": "4b07480162420402151b50bf51001932a2e7c57fa282c508ceca0afab4eee57a",
-      "last_scan": "2026-04-29T10:10:54.156056+00:00",
+      "last_scan": "2026-04-29T12:19:52.057313+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27144,12 +27237,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-17T11:43:44.455640+00:00",
-          "zip_hash": "137e0882fbb3dba51fdac8f7d44d04d5136980e3f670bfcd6c25785c1ca255f9",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-04-17T12:59:18.229619+00:00",
           "zip_hash": "137e0882fbb3dba51fdac8f7d44d04d5136980e3f670bfcd6c25785c1ca255f9",
           "changed": false,
@@ -27742,6 +27829,12 @@
           "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-04-29T12:19:52.057313+00:00",
+          "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -27760,11 +27853,11 @@
   "meta": {
     "last_scan": "2026-04-29T12:19:52.057313+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 0,
-      "invariati": 30,
+      "scansionati": 35,
+      "aggiornati": 1,
+      "invariati": 34,
       "errori": 0,
-      "vuoti": 4
+      "vuoti": 5
     },
     "total_comuni": 40,
     "scadenze": {
