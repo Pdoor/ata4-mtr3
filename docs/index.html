@@ -558,6 +558,15 @@ async function showPwd(id,url,container){
   },1000);
 }
 
+// ── Copia rapida password (scorciatoia da tabella) ──
+async function copyPwdQuick(c){
+  if(!_currentUser)return;
+  if(!await _requireUnlock())return;
+  const pwd=_pwdMap?.[_urlKey(c.url)];
+  if(!pwd){alert("Password non configurata per "+c.comune);return;}
+  await navigator.clipboard.writeText(pwd);
+}
+
 // ── Setup token GitHub ──
 async function setupGhToken(){
   if(!await _requireUnlock())return;
@@ -1681,7 +1690,15 @@ function renderTable(fil){
     const dtd=h("td",{style:{textAlign:"center"}});
     const a=h("a",{href:c.url,target:"_blank",className:"drive-lnk"},"↗");
     a.addEventListener("click",e=>e.stopPropagation());
-    dtd.appendChild(a);tr.appendChild(dtd);
+    dtd.appendChild(a);
+    if(_currentUser){
+      const cp=h("button",{className:"drive-lnk",title:"Copia password",style:{marginLeft:"4px"},onClick:e=>{
+        e.stopPropagation();
+        copyPwdQuick(c).then(()=>{cp.textContent="\u2713";setTimeout(()=>{cp.textContent="\ud83d\udccb";},1200);});
+      }},"\ud83d\udccb");
+      dtd.appendChild(cp);
+    }
+    tr.appendChild(dtd);
     tbody.appendChild(tr);
   });
   tb.appendChild(tbody);tw.appendChild(tb);return tw;
