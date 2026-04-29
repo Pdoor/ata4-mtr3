@@ -1582,7 +1582,7 @@ function makeWorkflowPanel(s,comuneId){
 // ── TABLE ──
 function renderTable(fil){
   const tw=h("div",{className:"tw"}),tb=h("table"),thead=h("thead"),hr=h("tr");
-  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","C:Tool","C:Rel","C:Dich","C:Alt","PEF","%","Proc.","OD","ODG","ODC","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
+  ["#","Comune","Gestore","G:Tool","G:Rel","G:Dich","G:Alt","ODG","C:Tool","C:Rel","C:Dich","C:Alt","ODC","PEF","%","Proc.","OD","Fase","1° Upload","Ultimo G","Ultimo C","Drive"].forEach((t,i)=>
     hr.appendChild(h("th",{className:i<=2?"l":""},t)));
   thead.appendChild(hr);tb.appendChild(thead);
   const tbody=h("tbody");
@@ -1600,8 +1600,50 @@ function renderTable(fil){
     tr.appendChild(h("td",{style:{color:"var(--t2)"}},c.gestore));
     DOC_G.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
+    // ── ODG: dossier Gestore copiato su dataroom
+    const odgtd=h("td",{style:{textAlign:"center"}});
+    const odgChk=h("input",{type:"checkbox"});
+    odgChk.checked=s?.cart_odg===true;
+    odgChk.disabled=_userRole!=="admin";
+    if(s?.cart_odg_by||s?.cart_odg_at){
+      odgtd.title="Segnato da "+(s.cart_odg_by||"?")+(s.cart_odg_at?" il "+fmtDate(s.cart_odg_at):"");
+    }
+    odgChk.addEventListener("click",e=>e.stopPropagation());
+    odgChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_odg";
+      if(e.target.checked){
+        const v={odg:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odgtd.appendChild(odgChk);tr.appendChild(odgtd);
     DOC_C.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
+    // ── ODC: dossier Comune copiato su dataroom
+    const odctd=h("td",{style:{textAlign:"center"}});
+    const odcChk=h("input",{type:"checkbox"});
+    odcChk.checked=s?.cart_odc===true;
+    odcChk.disabled=_userRole!=="admin";
+    if(s?.cart_odc_by||s?.cart_odc_at){
+      odctd.title="Segnato da "+(s.cart_odc_by||"?")+(s.cart_odc_at?" il "+fmtDate(s.cart_odc_at):"");
+    }
+    odcChk.addEventListener("click",e=>e.stopPropagation());
+    odcChk.addEventListener("change",e=>{
+      if(_userRole!=="admin")return;
+      const ovKey=c.id+"_odc";
+      if(e.target.checked){
+        const v={odc:true,by:_currentUser||null,at:new Date().toISOString()};
+        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
+      }else{
+        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
+      }
+      saveOverrides();saveOverrideOnline();render();
+    });
+    odctd.appendChild(odcChk);tr.appendChild(odctd);
     DOC_ATA4.forEach(d=>{const ds=getDocSt(s,d.key),cfg=ST[ds.status]||ST.missing;
       tr.appendChild(h("td",{style:{textAlign:"center",color:cfg.color,fontWeight:"600"},title:d.label+(ds.first_upload?"\nPrimo: "+fmtDate(ds.first_upload):"")+(ds.last_upload?"\nUltimo: "+fmtDate(ds.last_upload):"")},cfg.icon))});
     tr.appendChild(h("td",{style:{textAlign:"center",fontWeight:"700",color:col,fontFamily:"var(--m)"}},s!==null?String(p):"—"));
@@ -1630,48 +1672,6 @@ function renderTable(fil){
       saveOverrides();saveOverrideOnline();render();
     });
     odtd.appendChild(odChk);tr.appendChild(odtd);
-    // ── ODG: dossier Gestore copiato su dataroom
-    const odgtd=h("td",{style:{textAlign:"center"}});
-    const odgChk=h("input",{type:"checkbox"});
-    odgChk.checked=s?.cart_odg===true;
-    odgChk.disabled=_userRole!=="admin";
-    if(s?.cart_odg_by||s?.cart_odg_at){
-      odgtd.title="Segnato da "+(s.cart_odg_by||"?")+(s.cart_odg_at?" il "+fmtDate(s.cart_odg_at):"");
-    }
-    odgChk.addEventListener("click",e=>e.stopPropagation());
-    odgChk.addEventListener("change",e=>{
-      if(_userRole!=="admin")return;
-      const ovKey=c.id+"_odg";
-      if(e.target.checked){
-        const v={odg:true,by:_currentUser||null,at:new Date().toISOString()};
-        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
-      }else{
-        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
-      }
-      saveOverrides();saveOverrideOnline();render();
-    });
-    odgtd.appendChild(odgChk);tr.appendChild(odgtd);
-    // ── ODC: dossier Comune copiato su dataroom
-    const odctd=h("td",{style:{textAlign:"center"}});
-    const odcChk=h("input",{type:"checkbox"});
-    odcChk.checked=s?.cart_odc===true;
-    odcChk.disabled=_userRole!=="admin";
-    if(s?.cart_odc_by||s?.cart_odc_at){
-      odctd.title="Segnato da "+(s.cart_odc_by||"?")+(s.cart_odc_at?" il "+fmtDate(s.cart_odc_at):"");
-    }
-    odcChk.addEventListener("click",e=>e.stopPropagation());
-    odcChk.addEventListener("change",e=>{
-      if(_userRole!=="admin")return;
-      const ovKey=c.id+"_odc";
-      if(e.target.checked){
-        const v={odc:true,by:_currentUser||null,at:new Date().toISOString()};
-        LOCAL_OVERRIDES[ovKey]=v;ONLINE_OVERRIDES[ovKey]=v;
-      }else{
-        delete LOCAL_OVERRIDES[ovKey];delete ONLINE_OVERRIDES[ovKey];
-      }
-      saveOverrides();saveOverrideOnline();render();
-    });
-    odctd.appendChild(odcChk);tr.appendChild(odctd);
     const _wfP=getWorkflowProgress(s),_wfTot=WORKFLOW_STEPS.length;
     const _wfCol=_wfP===_wfTot?"var(--green)":_wfP>0?"var(--yel)":"var(--t4)";
     tr.appendChild(h("td",{style:{textAlign:"center",fontSize:"10px",fontFamily:"var(--m)",color:_wfCol,fontWeight:"700"},title:"Workflow: "+_wfP+"/"+_wfTot+" fasi completate"},_wfP+"/"+_wfTot));
