@@ -45,40 +45,70 @@ button{cursor:pointer;font-family:var(--f)}
 .modesw button.on{background:#1e3a5f;color:#93c5fd}
 .help{font-size:11px;color:var(--t3);margin-bottom:14px;padding:10px 14px;background:var(--s2);border-left:3px solid var(--blue);border-radius:5px;line-height:1.5}
 .help b{color:var(--t)}
-/* ── PivotTable.js dark-theme overrides ── */
-table.pvtTable,table.pvtTable thead tr th,table.pvtTable tbody tr th{
-  background:var(--s);color:var(--t);border:1px solid var(--b2);font-family:var(--f);font-size:12px}
-table.pvtTable thead tr th{background:#1e293b;font-weight:700}
-table.pvtTable tbody tr th.pvtRowLabel,table.pvtTable tbody tr th.pvtAxisLabel,
-table.pvtTable tbody tr th.pvtTotalLabel,table.pvtTable thead tr th.pvtAxisLabel{
-  background:#0f172a;color:#cbd5e1;font-weight:600}
-table.pvtTable tbody tr td{background:var(--s2);color:var(--t);border:1px solid var(--b)}
-table.pvtTable tbody tr td.pvtTotal,table.pvtTable tbody tr td.pvtGrandTotal{
-  background:#1e3a5f;color:#dbeafe;font-weight:700}
-.pvtUi{color:var(--t);background:0}
-.pvtUi td{vertical-align:top;padding:4px}
-.pvtAxisContainer,.pvtVals{background:var(--s);border:1px solid var(--b2);border-radius:6px;padding:6px;min-height:30px}
-.pvtAxisContainer.pvtHorizList li,.pvtAxisContainer.pvtVertList li,
-.pvtVals .pvtAttr{background:var(--b);color:var(--t);border:1px solid var(--b2);border-radius:4px;padding:3px 8px;margin:2px;font-size:11px;font-weight:600;display:inline-block}
-.pvtAttr.pvtFilteredAttribute{background:#7f1d1d;color:#fecaca;border-color:#b91c1c}
-.pvtTriangle{color:var(--blue)}
-.pvtDropdown,.pvtRenderers,.pvtAggregator{background:var(--s);color:var(--t);border:1px solid var(--b2);border-radius:5px;padding:4px 8px;font-family:var(--f);font-size:12px}
-.pvtDropdownCurrent{background:var(--s);color:var(--t)}
-.pvtDropdownMenu{background:var(--s2);color:var(--t);border:1px solid var(--b2)}
-.pvtDropdownValue{background:var(--s);color:var(--t)}
-.pvtDropdownValue:hover,.pvtDropdownActiveValue{background:var(--b);color:#93c5fd}
-.pvtFilterBox{background:var(--s);border:1px solid var(--b2);color:var(--t);box-shadow:0 6px 20px rgba(0,0,0,.5)}
-.pvtFilterBox h4{color:var(--t);background:#1e293b;padding:8px;margin:-1px -1px 8px -1px}
-.pvtFilterBox input[type="text"]{background:var(--bg);color:var(--t);border:1px solid var(--b2);padding:4px 8px;border-radius:4px}
-.pvtFilterBox button{background:var(--b);color:var(--t);border:1px solid var(--b2);padding:4px 10px;border-radius:4px;margin:2px}
-.pvtFilterBox button:hover{background:var(--blue);color:#fff}
-.pvtCheckContainer{color:var(--t);max-height:200px;overflow-y:auto;background:var(--s);padding:6px}
-.pvtCheckContainer p{padding:3px 6px;border-bottom:1px solid var(--b)}
-.pvtCheckContainer p:hover,.pvtCheckContainer p.selected{background:var(--b)}
-.pvtVal{color:var(--t)}
-.pvtSearch{background:var(--bg);color:var(--t);border:1px solid var(--b2);border-radius:4px;padding:4px 8px;width:100%}
-input.pvtSearch{margin-bottom:6px}
-.ui-sortable-helper{background:var(--blue)!important;color:#fff!important}
+/* ── PivotTable.js dark-theme overrides v2 (aggressivi: !important per battere stili nativi) ── */
+/* Tabella pivot stessa */
+table.pvtTable{background:var(--s)!important;color:var(--t)!important;border:1px solid var(--b2)!important;font-family:var(--f)!important;font-size:12px!important}
+table.pvtTable thead tr th,table.pvtTable tbody tr th{background:#0f172a!important;color:#cbd5e1!important;border:1px solid var(--b2)!important;font-weight:600!important}
+table.pvtTable tbody tr td{background:var(--s2)!important;color:var(--t)!important;border:1px solid var(--b)!important}
+table.pvtTable tbody tr td.pvtTotal,table.pvtTable tbody tr td.pvtGrandTotal,
+table.pvtTable tbody tr th.pvtTotalLabel,table.pvtTable tbody tr th.pvtGrandTotalLabel{
+  background:#1e3a5f!important;color:#dbeafe!important;font-weight:700!important}
+/* UI configurazione (tabella esterna pvtUi che contiene i drop area) */
+table.pvtUi{background:transparent!important;color:var(--t)!important;border:0!important;border-collapse:separate!important;border-spacing:6px!important}
+table.pvtUi td{background:transparent!important;border:0!important;vertical-align:top!important;padding:4px!important}
+/* Aree contenitori dei pill (Unused/Rows/Cols/Vals) */
+.pvtAxisContainer,.pvtVals,.pvtRenderers,.pvtUiCell{
+  background:var(--s)!important;color:var(--t)!important;
+  border:1px solid var(--b2)!important;border-radius:6px!important;
+  padding:6px!important;min-height:30px!important}
+.pvtAxisContainer.pvtHorizList,.pvtAxisContainer.pvtVertList{min-width:80px!important}
+/* Pill draggable */
+.pvtAttr,
+li.pvtAttr,
+.pvtAxisContainer li,
+.pvtAxisContainer li.pvtAttr,
+.pvtVals .pvtAttr,
+ul.pvtVals .pvtAttr,
+table.pvtUi li{
+  background:var(--b)!important;color:var(--t)!important;
+  border:1px solid var(--b2)!important;border-radius:4px!important;
+  padding:4px 9px!important;margin:3px!important;
+  font-size:11px!important;font-weight:600!important;
+  display:inline-block!important;cursor:move!important;
+  list-style-type:none!important;white-space:nowrap!important}
+.pvtAttr.pvtFilteredAttribute,
+li.pvtAttr.pvtFilteredAttribute{
+  background:#7f1d1d!important;color:#fecaca!important;border-color:#b91c1c!important}
+.pvtAttr:hover{background:var(--b2)!important}
+.pvtTriangle{color:var(--blue)!important;font-size:9px!important;margin-left:4px!important}
+.pvtAttr .pvtTriangle{color:var(--blue)!important}
+/* Select native (Renderer "Heatmap" + Aggregator "Count") */
+select.pvtRenderer,select.pvtAggregator,select{
+  background:var(--s)!important;color:var(--t)!important;
+  border:1px solid var(--b2)!important;border-radius:5px!important;
+  padding:6px 10px!important;font-family:var(--f)!important;
+  font-size:12px!important;cursor:pointer!important}
+select option{background:var(--s2)!important;color:var(--t)!important}
+/* Filter box (popup) */
+.pvtFilterBox{background:var(--s2)!important;border:1px solid var(--b2)!important;color:var(--t)!important;box-shadow:0 6px 20px rgba(0,0,0,.6)!important;border-radius:6px!important;padding:8px!important;z-index:10000!important}
+.pvtFilterBox h4{color:var(--t)!important;background:#1e293b!important;padding:8px 10px!important;margin:-8px -8px 8px -8px!important;border-radius:6px 6px 0 0!important;font-size:13px!important;font-weight:700!important}
+.pvtFilterBox p{color:var(--t)!important;margin:4px 0!important;font-size:11px!important}
+.pvtFilterBox input[type="text"]{background:var(--bg)!important;color:var(--t)!important;border:1px solid var(--b2)!important;padding:4px 8px!important;border-radius:4px!important}
+.pvtFilterBox button{background:var(--b)!important;color:var(--t)!important;border:1px solid var(--b2)!important;padding:4px 10px!important;border-radius:4px!important;margin:2px!important;font-family:var(--f)!important;font-size:11px!important;cursor:pointer!important}
+.pvtFilterBox button:hover{background:var(--blue)!important;color:#fff!important;border-color:var(--blue)!important}
+.pvtCheckContainer{color:var(--t)!important;max-height:200px!important;overflow-y:auto!important;background:var(--s)!important;padding:6px!important;border:1px solid var(--b)!important;border-radius:4px!important}
+.pvtCheckContainer p{padding:3px 6px!important;border-bottom:1px solid var(--b)!important;color:var(--t)!important;cursor:pointer!important}
+.pvtCheckContainer p.selected,.pvtCheckContainer p:hover{background:var(--b)!important;color:#93c5fd!important}
+.pvtCheckContainer p input[type="checkbox"]{margin-right:6px!important}
+.pvtSearch,input.pvtSearch{background:var(--bg)!important;color:var(--t)!important;border:1px solid var(--b2)!important;border-radius:4px!important;padding:4px 8px!important;width:100%!important;margin-bottom:6px!important}
+.pvtVal{color:var(--t)!important}
+/* Sortable helper durante drag */
+.ui-sortable-helper{background:var(--blue)!important;color:#fff!important;border-color:var(--blue)!important;opacity:.95!important}
+.ui-sortable-placeholder{background:#1e3a5f!important;border:1px dashed var(--blue)!important;visibility:visible!important;opacity:.4!important}
+/* Heatmap: PivotTable usa background colorato bianco; il testo nero su sfondo colorato resta leggibile */
+table.pvtTable.pvtHeatmap tbody tr td,
+table.pvtTable.pvtRowHeatmap tbody tr td,
+table.pvtTable.pvtColHeatmap tbody tr td{color:#0f172a!important;font-weight:600!important}
 </style>
 </head>
 <body>
