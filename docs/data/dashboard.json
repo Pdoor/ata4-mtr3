@@ -18241,8 +18241,8 @@
       "processabile": "no"
     },
     "26": {
-      "last_scan": "2026-04-30T12:17:50.735431+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-04-30T15:13:53.244495+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Monterubbiano",
@@ -18983,7 +18983,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-04-30T12:17:50.735431+00:00",
+      "last_scan": "2026-04-30T15:13:53.244495+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19806,14 +19806,14 @@
         "url": "https://www.provincia.fm.it/drive/71b5l2mf2m8z",
         "id": 27
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-04-30T12:17:50.735431+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-04-30T15:13:53.244495+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Moresco",
         "gestore": "SO.ECO",
@@ -19821,8 +19821,8 @@
       }
     },
     "29": {
-      "last_scan": "2026-04-30T12:17:50.735431+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-04-30T15:13:53.244495+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Ortezzano",
@@ -20561,9 +20561,9 @@
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-04-30T12:17:50.735431+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-04-30T15:13:53.244495+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Pedaso",
         "gestore": "RIECO",
@@ -28122,7 +28122,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 25,
+      "errori": 30,
       "vuoti": 0
     },
     "total_comuni": 40,
