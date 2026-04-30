@@ -26125,10 +26125,10 @@
       }
     },
     "39": {
-      "zip_hash": "f3832d10dba88cf543902505536a02666debf669393170abc6171ec9310d6f4c",
-      "content_fingerprint": "d9e9c07761966645f4a3ce43f630b2c6c1531ef09e6585c7a7d65fbbe63bbac5",
-      "last_scan": "2026-04-29T19:43:46.610595+00:00",
-      "zip_changed": false,
+      "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
+      "content_fingerprint": "6474955f3a54bf2950d8877df2ade7b39c231ea417095e8687ff8825c1584bb5",
+      "last_scan": "2026-04-30T08:09:24.660917+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26241,12 +26241,12 @@
         "relazione_c": {
           "status": "received",
           "current_hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
-          "current_file": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+          "current_file": "RELAZIONE_PEF_2026_2029_Allegato2_signed.pdf",
           "current_size": 502539,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+              "name": "RELAZIONE_PEF_2026_2029_Allegato2_signed.pdf",
               "hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
               "size": 502539
             }
@@ -26305,8 +26305,8 @@
           "source": "comune"
         },
         {
-          "name": "RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
-          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/RELAZIONE_PEF_2022_2025_Allegato2_signed.pdf",
+          "name": "RELAZIONE_PEF_2026_2029_Allegato2_signed.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/RELAZIONE_PEF_2026_2029_Allegato2_signed.pdf",
           "hash": "2aa225c20230bc2c51933076f22293a01e8e3d626fbf04a1790e68257054bd4e",
           "size": 502539,
           "doc_key": "relazione_c",
@@ -26354,12 +26354,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-17T16:44:48.516817+00:00",
-          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-17T17:42:00.548637+00:00",
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
@@ -26952,6 +26946,12 @@
           "time": "2026-04-29T19:43:46.610595+00:00",
           "zip_hash": "f3832d10dba88cf543902505536a02666debf669393170abc6171ec9310d6f4c",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-04-30T08:09:24.660917+00:00",
+          "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -27869,13 +27869,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-04-29T19:43:46.610595+00:00",
+    "last_scan": "2026-04-30T08:09:24.660917+00:00",
     "results": {
-      "scansionati": 35,
-      "aggiornati": 0,
-      "invariati": 35,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 0
     },
     "total_comuni": 40,
     "scadenze": {
