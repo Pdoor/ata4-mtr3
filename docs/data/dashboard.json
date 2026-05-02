@@ -20637,8 +20637,8 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-02T11:54:03.360894+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-02T13:22:32.743993+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Petritoli",
@@ -21379,7 +21379,7 @@
     "32": {
       "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
       "content_fingerprint": "82154f693073cfa4454b902726faf6bb1231c0d2b498b27c721bd0281aab0423",
-      "last_scan": "2026-05-02T11:54:03.360894+00:00",
+      "last_scan": "2026-05-02T13:22:32.743993+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22255,14 +22255,14 @@
         "url": "https://www.provincia.fm.it/drive/3739lu5r8gjy",
         "id": 32
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "33": {
       "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
       "content_fingerprint": "08f5f6c4be898c147f62ed1fc1846b0650a3735f4f1a41b37a831e305e16b7a5",
-      "last_scan": "2026-05-02T11:54:03.360894+00:00",
+      "last_scan": "2026-05-02T13:22:32.743993+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23215,13 +23215,13 @@
         "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
         "id": 33
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-05-02T11:54:03.360894+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-02T13:22:32.743993+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Porto Sant'Elpidio",
@@ -23960,8 +23960,8 @@
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-05-02T11:54:03.360894+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-02T13:22:32.743993+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Rapagnano",
@@ -28278,7 +28278,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 30,
+      "errori": 35,
       "vuoti": 0
     },
     "total_comuni": 40,
