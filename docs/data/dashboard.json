@@ -19961,14 +19961,120 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-05-04T10:18:29.560937+00:00",
+      "last_scan": "2026-05-04T10:45:16.338627+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Moresco",
         "gestore": "SO.ECO",
-        "url": "https://www.provincia.fm.it/drive/7c7tieb5szm0"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/7c7tieb5szm0",
+        "id": 28
+      },
+      "zip_hash": "a11115eb009f583fa044f1eab402b655cc1073106fd247e21a83f50880a7d94d",
+      "content_fingerprint": "e0ec5f8d396598b036047b5eda90838de695ee39c6e06eef4107ca3b7e458ace",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "1edae1983ec049569ab99f111e5331c2d7a930a4e692e8bb585ce9d7d28161ae",
+          "current_file": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 1.xlsx",
+          "current_size": 3969543,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 1.xlsx",
+              "hash": "1edae1983ec049569ab99f111e5331c2d7a930a4e692e8bb585ce9d7d28161ae",
+              "size": 3969543
+            }
+          ],
+          "first_upload": "2026-05-04T10:45:16.338627+00:00",
+          "last_upload": "2026-05-04T10:45:16.338627+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-04T10:45:16.338627+00:00",
+              "hash": "1edae1983ec049569ab99f111e5331c2d7a930a4e692e8bb585ce9d7d28161ae",
+              "file": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 1.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "38c5365f6e79598afe1a103e4d7ad38f80a27bba822037b3d58cb91b36ba1363",
+          "current_file": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 2.pdf",
+          "current_size": 924517,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 2.pdf",
+              "hash": "38c5365f6e79598afe1a103e4d7ad38f80a27bba822037b3d58cb91b36ba1363",
+              "size": 924517
+            }
+          ],
+          "first_upload": "2026-05-04T10:45:16.338627+00:00",
+          "last_upload": "2026-05-04T10:45:16.338627+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-04T10:45:16.338627+00:00",
+              "hash": "38c5365f6e79598afe1a103e4d7ad38f80a27bba822037b3d58cb91b36ba1363",
+              "file": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 2.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 1.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 1.xlsx",
+          "hash": "1edae1983ec049569ab99f111e5331c2d7a930a4e692e8bb585ce9d7d28161ae",
+          "size": 3969543,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 2.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Comune di Moresco_Predisposizione PEF grezzo_2026-2029_Allegato 2.pdf",
+          "hash": "38c5365f6e79598afe1a103e4d7ad38f80a27bba822037b3d58cb91b36ba1363",
+          "size": 924517,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-05-04T10:45:16.338627+00:00",
+          "zip_hash": "a11115eb009f583fa044f1eab402b655cc1073106fd247e21a83f50880a7d94d",
+          "changed": true,
+          "file_count": 2
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "29": {
       "last_scan": "2026-05-04T10:18:29.560937+00:00",
@@ -28357,13 +28463,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-04T10:18:29.560937+00:00",
+    "last_scan": "2026-05-04T10:45:16.338627+00:00",
     "results": {
-      "scansionati": 35,
-      "aggiornati": 0,
-      "invariati": 35,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 5
+      "vuoti": 0
     },
     "total_comuni": 40,
     "scadenze": {
