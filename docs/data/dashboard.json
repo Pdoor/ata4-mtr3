@@ -21085,8 +21085,8 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Petritoli",
@@ -21220,12 +21220,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -21819,64 +21813,82 @@
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "32": {
-      "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
-      "content_fingerprint": "82154f693073cfa4454b902726faf6bb1231c0d2b498b27c721bd0281aab0423",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "zip_changed": false,
+      "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
+      "content_fingerprint": "7e8f7715ba2edc78bdf131f045902fb34a87183ea81d1410a8abdae3aba8cc77",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
+          "current_hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-          "current_size": 4105527,
+          "current_size": 4107949,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-              "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
-              "size": 4105527
+              "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
+              "size": 4107949
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-07T19:47:25.676790+00:00",
+              "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
+          "current_hash": "8d068e220449f24eed51616bec6c4b5a95d661f5aaea6f521eb6b459966f2102",
           "current_file": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
-          "current_size": 202280,
+          "current_size": 206464,
           "file_count": 1,
           "all_files": [
             {
               "name": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
-              "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
-              "size": 202280
+              "hash": "8d068e220449f24eed51616bec6c4b5a95d661f5aaea6f521eb6b459966f2102",
+              "size": 206464
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
               "file": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-07T19:47:25.676790+00:00",
+              "hash": "8d068e220449f24eed51616bec6c4b5a95d661f5aaea6f521eb6b459966f2102",
+              "file": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -21888,14 +21900,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+              "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
+              "size": 87309
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -22056,17 +22068,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-          "hash": "b5d243dde363719f77f2a06248b0df286f5cb8da4ec29c084b161a01e83fa0cb",
-          "size": 4105527,
+          "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
+          "size": 4107949,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -22078,21 +22082,23 @@
           "source": "gestore"
         },
         {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+          "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
+          "size": 87309,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
           "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_PONZANO  DI FERMO 19 03 26  _001_23_DTAC_all2_PEF2026-2029 .docx   SOECO.pdf",
-          "hash": "909b4ac7f829dc79f75eb6809538c78d4d2f2e6cdff674c9b2c93f7e4a5866c9",
-          "size": 202280,
+          "hash": "8d068e220449f24eed51616bec6c4b5a95d661f5aaea6f521eb6b459966f2102",
+          "size": 206464,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T16:51:13.289792+00:00",
-          "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-04-22T17:53:55.566366+00:00",
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
@@ -22686,6 +22692,12 @@
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -22703,14 +22715,14 @@
         "url": "https://www.provincia.fm.it/drive/3739lu5r8gjy",
         "id": 32
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "33": {
       "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
       "content_fingerprint": "08f5f6c4be898c147f62ed1fc1846b0650a3735f4f1a41b37a831e305e16b7a5",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23047,12 +23059,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
@@ -23646,6 +23652,12 @@
           "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -23663,7 +23675,7 @@
         "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
         "id": 33
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -28918,9 +28930,9 @@
   "meta": {
     "last_scan": "2026-05-07T19:47:25.676790+00:00",
     "results": {
-      "scansionati": 27,
-      "aggiornati": 1,
-      "invariati": 26,
+      "scansionati": 30,
+      "aggiornati": 2,
+      "invariati": 28,
       "errori": 0,
       "vuoti": 3
     },
