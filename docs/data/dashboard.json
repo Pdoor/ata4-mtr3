@@ -20087,8 +20087,8 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Moresco",
@@ -20323,14 +20323,20 @@
           "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "29": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Ortezzano",
@@ -20464,12 +20470,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
@@ -21063,15 +21063,21 @@
           "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Pedaso",
         "gestore": "RIECO",
@@ -28912,11 +28918,11 @@
   "meta": {
     "last_scan": "2026-05-07T19:47:25.676790+00:00",
     "results": {
-      "scansionati": 25,
+      "scansionati": 27,
       "aggiornati": 1,
-      "invariati": 24,
+      "invariati": 26,
       "errori": 0,
-      "vuoti": 2
+      "vuoti": 3
     },
     "total_comuni": 40,
     "scadenze": {
