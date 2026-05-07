@@ -25272,7 +25272,7 @@
     "36": {
       "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
       "content_fingerprint": "7557acba03f5be8019a4c08b85e5c7b93254e597d1902b3fad7eb06b147654c7",
-      "last_scan": "2026-05-07T15:31:39.242714+00:00",
+      "last_scan": "2026-05-07T17:52:29.862770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -26108,13 +26108,13 @@
         "url": "https://www.provincia.fm.it/drive/2ct8ban7t8x2",
         "id": 36
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "37": {
-      "last_scan": "2026-05-07T15:31:39.242714+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Sant'Elpidio a Mare",
@@ -26981,9 +26981,9 @@
       "processabile": "si"
     },
     "38": {
-      "last_scan": "2026-05-07T15:31:39.242714+00:00",
-      "last_scan_error": false,
-      "last_scan_empty": true,
+      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan_error": true,
+      "last_scan_empty": false,
       "info": {
         "comune": "Servigliano",
         "gestore": "SERVIGLIANO",
@@ -27150,7 +27150,7 @@
     "39": {
       "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
       "content_fingerprint": "6474955f3a54bf2950d8877df2ade7b39c231ea417095e8687ff8825c1584bb5",
-      "last_scan": "2026-05-07T15:31:39.242714+00:00",
+      "last_scan": "2026-05-07T17:52:29.862770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27986,14 +27986,14 @@
         "url": "https://www.provincia.fm.it/drive/4gjc20z8zkch",
         "id": 39
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "40": {
       "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
       "content_fingerprint": "4b07480162420402151b50bf51001932a2e7c57fa282c508ceca0afab4eee57a",
-      "last_scan": "2026-05-07T15:31:39.242714+00:00",
+      "last_scan": "2026-05-07T17:52:29.862770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28886,7 +28886,7 @@
         "url": "https://www.provincia.fm.it/drive/6jwk5gepq0gw",
         "id": 40
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     }
@@ -28897,7 +28897,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 35,
+      "errori": 40,
       "vuoti": 0
     },
     "total_comuni": 40,
@@ -28906,7 +28906,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
