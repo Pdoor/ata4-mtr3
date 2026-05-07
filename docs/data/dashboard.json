@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
       "content_fingerprint": "2b453356ed3abe0a11997846eefc57a01eb0678323e0855dafd8dda3d89d7dff",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -135,12 +135,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T11:59:20.859996+00:00",
-          "zip_hash": "d7c4d3f91ca5aa2b7ec253308ab9c2e17159ca5aa69d44c26c1bbffc927455f9",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-22T16:51:13.289792+00:00",
           "zip_hash": "d7c4d3f91ca5aa2b7ec253308ab9c2e17159ca5aa69d44c26c1bbffc927455f9",
@@ -734,6 +728,12 @@
           "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [
@@ -751,14 +751,14 @@
         "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2",
         "id": 1
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "2": {
       "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
       "content_fingerprint": "7d88ba6b2b0f7412e8e10e9fba37475f8bf02eb0befb1d970ea0ccfdcd15ab5f",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -999,12 +999,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-22T09:12:45.553552+00:00",
-          "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-04-22T10:58:20.519614+00:00",
           "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
           "changed": false,
@@ -1597,6 +1591,12 @@
           "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1607,63 +1607,75 @@
         "url": "https://www.provincia.fm.it/drive/7cfl6rwmfexi",
         "id": 2
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "3": {
-      "zip_hash": "a3e00aa6be9da83f25537791aaef93fd0cdcdc16601598c6495c6192b1c70d75",
-      "content_fingerprint": "4aa53ce7acd0c6ea2e927cc1904bcc9130a1c45e35d4f4e13d75a954dd032b3b",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "zip_changed": false,
+      "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
+      "content_fingerprint": "0507231c0ca417250f792e243adff10ad9f9ee228f911f42e433bc3faf72f445",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
+          "current_hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "current_size": 4104054,
+          "current_size": 4106415,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-              "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
-              "size": 4104054
+              "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
+              "size": 4106415
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-07T19:47:25.676790+00:00",
+              "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
-          "current_file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
-          "current_size": 201191,
+          "current_hash": "e7f3a7d4b5e9c535949a5caf25285e97e07162553efee6e3fddfab37717fe212",
+          "current_file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.docx 07 05 26.pdf",
+          "current_size": 206106,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
-              "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
-              "size": 201191
+              "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.docx 07 05 26.pdf",
+              "hash": "e7f3a7d4b5e9c535949a5caf25285e97e07162553efee6e3fddfab37717fe212",
+              "size": 206106
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
               "file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-07T19:47:25.676790+00:00",
+              "hash": "e7f3a7d4b5e9c535949a5caf25285e97e07162553efee6e3fddfab37717fe212",
+              "file": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.docx 07 05 26.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -1675,14 +1687,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+              "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
+              "size": 87309
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -1848,17 +1860,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "hash": "f2171c9c0b73936e45441a8ccd9091dd8fc15407fef8c9ec2e2bdaef5d9652da",
-          "size": 4104054,
+          "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
+          "size": 4106415,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -1870,21 +1874,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.pdf",
-          "hash": "0a880716c00e32cb5b1d9a62b22ea8c9cc0000067828e006846fbf9449dc38cb",
-          "size": 201191,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
+          "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
+          "size": 87309,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.docx 07 05 26.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_BELMONTE PICENO   _001_23_DTAC_all2_PEF_2024_25.docx   SOECO.docx 07 05 26.pdf",
+          "hash": "e7f3a7d4b5e9c535949a5caf25285e97e07162553efee6e3fddfab37717fe212",
+          "size": 206106,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "a3e00aa6be9da83f25537791aaef93fd0cdcdc16601598c6495c6192b1c70d75",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "a3e00aa6be9da83f25537791aaef93fd0cdcdc16601598c6495c6192b1c70d75",
@@ -2478,6 +2484,12 @@
           "zip_hash": "a3e00aa6be9da83f25537791aaef93fd0cdcdc16601598c6495c6192b1c70d75",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2488,13 +2500,13 @@
         "url": "https://www.provincia.fm.it/drive/72j0e9z4772d",
         "id": 3
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Campofilone",
@@ -2629,12 +2641,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
           "changed": false,
@@ -3227,6 +3233,12 @@
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -3235,7 +3247,7 @@
     "5": {
       "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
       "content_fingerprint": "659b343e299b208713121bec3b5eabe9d1b5b986d5e02bbe637c6ff5bd18677d",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3481,12 +3493,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "c84e73291980e634c3dbddc4afc3ca7a560ce99a40571ec2a183b24857667186",
@@ -4080,6 +4086,12 @@
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -4090,7 +4102,7 @@
         "url": "https://www.provincia.fm.it/drive/71ma4xgfc4br",
         "id": 5
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -28892,12 +28904,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-07T17:52:29.862770+00:00",
+    "last_scan": "2026-05-07T19:47:25.676790+00:00",
     "results": {
-      "scansionati": 0,
-      "aggiornati": 0,
-      "invariati": 0,
-      "errori": 40,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
+      "errori": 0,
       "vuoti": 0
     },
     "total_comuni": 40,
@@ -28906,7 +28918,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
