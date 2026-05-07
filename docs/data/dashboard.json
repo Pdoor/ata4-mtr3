@@ -16071,9 +16071,9 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
-      "last_scan_empty": false,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
+      "last_scan_empty": true,
       "info": {
         "comune": "Montegiorgio",
         "gestore": "TEKNEKO",
@@ -16083,7 +16083,7 @@
     "23": {
       "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
       "content_fingerprint": "2f3cdf687498b3d87a658bd4a2ddbd5a5dff302c877d3d0b5694330a39c11949",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -16382,12 +16382,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T11:59:20.859996+00:00",
-          "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-22T16:51:13.289792+00:00",
           "zip_hash": "2cd7ab3c6ecd4f1fde232ef77822a0c1058f1a6e1ed87fb594aa521eb25741d5",
@@ -16981,6 +16975,12 @@
           "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -17022,14 +17022,14 @@
         "url": "https://www.provincia.fm.it/drive/3gku6o5lz661",
         "id": 23
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "24": {
       "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
       "content_fingerprint": "cf7c27b565db476e0da6e9754714a31f82ad7d1eb51aed3e46584e7646ddbf3a",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17163,12 +17163,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T16:51:13.289792+00:00",
-          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-22T17:53:55.566366+00:00",
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
@@ -17762,6 +17756,12 @@
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -17772,13 +17772,13 @@
         "url": "https://www.provincia.fm.it/drive/3e8e8w57qh10",
         "id": 24
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "no",
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montelparo",
@@ -17913,12 +17913,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
           "changed": false,
@@ -18511,14 +18505,20 @@
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "26": {
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monterubbiano",
@@ -18653,12 +18653,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
           "changed": false,
@@ -19251,6 +19245,12 @@
           "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -19259,7 +19259,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-05-07T17:52:29.862770+00:00",
+      "last_scan": "2026-05-07T19:47:25.676790+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19474,12 +19474,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
@@ -20072,6 +20066,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-07T19:47:25.676790+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -20082,7 +20082,7 @@
         "url": "https://www.provincia.fm.it/drive/71b5l2mf2m8z",
         "id": 27
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -28912,11 +28912,11 @@
   "meta": {
     "last_scan": "2026-05-07T19:47:25.676790+00:00",
     "results": {
-      "scansionati": 20,
+      "scansionati": 25,
       "aggiornati": 1,
-      "invariati": 19,
+      "invariati": 24,
       "errori": 0,
-      "vuoti": 1
+      "vuoti": 2
     },
     "total_comuni": 40,
     "scadenze": {
