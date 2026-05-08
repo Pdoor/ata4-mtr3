@@ -11212,14 +11212,120 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan": "2026-05-08T08:13:43.919958+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
         "comune": "Monte Rinaldo",
         "gestore": "ECO INNOVA SRL",
-        "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79"
-      }
+        "advisor": "",
+        "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79",
+        "id": 15
+      },
+      "zip_hash": "80a5f1b4f2fe0bb2942944e081b8231120cd0535dae8573a0a5e01fd8ea5d256",
+      "content_fingerprint": "2abe57a56e84ff68771ddbec761d0c2b807bd92f2a32d6eb28eb4e20ef92305d",
+      "zip_changed": true,
+      "docs": {
+        "tool_mtr3": {
+          "status": "missing"
+        },
+        "relazione": {
+          "status": "missing"
+        },
+        "dich_veridicita": {
+          "status": "missing"
+        },
+        "altre_com": {
+          "status": "missing"
+        },
+        "tool_mtr3_c": {
+          "status": "received",
+          "current_hash": "cdd5c2274c5ebb8177b936918975ddf830e35c5ee7e41a3dc98444e0913e6d0f",
+          "current_file": "MONTE RINALDO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3972423,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "MONTE RINALDO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "cdd5c2274c5ebb8177b936918975ddf830e35c5ee7e41a3dc98444e0913e6d0f",
+              "size": 3972423
+            }
+          ],
+          "first_upload": "2026-05-08T08:13:43.919958+00:00",
+          "last_upload": "2026-05-08T08:13:43.919958+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-08T08:13:43.919958+00:00",
+              "hash": "cdd5c2274c5ebb8177b936918975ddf830e35c5ee7e41a3dc98444e0913e6d0f",
+              "file": "MONTE RINALDO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "relazione_c": {
+          "status": "received",
+          "current_hash": "8781daa99c99748e3dd1c8e6c24d97ffa3ece69a66fb5d70686d67720c441887",
+          "current_file": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "current_size": 382639,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+              "hash": "8781daa99c99748e3dd1c8e6c24d97ffa3ece69a66fb5d70686d67720c441887",
+              "size": 382639
+            }
+          ],
+          "first_upload": "2026-05-08T08:13:43.919958+00:00",
+          "last_upload": "2026-05-08T08:13:43.919958+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-08T08:13:43.919958+00:00",
+              "hash": "8781daa99c99748e3dd1c8e6c24d97ffa3ece69a66fb5d70686d67720c441887",
+              "file": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+              "event": "primo_caricamento"
+            }
+          ]
+        },
+        "dich_veridicita_c": {
+          "status": "missing"
+        },
+        "altre_com_c": {
+          "status": "missing"
+        },
+        "pef_validato": {
+          "status": "missing"
+        }
+      },
+      "all_files": [
+        {
+          "name": "MONTE RINALDO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/MONTE RINALDO_Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "cdd5c2274c5ebb8177b936918975ddf830e35c5ee7e41a3dc98444e0913e6d0f",
+          "size": 3972423,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+          "hash": "8781daa99c99748e3dd1c8e6c24d97ffa3ece69a66fb5d70686d67720c441887",
+          "size": 382639,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        }
+      ],
+      "scan_history": [
+        {
+          "time": "2026-05-08T08:13:43.919958+00:00",
+          "zip_hash": "80a5f1b4f2fe0bb2942944e081b8231120cd0535dae8573a0a5e01fd8ea5d256",
+          "changed": true,
+          "file_count": 2
+        }
+      ],
+      "unclassified_files": [],
+      "processabile": "no"
     },
     "16": {
       "last_scan": "2026-05-07T19:47:25.676790+00:00",
@@ -28946,13 +29052,13 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-07T19:47:25.676790+00:00",
+    "last_scan": "2026-05-08T08:13:43.919958+00:00",
     "results": {
-      "scansionati": 37,
-      "aggiornati": 3,
-      "invariati": 34,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
-      "vuoti": 3
+      "vuoti": 0
     },
     "total_comuni": 40,
     "scadenze": {
