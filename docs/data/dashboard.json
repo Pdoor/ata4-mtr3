@@ -7941,7 +7941,7 @@
     "11": {
       "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
       "content_fingerprint": "89ec0198903c2e3d4f29bc9a0f3772485182667fb97f017f53105b503b6dbef1",
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan": "2026-05-08T09:44:33.270204+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8168,12 +8168,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T11:59:20.859996+00:00",
-          "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-22T16:51:13.289792+00:00",
           "zip_hash": "8ed330213ef837f618a5c8b2c584702b60e908fb0f65a4a6f343662c4a6ec659",
@@ -8767,6 +8761,12 @@
           "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-08T09:44:33.270204+00:00",
+          "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -8784,7 +8784,7 @@
     "12": {
       "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
       "content_fingerprint": "7b2d3df0e9d93ff28de58d1fddb857fd51d015d392eb83c6859f5c058a59e59b",
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan": "2026-05-08T09:44:33.270204+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8905,12 +8905,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T11:59:20.859996+00:00",
-          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-22T16:51:13.289792+00:00",
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
@@ -9504,6 +9498,12 @@
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-08T09:44:33.270204+00:00",
+          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -9521,7 +9521,7 @@
     "13": {
       "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
       "content_fingerprint": "4282f40925dca1d4241fd2af939e2082ab08490f810436a3889ff7e6dca52eb3",
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
+      "last_scan": "2026-05-08T09:44:33.270204+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9786,12 +9786,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T16:51:13.289792+00:00",
-          "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-22T17:53:55.566366+00:00",
           "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
@@ -10385,6 +10379,12 @@
           "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-08T09:44:33.270204+00:00",
+          "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -10400,58 +10400,70 @@
       "last_scan_empty": false
     },
     "14": {
-      "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
-      "content_fingerprint": "16d03b555717842d019c02f1e97eb77c127d8c06267630f7d945b22df59f7b4d",
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
-      "zip_changed": false,
+      "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
+      "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
+      "last_scan": "2026-05-08T09:44:33.270204+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
+          "current_hash": "2e1e411e2a5ed309d480d8f1e5fad9464496ca128ca3d08567ff29b3e392546d",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
-          "current_size": 4105110,
+          "current_size": 4106083,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
-              "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
-              "size": 4105110
+              "hash": "2e1e411e2a5ed309d480d8f1e5fad9464496ca128ca3d08567ff29b3e392546d",
+              "size": 4106083
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-08T09:44:33.270204+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-08T09:44:33.270204+00:00",
+              "hash": "2e1e411e2a5ed309d480d8f1e5fad9464496ca128ca3d08567ff29b3e392546d",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
-          "current_file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
-          "current_size": 202728,
+          "current_hash": "baf3a872d3f04df5b689edf80a28eae98e88730eced22edc4ddcede80618f57e",
+          "current_file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.docx 08 05 26.pdf",
+          "current_size": 207540,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
-              "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
-              "size": 202728
+              "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.docx 08 05 26.pdf",
+              "hash": "baf3a872d3f04df5b689edf80a28eae98e88730eced22edc4ddcede80618f57e",
+              "size": 207540
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-08T09:44:33.270204+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
               "file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-08T09:44:33.270204+00:00",
+              "hash": "baf3a872d3f04df5b689edf80a28eae98e88730eced22edc4ddcede80618f57e",
+              "file": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.docx 08 05 26.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -10463,14 +10475,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
               "hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
               "size": 254460
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
+              "hash": "4a14d1f569c33a542416346b266d958851ff2b92105317a37d7713237114fbbc",
+              "size": 87826
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -10598,17 +10610,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTEGIBERTO.xlsx",
-          "hash": "f44fda8f728170323bd6e4f03fc5a44b4162a46d18e0f64a15318f061b5ffec0",
-          "size": 4105110,
+          "hash": "2e1e411e2a5ed309d480d8f1e5fad9464496ca128ca3d08567ff29b3e392546d",
+          "size": 4106083,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -10620,21 +10624,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.pdf",
-          "hash": "a3159f020ca47ca02ea87ec6385b1c88603115d940f824c48b06957f05d4cdf2",
-          "size": 202728,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
+          "hash": "4a14d1f569c33a542416346b266d958851ff2b92105317a37d7713237114fbbc",
+          "size": 87826,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.docx 08 05 26.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTEGIBERTO  19  03 26    _PERIODO  2026  2029.docx 08 05 26.pdf",
+          "hash": "baf3a872d3f04df5b689edf80a28eae98e88730eced22edc4ddcede80618f57e",
+          "size": 207540,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T11:59:20.859996+00:00",
-          "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-22T16:51:13.289792+00:00",
           "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
@@ -11228,6 +11234,12 @@
           "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-08T09:44:33.270204+00:00",
+          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -11243,7 +11255,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-08T08:13:43.919958+00:00",
+      "last_scan": "2026-05-08T09:44:33.270204+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -11253,8 +11265,8 @@
         "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79",
         "id": 15
       },
-      "zip_hash": "80a5f1b4f2fe0bb2942944e081b8231120cd0535dae8573a0a5e01fd8ea5d256",
-      "content_fingerprint": "2abe57a56e84ff68771ddbec761d0c2b807bd92f2a32d6eb28eb4e20ef92305d",
+      "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
+      "content_fingerprint": "bf7e0f6e02853de0618a6ba00a595bd1715e637a0a51ed6b803c82d1e3c34596",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -11320,7 +11332,29 @@
           ]
         },
         "dich_veridicita_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9fadf20f6ff4af6669ecafce20f1072a38918584767b764d45af5cd70f4af849",
+          "current_file": "DICHIARAZIONE DI VERIDICITA FIRMATA.pdf",
+          "current_size": 337497,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "DICHIARAZIONE DI VERIDICITA FIRMATA.pdf",
+              "hash": "9fadf20f6ff4af6669ecafce20f1072a38918584767b764d45af5cd70f4af849",
+              "size": 337497
+            }
+          ],
+          "first_upload": "2026-05-08T09:44:33.270204+00:00",
+          "last_upload": "2026-05-08T09:44:33.270204+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-08T09:44:33.270204+00:00",
+              "hash": "9fadf20f6ff4af6669ecafce20f1072a38918584767b764d45af5cd70f4af849",
+              "file": "DICHIARAZIONE DI VERIDICITA FIRMATA.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -11345,6 +11379,14 @@
           "size": 382639,
           "doc_key": "relazione_c",
           "source": "comune"
+        },
+        {
+          "name": "DICHIARAZIONE DI VERIDICITA FIRMATA.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/DICHIARAZIONE DI VERIDICITA FIRMATA.pdf",
+          "hash": "9fadf20f6ff4af6669ecafce20f1072a38918584767b764d45af5cd70f4af849",
+          "size": 337497,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
@@ -11353,6 +11395,12 @@
           "zip_hash": "80a5f1b4f2fe0bb2942944e081b8231120cd0535dae8573a0a5e01fd8ea5d256",
           "changed": true,
           "file_count": 2
+        },
+        {
+          "time": "2026-05-08T09:44:33.270204+00:00",
+          "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -29085,9 +29133,9 @@
   "meta": {
     "last_scan": "2026-05-08T09:44:33.270204+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 0,
-      "invariati": 10,
+      "scansionati": 15,
+      "aggiornati": 2,
+      "invariati": 13,
       "errori": 0,
       "vuoti": 0
     },
