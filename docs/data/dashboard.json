@@ -756,10 +756,10 @@
       "last_scan_empty": false
     },
     "2": {
-      "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
-      "content_fingerprint": "7d88ba6b2b0f7412e8e10e9fba37475f8bf02eb0befb1d970ea0ccfdcd15ab5f",
-      "last_scan": "2026-05-07T19:47:25.676790+00:00",
-      "zip_changed": false,
+      "zip_hash": "c4dad7ca6daf1741f90b44ed8920a1600e4f24f574db406bf143ef2720b39ac1",
+      "content_fingerprint": "08e51ac43b0b2ac8913c1f1c5b537a8b1e37fd71dcf13d2cd15382a9031d2928",
+      "last_scan": "2026-05-08T08:46:11.374051+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -846,51 +846,68 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "12c90b8c60ae5a628ff3741ea82461cdf127665317b1dd6ba1a79ebe1496771c",
+          "current_hash": "97ee7079a9bdf0d7ba667f97fdfc14d6f35f4b0b45c9fe3cd90d3ded7ee18f02",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3987304,
+          "current_size": 3987678,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "12c90b8c60ae5a628ff3741ea82461cdf127665317b1dd6ba1a79ebe1496771c",
-              "size": 3987304
+              "hash": "97ee7079a9bdf0d7ba667f97fdfc14d6f35f4b0b45c9fe3cd90d3ded7ee18f02",
+              "size": 3987678
             }
           ],
           "first_upload": "2026-04-10T09:00:36.849828+00:00",
-          "last_upload": "2026-04-10T09:00:36.849828+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-08T08:46:11.374051+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T09:00:36.849828+00:00",
               "hash": "12c90b8c60ae5a628ff3741ea82461cdf127665317b1dd6ba1a79ebe1496771c",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-08T08:46:11.374051+00:00",
+              "hash": "97ee7079a9bdf0d7ba667f97fdfc14d6f35f4b0b45c9fe3cd90d3ded7ee18f02",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "e774f361ee46a5606d3cc4db5e5c745b0f7867da21ca9e24171ea1e356ad4a1d",
-          "current_file": "Relazione_Comune_Amandola.docx",
-          "current_size": 159809,
-          "file_count": 1,
+          "current_hash": "9728075107ac63e9f005145f541592dcdf4fd66f43b66c99f88cd64807de6af7",
+          "current_file": "Relazione_Comune_Amandola.pdf",
+          "current_size": 887559,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Relazione_Comune_Amandola.docx",
               "hash": "e774f361ee46a5606d3cc4db5e5c745b0f7867da21ca9e24171ea1e356ad4a1d",
               "size": 159809
+            },
+            {
+              "name": "Relazione_Comune_Amandola.pdf",
+              "hash": "9728075107ac63e9f005145f541592dcdf4fd66f43b66c99f88cd64807de6af7",
+              "size": 887559
             }
           ],
           "first_upload": "2026-04-10T09:00:36.849828+00:00",
-          "last_upload": "2026-04-10T09:00:36.849828+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-08T08:46:11.374051+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T09:00:36.849828+00:00",
               "hash": "e774f361ee46a5606d3cc4db5e5c745b0f7867da21ca9e24171ea1e356ad4a1d",
               "file": "Relazione_Comune_Amandola.docx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-08T08:46:11.374051+00:00",
+              "hash": "9728075107ac63e9f005145f541592dcdf4fd66f43b66c99f88cd64807de6af7",
+              "file": "Relazione_Comune_Amandola.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -903,8 +920,8 @@
           "all_files": [
             {
               "name": "Dichiarazione di veridicità_signed.pdf",
-              "hash": "b13142fb91df7b1b1bb2f3d59b52c663a68c29ce2e486e5d476977f7ef23201a",
-              "size": 183779
+              "hash": "bc3f4a4449b8e140d9da0abb7fd1cd155c30d4f2f49ac3707da056f5e860cfb0",
+              "size": 183861
             },
             {
               "name": "Nuova C.I. SINDACO.pdf",
@@ -935,8 +952,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "12c90b8c60ae5a628ff3741ea82461cdf127665317b1dd6ba1a79ebe1496771c",
-          "size": 3987304,
+          "hash": "97ee7079a9bdf0d7ba667f97fdfc14d6f35f4b0b45c9fe3cd90d3ded7ee18f02",
+          "size": 3987678,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -949,10 +966,18 @@
           "source": "comune"
         },
         {
+          "name": "Relazione_Comune_Amandola.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Relazione_Comune_Amandola.pdf",
+          "hash": "9728075107ac63e9f005145f541592dcdf4fd66f43b66c99f88cd64807de6af7",
+          "size": 887559,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Dichiarazione di veridicità_signed.pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità_signed.pdf",
-          "hash": "b13142fb91df7b1b1bb2f3d59b52c663a68c29ce2e486e5d476977f7ef23201a",
-          "size": 183779,
+          "hash": "bc3f4a4449b8e140d9da0abb7fd1cd155c30d4f2f49ac3707da056f5e860cfb0",
+          "size": 183861,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -998,12 +1023,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-22T10:58:20.519614+00:00",
-          "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-04-22T11:59:20.859996+00:00",
           "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
@@ -1597,6 +1616,12 @@
           "zip_hash": "f5fca2bf532fa8b5f9245bf163ec4f44592022a0ca3a4d848cd14bfaa2be0360",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-08T08:46:11.374051+00:00",
+          "zip_hash": "c4dad7ca6daf1741f90b44ed8920a1600e4f24f574db406bf143ef2720b39ac1",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -29052,7 +29077,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-08T08:13:43.919958+00:00",
+    "last_scan": "2026-05-08T08:46:11.374051+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
