@@ -11596,8 +11596,8 @@
       "processabile": "no"
     },
     "16": {
-      "last_scan": "2026-05-10T19:12:17.923549+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-11T11:29:56.253463+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Monte San Pietrangeli",
@@ -12406,8 +12406,8 @@
       "processabile": "no"
     },
     "17": {
-      "last_scan": "2026-05-10T19:12:17.923549+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-11T11:29:56.253463+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Monte Urano",
@@ -13146,8 +13146,8 @@
       "processabile": "no"
     },
     "18": {
-      "last_scan": "2026-05-10T19:12:17.923549+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-11T11:29:56.253463+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Monte Vidon Combatte",
@@ -13888,7 +13888,7 @@
     "19": {
       "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
       "content_fingerprint": "b827f90f648a25f3807d8e72c26625933cd57998253bc3882f7e646cbfa3ad50",
-      "last_scan": "2026-05-10T19:12:17.923549+00:00",
+      "last_scan": "2026-05-11T11:29:56.253463+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -14736,14 +14736,14 @@
         "url": "https://www.provincia.fm.it/drive/6vl3xqxodq94",
         "id": 19
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "20": {
       "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
       "content_fingerprint": "ae81c733c4d1484915e6d1b7586bd83c9f018486c5d7451fef9d065823eb9b9b",
-      "last_scan": "2026-05-10T19:12:17.923549+00:00",
+      "last_scan": "2026-05-11T11:29:56.253463+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -15591,7 +15591,7 @@
         "url": "https://www.provincia.fm.it/drive/6hcaeqftrsla",
         "id": 20
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -29670,7 +29670,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 15,
+      "errori": 20,
       "vuoti": 0
     },
     "total_comuni": 40,
