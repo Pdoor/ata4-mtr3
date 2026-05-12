@@ -8043,58 +8043,70 @@
       "processabile": "no"
     },
     "11": {
-      "zip_hash": "d588fe36bc5583d8e08cb00da09c9d62dc1dccd712ad837c24eab0cc177b0a4e",
-      "content_fingerprint": "e7500a29ab2461fd13282160edacc9cbabcc8a7daf67834d54f1e93069a4a862",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
-      "zip_changed": false,
+      "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
+      "content_fingerprint": "b4972c518095261951ee6491d05d756c22e0f206963cc1818c3089aa685b9be9",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
+          "current_hash": "ef4a3f3d569a0cb983071e7b85c3df1ed044593897cef7beb80e598245eaa8aa",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
-          "current_size": 4107390,
+          "current_size": 4106124,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
-              "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
-              "size": 4107390
+              "hash": "ef4a3f3d569a0cb983071e7b85c3df1ed044593897cef7beb80e598245eaa8aa",
+              "size": 4106124
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "ef4a3f3d569a0cb983071e7b85c3df1ed044593897cef7beb80e598245eaa8aa",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
-          "current_file": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "current_size": 161444,
+          "current_hash": "4496fcf55b5a212ae1e1f5c6e081de367c0133bd739a55f328179ab765be9be5",
+          "current_file": "RELAZIONE_MASSA  FERMANA  _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 12 05 26.pdf",
+          "current_size": 174852,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-              "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
-              "size": 161444
+              "name": "RELAZIONE_MASSA  FERMANA  _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 12 05 26.pdf",
+              "hash": "4496fcf55b5a212ae1e1f5c6e081de367c0133bd739a55f328179ab765be9be5",
+              "size": 174852
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
               "file": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "4496fcf55b5a212ae1e1f5c6e081de367c0133bd739a55f328179ab765be9be5",
+              "file": "RELAZIONE_MASSA  FERMANA  _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 12 05 26.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -8106,14 +8118,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
-              "size": 87428
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+              "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+              "size": 87357
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -8292,17 +8304,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MASSA FERMANA.xlsx",
-          "hash": "058ab1bbd44a7c7b2366780a3bf6d8b9c1229c0c6e6a7db31752b5035839cfda",
-          "size": 4107390,
+          "hash": "ef4a3f3d569a0cb983071e7b85c3df1ed044593897cef7beb80e598245eaa8aa",
+          "size": 4106124,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
-          "size": 87428,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -8314,21 +8318,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_Massa  Fermana _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "hash": "bd6d208ac66df566ae14b46f09279334304953905997c72270cb3c4d90b5e0c9",
-          "size": 161444,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+          "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+          "size": 87357,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MASSA  FERMANA  _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 12 05 26.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MASSA  FERMANA  _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 12 05 26.pdf",
+          "hash": "4496fcf55b5a212ae1e1f5c6e081de367c0133bd739a55f328179ab765be9be5",
+          "size": 174852,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T12:42:43.386240+00:00",
-          "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-25T13:59:00.886971+00:00",
           "zip_hash": "6b4e50844ee5329777043a3bd00ce97572517dd8b8329e2b56cadff0471574f4",
@@ -8922,6 +8928,12 @@
           "zip_hash": "d588fe36bc5583d8e08cb00da09c9d62dc1dccd712ad837c24eab0cc177b0a4e",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -8939,7 +8951,7 @@
     "12": {
       "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
       "content_fingerprint": "7b2d3df0e9d93ff28de58d1fddb857fd51d015d392eb83c6859f5c058a59e59b",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9060,12 +9072,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T12:42:43.386240+00:00",
-          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-25T13:59:00.886971+00:00",
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
@@ -9659,6 +9665,12 @@
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -9674,58 +9686,70 @@
       "last_scan_empty": false
     },
     "13": {
-      "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
-      "content_fingerprint": "4282f40925dca1d4241fd2af939e2082ab08490f810436a3889ff7e6dca52eb3",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
-      "zip_changed": false,
+      "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
+      "content_fingerprint": "0d0bc89a6d0b128e432fb7756980eff331457b4cc3a348a8cfc4c6a852be30f9",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
+          "current_hash": "9fd6f934651e6b365e533dcecfd52d09d0ef3e0d94ab9498b418a0b122eeb6e1",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
-          "current_size": 4105449,
+          "current_size": 4105450,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
-              "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
-              "size": 4105449
+              "hash": "9fd6f934651e6b365e533dcecfd52d09d0ef3e0d94ab9498b418a0b122eeb6e1",
+              "size": 4105450
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "9fd6f934651e6b365e533dcecfd52d09d0ef3e0d94ab9498b418a0b122eeb6e1",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
-          "current_file": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "current_size": 161440,
+          "current_hash": "f123fcc5c000873febbe268fa4e06a7be3dd2cd34a3f51c505109cfd2cfe36e9",
+          "current_file": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 11 05  2026.pdf",
+          "current_size": 174948,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-              "hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
-              "size": 161440
+              "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 11 05  2026.pdf",
+              "hash": "f123fcc5c000873febbe268fa4e06a7be3dd2cd34a3f51c505109cfd2cfe36e9",
+              "size": 174948
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
               "file": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "f123fcc5c000873febbe268fa4e06a7be3dd2cd34a3f51c505109cfd2cfe36e9",
+              "file": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 11 05  2026.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -9737,14 +9761,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
-              "size": 87428
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+              "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+              "size": 87357
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -9910,17 +9934,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTAPPONE.xlsx",
-          "hash": "920547e78a398c93b3a3f569cfeca7fb1bd636fa28f10b14ba34f42202e0c741",
-          "size": 4105449,
+          "hash": "9fd6f934651e6b365e533dcecfd52d09d0ef3e0d94ab9498b418a0b122eeb6e1",
+          "size": 4105450,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "73713011ca8d4e616c32c83fa90c00153437c26c845762d71d75ff7737505af0",
-          "size": 87428,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -9932,21 +9948,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "hash": "b5aef0f7afd25f1e62665ab97febde2750316ae4db516efb9dc94ff8a273ce59",
-          "size": 161440,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+          "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+          "size": 87357,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 11 05  2026.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTAPPONE _001_24_DTAC_all2_PEF_2026_29.docx   SOECO.docx 11 05  2026.pdf",
+          "hash": "f123fcc5c000873febbe268fa4e06a7be3dd2cd34a3f51c505109cfd2cfe36e9",
+          "size": 174948,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T13:59:00.886971+00:00",
-          "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-25T14:43:19.752990+00:00",
           "zip_hash": "22350c7727b0fc1aaf85ba7e56eea09cf32049785f946eb52cbb1ddc3cb2e7b5",
@@ -10540,6 +10558,12 @@
           "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -10557,7 +10581,7 @@
     "14": {
       "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
       "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10796,12 +10820,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T12:42:43.386240+00:00",
-          "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-04-25T13:59:00.886971+00:00",
           "zip_hash": "ae126f286613ca9b2dc5b91e5713af99096bee5b8295a27a0cba29a56ad98cac",
@@ -11395,6 +11413,12 @@
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -11410,7 +11434,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -11673,6 +11697,12 @@
         },
         {
           "time": "2026-05-12T13:07:48.507041+00:00",
+          "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
           "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
           "changed": false,
           "file_count": 3
@@ -29807,9 +29837,9 @@
   "meta": {
     "last_scan": "2026-05-12T16:23:32.258817+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 1,
-      "invariati": 9,
+      "scansionati": 15,
+      "aggiornati": 3,
+      "invariati": 12,
       "errori": 0,
       "vuoti": 0
     },
