@@ -27798,7 +27798,7 @@
       "processabile": "si"
     },
     "38": {
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -28084,6 +28084,12 @@
           "zip_hash": "067a39c8cc2a328b2b7b6ac5dd6bcc4eed21b93bc61b038cfd07722ec6bc010e",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "067a39c8cc2a328b2b7b6ac5dd6bcc4eed21b93bc61b038cfd07722ec6bc010e",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [
@@ -28097,58 +28103,70 @@
       "processabile": "no"
     },
     "39": {
-      "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
-      "content_fingerprint": "6474955f3a54bf2950d8877df2ade7b39c231ea417095e8687ff8825c1584bb5",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
-      "zip_changed": false,
+      "zip_hash": "8dd67297a241ddbbf377f8e42a11add5987779b172e486bd25d10f7361dbf388",
+      "content_fingerprint": "9003b55d1e44942adc927114df2c0f9b955f9d0c6ae9b7ace42eb88aaf94bafc",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
+          "current_hash": "f29c16a38156cc6b9ede95d46bbd3e6374519e06650d0164b201f539cd9e2ec9",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
-          "current_size": 4104926,
+          "current_size": 4104686,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
-              "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
-              "size": 4104926
+              "hash": "f29c16a38156cc6b9ede95d46bbd3e6374519e06650d0164b201f539cd9e2ec9",
+              "size": 4104686
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "f29c16a38156cc6b9ede95d46bbd3e6374519e06650d0164b201f539cd9e2ec9",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
+          "current_hash": "72930d2b894e6ce6ee371d1882d75dd317fc4d4a9a341f2177df71c35b36fbcd",
           "current_file": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "current_size": 161851,
+          "current_size": 174703,
           "file_count": 1,
           "all_files": [
             {
               "name": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-              "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
-              "size": 161851
+              "hash": "72930d2b894e6ce6ee371d1882d75dd317fc4d4a9a341f2177df71c35b36fbcd",
+              "size": 174703
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
               "file": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "72930d2b894e6ce6ee371d1882d75dd317fc4d4a9a341f2177df71c35b36fbcd",
+              "file": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -28160,14 +28178,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+              "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+              "size": 87357
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -28295,17 +28313,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx SMERILLO.xlsx",
-          "hash": "776680c1fe3af8141f5270494a1390fcf9298e1bda675b2534c9c7bf75e3ee28",
-          "size": 4104926,
+          "hash": "f29c16a38156cc6b9ede95d46bbd3e6374519e06650d0164b201f539cd9e2ec9",
+          "size": 4104686,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -28317,21 +28327,23 @@
           "source": "gestore"
         },
         {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26 (1).pdf",
+          "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+          "size": 87357,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
           "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_SMERILLO  __DTAC_all2_PEF_2026_29.docx   SOECO.pdf",
-          "hash": "36230fa8078979a2657bf3da37f2e4de086a1c1a24bfd12c682131c2308a9e0f",
-          "size": 161851,
+          "hash": "72930d2b894e6ce6ee371d1882d75dd317fc4d4a9a341f2177df71c35b36fbcd",
+          "size": 174703,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T13:59:00.886971+00:00",
-          "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-25T14:43:19.752990+00:00",
           "zip_hash": "6450ad07e89a6b8245c4dd74256e46874dc568c6f29e1615fe8301c77672f12e",
@@ -28925,6 +28937,12 @@
           "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "8dd67297a241ddbbf377f8e42a11add5987779b172e486bd25d10f7361dbf388",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -28940,10 +28958,10 @@
       "last_scan_empty": false
     },
     "40": {
-      "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
-      "content_fingerprint": "4b07480162420402151b50bf51001932a2e7c57fa282c508ceca0afab4eee57a",
-      "last_scan": "2026-05-12T13:07:48.507041+00:00",
-      "zip_changed": false,
+      "zip_hash": "b212196c13c04b87ec20478ef8d3098fe33ff8f144838aa9aa9367889c059225",
+      "content_fingerprint": "cf76342c86d4c3daaed1682f2b2c08b2cb4fd395eeaba179b8c07d950d5e8376",
+      "last_scan": "2026-05-12T16:23:32.258817+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -28972,26 +28990,32 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
-          "current_file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
-          "current_size": 202532,
+          "current_hash": "331e08b3dfeb09274cf631b8b849ac664e31b333bc255248f03c02c13c75f316",
+          "current_file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx11 05 26   .pdf",
+          "current_size": 206652,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
-              "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
-              "size": 202532
+              "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx11 05 26   .pdf",
+              "hash": "331e08b3dfeb09274cf631b8b849ac664e31b333bc255248f03c02c13c75f316",
+              "size": 206652
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-12T16:23:32.258817+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
               "file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-12T16:23:32.258817+00:00",
+              "hash": "331e08b3dfeb09274cf631b8b849ac664e31b333bc255248f03c02c13c75f316",
+              "file": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx11 05 26   .pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -29003,14 +29027,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
               "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
               "size": 258008
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+              "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+              "size": 87357
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -29201,14 +29225,6 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
-          "source": "gestore"
-        },
-        {
           "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DOCUMENTO SONIA GIUGGIOLINI.pdf   12 06 24.pdf",
           "hash": "5b6891a47dad0460e92705e73a4b78d187d71ba208ed9552a7ad0d4f164b5db3",
@@ -29217,21 +29233,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx 19 03 26.pdf",
-          "hash": "4284e4216ae52f896a55b47f5027dec9f5bc077a5610895e5374f927b08b4017",
-          "size": 202532,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 12 05 26.pdf",
+          "hash": "3052c061a64896b45b99a573ab87564eecff0b159dabf50ed379dcfd24be6cba",
+          "size": 87357,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx11 05 26   .pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_TORRE  SAN PATRIZIO  _001_23_DTAC_all2_PEF_2026_29.docx   SOECO.docx11 05 26   .pdf",
+          "hash": "331e08b3dfeb09274cf631b8b849ac664e31b333bc255248f03c02c13c75f316",
+          "size": 206652,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T12:42:43.386240+00:00",
-          "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-04-25T13:59:00.886971+00:00",
           "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
@@ -29825,6 +29843,12 @@
           "zip_hash": "be94695e166d2086feb80c87717430ffdcae706c8f25b3b562adadd0b39e56f9",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-12T16:23:32.258817+00:00",
+          "zip_hash": "b212196c13c04b87ec20478ef8d3098fe33ff8f144838aa9aa9367889c059225",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -29843,9 +29867,9 @@
   "meta": {
     "last_scan": "2026-05-12T16:23:32.258817+00:00",
     "results": {
-      "scansionati": 35,
-      "aggiornati": 3,
-      "invariati": 32,
+      "scansionati": 38,
+      "aggiornati": 5,
+      "invariati": 33,
       "errori": 0,
       "vuoti": 2
     },
