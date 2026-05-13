@@ -22774,7 +22774,7 @@
     "32": {
       "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
       "content_fingerprint": "7e8f7715ba2edc78bdf131f045902fb34a87183ea81d1410a8abdae3aba8cc77",
-      "last_scan": "2026-05-12T20:47:41.463147+00:00",
+      "last_scan": "2026-05-13T10:34:25.007562+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23046,12 +23046,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T17:32:13.418013+00:00",
-          "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-04-25T18:38:05.963606+00:00",
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
@@ -23645,6 +23639,12 @@
           "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T10:34:25.007562+00:00",
+          "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -23669,7 +23669,7 @@
     "33": {
       "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
       "content_fingerprint": "08f5f6c4be898c147f62ed1fc1846b0650a3735f4f1a41b37a831e305e16b7a5",
-      "last_scan": "2026-05-12T20:47:41.463147+00:00",
+      "last_scan": "2026-05-13T10:34:25.007562+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24007,12 +24007,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-25T15:33:35.106469+00:00",
-          "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
-          "changed": false,
-          "file_count": 11
-        },
-        {
           "time": "2026-04-25T16:32:25.361436+00:00",
           "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
           "changed": false,
@@ -24605,6 +24599,12 @@
           "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-05-13T10:34:25.007562+00:00",
+          "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -24627,7 +24627,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-05-12T20:47:41.463147+00:00",
+      "last_scan": "2026-05-13T10:34:25.007562+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24637,9 +24637,9 @@
         "url": "https://www.provincia.fm.it/drive/ga22vc27tw6",
         "id": 34
       },
-      "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
-      "content_fingerprint": "67bb0b8583140efa1a2ca9d5e5e631c5b43121505582752bf4194ef020b25de8",
-      "zip_changed": false,
+      "zip_hash": "8b77ae40a271a33951a7e029686280cbb41744da43b318a4491477dee0fdb529",
+      "content_fingerprint": "d95b034c275095fcd25b4987a08ea3338a1af4c9149247544587aa37129627d4",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -24704,7 +24704,7 @@
           ]
         },
         "dich_veridicita_c": {
-          "status": "received",
+          "status": "removed",
           "current_hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
           "current_file": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
           "current_size": 194004,
@@ -24725,8 +24725,15 @@
               "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
               "file": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T10:34:25.007562+00:00",
+              "hash": null,
+              "file": null,
+              "event": "rimosso"
             }
-          ]
+          ],
+          "removed_at": "2026-05-13T10:34:25.007562+00:00"
         },
         "altre_com_c": {
           "status": "missing"
@@ -24751,23 +24758,9 @@
           "size": 172273,
           "doc_key": "relazione_c",
           "source": "comune"
-        },
-        {
-          "name": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
-          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
-          "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
-          "size": 194004,
-          "doc_key": "dich_veridicita_c",
-          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T15:33:35.106469+00:00",
-          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-25T16:32:25.361436+00:00",
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
@@ -25361,13 +25354,19 @@
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-13T10:34:25.007562+00:00",
+          "zip_hash": "8b77ae40a271a33951a7e029686280cbb41744da43b318a4491477dee0fdb529",
+          "changed": true,
+          "file_count": 2
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-05-12T20:47:41.463147+00:00",
+      "last_scan": "2026-05-13T10:34:25.007562+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25642,12 +25641,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-25T15:33:35.106469+00:00",
-          "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-04-25T16:32:25.361436+00:00",
           "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
           "changed": false,
@@ -26240,6 +26233,12 @@
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-13T10:34:25.007562+00:00",
+          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -26267,7 +26266,7 @@
     "36": {
       "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
       "content_fingerprint": "455c8b335533deca0e191d9dfea5f73a47c80fd875c145984982afbaa964ae86",
-      "last_scan": "2026-05-12T20:47:41.463147+00:00",
+      "last_scan": "2026-05-13T10:34:25.007562+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -26507,12 +26506,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-25T15:33:35.106469+00:00",
-          "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-04-25T16:32:25.361436+00:00",
           "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
           "changed": false,
@@ -27102,6 +27095,12 @@
         },
         {
           "time": "2026-05-12T20:47:41.463147+00:00",
+          "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-13T10:34:25.007562+00:00",
           "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
           "changed": false,
           "file_count": 7
@@ -30069,9 +30068,9 @@
   "meta": {
     "last_scan": "2026-05-13T10:34:25.007562+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 2,
-      "invariati": 28,
+      "scansionati": 35,
+      "aggiornati": 3,
+      "invariati": 32,
       "errori": 0,
       "vuoti": 1
     },
