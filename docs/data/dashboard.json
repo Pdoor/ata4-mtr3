@@ -22804,7 +22804,7 @@
     "32": {
       "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
       "content_fingerprint": "7e8f7715ba2edc78bdf131f045902fb34a87183ea81d1410a8abdae3aba8cc77",
-      "last_scan": "2026-05-13T10:34:25.007562+00:00",
+      "last_scan": "2026-05-13T13:20:15.184887+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23076,12 +23076,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T18:38:05.963606+00:00",
-          "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-04-25T19:38:49.917999+00:00",
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
@@ -23675,6 +23669,12 @@
           "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-13T13:20:15.184887+00:00",
+          "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -23699,7 +23699,7 @@
     "33": {
       "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
       "content_fingerprint": "08f5f6c4be898c147f62ed1fc1846b0650a3735f4f1a41b37a831e305e16b7a5",
-      "last_scan": "2026-05-13T10:34:25.007562+00:00",
+      "last_scan": "2026-05-13T13:20:15.184887+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24036,12 +24036,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T16:32:25.361436+00:00",
-          "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-04-25T17:32:13.418013+00:00",
           "zip_hash": "eec47192468d4a3b731ecc9bfaf3a524653bc0c6fe1f2c1d17967492b11976f8",
@@ -24635,6 +24629,12 @@
           "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-05-13T13:20:15.184887+00:00",
+          "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
+          "changed": false,
+          "file_count": 14
         }
       ],
       "unclassified_files": [
@@ -24657,7 +24657,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-05-13T10:34:25.007562+00:00",
+      "last_scan": "2026-05-13T13:20:15.184887+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24667,8 +24667,8 @@
         "url": "https://www.provincia.fm.it/drive/ga22vc27tw6",
         "id": 34
       },
-      "zip_hash": "8b77ae40a271a33951a7e029686280cbb41744da43b318a4491477dee0fdb529",
-      "content_fingerprint": "d95b034c275095fcd25b4987a08ea3338a1af4c9149247544587aa37129627d4",
+      "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
+      "content_fingerprint": "7f7807600acb90c00be8bb377ce5118d7e2766613c2ca888f3d67d24d4c69cbe",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -24685,70 +24685,82 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
-          "current_file": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
-          "current_size": 3969080,
+          "current_hash": "7ea3fddeded38e582b2100755a9eb2abe77854f2f47019909a185063a3f59cdf",
+          "current_file": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_2.0.xlsx",
+          "current_size": 3972372,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
-              "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
-              "size": 3969080
+              "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_2.0.xlsx",
+              "hash": "7ea3fddeded38e582b2100755a9eb2abe77854f2f47019909a185063a3f59cdf",
+              "size": 3972372
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
-          "last_upload": "2026-04-02T11:19:15.277201+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:20:15.184887+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-02T11:19:15.277201+00:00",
               "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
               "file": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T13:20:15.184887+00:00",
+              "hash": "7ea3fddeded38e582b2100755a9eb2abe77854f2f47019909a185063a3f59cdf",
+              "file": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_2.0.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
-          "current_file": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
-          "current_size": 172273,
+          "current_hash": "ecd10be1a8b7721ce5c8ca9feb17b9527128d5f761b650de20154a421ac001ba",
+          "current_file": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_Allegato 2_2.0.docx",
+          "current_size": 173021,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
-              "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
-              "size": 172273
+              "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_Allegato 2_2.0.docx",
+              "hash": "ecd10be1a8b7721ce5c8ca9feb17b9527128d5f761b650de20154a421ac001ba",
+              "size": 173021
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
-          "last_upload": "2026-04-02T11:19:15.277201+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:20:15.184887+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-02T11:19:15.277201+00:00",
               "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
               "file": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-13T13:20:15.184887+00:00",
+              "hash": "ecd10be1a8b7721ce5c8ca9feb17b9527128d5f761b650de20154a421ac001ba",
+              "file": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_Allegato 2_2.0.docx",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
-          "status": "removed",
-          "current_hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
-          "current_file": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
-          "current_size": 194004,
+          "status": "received",
+          "current_hash": "9358b7289c5081b437fafea9d89418f0dadf16b2981356bde5e1cfee025ce4c4",
+          "current_file": "Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "current_size": 136127,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione_Veridicita_Porto SantElpidio_signed.pdf",
-              "hash": "078f119677baecdcd53665b17082871ddd3e4cab6efe6d12bcaf06ac333cf236",
-              "size": 194004
+              "name": "Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "hash": "9358b7289c5081b437fafea9d89418f0dadf16b2981356bde5e1cfee025ce4c4",
+              "size": 136127
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
-          "last_upload": "2026-04-02T11:19:15.277201+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-13T13:20:15.184887+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-02T11:19:15.277201+00:00",
@@ -24761,9 +24773,14 @@
               "hash": null,
               "file": null,
               "event": "rimosso"
+            },
+            {
+              "time": "2026-05-13T13:20:15.184887+00:00",
+              "hash": "9358b7289c5081b437fafea9d89418f0dadf16b2981356bde5e1cfee025ce4c4",
+              "file": "Dichiarazione_Veridicita_Comuni_signed.pdf",
+              "event": "sostituzione"
             }
-          ],
-          "removed_at": "2026-05-13T10:34:25.007562+00:00"
+          ]
         },
         "altre_com_c": {
           "status": "missing"
@@ -24774,29 +24791,31 @@
       },
       "all_files": [
         {
-          "name": "Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
-          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Porto SantElpidio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
-          "hash": "24a8f81c71ca8a09bb07c51403113c1cf9874dd5732d0e694933bb994da9c66f",
-          "size": 3969080,
+          "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_2.0.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_2.0.xlsx",
+          "hash": "7ea3fddeded38e582b2100755a9eb2abe77854f2f47019909a185063a3f59cdf",
+          "size": 3972372,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
-          "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
-          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Porto SantElpidio (non ETC) 2026-2029_Allegato 2.docx",
-          "hash": "078d4d6776779cc19d80d2274b9592c6718da8d54b589ef18277774c3b063d71",
-          "size": 172273,
+          "name": "Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_Allegato 2_2.0.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Porto SantElpidio_2026-2029_Allegato 2_2.0.docx",
+          "hash": "ecd10be1a8b7721ce5c8ca9feb17b9527128d5f761b650de20154a421ac001ba",
+          "size": 173021,
           "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni_signed.pdf",
+          "hash": "9358b7289c5081b437fafea9d89418f0dadf16b2981356bde5e1cfee025ce4c4",
+          "size": 136127,
+          "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-25T16:32:25.361436+00:00",
-          "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-25T17:32:13.418013+00:00",
           "zip_hash": "86f16e4644d7c226e615bf9ce042fb18bf6a232bb28a7c2bdac1d2de62ba4add",
@@ -25390,13 +25409,19 @@
           "zip_hash": "8b77ae40a271a33951a7e029686280cbb41744da43b318a4491477dee0fdb529",
           "changed": true,
           "file_count": 2
+        },
+        {
+          "time": "2026-05-13T13:20:15.184887+00:00",
+          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
+          "changed": true,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-05-13T10:34:25.007562+00:00",
+      "last_scan": "2026-05-13T13:20:15.184887+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25671,12 +25696,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-25T16:32:25.361436+00:00",
-          "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-04-25T17:32:13.418013+00:00",
           "zip_hash": "f9eeca11a407d2c73d60c4e817679d138a94acbf3cfb3a1f0ab873ac1a1cb6f5",
           "changed": false,
@@ -26269,6 +26288,12 @@
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-05-13T13:20:15.184887+00:00",
+          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -26296,7 +26321,7 @@
     "36": {
       "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
       "content_fingerprint": "455c8b335533deca0e191d9dfea5f73a47c80fd875c145984982afbaa964ae86",
-      "last_scan": "2026-05-13T10:34:25.007562+00:00",
+      "last_scan": "2026-05-13T13:20:15.184887+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -26536,12 +26561,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-04-25T16:32:25.361436+00:00",
-          "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-04-25T17:32:13.418013+00:00",
           "zip_hash": "bda935819e59c42e047d762766c6bbd7ffe1ea6abf99035b9c9c808d8ec2964d",
           "changed": false,
@@ -27131,6 +27150,12 @@
         },
         {
           "time": "2026-05-13T10:34:25.007562+00:00",
+          "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-13T13:20:15.184887+00:00",
           "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
           "changed": false,
           "file_count": 7
@@ -30104,9 +30129,9 @@
   "meta": {
     "last_scan": "2026-05-13T13:20:15.184887+00:00",
     "results": {
-      "scansionati": 26,
-      "aggiornati": 1,
-      "invariati": 25,
+      "scansionati": 31,
+      "aggiornati": 2,
+      "invariati": 29,
       "errori": 4,
       "vuoti": 1
     },
