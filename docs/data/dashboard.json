@@ -22623,7 +22623,7 @@
       }
     },
     "31": {
-      "last_scan": "2026-05-17T19:15:49.345488+00:00",
+      "last_scan": "2026-05-18T11:48:36.770274+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22633,9 +22633,9 @@
         "url": "https://www.provincia.fm.it/drive/7gyyk7h9omge",
         "id": 31
       },
-      "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-      "content_fingerprint": "f9be9c3d09ce8bba2d172e6ff56fca7cc79fce2c67fb7277ee75e4e9d92d93c4",
-      "zip_changed": false,
+      "zip_hash": "f2506e47ddb9886cfa98658caa4d08cb419f0c1dae63fa0cf750671c4fd94822",
+      "content_fingerprint": "4063e40d3db4f904d1286723db2a23dd0b39560c81cd7d9766b32afd5acb8491",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -22704,12 +22704,17 @@
           "current_hash": "92e92a2c46cf1df07b9639dc38a7faa799273f8bb6c3caff44ef281b52102869",
           "current_file": "Dichiarazione di veridicità_signed.pdf",
           "current_size": 202921,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Dichiarazione di veridicità_signed.pdf",
               "hash": "92e92a2c46cf1df07b9639dc38a7faa799273f8bb6c3caff44ef281b52102869",
               "size": 202921
+            },
+            {
+              "name": "Allegato4_DichiarazioneVeridicitaComuni_signed.pdf",
+              "hash": "a5f22249c7cb917924464b7fadc851cd5ed655a25e4077c0b80f30d38b1c0fdf",
+              "size": 185766
             }
           ],
           "first_upload": "2026-04-07T08:53:55.776513+00:00",
@@ -22755,15 +22760,17 @@
           "size": 202921,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "Allegato4_DichiarazioneVeridicitaComuni_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato4_DichiarazioneVeridicitaComuni_signed.pdf",
+          "hash": "a5f22249c7cb917924464b7fadc851cd5ed655a25e4077c0b80f30d38b1c0fdf",
+          "size": 185766,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-29T10:10:54.156056+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-04-29T12:19:52.057313+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -23357,6 +23364,12 @@
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-18T11:48:36.770274+00:00",
+          "zip_hash": "f2506e47ddb9886cfa98658caa4d08cb419f0c1dae63fa0cf750671c4fd94822",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -30846,8 +30859,8 @@
   "meta": {
     "last_scan": "2026-05-18T11:48:36.770274+00:00",
     "results": {
-      "scansionati": 29,
-      "aggiornati": 0,
+      "scansionati": 30,
+      "aggiornati": 1,
       "invariati": 29,
       "errori": 0,
       "vuoti": 1
