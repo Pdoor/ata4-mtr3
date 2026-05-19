@@ -23929,26 +23929,26 @@
       "processabile": "no"
     },
     "32": {
-      "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
-      "content_fingerprint": "7e8f7715ba2edc78bdf131f045902fb34a87183ea81d1410a8abdae3aba8cc77",
-      "last_scan": "2026-05-18T20:27:36.127376+00:00",
-      "zip_changed": false,
+      "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
+      "content_fingerprint": "b0649bb1306087d060e0cd580288148c4c9c01b248ac98c616c20d4b64f83a07",
+      "last_scan": "2026-05-19T10:59:21.720591+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
+          "current_hash": "551e13f05432a483dd2e85f2908332ba96efa14b4be14d87390ac09f1872936e",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-          "current_size": 4107949,
+          "current_size": 4107895,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-              "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
-              "size": 4107949
+              "hash": "551e13f05432a483dd2e85f2908332ba96efa14b4be14d87390ac09f1872936e",
+              "size": 4107895
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "last_upload": "2026-05-19T10:59:21.720591+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -23960,6 +23960,12 @@
             {
               "time": "2026-05-07T19:47:25.676790+00:00",
               "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T10:59:21.720591+00:00",
+              "hash": "551e13f05432a483dd2e85f2908332ba96efa14b4be14d87390ac09f1872936e",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
               "event": "sostituzione"
             }
@@ -24009,9 +24015,9 @@
               "size": 258008
             },
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
-              "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
-              "size": 87309
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+              "hash": "c863d1ec1e70f540a8f9ae1da4f8c3ea83f5cc82d2ee73b5c36c17e7bddfe795",
+              "size": 87337
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -24172,8 +24178,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx PONZANO DI FERMO.xlsx",
-          "hash": "4b1d1b28f9d8ef36be6d2b5b7b9070af6e2cfc414913969052fe4dcb26c684f1",
-          "size": 4107949,
+          "hash": "551e13f05432a483dd2e85f2908332ba96efa14b4be14d87390ac09f1872936e",
+          "size": 4107895,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -24186,10 +24192,10 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 07 05 26.pdf",
-          "hash": "fcfb7d8b212b7d38fa88036f1c1435a36755f5fc60e1cecb270259353c0e2bce",
-          "size": 87309,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+          "hash": "c863d1ec1e70f540a8f9ae1da4f8c3ea83f5cc82d2ee73b5c36c17e7bddfe795",
+          "size": 87337,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -24203,12 +24209,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-30T10:10:48.104879+00:00",
-          "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-04-30T12:17:50.735431+00:00",
           "zip_hash": "cdddd7967957b601c8fef37bf2e8bcbe83f5127a1024ed055eeee0b97f8be2a3",
@@ -24801,6 +24801,12 @@
           "time": "2026-05-18T20:27:36.127376+00:00",
           "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
           "changed": false,
+          "file_count": 9
+        },
+        {
+          "time": "2026-05-19T10:59:21.720591+00:00",
+          "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
+          "changed": true,
           "file_count": 9
         }
       ],
@@ -31434,7 +31440,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-19T09:29:05.240683+00:00",
+    "last_scan": "2026-05-19T10:59:21.720591+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
