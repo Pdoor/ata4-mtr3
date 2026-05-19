@@ -18493,58 +18493,70 @@
       "last_scan_empty": false
     },
     "24": {
-      "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
-      "content_fingerprint": "e7add210153d9fbebc624f33c031ee587c5543c1e6bf50b27e3ea708efbfe52d",
-      "last_scan": "2026-05-18T20:27:36.127376+00:00",
-      "zip_changed": false,
+      "zip_hash": "90048e096794f65de6c8c81ffc72c5f61f6c3cdfbd265aef6bc6fb86a9da53d4",
+      "content_fingerprint": "2814187113c38bcf799beb5c9ee1a1383d896c152e44f2ceee07dabd6c1c1932",
+      "last_scan": "2026-05-19T09:29:05.240683+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "e5f55ab8a107a8f9d3cabe29761006e5a2da0668c060dfb8767947b308da38fd",
+          "current_hash": "ce0367533ea8c416b6af4e79f1575d4572d54d19149615515ab1348dbcd4a38c",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
-          "current_size": 4105866,
+          "current_size": 4106875,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
-              "hash": "e5f55ab8a107a8f9d3cabe29761006e5a2da0668c060dfb8767947b308da38fd",
-              "size": 4105866
+              "hash": "ce0367533ea8c416b6af4e79f1575d4572d54d19149615515ab1348dbcd4a38c",
+              "size": 4106875
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T09:29:05.240683+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "e5f55ab8a107a8f9d3cabe29761006e5a2da0668c060dfb8767947b308da38fd",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T09:29:05.240683+00:00",
+              "hash": "ce0367533ea8c416b6af4e79f1575d4572d54d19149615515ab1348dbcd4a38c",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "3bf30277706b7da81626e1fe9a273093fd590bb42cf812becc31821f2e718350",
-          "current_file": "RELAZIONE_MONTE LEONE DI FERMO 19 03 26 __all2_PEF_2026_29.docx   SOECO.pdf",
-          "current_size": 202643,
+          "current_hash": "fa050433d512de56521661e164021d7c13e89c59afadc840864b71e27d8c0b40",
+          "current_file": "RELAZIONE_MONTE LEONE DI FERMO 19 05 26 __all2_PEF_2026_29.docx   SOECO.pdf",
+          "current_size": 213935,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_MONTE LEONE DI FERMO 19 03 26 __all2_PEF_2026_29.docx   SOECO.pdf",
-              "hash": "3bf30277706b7da81626e1fe9a273093fd590bb42cf812becc31821f2e718350",
-              "size": 202643
+              "name": "RELAZIONE_MONTE LEONE DI FERMO 19 05 26 __all2_PEF_2026_29.docx   SOECO.pdf",
+              "hash": "fa050433d512de56521661e164021d7c13e89c59afadc840864b71e27d8c0b40",
+              "size": 213935
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-19T09:29:05.240683+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "3bf30277706b7da81626e1fe9a273093fd590bb42cf812becc31821f2e718350",
               "file": "RELAZIONE_MONTE LEONE DI FERMO 19 03 26 __all2_PEF_2026_29.docx   SOECO.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-19T09:29:05.240683+00:00",
+              "hash": "fa050433d512de56521661e164021d7c13e89c59afadc840864b71e27d8c0b40",
+              "file": "RELAZIONE_MONTE LEONE DI FERMO 19 05 26 __all2_PEF_2026_29.docx   SOECO.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -18556,14 +18568,14 @@
           "file_count": 2,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-              "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-              "size": 87387
-            },
-            {
               "name": "DOCUMENTO SONIA GIUGGIOLINI.pdf",
               "hash": "7b4bd150d919871f57e7bbaaa53d34586e34c41d5ba6b41900234212e0d028f3",
               "size": 254460
+            },
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+              "hash": "c863d1ec1e70f540a8f9ae1da4f8c3ea83f5cc82d2ee73b5c36c17e7bddfe795",
+              "size": 87337
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -18691,17 +18703,9 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx  MONTELEONE DI FERMO.xlsx",
-          "hash": "e5f55ab8a107a8f9d3cabe29761006e5a2da0668c060dfb8767947b308da38fd",
-          "size": 4105866,
+          "hash": "ce0367533ea8c416b6af4e79f1575d4572d54d19149615515ab1348dbcd4a38c",
+          "size": 4106875,
           "doc_key": "tool_mtr3",
-          "source": "gestore"
-        },
-        {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita (1).docx compilato.pdf",
-          "hash": "b512fab3266a89c1c223ad46dd2051b4e06465f7557ff8ecb186196016aad14e",
-          "size": 87387,
-          "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
@@ -18713,21 +18717,23 @@
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_MONTE LEONE DI FERMO 19 03 26 __all2_PEF_2026_29.docx   SOECO.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTE LEONE DI FERMO 19 03 26 __all2_PEF_2026_29.docx   SOECO.pdf",
-          "hash": "3bf30277706b7da81626e1fe9a273093fd590bb42cf812becc31821f2e718350",
-          "size": 202643,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 19 05 26.pdf",
+          "hash": "c863d1ec1e70f540a8f9ae1da4f8c3ea83f5cc82d2ee73b5c36c17e7bddfe795",
+          "size": 87337,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE_MONTE LEONE DI FERMO 19 05 26 __all2_PEF_2026_29.docx   SOECO.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_MONTE LEONE DI FERMO 19 05 26 __all2_PEF_2026_29.docx   SOECO.pdf",
+          "hash": "fa050433d512de56521661e164021d7c13e89c59afadc840864b71e27d8c0b40",
+          "size": 213935,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-04-30T10:10:48.104879+00:00",
-          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-04-30T12:17:50.735431+00:00",
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
@@ -19320,6 +19326,12 @@
           "time": "2026-05-18T20:27:36.127376+00:00",
           "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-05-19T09:29:05.240683+00:00",
+          "zip_hash": "90048e096794f65de6c8c81ffc72c5f61f6c3cdfbd265aef6bc6fb86a9da53d4",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -31422,7 +31434,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-19T09:19:45.564008+00:00",
+    "last_scan": "2026-05-19T09:29:05.240683+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
