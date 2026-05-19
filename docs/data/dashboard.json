@@ -11695,7 +11695,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-18T20:27:36.127376+00:00",
+      "last_scan": "2026-05-19T09:19:45.564008+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -11705,9 +11705,9 @@
         "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79",
         "id": 15
       },
-      "zip_hash": "61f6799a7445ebecdd83be869d66838f179e7a158544ce42825994ae35a208b3",
-      "content_fingerprint": "f42782f378a64341eb0a08cb15f7633ee851ded6c4c2d3b421e6570d84069f06",
-      "zip_changed": false,
+      "zip_hash": "13a648598fc4c31424e053ddcb1d163385724a5c433202953d8fac58e5799f7a",
+      "content_fingerprint": "b16aec3bb3b360e51866544b96c960681b90bba151f77794145652aadf2fb427",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -11754,19 +11754,19 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "bb565805eb0342cdda3526378ea04125f76b2d08b3e57e21b7986d113709bfb5",
+          "current_hash": "6bb92ac8be23746456e3c1d13a024210c596d0f9b50c04f7e85b1afe6c4bb7ca",
           "current_file": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
-          "current_size": 415539,
+          "current_size": 392673,
           "file_count": 1,
           "all_files": [
             {
               "name": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
-              "hash": "bb565805eb0342cdda3526378ea04125f76b2d08b3e57e21b7986d113709bfb5",
-              "size": 415539
+              "hash": "6bb92ac8be23746456e3c1d13a024210c596d0f9b50c04f7e85b1afe6c4bb7ca",
+              "size": 392673
             }
           ],
           "first_upload": "2026-05-08T08:13:43.919958+00:00",
-          "last_upload": "2026-05-13T13:20:15.184887+00:00",
+          "last_upload": "2026-05-19T09:19:45.564008+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -11778,6 +11778,12 @@
             {
               "time": "2026-05-13T13:20:15.184887+00:00",
               "hash": "bb565805eb0342cdda3526378ea04125f76b2d08b3e57e21b7986d113709bfb5",
+              "file": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-05-19T09:19:45.564008+00:00",
+              "hash": "6bb92ac8be23746456e3c1d13a024210c596d0f9b50c04f7e85b1afe6c4bb7ca",
               "file": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
               "event": "sostituzione"
             }
@@ -11833,8 +11839,8 @@
         {
           "name": "MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/MONTE RINALDO_Allegato_2_-_Relazione_di_accompagnamento_2026-2029.pdf.p7m",
-          "hash": "bb565805eb0342cdda3526378ea04125f76b2d08b3e57e21b7986d113709bfb5",
-          "size": 415539,
+          "hash": "6bb92ac8be23746456e3c1d13a024210c596d0f9b50c04f7e85b1afe6c4bb7ca",
+          "size": 392673,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -12182,6 +12188,12 @@
           "time": "2026-05-18T20:27:36.127376+00:00",
           "zip_hash": "61f6799a7445ebecdd83be869d66838f179e7a158544ce42825994ae35a208b3",
           "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-19T09:19:45.564008+00:00",
+          "zip_hash": "13a648598fc4c31424e053ddcb1d163385724a5c433202953d8fac58e5799f7a",
+          "changed": true,
           "file_count": 3
         }
       ],
@@ -31410,11 +31422,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-18T20:27:36.127376+00:00",
+    "last_scan": "2026-05-19T09:19:45.564008+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 0,
-      "invariati": 40,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
@@ -31424,7 +31436,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
