@@ -20358,7 +20358,7 @@
       "processabile": "no"
     },
     "26": {
-      "last_scan": "2026-05-20T19:30:38.664963+00:00",
+      "last_scan": "2026-05-21T11:30:53.503604+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20511,12 +20511,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T15:00:41.704233+00:00",
-          "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-01T17:02:02.456864+00:00",
           "zip_hash": "5a3d8f435a32525583caa2455a01667340f11661929597bf90d07ecc06602ca4",
@@ -21110,6 +21104,12 @@
           "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-21T11:30:53.503604+00:00",
+          "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
@@ -21118,7 +21118,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-05-20T19:30:38.664963+00:00",
+      "last_scan": "2026-05-21T11:30:53.503604+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21332,12 +21332,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T13:38:16.276758+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-01T15:00:41.704233+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
@@ -21931,6 +21925,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-21T11:30:53.503604+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -21946,7 +21946,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-05-20T19:30:38.664963+00:00",
+      "last_scan": "2026-05-21T11:30:53.503604+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22566,13 +22566,19 @@
           "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-21T11:30:53.503604+00:00",
+          "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "29": {
-      "last_scan": "2026-05-20T19:30:38.664963+00:00",
+      "last_scan": "2026-05-21T11:30:53.503604+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22725,12 +22731,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-01T15:00:41.704233+00:00",
-          "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-01T17:02:02.456864+00:00",
           "zip_hash": "f583c7d538f665ed281ddb3c093a1caf4f439864bfcdb86371e6ab460cc5f7ef",
@@ -23324,13 +23324,19 @@
           "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-21T11:30:53.503604+00:00",
+          "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "30": {
-      "last_scan": "2026-05-20T19:30:38.664963+00:00",
+      "last_scan": "2026-05-21T11:30:53.503604+00:00",
       "last_scan_error": false,
       "last_scan_empty": true,
       "info": {
@@ -23340,9 +23346,9 @@
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims",
         "id": 30
       },
-      "zip_hash": "39ac0fadf2f24b4078842517eddca06c6653c36b0ae850725a37dd76989f86ab",
-      "content_fingerprint": "c8e9f01684129f66dc4b2a1d3aacb0e3833dda33864f0d020c5301111d77e743",
-      "zip_changed": false,
+      "zip_hash": "5efd547b0ab60228a15431196d30b45ba0c1108d356860ebc7ee01ab579b1791",
+      "content_fingerprint": "c83f8d32be2c9f6c81316de60d0ee169d3c43aa003fe4cae39bb5ba3329be7a1",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -23423,7 +23429,29 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+          "current_size": 3975602,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+              "hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
+              "size": 3975602
+            }
+          ],
+          "first_upload": "2026-05-21T11:30:53.503604+00:00",
+          "last_upload": "2026-05-21T11:30:53.503604+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-21T11:30:53.503604+00:00",
+              "hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
           "status": "missing"
@@ -23439,6 +23467,14 @@
         }
       },
       "all_files": [
+        {
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+          "hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
+          "size": 3975602,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
@@ -23536,6 +23572,12 @@
           "zip_hash": "39ac0fadf2f24b4078842517eddca06c6653c36b0ae850725a37dd76989f86ab",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-05-21T11:30:53.503604+00:00",
+          "zip_hash": "5efd547b0ab60228a15431196d30b45ba0c1108d356860ebc7ee01ab579b1791",
+          "changed": true,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
@@ -31927,9 +31969,9 @@
   "meta": {
     "last_scan": "2026-05-21T11:30:53.503604+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 0,
-      "invariati": 25,
+      "scansionati": 30,
+      "aggiornati": 1,
+      "invariati": 29,
       "errori": 0,
       "vuoti": 0
     },
