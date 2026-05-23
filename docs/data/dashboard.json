@@ -8306,7 +8306,7 @@
     "11": {
       "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
       "content_fingerprint": "b4972c518095261951ee6491d05d756c22e0f206963cc1818c3089aa685b9be9",
-      "last_scan": "2026-05-23T11:21:26.423067+00:00",
+      "last_scan": "2026-05-23T13:46:54.240817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9205,14 +9205,14 @@
         "url": "https://www.provincia.fm.it/drive/1ev2qj0yvrx9",
         "id": 11
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "12": {
       "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
       "content_fingerprint": "3b992f99e547d846a27d4c7c26f342bfcbe3b74349119af84246d965cddcc49a",
-      "last_scan": "2026-05-23T11:21:26.423067+00:00",
+      "last_scan": "2026-05-23T13:46:54.240817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10035,14 +10035,14 @@
         "url": "https://www.provincia.fm.it/drive/73nl638n4sp0",
         "id": 12
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "13": {
       "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
       "content_fingerprint": "0d0bc89a6d0b128e432fb7756980eff331457b4cc3a348a8cfc4c6a852be30f9",
-      "last_scan": "2026-05-23T11:21:26.423067+00:00",
+      "last_scan": "2026-05-23T13:46:54.240817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10928,14 +10928,14 @@
         "url": "https://www.provincia.fm.it/drive/396z4nzv4y99",
         "id": 13
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "14": {
       "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
       "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
-      "last_scan": "2026-05-23T11:21:26.423067+00:00",
+      "last_scan": "2026-05-23T13:46:54.240817+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11783,13 +11783,13 @@
         "url": "https://www.provincia.fm.it/drive/7fg582zhd3t5",
         "id": 14
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-23T11:21:26.423067+00:00",
-      "last_scan_error": false,
+      "last_scan": "2026-05-23T13:46:54.240817+00:00",
+      "last_scan_error": true,
       "last_scan_empty": false,
       "info": {
         "comune": "Monte Rinaldo",
@@ -32278,7 +32278,7 @@
       "scansionati": 0,
       "aggiornati": 0,
       "invariati": 0,
-      "errori": 10,
+      "errori": 15,
       "vuoti": 0
     },
     "total_comuni": 40,
