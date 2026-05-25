@@ -7564,7 +7564,7 @@
       "processabile": "no"
     },
     "10": {
-      "last_scan": "2026-05-24T19:23:27.022756+00:00",
+      "last_scan": "2026-05-25T09:39:33.636536+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7574,9 +7574,9 @@
         "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev",
         "id": 10
       },
-      "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
-      "content_fingerprint": "ee44ac2541a91f9ff6dbac09d45c6643c34fbceb36bda95878ea5d4f42059524",
-      "zip_changed": false,
+      "zip_hash": "5c2143f315e9480b4ed025280e2a5064bf3b67da8dba8a26301d7df3ccc714b7",
+      "content_fingerprint": "4d56a01d995ae0538e3ab8f9bf89e48d581f52c394a89f0962787725e745519d",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "missing"
@@ -7592,26 +7592,32 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "a5c1784c9cd93fe8fc3342f71ac6950be1c460edb441a9f6638e1888a6d0300e",
+          "current_hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3980000,
+          "current_size": 3979981,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "a5c1784c9cd93fe8fc3342f71ac6950be1c460edb441a9f6638e1888a6d0300e",
-              "size": 3980000
+              "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
+              "size": 3979981
             }
           ],
           "first_upload": "2026-04-13T13:04:30.788592+00:00",
-          "last_upload": "2026-04-13T13:04:30.788592+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-25T09:39:33.636536+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-13T13:04:30.788592+00:00",
               "hash": "a5c1784c9cd93fe8fc3342f71ac6950be1c460edb441a9f6638e1888a6d0300e",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-25T09:39:33.636536+00:00",
+              "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -7642,26 +7648,32 @@
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "4127148508c27244234881e7bfaf3e441ca9adbe85618c98038edd97c64fa89f",
-          "current_file": "Dichiarazione di veridicità_signed.pdf",
-          "current_size": 329632,
+          "current_hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
+          "current_file": "Dichiarazione di veridicità.pdf",
+          "current_size": 324424,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione di veridicità_signed.pdf",
-              "hash": "4127148508c27244234881e7bfaf3e441ca9adbe85618c98038edd97c64fa89f",
-              "size": 329632
+              "name": "Dichiarazione di veridicità.pdf",
+              "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
+              "size": 324424
             }
           ],
           "first_upload": "2026-04-13T13:04:30.788592+00:00",
-          "last_upload": "2026-04-13T13:04:30.788592+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-25T09:39:33.636536+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-13T13:04:30.788592+00:00",
               "hash": "4127148508c27244234881e7bfaf3e441ca9adbe85618c98038edd97c64fa89f",
               "file": "Dichiarazione di veridicità_signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-25T09:39:33.636536+00:00",
+              "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
+              "file": "Dichiarazione di veridicità.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -7676,8 +7688,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "a5c1784c9cd93fe8fc3342f71ac6950be1c460edb441a9f6638e1888a6d0300e",
-          "size": 3980000,
+          "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
+          "size": 3979981,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -7690,21 +7702,15 @@
           "source": "comune"
         },
         {
-          "name": "Dichiarazione di veridicità_signed.pdf",
-          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità_signed.pdf",
-          "hash": "4127148508c27244234881e7bfaf3e441ca9adbe85618c98038edd97c64fa89f",
-          "size": 329632,
+          "name": "Dichiarazione di veridicità.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità.pdf",
+          "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
+          "size": 324424,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-03T19:07:11.081821+00:00",
-          "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-04T10:18:29.560937+00:00",
           "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
@@ -8297,6 +8303,12 @@
           "time": "2026-05-24T19:23:27.022756+00:00",
           "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
           "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-25T09:39:33.636536+00:00",
+          "zip_hash": "5c2143f315e9480b4ed025280e2a5064bf3b67da8dba8a26301d7df3ccc714b7",
+          "changed": true,
           "file_count": 3
         }
       ],
@@ -32513,11 +32525,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-24T19:23:27.022756+00:00",
+    "last_scan": "2026-05-25T09:39:33.636536+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 0,
-      "invariati": 40,
+      "scansionati": 1,
+      "aggiornati": 1,
+      "invariati": 0,
       "errori": 0,
       "vuoti": 0
     },
@@ -32527,7 +32539,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
