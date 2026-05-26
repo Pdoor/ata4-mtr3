@@ -30903,7 +30903,7 @@
     "39": {
       "zip_hash": "8dd67297a241ddbbf377f8e42a11add5987779b172e486bd25d10f7361dbf388",
       "content_fingerprint": "9003b55d1e44942adc927114df2c0f9b955f9d0c6ae9b7ace42eb88aaf94bafc",
-      "last_scan": "2026-05-26T10:07:29.965378+00:00",
+      "last_scan": "2026-05-26T13:44:00.820413+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -31751,7 +31751,7 @@
         "url": "https://www.provincia.fm.it/drive/4gjc20z8zkch",
         "id": 39
       },
-      "last_scan_error": false,
+      "last_scan_error": true,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -32663,12 +32663,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-26T13:38:18.087279+00:00",
+    "last_scan": "2026-05-26T13:44:00.820413+00:00",
     "results": {
-      "scansionati": 1,
-      "aggiornati": 1,
+      "scansionati": 0,
+      "aggiornati": 0,
       "invariati": 0,
-      "errori": 0,
+      "errori": 1,
       "vuoti": 0
     },
     "total_comuni": 40,
