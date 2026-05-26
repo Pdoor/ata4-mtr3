@@ -30901,10 +30901,10 @@
       "processabile": "no"
     },
     "39": {
-      "zip_hash": "8dd67297a241ddbbf377f8e42a11add5987779b172e486bd25d10f7361dbf388",
-      "content_fingerprint": "9003b55d1e44942adc927114df2c0f9b955f9d0c6ae9b7ace42eb88aaf94bafc",
-      "last_scan": "2026-05-26T13:44:00.820413+00:00",
-      "zip_changed": false,
+      "zip_hash": "8ec1d5ccb8f246f087665e69669e39d3b650aa4889957035cd0cfe21cbfab1c4",
+      "content_fingerprint": "1705bb9006fed4e584f6982834e963be3a601233a1615dfe3e5a8b01d2c4572a",
+      "last_scan": "2026-05-26T14:24:40.860218+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -31003,26 +31003,32 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
+          "current_hash": "5948b573cf443016a6e2862a827e0a686e1da738a0909a4023ed8701c4adacf8",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3972071,
+          "current_size": 3972008,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
-              "size": 3972071
+              "hash": "5948b573cf443016a6e2862a827e0a686e1da738a0909a4023ed8701c4adacf8",
+              "size": 3972008
             }
           ],
           "first_upload": "2026-04-29T12:19:52.057313+00:00",
-          "last_upload": "2026-04-29T12:19:52.057313+00:00",
-          "replaced": false,
+          "last_upload": "2026-05-26T14:24:40.860218+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-29T12:19:52.057313+00:00",
               "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-05-26T14:24:40.860218+00:00",
+              "hash": "5948b573cf443016a6e2862a827e0a686e1da738a0909a4023ed8701c4adacf8",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -31087,8 +31093,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "77e0961ee659867a51b9cc54e2e877420a4539b330dcb70273add991eb950a22",
-          "size": 3972071,
+          "hash": "5948b573cf443016a6e2862a827e0a686e1da738a0909a4023ed8701c4adacf8",
+          "size": 3972008,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -31142,12 +31148,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-05T10:07:15.348050+00:00",
-          "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-05T12:06:35.096806+00:00",
           "zip_hash": "0f57184e3758931062201e6ef1c818d576e43d2bcb326dc51fabd5ed4fd72bee",
@@ -31741,6 +31741,12 @@
           "zip_hash": "8dd67297a241ddbbf377f8e42a11add5987779b172e486bd25d10f7361dbf388",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-26T14:24:40.860218+00:00",
+          "zip_hash": "8ec1d5ccb8f246f087665e69669e39d3b650aa4889957035cd0cfe21cbfab1c4",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -31751,7 +31757,7 @@
         "url": "https://www.provincia.fm.it/drive/4gjc20z8zkch",
         "id": 39
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -32663,12 +32669,12 @@
     }
   },
   "meta": {
-    "last_scan": "2026-05-26T13:44:00.820413+00:00",
+    "last_scan": "2026-05-26T14:24:40.860218+00:00",
     "results": {
-      "scansionati": 0,
-      "aggiornati": 0,
+      "scansionati": 1,
+      "aggiornati": 1,
       "invariati": 0,
-      "errori": 1,
+      "errori": 0,
       "vuoti": 0
     },
     "total_comuni": 40,
