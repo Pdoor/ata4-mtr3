@@ -762,7 +762,15 @@
         "date": "2026-05-25",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 25 maggio 2026 12:42\nA: Rieco Spa <info@riecospa.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Rieco Spa - Altidona\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle scheda \"IN_BIL_GEST_24\" e IN_BIL_GEST_25\" non sono state valorizzate le poste rettificative del capitale investito;\n2) all'interno della relazione di accompagnamento non risulta sufficientemente dettagliato il calcolo delle componente COant per l'inserimento dei costi anticipati relativi ai rinnovi contrattuali;\n3) all'interno del foglio \"IN_CESPITI\" sono stati inseriti cespiti totalmente diversi rispetto a quanto inserito nel precedente Pef dove vi era un'indicazione analitica di ciascuno di essi;\n4) nel foglio IN_CALCOLO_H non risulta valorizzata la cella C28 relativa a ARCsc_si (solo imballaggi);\n5) all'interno della relazione di accompagnamento non sono indicate le metodologie di individuazione dei costi (driver di ripartizione, criteri imputazione costi del personale, ecc). Manca altresì la ripartizione dei costi per ciascuna componente del MTR-3. Si chiede pertanto di integrare il documento in tal senso\n6) non risulta pervenuto il prospetto di riconciliazione contabile richiesto dall'ATA al fine di rendere pienamente verificabile la coerenza tra i dati riportati nel PEF grezzo e le fonti contabili obbligatorie da cui gli stessi derivano;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-05-26",
+            "text": "________________________________________\nDa: Paolo Di Vito - Co.Sve.Ga S.r.l. <paolo.divito@cosvega.it>\nInviato: martedì, maggio 26, 2026 8:55:08 AM\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nOggetto: R: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Rieco Spa - Pedaso\n\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi.\nBuongiorno\nPer quanto riguarda i PEF attinenti all’Ata 4 (Pedaso, Campofilone, Altidona, Montegiorgio), se possibile vorrei parlarle prima di fare modifiche\nMi trova al ---------------\nGrazie\n \nDa: Segreteria - Co.Sve.Ga S.r.l. <segreteria@cosvega.it>\nInviato: lunedì 25 maggio 2026 16:53\nA: Paolo Di Vito - Co.Sve.Ga S.r.l. <paolo.divito@cosvega.it>; Fatturazione - Co.Sve.Ga S.r.l. <fatturazione@cosvega.it>; Massimo Pierdomenico <pierdomenico@riecospa.it>\nOggetto: I: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Rieco Spa - Pedaso",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "comune",
