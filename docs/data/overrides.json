@@ -859,7 +859,15 @@
             "date": "2026-04-17",
             "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: venerdì 17 aprile 2026 11:23\nA: ragioneria@comunebelmontepiceno.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Belmonte Piceno\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_BIL_COM_24\" la componente CTS risulta valorizzata per Euro 6409 mentre nella relazione è pari a 6502,43;\n2) all'interno della scheda \"IN_BIL_COM_25\" la componente CTS risulta valorizzata per Euro 5811 mentre nella relazione è pari a 6447,36;\n3) all'interno delle schede  \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\" la componente ACC è stata valorizzata con importi non presenti all'interno della relazione. Peraltro, nella stessa sono, erroneamente, indicati all'interno della componente CCD.\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
             "author": "GN",
-            "children": []
+            "children": [
+              {
+                "cat": "comune",
+                "date": "2026-05-28",
+                "text": "Buonasera,\nper quanto riguarda il punto 3), sul tool di calcolo la segnalazione non risulta essere stata sistemata.\nPotete verificare?\nSaluti\nGabriele Nardi\nIl 18/04/2026 13:44, Michelangelo Mattii ha scritto:\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nBuongiorno, \nla ringrazio per la segnalazione, ho provveduto a caricare la relazione corretta e la nuova dichiarazione di veridicità sul portale dedicato.\nCordialmente,\n\nMichelangelo Mattii\nUff. ragioneria\nComune di Belmonte Piceno",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       }
