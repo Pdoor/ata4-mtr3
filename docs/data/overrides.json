@@ -1195,7 +1195,15 @@
         "date": "2026-05-05",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: martedì 5 maggio 2026 18:26\nA: Comune Montefalcone <comune@montefalcone.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Montefalcone Appennino\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\", nella componente CRD è stato inserito il costo del servizio di raccolta svolto dal gestore SOECO, ma tale componente di costo è di competenza del gestore stesso, l'Ente deve valorizzare solamente le componenti di propria competenza, pertanto tale componente, ed eventuali anche altre ove presenti, devono essere espunte dal tool di calcolo presentato dal Comune;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-05-28",
+            "text": "Buonasera,\nsi richiede un riscontro alla corrispondenza in calce.\nSaluti",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "gestore",
