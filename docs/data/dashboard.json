@@ -4354,7 +4354,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4364,8 +4364,8 @@
         "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm",
         "id": 6
       },
-      "zip_hash": "2edeef8b4d045ae3842d5ebb641da9e5cbb9f72f18231c8337b3716c9cd70a0b",
-      "content_fingerprint": "03a99f316c6c052711bd20ffccdb17a124f0be75589a06d6bfbc876edf53473a",
+      "zip_hash": "d352d898150a30c4dced9df3cbe2bab9ac89fcea7ade076910a29d827eb3e201",
+      "content_fingerprint": "27ec9c2044c9ca0d76789955032434954addab5de605b3b3b2cd02a796e27d8c",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -4447,10 +4447,54 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "161276461c8fdbeb93332a3c588195d4ba049771944138f65843ae7c7e998305",
+          "current_file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 1_B.xlsx",
+          "current_size": 3968908,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 1_B.xlsx",
+              "hash": "161276461c8fdbeb93332a3c588195d4ba049771944138f65843ae7c7e998305",
+              "size": 3968908
+            }
+          ],
+          "first_upload": "2026-05-29T15:52:01.779744+00:00",
+          "last_upload": "2026-05-29T15:52:01.779744+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-29T15:52:01.779744+00:00",
+              "hash": "161276461c8fdbeb93332a3c588195d4ba049771944138f65843ae7c7e998305",
+              "file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 1_B.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione_c": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "47e5327a5c162715afc73601a434b92e07ee8610feb385c4e51c60bc3aca5788",
+          "current_file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+          "current_size": 189014,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+              "hash": "47e5327a5c162715afc73601a434b92e07ee8610feb385c4e51c60bc3aca5788",
+              "size": 189014
+            }
+          ],
+          "first_upload": "2026-05-29T15:52:01.779744+00:00",
+          "last_upload": "2026-05-29T15:52:01.779744+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-05-29T15:52:01.779744+00:00",
+              "hash": "47e5327a5c162715afc73601a434b92e07ee8610feb385c4e51c60bc3aca5788",
+              "file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita_c": {
           "status": "received",
@@ -4485,6 +4529,22 @@
         }
       },
       "all_files": [
+        {
+          "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 1_B.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Comune di Fermo_Predisposizione PEF grezzo_Allegato 1_B.xlsx",
+          "hash": "161276461c8fdbeb93332a3c588195d4ba049771944138f65843ae7c7e998305",
+          "size": 3968908,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
+          "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+          "hash": "47e5327a5c162715afc73601a434b92e07ee8610feb385c4e51c60bc3aca5788",
+          "size": 189014,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
         {
           "name": "Firma_Sindaco.pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Firma_Sindaco.pdf",
@@ -4559,12 +4619,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "5c013da92148f3548c97d28dc67365d2bca295ff8a0c1642fa491dc2b6dc2f3d",
@@ -5158,6 +5212,12 @@
           "zip_hash": "2edeef8b4d045ae3842d5ebb641da9e5cbb9f72f18231c8337b3716c9cd70a0b",
           "changed": true,
           "file_count": 9
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "d352d898150a30c4dced9df3cbe2bab9ac89fcea7ade076910a29d827eb3e201",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -5192,12 +5252,12 @@
           "size": 1129569
         }
       ],
-      "processabile": "no"
+      "processabile": "si"
     },
     "7": {
       "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
       "content_fingerprint": "28bb86ac2a20d891f71dce5f659fe441a24262a5063d961ac30812e3e161d2ae",
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5450,12 +5510,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "e548475e8af027141cc21b9dae59bc1be1f2490d784c1359f760e048a1b1aa9f",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "e548475e8af027141cc21b9dae59bc1be1f2490d784c1359f760e048a1b1aa9f",
           "changed": false,
@@ -6048,6 +6102,12 @@
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6063,7 +6123,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6230,12 +6290,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "f8cf1f13c0eec2c9980ef4633012c5bf1466b91cee4f0be3a1097efba60a47ce",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "f8cf1f13c0eec2c9980ef4633012c5bf1466b91cee4f0be3a1097efba60a47ce",
           "changed": false,
@@ -6828,13 +6882,19 @@
           "zip_hash": "72abe93b15d2a97a7cd518aa2887cfbe9bb69c2976e4031d9775d9e978271619",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "72abe93b15d2a97a7cd518aa2887cfbe9bb69c2976e4031d9775d9e978271619",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "9": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7015,12 +7075,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
           "changed": false,
@@ -7613,13 +7667,19 @@
           "zip_hash": "8069f9260e3bdbf66aa7ef09958cc56bfda646a268e65a6497dec91da9f0be73",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "8069f9260e3bdbf66aa7ef09958cc56bfda646a268e65a6497dec91da9f0be73",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "10": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7766,12 +7826,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T19:47:25.676790+00:00",
-          "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-08T09:44:33.270204+00:00",
           "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
@@ -8362,6 +8416,12 @@
         },
         {
           "time": "2026-05-29T11:33:56.748517+00:00",
+          "zip_hash": "5c2143f315e9480b4ed025280e2a5064bf3b67da8dba8a26301d7df3ccc714b7",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
           "zip_hash": "5c2143f315e9480b4ed025280e2a5064bf3b67da8dba8a26301d7df3ccc714b7",
           "changed": false,
           "file_count": 3
@@ -32977,9 +33037,9 @@
   "meta": {
     "last_scan": "2026-05-29T15:52:01.779744+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
