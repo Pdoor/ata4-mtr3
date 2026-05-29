@@ -1043,10 +1043,32 @@
     "11": [
       {
         "cat": "comune",
-        "date": "2026-04-30",
+        "date": "2026-04-29",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 29 aprile 2026 16:45\nA: ragioneria <ragioneria@comunemassafermana.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Massa Fermana\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\"sono presenti delle componenti di costo (CTS) che non erano presenti all'interno del Pef 2024-2025. Potete verificare?\n\n2) la relazione di accompagnamento contiene molte parti così inserite  , se non di pertinenza del Comune devono essere cancellate dal file, non barrate.\n3) all'interno della relazione di accompagnamento, per l'anno 2025 sono stati inseriti CARC per Euro 1.512,25 mentre nel tool di calcolo la componente è pari a zero;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti",
         "author": "GM",
         "children": []
+      },
+      {
+        "cat": "comune",
+        "date": "2026-04-29",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 29 aprile 2026 16:49\nA: Lina Colombo <amministrazione1913@gmail.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Massa Fermana\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" sono stati inseriti cespiti non coerenti con quelli inseriti nel Pef Tari 2024-2025;\n4) all'interno del foglio \"IN_BIL_GEST_24\" e \"IN_BIL_GEST_25\" sono stati valorizzati CCD per Euro 1.123. Nella relazione di accompagnamento non viene data alcuna evidenza degli stessi. A cosa sono riferiti?\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti",
+        "author": "GM",
+        "children": []
+      },
+      {
+        "cat": "gestore",
+        "date": "2026-04-29",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 29 aprile 2026 16:50\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Massa Fermana\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" sono stati inseriti cespiti non coerenti con quelli inseriti nel Pef Tari 2024-2025;\n4) all'interno del foglio \"IN_BIL_GEST_24\" e \"IN_BIL_GEST_25\" sono stati valorizzati CCD per Euro 1.123. Nella relazione di accompagnamento non viene data alcuna evidenza degli stessi. A cosa sono riferiti?\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti",
+        "author": "GM",
+        "children": [
+          {
+            "cat": "gestore",
+            "date": "2026-05-28",
+            "text": "Buonasera,\nverificando la nuova documentazione trasmessa, si rappresenta quanto segue, riprendendo i punti di chiarimento di cui alla corrispondenza in calce:\n\n1) risulta valorizzato l'R2 ma non l'R1;\n2) ok;\n3) ok;\n4) non risulta pervenute spiegazioni aggiuntive in merito\nRimaniamo in attesa.\nSaluti\nGabriele Nardi",
+            "author": "GM",
+            "children": []
+          }
+        ]
       }
     ],
     "13": [
