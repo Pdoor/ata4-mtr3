@@ -16777,7 +16777,7 @@
     "21": {
       "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
       "content_fingerprint": "3faf8d6d36aba38a52c45d1284f2833f3a587b5ec05b920c69d17ebcb29a1e50",
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17034,12 +17034,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "8dc67a23878eac8f6e01415bc107baf90b7d0b086eb1d65c08e2b89e7e0985d6",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "8dc67a23878eac8f6e01415bc107baf90b7d0b086eb1d65c08e2b89e7e0985d6",
@@ -17633,6 +17627,12 @@
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -17648,7 +17648,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18322,16 +18322,22 @@
           "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "23": {
-      "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
-      "content_fingerprint": "2f3cdf687498b3d87a658bd4a2ddbd5a5dff302c877d3d0b5694330a39c11949",
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
-      "zip_changed": false,
+      "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
+      "content_fingerprint": "2b073cfc548daa732245efb613bee88169952ac4ef68fc010ac063197bdae065",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -18626,15 +18632,49 @@
           "size": 1971596,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "PROSPETTO DI RICONCILIAZIONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/PROSPETTO DI RICONCILIAZIONE.pdf",
+          "hash": "4ef66225cfebac7522f5b3df4a5114a52b890dd71a261a89f23961f1420bcd8a",
+          "size": 111518,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "TABELLA COSTI AT ABRUZZO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT ABRUZZO.pdf",
+          "hash": "0a9c05f36b9734089cef76380321d33a59151d9dc1ec80cbb6f45566a3fc49cf",
+          "size": 220848,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "TABELLA COSTI AT ARO_9 LE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT ARO_9 LE.pdf",
+          "hash": "b1ad268b3b389ba1aca3f8b37e9248df0210dbdfa6f2ab9ebf3e3a15781f5526",
+          "size": 220105,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "TABELLA COSTI AT LAZIO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT LAZIO.pdf",
+          "hash": "f02e28b32f1184b7cdc346cccb596e145ff3fe9151e805bddc1c217305fe1e37",
+          "size": 220662,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "TABELLA COSTI AT MARCHE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT MARCHE.pdf",
+          "hash": "c6f920fbd7686ce9734e1a6f1c72b132f5d54adeaa64acf65f5d3c4fefb21367",
+          "size": 216154,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T12:59:52.557522+00:00",
-          "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-05-07T15:31:39.242714+00:00",
           "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
@@ -19228,6 +19268,12 @@
           "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
+          "changed": true,
+          "file_count": 19
         }
       ],
       "unclassified_files": [
@@ -19260,6 +19306,36 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/TEKNEKO FASCICOLO BILANCIO 31 12 2024.pdf",
           "source": "comune",
           "size": 1971596
+        },
+        {
+          "name": "PROSPETTO DI RICONCILIAZIONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/PROSPETTO DI RICONCILIAZIONE.pdf",
+          "source": "comune",
+          "size": 111518
+        },
+        {
+          "name": "TABELLA COSTI AT ABRUZZO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT ABRUZZO.pdf",
+          "source": "comune",
+          "size": 220848
+        },
+        {
+          "name": "TABELLA COSTI AT ARO_9 LE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT ARO_9 LE.pdf",
+          "source": "comune",
+          "size": 220105
+        },
+        {
+          "name": "TABELLA COSTI AT LAZIO.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT LAZIO.pdf",
+          "source": "comune",
+          "size": 220662
+        },
+        {
+          "name": "TABELLA COSTI AT MARCHE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/TABELLA COSTI AT MARCHE.pdf",
+          "source": "comune",
+          "size": 216154
         }
       ],
       "info": {
@@ -19276,7 +19352,7 @@
     "24": {
       "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
       "content_fingerprint": "000490992814fe17f09733aa3fde90db0a2a597694c183ec70932ba246467316",
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19527,12 +19603,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T19:47:25.676790+00:00",
-          "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-08T09:44:33.270204+00:00",
           "zip_hash": "94cd17e6e405c49f0c431cfb0372cf1dabfbdd2d9b037a7298fdc743042d58a9",
@@ -20126,6 +20196,12 @@
           "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
+          "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -20141,7 +20217,7 @@
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-05-29T11:33:56.748517+00:00",
+      "last_scan": "2026-05-29T15:52:01.779744+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20288,12 +20364,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-07T15:31:39.242714+00:00",
-          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-07T19:47:25.676790+00:00",
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
@@ -20884,6 +20954,12 @@
         },
         {
           "time": "2026-05-29T11:33:56.748517+00:00",
+          "zip_hash": "6597cf0829fd2859e2e53e8f83fd6d33234b20df1912eb4e3fba8e38baaf7704",
+          "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-05-29T15:52:01.779744+00:00",
           "zip_hash": "6597cf0829fd2859e2e53e8f83fd6d33234b20df1912eb4e3fba8e38baaf7704",
           "changed": false,
           "file_count": 3
@@ -33037,9 +33113,9 @@
   "meta": {
     "last_scan": "2026-05-29T15:52:01.779744+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 1,
-      "invariati": 19,
+      "scansionati": 25,
+      "aggiornati": 2,
+      "invariati": 23,
       "errori": 0,
       "vuoti": 0
     },
