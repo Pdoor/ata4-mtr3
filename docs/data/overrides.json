@@ -1209,7 +1209,15 @@
             "date": "2026-05-28",
             "text": "Buonasera,\nsi richiede un riscontro alla corrispondenza in calce.\nSaluti\nIl 05/05/2026 18:26, Gabriele Nardi - Media Gestum Consulting Srl ha scritto:\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\", nella componente CRD è stato inserito il costo del servizio di raccolta svolto dal gestore SOECO, ma tale componente di costo è di competenza del gestore stesso, l'Ente deve valorizzare solamente le componenti di propria competenza, pertanto tale componente, ed eventuali anche altre ove presenti, devono essere espunte dal tool di calcolo presentato dal Comune;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
             "author": "GM",
-            "children": []
+            "children": [
+              {
+                "cat": "comune",
+                "date": "2026-05-29",
+                "text": "Buonasera,\nabbiamo inoltrato il riscontro in merito tramite stesso mezzo in data 21/05/2025 che si allega alla presente.\nSi rimane a disposizione in merito. Cordiali slauti",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1460,15 +1468,7 @@
         "date": "2026-04-16",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 16 aprile 2026 15:51\nA: Ragioneria <ufficio.ragioneria@ponzanodifermo.org>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Ponzano di Fermo\n\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_BIL_COM_25\", così come nella relazione di accompagnamento, non risulta presente il costo relativo alla componente CRD. Il costo non è stato sostenuto in tale annualità?;\n2) all'interno della relazione di accompagnamento il valore del cespite \"spazzatrice\" è stato inserito pari ad Euro 11.499,72, in realtà l'importo corretto, derivante anche dal Pef 2024-2025, è pari ad Euro 114.997 come inserito all'interno della scheda \"IN_CESPITI\";\n3) la relazione di accompagnamento contiene svariati paragrafi rimasti tal quali dallo schema tipo di Arera. Si prega di rielaborarla tenendo conto delle sole parti di competenza del Comune;\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
         "author": "GN",
-        "children": [
-          {
-            "cat": "comune",
-            "date": "2026-05-28",
-            "text": "Buonasera\ncon riferimento alla nuova documentazione trasmessa, non risultano pervenuti chiarimenti in merito al seguente punto della mail di richiesta chiarimenti \"1) all'interno della scheda \"IN_BIL_COM_25\", così come nella relazione di accompagnamento, non risulta presente il costo relativo alla componente CRD. Il costo non è stato sostenuto in tale annualità?\".\nPotete verificare?\nSaluti\nIl 21/04/2026 19:26, tributi ha scritto:\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nSi comunica aggiornamento dati come richiesto su piattaforma drive\nCordiali saluti\nUfficio Tributi - Comune di Ponzano di Fermo FM",
-            "author": "GM",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "cat": "gestore",
