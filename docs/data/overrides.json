@@ -1165,7 +1165,15 @@
         "date": "2026-04-27",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 27 aprile 2026 10:14\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Montefortino\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" il cespite inserito risulta valorizzato come AUTOMEZZI E AUTOVEICOLI in luogo di COMPATTATORI, SPAZZATRICI E AUTOCARRI ATTREZZATI.\n4) nel Pef 2024-2025 i dati di costo 2022 erano pari ad Euro 80.548 contro quelli del 2024 che sono pari a 68.871. A cosa è imputabile questa differenza? Inoltre, nel vecchio Pef erano presenti 12.709ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Amandola € abbinati alla componente CTR, costi che nel Pef trasmesso sono pari a 0.\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-05-28",
+            "text": "Buonasera,\nverificando la nuova documentazione trasmessa, si rappresenta quanto segue, riprendendo i punti di chiarimento di cui alla corrispondenza in calce:\n\n1) risulta valorizzato l'R2 ma non l'R1;\n2) ok;\n3) ok\n4) la relazione non risulta integrata e nel tool gli importi sono rimasti uguali.\n\nRimaniamo in attesa.\nSaluti\nGabriele Nardi",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "comune",
