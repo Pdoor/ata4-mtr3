@@ -1334,7 +1334,15 @@
         "date": "2026-05-18",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 18 maggio 2026 22:44\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Soeco - Monteleone di Fermo\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" risultano valorizzati non congrui rispetto a quanto indicato nel precedente Pef. In particolare, adesso è presente un cespite acquistato nel 2020 che in precedenza non era stato inserito.\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "gestore",
+            "date": "2026-05-28",
+            "text": "Buonasera,\nverificando la nuova documentazione trasmessa, si rappresenta quanto segue, riprendendo i punti di chiarimento di cui alla corrispondenza in calce:\n\n1) risulta valorizzato l'R2 ma non l'R1;\n2) ok;\n3) ok;\n\nRimaniamo in attesa.\nSaluti\nGabriele Nardi",
+            "author": "GM",
+            "children": []
+          }
+        ]
       }
     ],
     "26": [
