@@ -1494,7 +1494,15 @@
         "date": "2026-04-16",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 16 aprile 2026 18:32\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Rapagnano\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) all'interno dei fogli \"IN_BIL_GEST_24\" e \"IN_BIL_GEST_25\" risulta valorizzata anche la componente CSL, ma i costi relativi a tale componente sono di competenza del Comune. Se trattasi di attività aggiuntive rispetto a quelle svolte dal Comune è necessario darne evidenza all'interno della relazione;\n3) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n4) all'interno del foglio \"IN_CESPITI\" risultano valorizzati beni come \"AUTOMEZZI E AUTOVEICOLI\" ma tale distinzione non è presente all'interno della categoria \"RACCOLTA E TRASPORTO\", nel Pef precedente avevate inserito \"COMPATTATORI, SPAZZATRICI E AUTOCARRI ATTREZZATI\". Si ricorda che dovete inserire gli stessi cespiti presenti nel tool di calcolo del Pef 2024-2025 unitamente alle nuove acquisizioni negli anni fino al 2025.\n5) nel Pef 2024-2025 i dati di costo 2022 erano pari ad Euro 111.725 contro quelli del 2024 che sono pari a 91.417. A cosa è imputabile questa differenza? Inoltre, nel vecchio Pef erano presenti 22.736 € abbinati alla componente CTR, costi che nel Pef trasmesso non sono presenti.\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-05-29",
+            "text": "Buonasera,\nverificando la nuova documentazione trasmessa, si rappresenta quanto segue, riprendendo i punti di chiarimento di cui alla corrispondenza in calce:\n\n1) risulta valorizzato l'R2 ma non l'R1;\n2) ok, sono stati rimossi;\n3) ok;\n4) ok,\n5) non sono state fornite le spiegazioni richieste.",
+            "author": "GM",
+            "children": []
+          }
+        ]
       }
     ],
     "36": [
