@@ -8703,7 +8703,7 @@
     "11": {
       "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
       "content_fingerprint": "b4972c518095261951ee6491d05d756c22e0f206963cc1818c3089aa685b9be9",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -8994,12 +8994,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "d588fe36bc5583d8e08cb00da09c9d62dc1dccd712ad837c24eab0cc177b0a4e",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "d588fe36bc5583d8e08cb00da09c9d62dc1dccd712ad837c24eab0cc177b0a4e",
           "changed": false,
@@ -9592,6 +9586,12 @@
           "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -9609,7 +9609,7 @@
     "12": {
       "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
       "content_fingerprint": "3b992f99e547d846a27d4c7c26f342bfcbe3b74349119af84246d965cddcc49a",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9824,12 +9824,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
           "changed": false,
@@ -10422,6 +10416,12 @@
           "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -10439,7 +10439,7 @@
     "13": {
       "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
       "content_fingerprint": "0d0bc89a6d0b128e432fb7756980eff331457b4cc3a348a8cfc4c6a852be30f9",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10717,12 +10717,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "4fddf41f61840b9efb938156111f52a6055d56369cdb247b2d9dc43354359517",
           "changed": false,
@@ -11315,6 +11309,12 @@
           "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -11332,7 +11332,7 @@
     "14": {
       "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
       "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11571,12 +11571,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
@@ -12170,6 +12164,12 @@
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -12185,7 +12185,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -12195,18 +12195,84 @@
         "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79",
         "id": 15
       },
-      "zip_hash": "13a648598fc4c31424e053ddcb1d163385724a5c433202953d8fac58e5799f7a",
-      "content_fingerprint": "b16aec3bb3b360e51866544b96c960681b90bba151f77794145652aadf2fb427",
-      "zip_changed": false,
+      "zip_hash": "5bdd77530084bd8d37ea3866b3cc781c653af17e714feabe5174f937218b7c28",
+      "content_fingerprint": "db2568bf1132e1d750397a0df888038e9f80b547e66c93ea22683a26796754f3",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "b339909e9a580a6be6ebc6bd1136068ce2d052790a01aedeb362c33b2df23575",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Rinaldo.xlsx",
+          "current_size": 3980009,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Rinaldo.xlsx",
+              "hash": "b339909e9a580a6be6ebc6bd1136068ce2d052790a01aedeb362c33b2df23575",
+              "size": 3980009
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "b339909e9a580a6be6ebc6bd1136068ce2d052790a01aedeb362c33b2df23575",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Rinaldo.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "5c54b6c0139add8d5eb34d4be1a5d044b4e481a3f17fce8051687a07bb6080b1",
+          "current_file": "Relazione accompagnamento 2026 Ecoinnova srl Pef_Grezzo_MTR3 Monte Rinaldo.pdf",
+          "current_size": 931540,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione accompagnamento 2026 Ecoinnova srl Pef_Grezzo_MTR3 Monte Rinaldo.pdf",
+              "hash": "5c54b6c0139add8d5eb34d4be1a5d044b4e481a3f17fce8051687a07bb6080b1",
+              "size": 931540
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "5c54b6c0139add8d5eb34d4be1a5d044b4e481a3f17fce8051687a07bb6080b1",
+              "file": "Relazione accompagnamento 2026 Ecoinnova srl Pef_Grezzo_MTR3 Monte Rinaldo.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "current_size": 199409,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+              "size": 199409
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -12341,15 +12407,33 @@
           "size": 189376,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Rinaldo.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Rinaldo.xlsx",
+          "hash": "b339909e9a580a6be6ebc6bd1136068ce2d052790a01aedeb362c33b2df23575",
+          "size": 3980009,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+          "size": 199409,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione accompagnamento 2026 Ecoinnova srl Pef_Grezzo_MTR3 Monte Rinaldo.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Ecoinnova srl Pef_Grezzo_MTR3 Monte Rinaldo.pdf",
+          "hash": "5c54b6c0139add8d5eb34d4be1a5d044b4e481a3f17fce8051687a07bb6080b1",
+          "size": 931540,
+          "doc_key": "relazione",
+          "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T14:58:08.885427+00:00",
-          "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-10T16:02:14.727377+00:00",
           "zip_hash": "73caf96a1be175b1a0173b7cd8b4cc9e84024e60c4c1a3c809f2b29394512753",
@@ -12943,10 +13027,16 @@
           "zip_hash": "13a648598fc4c31424e053ddcb1d163385724a5c433202953d8fac58e5799f7a",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "5bdd77530084bd8d37ea3866b3cc781c653af17e714feabe5174f937218b7c28",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "16": {
       "last_scan": "2026-05-31T20:14:55.194921+00:00",
@@ -33575,9 +33665,9 @@
   "meta": {
     "last_scan": "2026-06-01T13:42:22.752444+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 3,
-      "invariati": 7,
+      "scansionati": 15,
+      "aggiornati": 4,
+      "invariati": 11,
       "errori": 0,
       "vuoti": 0
     },
