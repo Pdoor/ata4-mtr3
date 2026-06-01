@@ -17227,7 +17227,7 @@
     "21": {
       "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
       "content_fingerprint": "3faf8d6d36aba38a52c45d1284f2833f3a587b5ec05b920c69d17ebcb29a1e50",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17484,12 +17484,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
@@ -18083,6 +18077,12 @@
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -18098,7 +18098,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -18862,6 +18862,12 @@
           "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -18870,7 +18876,7 @@
     "23": {
       "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
       "content_fingerprint": "2b073cfc548daa732245efb613bee88169952ac4ef68fc010ac063197bdae065",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19209,12 +19215,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T11:02:45.100709+00:00",
-          "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-05-10T13:39:29.824571+00:00",
           "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
@@ -19808,6 +19808,12 @@
           "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
           "changed": false,
           "file_count": 19
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
+          "changed": false,
+          "file_count": 19
         }
       ],
       "unclassified_files": [
@@ -19886,7 +19892,7 @@
     "24": {
       "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
       "content_fingerprint": "000490992814fe17f09733aa3fde90db0a2a597694c183ec70932ba246467316",
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20137,12 +20143,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T14:58:08.885427+00:00",
-          "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-10T16:02:14.727377+00:00",
           "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
@@ -20736,6 +20736,12 @@
           "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -20751,7 +20757,7 @@
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-05-31T20:14:55.194921+00:00",
+      "last_scan": "2026-06-01T13:42:22.752444+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20761,18 +20767,84 @@
         "url": "https://www.provincia.fm.it/drive/nypzmc5ct79",
         "id": 25
       },
-      "zip_hash": "6597cf0829fd2859e2e53e8f83fd6d33234b20df1912eb4e3fba8e38baaf7704",
-      "content_fingerprint": "f50278457242214a79a801c27eadda2d2cef47b330863e252585d82fb7369a85",
-      "zip_changed": false,
+      "zip_hash": "a75a37df7a5947198dd93e3c517687f7fb9af5bb4ba28751473878883df20713",
+      "content_fingerprint": "817baa02639e7c75e6ec78a2dea1e4f95844a931bc3172ad2808e4e85b103a5e",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "5defe23de986500856f254de865b07bbea95b7bbcb25ae6d79808b3dead83dd5",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Montelparo.xlsx",
+          "current_size": 3971370,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Montelparo.xlsx",
+              "hash": "5defe23de986500856f254de865b07bbea95b7bbcb25ae6d79808b3dead83dd5",
+              "size": 3971370
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "5defe23de986500856f254de865b07bbea95b7bbcb25ae6d79808b3dead83dd5",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Montelparo.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "98e90af09f8fa6bc7273cb128ed099390206cc59e553df4ee3749f267a30a709",
+          "current_file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Montelparo.pdf",
+          "current_size": 705518,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Montelparo.pdf",
+              "hash": "98e90af09f8fa6bc7273cb128ed099390206cc59e553df4ee3749f267a30a709",
+              "size": 705518
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "98e90af09f8fa6bc7273cb128ed099390206cc59e553df4ee3749f267a30a709",
+              "file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Montelparo.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "current_size": 199409,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+              "size": 199409
+            }
+          ],
+          "first_upload": "2026-06-01T13:42:22.752444+00:00",
+          "last_upload": "2026-06-01T13:42:22.752444+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-01T13:42:22.752444+00:00",
+              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -20895,15 +20967,33 @@
           "size": 221414,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Montelparo.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Montelparo.xlsx",
+          "hash": "5defe23de986500856f254de865b07bbea95b7bbcb25ae6d79808b3dead83dd5",
+          "size": 3971370,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
+          "size": 199409,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Montelparo.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Montelparo.pdf",
+          "hash": "98e90af09f8fa6bc7273cb128ed099390206cc59e553df4ee3749f267a30a709",
+          "size": 705518,
+          "doc_key": "relazione",
+          "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-10T13:39:29.824571+00:00",
-          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-10T14:58:08.885427+00:00",
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
@@ -21497,10 +21587,16 @@
           "zip_hash": "6597cf0829fd2859e2e53e8f83fd6d33234b20df1912eb4e3fba8e38baaf7704",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-06-01T13:42:22.752444+00:00",
+          "zip_hash": "a75a37df7a5947198dd93e3c517687f7fb9af5bb4ba28751473878883df20713",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "26": {
       "last_scan": "2026-05-31T20:14:55.194921+00:00",
@@ -33755,9 +33851,9 @@
   "meta": {
     "last_scan": "2026-06-01T13:42:22.752444+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 5,
-      "invariati": 15,
+      "scansionati": 25,
+      "aggiornati": 6,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
