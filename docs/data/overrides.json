@@ -1110,15 +1110,7 @@
         "date": "2026-06-04",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 4 giugno 2026 11:42\nA: joele.tosoni@comune.fermo.it; Federica Paoloni <federica.paoloni@comune.fermo.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it; _Francesco - NeoPA <francesco.canti@neopa.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Fermo\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risulta valorizzato il dato relativo al benchmark di riferimento degli anni 2026 e 2027;\n3) si richiede se l'iva indetraibile riportata all'interno del foglio \"IN_COexp-RC-T\" sia comprensiva anche alle fatture emesse dal gestore per i servizi svolti dallo stesso. Qualora non fosse comprensiva delle stesse, è necessario inserirla in quanto costo di competenza dell'Ente;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": [
-          {
-            "cat": "comune",
-            "date": "2026-06-04",
-            "text": "Da: Francesco Canti - NeoPA spa <francesco.canti@neopa.it> \nInviato: giovedì 4 giugno 2026 14:08\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>; joele.tosoni@comune.fermo.it; Federica Paoloni <federica.paoloni@comune.fermo.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it\nOggetto: Re: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Fermo\n\nGent.mo,\nrispondiamo alle Vs richieste su mandato del Comune.\n1. All'interno del tool relativo al PEF grezzo inviatovi non abbiamo provveduto ad alcuna compilazione del foglio IN_PAR che ritenevamo di competenza dell'ETC. In ogni caso provvediamo ad inserire il dato di benchmark (fabbisogno standard 2024) inserendolo nel tool già trasmesso.\n3. In merito all'IVA indetraibile riferita ai costi del Gestore nella Relazione abbiamo già indicato quanto segue: \"Per l’IVA indetraibile sui costi del Gestore si ritiene coerente inserire la stessa così come derivante dall’applicazione delle regole stabilite per l’identificazione dei costi efficienti dal MTR-3 aggiornato; pertanto si rinvia alla predisposizione del PEF unitario – che avverrà a cura dell’Ente Territorialmente Competente – l’inserimento di tale dato all’interno del tool\".\nRestando a completa disposizione si porgono cordiali saluti.\n\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n\n \n\t(+39) 0131 1911646\n\n \n\twww.neopa.it\n\n \n\tVia Domenico Fontana 1, 22100, Como\n\n\n\n \n________________________________________",
-            "author": "GM",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "cat": "gestore",
@@ -1428,6 +1420,13 @@
       }
     ],
     "22": [
+      {
+        "cat": "comune",
+        "date": "2026-06-04",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 4 giugno 2026 12:56\nA: Valeria Luchetti - Comune Montegiorgio <valeria.luchetti@comune.montegiorgio.fm.it>\nCc: ata4fermo@provincia.fm.it; Gruppo ata4 <ata4@mediagestum.com>; andrea.piergentili@comune.montegiorgio.fm.it\nOggetto: Re: Richiesta informazioni PEF Unitario - Comune di Montegiorgio\n\nBuongiorno,\nil pef unitario verrà trasmesso al termine delle attività di verifica dei documenti prodotti dal gestore.\nSaluti\nIl 04/06/2026 12:29, Valeria Luchetti - Comune Montegiorgio ha scritto:\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nBuongiorno,\nsi chiedono aggiornamenti circa lo stato di verifica del PEF grezzo 2026/2029, così da organizzare l’attività di questo Ente per l’adozione degli atti conseguenti. \nIn particolare si chiedono informazioni in merito ai valori contenuti nel PEF unitario che saranno fondamentali per la determinazione delle tariffe.\n \nRingraziando anticipatamente per la disponibilità, si porgono cordiali saluti.\n \nCOMUNE DI MONTEGIORGIO\nServizio Urbanistica e Ambiente \nIng. Valeria Luchetti\n \nP.zza Matteotti, 33 - 63833 Montegiorgio (FM)\nTel. 0734.952045\ne-mail: valeria.luchetti@comune.montegiorgio.fm.it\npec: comune.montegiorgio@emarche.it\n \nInformativa ai sensi del codice della Privacy (D. Lgs. 196 – 30/06/2003). Le informazioni contenute nella presente e-mail e negli eventuali allegati, devono essere nella disponibilità del solo destinatario.\nSe avete ricevuto per errore questa e-mail siete pregati di informarci (rispedendola al mittente) e di provvedere alla sua rimozione.\nPossono essere presenti informazioni riservate e non corrette (parzialmente o totalmente). Del contenuto è responsabile il mittente della presente. Chiunque venga in possesso non autorizzato di questa e-mail è vincolato dalla Legge a non leggerne il contenuto, a non copiarla, a non diffonderla e a non usarla.",
+        "author": "GM",
+        "children": []
+      },
       {
         "cat": "gestore",
         "date": "2026-05-25",
