@@ -25823,8 +25823,8 @@
       "processabile": "no"
     },
     "31": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Petritoli",
@@ -26061,12 +26061,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -26660,6 +26654,12 @@
           "zip_hash": "fa0f6c4d6c0622dcb1e661b046747c8cd0c6198bebfb488977ace443b2fad24f",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "fa0f6c4d6c0622dcb1e661b046747c8cd0c6198bebfb488977ace443b2fad24f",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -26668,7 +26668,7 @@
     "32": {
       "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
       "content_fingerprint": "b0649bb1306087d060e0cd580288148c4c9c01b248ac98c616c20d4b64f83a07",
-      "last_scan": "2026-06-08T11:03:09.629112+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -26946,12 +26946,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T19:45:29.397352+00:00",
-          "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-05-16T09:45:19.028259+00:00",
           "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
@@ -27545,6 +27539,12 @@
           "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -27569,7 +27569,7 @@
     "33": {
       "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
       "content_fingerprint": "af73e7d37db5488a0965734c0aab6526d71080712ff827a5b7724fd2df341843",
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27971,12 +27971,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
@@ -28570,6 +28564,12 @@
           "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
           "changed": false,
           "file_count": 18
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
+          "changed": false,
+          "file_count": 18
         }
       ],
       "unclassified_files": [
@@ -28593,13 +28593,13 @@
         "url": "https://www.provincia.fm.it/drive/4ze5yejrap67",
         "id": 33
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Porto Sant'Elpidio",
@@ -28757,12 +28757,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
@@ -29356,14 +29350,20 @@
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
+          "changed": false,
+          "file_count": 3
         }
       ],
       "unclassified_files": [],
       "processabile": "no"
     },
     "35": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Rapagnano",
@@ -29637,12 +29637,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
@@ -30232,6 +30226,12 @@
         },
         {
           "time": "2026-06-07T18:07:53.183653+00:00",
+          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
           "file_count": 10
@@ -34538,9 +34538,9 @@
   "meta": {
     "last_scan": "2026-06-08T11:05:54.549669+00:00",
     "results": {
-      "scansionati": 30,
+      "scansionati": 35,
       "aggiornati": 3,
-      "invariati": 27,
+      "invariati": 32,
       "errori": 0,
       "vuoti": 0
     },
