@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   scan:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, ata4]
     timeout-minutes: 240
 
     env:
@@ -38,16 +38,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
-
-      - name: Setup ChromeDriver
-        uses: nanasess/setup-chromedriver@v2
-
       - name: Install dependencies
-        run: pip install selenium
+        run: pip install 'selenium>=4.15'
 
       - name: Decode credentials
         run: |
