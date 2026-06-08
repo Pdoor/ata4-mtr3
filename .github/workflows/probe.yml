@@ -1,1 +1,64 @@
+name: Probe dataroom host (ATA4)
 
+# Workflow diagnostico per ATA4: verifica se il runner GitHub Actions su Azure
+# riesce a raggiungere www.provincia.fm.it. Solo manuale, non parte da cron.
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL specifica da testare (vuoto = solo home www.provincia.fm.it)'
+        required: false
+        default: ''
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Info runner (IP pubblico + region Azure + ASN/owner)
+        run: |
+          echo "═══ IP pubblico del runner ═══"
+          MYIP=$(curl -s --max-time 10 https://ifconfig.me)
+          echo "${MYIP}"
+          echo
+          echo "═══ Region Azure del runner ═══"
+          curl -sH "Metadata:true" --max-time 3 "http://169.254.169.254/metadata/instance/compute/location?api-version=2021-02-01&format=text" 2>/dev/null || echo "metadata endpoint non raggiungibile"
+          echo
+          echo
+          echo "═══ ASN/owner dell'IP ═══"
+          curl -s --max-time 10 "https://ipinfo.io/${MYIP}/json" || echo "ipinfo non raggiungibile"
+          echo
+
+      - name: DNS resolution
+        run: |
+          echo "═══ DNS www.provincia.fm.it ═══"
+          getent hosts www.provincia.fm.it || echo "DNS resolution failed"
+
+      - name: HTTPS GET sulla home
+        run: |
+          echo "═══ HTTPS GET https://www.provincia.fm.it/ ═══"
+          curl -v --max-time 30 https://www.provincia.fm.it/ 2>&1 | head -40
+          echo
+          echo "(curl exit code precedente: $?)"
+
+      - name: HEAD su URL dataroom specifica (se passata in input)
+        if: ${{ github.event.inputs.url != '' }}
+        run: |
+          echo "═══ HEAD su ${{ github.event.inputs.url }} ═══"
+          curl -sI --max-time 30 "${{ github.event.inputs.url }}" || true
+
+      - name: Test con IP forzato (esclude DNS/cache)
+        run: |
+          echo "═══ Risolvo IP e forzo destinazione ═══"
+          IP=$(getent hosts www.provincia.fm.it | awk '{print $1}' | head -1)
+          echo "IP risolto: ${IP}"
+          if [ -n "${IP}" ]; then
+            curl -v --max-time 15 --resolve www.provincia.fm.it:443:${IP} https://www.provincia.fm.it/ 2>&1 | head -25 || true
+          fi
+
+      - name: Trace di rete (best effort)
+        run: |
+          echo "═══ traceroute (max 15 hop) ═══"
+          which traceroute >/dev/null && traceroute -m 15 www.provincia.fm.it 2>&1 | head -20 || echo "traceroute non disponibile"
