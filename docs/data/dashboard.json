@@ -28778,7 +28778,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan": "2026-06-08T15:29:09.597436+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -28788,18 +28788,84 @@
         "url": "https://www.provincia.fm.it/drive/ga22vc27tw6",
         "id": 34
       },
-      "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
-      "content_fingerprint": "7f7807600acb90c00be8bb377ce5118d7e2766613c2ca888f3d67d24d4c69cbe",
-      "zip_changed": false,
+      "zip_hash": "5d4d765f6f81c0cd73bea32048d026e6638057c1020eea775a5df8b62852093b",
+      "content_fingerprint": "f3da0a127f3db64dd0aa713a9b73c9be838fd0bc7fd069cd13747077003b2bc7",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "85e4081c823d448710cf59a4cf26b50bec15330e5dd9cd06da2cb86df10eebd2",
+          "current_file": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_PSE.xlsx",
+          "current_size": 3980525,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_PSE.xlsx",
+              "hash": "85e4081c823d448710cf59a4cf26b50bec15330e5dd9cd06da2cb86df10eebd2",
+              "size": 3980525
+            }
+          ],
+          "first_upload": "2026-06-08T15:29:09.597436+00:00",
+          "last_upload": "2026-06-08T15:29:09.597436+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T15:29:09.597436+00:00",
+              "hash": "85e4081c823d448710cf59a4cf26b50bec15330e5dd9cd06da2cb86df10eebd2",
+              "file": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_PSE.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "89f5896b0dff1ee96b90ff19c7b243282e69438e44a188a165781f3b7220a137",
+          "current_file": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 PSE.docx.pdf",
+          "current_size": 901320,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 PSE.docx.pdf",
+              "hash": "89f5896b0dff1ee96b90ff19c7b243282e69438e44a188a165781f3b7220a137",
+              "size": 901320
+            }
+          ],
+          "first_upload": "2026-06-08T15:29:09.597436+00:00",
+          "last_upload": "2026-06-08T15:29:09.597436+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T15:29:09.597436+00:00",
+              "hash": "89f5896b0dff1ee96b90ff19c7b243282e69438e44a188a165781f3b7220a137",
+              "file": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 PSE.docx.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "current_size": 199352,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+              "size": 199352
+            }
+          ],
+          "first_upload": "2026-06-08T15:29:09.597436+00:00",
+          "last_upload": "2026-06-08T15:29:09.597436+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T15:29:09.597436+00:00",
+              "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -28934,15 +29000,33 @@
           "size": 136127,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_PSE.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_PSE.xlsx",
+          "hash": "85e4081c823d448710cf59a4cf26b50bec15330e5dd9cd06da2cb86df10eebd2",
+          "size": 3980525,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+          "size": 199352,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 PSE.docx.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 PSE.docx.pdf",
+          "hash": "89f5896b0dff1ee96b90ff19c7b243282e69438e44a188a165781f3b7220a137",
+          "size": 901320,
+          "doc_key": "relazione",
+          "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T17:44:37.710548+00:00",
-          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-15T19:45:29.397352+00:00",
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
@@ -29536,10 +29620,16 @@
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
           "changed": false,
           "file_count": 3
+        },
+        {
+          "time": "2026-06-08T15:29:09.597436+00:00",
+          "zip_hash": "5d4d765f6f81c0cd73bea32048d026e6638057c1020eea775a5df8b62852093b",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "35": {
       "last_scan": "2026-06-08T11:05:54.549669+00:00",
@@ -34716,7 +34806,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-08T14:30:01.763769+00:00",
+    "last_scan": "2026-06-08T15:29:09.597436+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
