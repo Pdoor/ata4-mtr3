@@ -1,10 +1,10 @@
 {
   "comuni": {
     "1": {
-      "zip_hash": "1d3b596249b4f00db580edd2a7e91261376bf0b93badfe19f232a30ca063f855",
-      "content_fingerprint": "fcd3a5864e0be70ccd349d866bab45b879a71bea794eaf92cdc0117bec91cd31",
-      "last_scan": "2026-06-08T10:28:06.971039+00:00",
-      "zip_changed": false,
+      "zip_hash": "6b74b471a1dae239a23400172a382c4bdaacc8689c593654bb38ca87ba7c8073",
+      "content_fingerprint": "f7f6f07b06b0bd1efca0eae9e0446b7542713c1fd189cca440b9753def10a59e",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -200,6 +200,30 @@
           "source": "gestore"
         },
         {
+          "name": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "hash": "e963d6f25e16ad94204062b2ec34418a5241199d7e576a0806005ca29be7efd4",
+          "size": 3979009,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comuni (1).docx-signed.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Dichiarazione_Veridicita_Comuni (1).docx-signed.pdf",
+          "hash": "f48a960dc1717d4ee5253c71046a64f43f7972d6354218db0f66cb57a3888aba",
+          "size": 85935,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona_2.0.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona_2.0.docx",
+          "hash": "5c3e0c112672f6fd007ca5d9ccf5f7f4938c7cd37a1e45b589a0f42b9e0cfb31",
+          "size": 178394,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
           "name": "Dichiarazione_Veridicita_Comuni-signed.pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni-signed.pdf",
           "hash": "8eb036f9b90db129e022d4fad57014fd248cfee0c2fa1cf3d07f7b671c786770",
@@ -225,12 +249,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T17:44:37.710548+00:00",
-          "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-15T19:45:29.397352+00:00",
           "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
@@ -824,6 +842,12 @@
           "zip_hash": "1d3b596249b4f00db580edd2a7e91261376bf0b93badfe19f232a30ca063f855",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "6b74b471a1dae239a23400172a382c4bdaacc8689c593654bb38ca87ba7c8073",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -832,6 +856,24 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/test.xlsx",
           "source": "comune",
           "size": 8846
+        },
+        {
+          "name": "Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Altidona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
+          "source": "comune",
+          "size": 3979009
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comuni (1).docx-signed.pdf",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Dichiarazione_Veridicita_Comuni (1).docx-signed.pdf",
+          "source": "comune",
+          "size": 85935
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona_2.0.docx",
+          "path": "Comune/Eventuali - Comunicazioni supplementari/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Allegato 2_Comune di Altidona_2.0.docx",
+          "source": "comune",
+          "size": 178394
         }
       ],
       "info": {
@@ -841,14 +883,14 @@
         "url": "https://www.provincia.fm.it/drive/9v3mdoy6ti2",
         "id": 1
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "2": {
       "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
       "content_fingerprint": "6f157b8453ebe6585d8cad35b0afceb575c21defe7fb90010765221bbe40acb2",
-      "last_scan": "2026-06-08T10:28:06.971039+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1131,12 +1173,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
@@ -1729,6 +1765,12 @@
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1739,14 +1781,14 @@
         "url": "https://www.provincia.fm.it/drive/7cfl6rwmfexi",
         "id": 2
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "3": {
       "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
       "content_fingerprint": "0507231c0ca417250f792e243adff10ad9f9ee228f911f42e433bc3faf72f445",
-      "last_scan": "2026-06-08T10:28:06.971039+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2024,12 +2066,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
@@ -2622,6 +2658,12 @@
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2632,13 +2674,13 @@
         "url": "https://www.provincia.fm.it/drive/72j0e9z4772d",
         "id": 3
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-06-08T10:28:06.971039+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Campofilone",
@@ -2887,12 +2929,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T19:45:29.397352+00:00",
-          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-16T09:45:19.028259+00:00",
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
@@ -3486,6 +3522,12 @@
           "zip_hash": "c91fb2ecf8f143bc863c491da3b0b28bb519f70f6a6447abc9d5ae973a8f5ec3",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "c91fb2ecf8f143bc863c491da3b0b28bb519f70f6a6447abc9d5ae973a8f5ec3",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -3494,7 +3536,7 @@
     "5": {
       "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
       "content_fingerprint": "659b343e299b208713121bec3b5eabe9d1b5b986d5e02bbe637c6ff5bd18677d",
-      "last_scan": "2026-06-08T10:28:06.971039+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3740,12 +3782,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4339,6 +4375,12 @@
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -4349,7 +4391,7 @@
         "url": "https://www.provincia.fm.it/drive/71ma4xgfc4br",
         "id": 5
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
@@ -34481,11 +34523,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-08T11:03:09.629112+00:00",
+    "last_scan": "2026-06-08T11:05:54.549669+00:00",
     "results": {
-      "scansionati": 3,
-      "aggiornati": 0,
-      "invariati": 3,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
