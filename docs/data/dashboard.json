@@ -14106,7 +14106,7 @@
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan": "2026-06-08T14:30:01.763769+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14116,18 +14116,84 @@
         "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz",
         "id": 17
       },
-      "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
-      "content_fingerprint": "3d8ebfc1fc74e55e9ca5932b07e56d5135d9442016ea2ea85da0f0a4c75f91f0",
-      "zip_changed": false,
+      "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
+      "content_fingerprint": "491f9c332cfca97cf29e00b4aa58309392b5b11a60c5cf78f04807d7bdce78db",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "ad3ece6b634656210b7cf2935c702612eb1cbb4ac32f63b5864c8481e7086532",
+          "current_file": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_Monte Urano.xlsx",
+          "current_size": 3978806,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_Monte Urano.xlsx",
+              "hash": "ad3ece6b634656210b7cf2935c702612eb1cbb4ac32f63b5864c8481e7086532",
+              "size": 3978806
+            }
+          ],
+          "first_upload": "2026-06-08T14:30:01.763769+00:00",
+          "last_upload": "2026-06-08T14:30:01.763769+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T14:30:01.763769+00:00",
+              "hash": "ad3ece6b634656210b7cf2935c702612eb1cbb4ac32f63b5864c8481e7086532",
+              "file": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_Monte Urano.xlsx",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "relazione": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "5f7cb781698242440cdfd4e98d7976ec86d7b53987cf16c85a7a7e9b6b9a8d7a",
+          "current_file": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 Monte Urano.docx.pdf",
+          "current_size": 942923,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 Monte Urano.docx.pdf",
+              "hash": "5f7cb781698242440cdfd4e98d7976ec86d7b53987cf16c85a7a7e9b6b9a8d7a",
+              "size": 942923
+            }
+          ],
+          "first_upload": "2026-06-08T14:30:01.763769+00:00",
+          "last_upload": "2026-06-08T14:30:01.763769+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T14:30:01.763769+00:00",
+              "hash": "5f7cb781698242440cdfd4e98d7976ec86d7b53987cf16c85a7a7e9b6b9a8d7a",
+              "file": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 Monte Urano.docx.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "dich_veridicita": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "current_size": 199352,
+          "file_count": 1,
+          "all_files": [
+            {
+              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+              "size": 199352
+            }
+          ],
+          "first_upload": "2026-06-08T14:30:01.763769+00:00",
+          "last_upload": "2026-06-08T14:30:01.763769+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-08T14:30:01.763769+00:00",
+              "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+              "event": "primo_caricamento"
+            }
+          ]
         },
         "altre_com": {
           "status": "missing"
@@ -14289,15 +14355,33 @@
           "size": 79411,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
+        },
+        {
+          "name": "Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_Monte Urano.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Eco Elpidiense_Tool_di_calcolo_MTR-3_2026-2029_Monte Urano.xlsx",
+          "hash": "ad3ece6b634656210b7cf2935c702612eb1cbb4ac32f63b5864c8481e7086532",
+          "size": 3978806,
+          "doc_key": "tool_mtr3",
+          "source": "gestore"
+        },
+        {
+          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
+          "hash": "e00c6d9378fcc24eff53cab1f02a234ca30c242e618ec52341d701ef04f64111",
+          "size": 199352,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
+          "name": "Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 Monte Urano.docx.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Eco Elpidiense srl Pef_Grezzo_MTR3 Monte Urano.docx.pdf",
+          "hash": "5f7cb781698242440cdfd4e98d7976ec86d7b53987cf16c85a7a7e9b6b9a8d7a",
+          "size": 942923,
+          "doc_key": "relazione",
+          "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T17:44:37.710548+00:00",
-          "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-15T19:45:29.397352+00:00",
           "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
@@ -14891,10 +14975,16 @@
           "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T14:30:01.763769+00:00",
+          "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
-      "processabile": "no"
+      "processabile": "si"
     },
     "18": {
       "last_scan": "2026-06-08T11:05:54.549669+00:00",
@@ -34626,7 +34716,7 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-08T14:21:20.659519+00:00",
+    "last_scan": "2026-06-08T14:30:01.763769+00:00",
     "results": {
       "scansionati": 1,
       "aggiornati": 1,
