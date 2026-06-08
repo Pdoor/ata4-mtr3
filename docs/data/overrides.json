@@ -904,6 +904,11 @@
       "status": "received",
       "date": "2026-06-05",
       "note": ""
+    },
+    "37_wf_prospetto_riconciliaz": {
+      "date": "2026-06-05",
+      "by": "GM",
+      "at": "2026-06-08T07:41:46.002Z"
     }
   },
   "scadenze": {
