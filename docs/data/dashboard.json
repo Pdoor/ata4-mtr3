@@ -21793,8 +21793,8 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Monterubbiano",
@@ -22037,12 +22037,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
           "changed": false,
@@ -22635,6 +22629,12 @@
           "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -22643,7 +22643,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -22857,12 +22857,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
@@ -23456,6 +23450,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23466,13 +23466,13 @@
         "url": "https://www.provincia.fm.it/drive/71b5l2mf2m8z",
         "id": 27
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Moresco",
@@ -23697,12 +23697,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
           "changed": false,
@@ -24295,14 +24289,20 @@
           "zip_hash": "19ed669b10cee392b8bd5e6afe81b484119547dd94e701b2fa02792635fe480e",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "19ed669b10cee392b8bd5e6afe81b484119547dd94e701b2fa02792635fe480e",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Ortezzano",
@@ -24545,12 +24545,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
           "changed": false,
@@ -25143,14 +25137,20 @@
           "zip_hash": "21c50edce640bd34585a3563817514d647245946fea1c27966315f268e72676f",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "21c50edce640bd34585a3563817514d647245946fea1c27966315f268e72676f",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Pedaso",
@@ -25159,82 +25159,100 @@
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims",
         "id": 30
       },
-      "zip_hash": "39ac0fadf2f24b4078842517eddca06c6653c36b0ae850725a37dd76989f86ab",
-      "content_fingerprint": "c8e9f01684129f66dc4b2a1d3aacb0e3833dda33864f0d020c5301111d77e743",
-      "zip_changed": false,
+      "zip_hash": "d0bca01ae0483b7e27c92f40d02e61c50e2d699d9313dfc3ba1e0f084a547352",
+      "content_fingerprint": "8a83fd0c8f47d91e911ef360f08260ebebb9e73dc2ed8181fe88b201771c8cfe",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "120eb5e0cbbb2c677612c4e08d58605adbee1228b5d67e9b0a291577b4484c07",
+          "current_hash": "f81aeb73c0b3cd0f61b4b81c196a2427ce21940e3a6d01d95fd4f28da72be80d",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-          "current_size": 3986247,
+          "current_size": 3986334,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-              "hash": "120eb5e0cbbb2c677612c4e08d58605adbee1228b5d67e9b0a291577b4484c07",
-              "size": 3986247
+              "hash": "f81aeb73c0b3cd0f61b4b81c196a2427ce21940e3a6d01d95fd4f28da72be80d",
+              "size": 3986334
             }
           ],
           "first_upload": "2026-05-18T15:38:27.908791+00:00",
-          "last_upload": "2026-05-18T15:38:27.908791+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:38:27.908791+00:00",
               "hash": "120eb5e0cbbb2c677612c4e08d58605adbee1228b5d67e9b0a291577b4484c07",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "f81aeb73c0b3cd0f61b4b81c196a2427ce21940e3a6d01d95fd4f28da72be80d",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "e038c07acfd3ea6d04f0e4f099e421c645d4d4b6b87e981b796c49d609229f4d",
-          "current_file": "All.2_Pedaso.pdf",
-          "current_size": 394944,
+          "current_hash": "3aec4d82a222a01d55864ea7bffc833167ff590ffc53934dca77b0c2b9d3479a",
+          "current_file": "All.2_Pedaso V2.pdf",
+          "current_size": 406418,
           "file_count": 1,
           "all_files": [
             {
-              "name": "All.2_Pedaso.pdf",
-              "hash": "e038c07acfd3ea6d04f0e4f099e421c645d4d4b6b87e981b796c49d609229f4d",
-              "size": 394944
+              "name": "All.2_Pedaso V2.pdf",
+              "hash": "3aec4d82a222a01d55864ea7bffc833167ff590ffc53934dca77b0c2b9d3479a",
+              "size": 406418
             }
           ],
           "first_upload": "2026-05-18T15:38:27.908791+00:00",
-          "last_upload": "2026-05-18T15:38:27.908791+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:38:27.908791+00:00",
               "hash": "e038c07acfd3ea6d04f0e4f099e421c645d4d4b6b87e981b796c49d609229f4d",
               "file": "All.2_Pedaso.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "3aec4d82a222a01d55864ea7bffc833167ff590ffc53934dca77b0c2b9d3479a",
+              "file": "All.2_Pedaso V2.pdf",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
+          "current_hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
           "current_file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "current_size": 199123,
+          "current_size": 199117,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-              "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-              "size": 199123
+              "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+              "size": 199117
             }
           ],
           "first_upload": "2026-05-18T15:38:27.908791+00:00",
-          "last_upload": "2026-05-18T15:38:27.908791+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:38:27.908791+00:00",
               "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
               "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+              "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -25242,36 +25260,7 @@
           "status": "missing"
         },
         "tool_mtr3_c": {
-          "status": "removed",
-          "current_hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
-          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-          "current_size": 3975602,
-          "file_count": 1,
-          "all_files": [
-            {
-              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-              "hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
-              "size": 3975602
-            }
-          ],
-          "first_upload": "2026-05-21T11:30:53.503604+00:00",
-          "last_upload": "2026-05-21T11:30:53.503604+00:00",
-          "replaced": false,
-          "upload_history": [
-            {
-              "time": "2026-05-21T11:30:53.503604+00:00",
-              "hash": "6c82ad6e3aa53d14b8d11a59ef37297290035e765c1a4ceba9425ea15fd6f3bb",
-              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-              "event": "primo_caricamento"
-            },
-            {
-              "time": "2026-05-27T11:42:52.508389+00:00",
-              "hash": null,
-              "file": null,
-              "event": "rimosso"
-            }
-          ],
-          "removed_at": "2026-05-27T11:42:52.508389+00:00"
+          "status": "missing"
         },
         "relazione_c": {
           "status": "missing"
@@ -25290,24 +25279,24 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_PEDASO.xlsx",
-          "hash": "120eb5e0cbbb2c677612c4e08d58605adbee1228b5d67e9b0a291577b4484c07",
-          "size": 3986247,
+          "hash": "f81aeb73c0b3cd0f61b4b81c196a2427ce21940e3a6d01d95fd4f28da72be80d",
+          "size": 3986334,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
           "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-          "size": 199123,
+          "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+          "size": 199117,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "All.2_Pedaso.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Pedaso.pdf",
-          "hash": "e038c07acfd3ea6d04f0e4f099e421c645d4d4b6b87e981b796c49d609229f4d",
-          "size": 394944,
+          "name": "All.2_Pedaso V2.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Pedaso V2.pdf",
+          "hash": "3aec4d82a222a01d55864ea7bffc833167ff590ffc53934dca77b0c2b9d3479a",
+          "size": 406418,
           "doc_key": "relazione",
           "source": "gestore"
         }
@@ -25821,6 +25810,12 @@
           "time": "2026-06-07T18:07:53.183653+00:00",
           "zip_hash": "39ac0fadf2f24b4078842517eddca06c6653c36b0ae850725a37dd76989f86ab",
           "changed": false,
+          "file_count": 3
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "d0bca01ae0483b7e27c92f40d02e61c50e2d699d9313dfc3ba1e0f084a547352",
+          "changed": true,
           "file_count": 3
         }
       ],
@@ -34543,9 +34538,9 @@
   "meta": {
     "last_scan": "2026-06-08T11:05:54.549669+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 2,
-      "invariati": 23,
+      "scansionati": 30,
+      "aggiornati": 3,
+      "invariati": 27,
       "errori": 0,
       "vuoti": 0
     },
