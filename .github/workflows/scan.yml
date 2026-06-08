@@ -1,10 +1,11 @@
 name: Scansione Dataroom ATA4
 
 on:
-  # Ogni ora dalle 9:00 alle 20:00 ora italiana (CET = UTC+1)
-  # Adeguare a '0 7-18 * * *' quando scatta l'ora legale (CEST = UTC+2)
+  # Ogni 2 ore dalle 10:00 alle 20:00 ora italiana in CEST (UTC+2)
+  # Adeguare a '0 8-19/2 * * *' quando torna l'ora solare (CET = UTC+1)
+  # 6 esecuzioni al giorno per ridurre footprint sul dataroom Provincia FM
   schedule:
-    - cron: '0 8-19 * * *'
+    - cron: '0 8-19/2 * * *'
   # Manuale dal tab Actions
   workflow_dispatch:
     inputs:
