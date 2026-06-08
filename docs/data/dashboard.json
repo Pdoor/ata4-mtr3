@@ -17349,7 +17349,7 @@
     "21": {
       "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
       "content_fingerprint": "3faf8d6d36aba38a52c45d1284f2833f3a587b5ec05b920c69d17ebcb29a1e50",
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17606,12 +17606,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
@@ -18205,6 +18199,12 @@
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -18215,13 +18215,13 @@
         "url": "https://www.provincia.fm.it/drive/5dwl3bv05h9x",
         "id": 21
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montegiorgio",
@@ -18230,82 +18230,100 @@
         "url": "https://www.provincia.fm.it/drive/tlw4r2r9hau",
         "id": 22
       },
-      "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
-      "content_fingerprint": "1e1f1df32dd043aa993198ed68302176adb05f9e50d8b109f58e141dee6a0401",
-      "zip_changed": false,
+      "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
+      "content_fingerprint": "9b10744e5ef48fb29a3320df1494a88671a6b32cf52a5d7f0ea5e88abdcb29fc",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "c106e946e726b50e791dd4870e9894e734530da121286693978cc23fcb51345e",
+          "current_hash": "759f032423eb79bb11d0c43ffbd3065319d2835d1b72e272ddeab0eb8b995ca8",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
-          "current_size": 3987302,
+          "current_size": 3987472,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
-              "hash": "c106e946e726b50e791dd4870e9894e734530da121286693978cc23fcb51345e",
-              "size": 3987302
+              "hash": "759f032423eb79bb11d0c43ffbd3065319d2835d1b72e272ddeab0eb8b995ca8",
+              "size": 3987472
             }
           ],
           "first_upload": "2026-05-18T15:23:36.006760+00:00",
-          "last_upload": "2026-05-18T15:23:36.006760+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:23:36.006760+00:00",
               "hash": "c106e946e726b50e791dd4870e9894e734530da121286693978cc23fcb51345e",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "759f032423eb79bb11d0c43ffbd3065319d2835d1b72e272ddeab0eb8b995ca8",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "04a248756134d604e750cdf68eca657753dc4d8c49561eda2b31a48269a4b1cf",
-          "current_file": "All.2_Montegiorgio.pdf",
-          "current_size": 256384,
+          "current_hash": "b10f4c87114778f3e4844daf0f41170b91ad881fadd0cd528ef0c5f1ad6114e6",
+          "current_file": "All.2_Montegiorgio V2.pdf",
+          "current_size": 264201,
           "file_count": 1,
           "all_files": [
             {
-              "name": "All.2_Montegiorgio.pdf",
-              "hash": "04a248756134d604e750cdf68eca657753dc4d8c49561eda2b31a48269a4b1cf",
-              "size": 256384
+              "name": "All.2_Montegiorgio V2.pdf",
+              "hash": "b10f4c87114778f3e4844daf0f41170b91ad881fadd0cd528ef0c5f1ad6114e6",
+              "size": 264201
             }
           ],
           "first_upload": "2026-05-18T15:23:36.006760+00:00",
-          "last_upload": "2026-05-18T15:23:36.006760+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:23:36.006760+00:00",
               "hash": "04a248756134d604e750cdf68eca657753dc4d8c49561eda2b31a48269a4b1cf",
               "file": "All.2_Montegiorgio.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "b10f4c87114778f3e4844daf0f41170b91ad881fadd0cd528ef0c5f1ad6114e6",
+              "file": "All.2_Montegiorgio V2.pdf",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
+          "current_hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
           "current_file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "current_size": 199123,
+          "current_size": 199117,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-              "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-              "size": 199123
+              "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+              "size": 199117
             }
           ],
           "first_upload": "2026-05-18T15:23:36.006760+00:00",
-          "last_upload": "2026-05-18T15:23:36.006760+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-08T11:05:54.549669+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:23:36.006760+00:00",
               "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
               "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-08T11:05:54.549669+00:00",
+              "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+              "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -18422,35 +18440,29 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_MONTEGIORGIO.xlsx",
-          "hash": "c106e946e726b50e791dd4870e9894e734530da121286693978cc23fcb51345e",
-          "size": 3987302,
+          "hash": "759f032423eb79bb11d0c43ffbd3065319d2835d1b72e272ddeab0eb8b995ca8",
+          "size": 3987472,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
           "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-          "size": 199123,
+          "hash": "2b991e5e16861f97ecf77fb7fd77837b1e3f003b0ce476142d358c12c995a0ef",
+          "size": 199117,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "All.2_Montegiorgio.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Montegiorgio.pdf",
-          "hash": "04a248756134d604e750cdf68eca657753dc4d8c49561eda2b31a48269a4b1cf",
-          "size": 256384,
+          "name": "All.2_Montegiorgio V2.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Montegiorgio V2.pdf",
+          "hash": "b10f4c87114778f3e4844daf0f41170b91ad881fadd0cd528ef0c5f1ad6114e6",
+          "size": 264201,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T17:44:37.710548+00:00",
-          "zip_hash": "a35e37ad572ad651c00255e861c9d460e9ef7191e562248c55e46491b4f8093f",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-15T19:45:29.397352+00:00",
           "zip_hash": "a35e37ad572ad651c00255e861c9d460e9ef7191e562248c55e46491b4f8093f",
@@ -19044,6 +19056,12 @@
           "zip_hash": "c44c23d8f14a91768ea4aec754bb83bd320c69da51041657d94eb2396a523d9b",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
+          "changed": true,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -19052,7 +19070,7 @@
     "23": {
       "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
       "content_fingerprint": "2b073cfc548daa732245efb613bee88169952ac4ef68fc010ac063197bdae065",
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -19391,12 +19409,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "3a160e05763d0c19a3649bd558d75db66e8153eb02f24f538720a01981c16526",
@@ -19990,6 +20002,12 @@
           "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
           "changed": false,
           "file_count": 19
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
+          "changed": false,
+          "file_count": 19
         }
       ],
       "unclassified_files": [
@@ -20061,14 +20079,14 @@
         "url": "https://www.provincia.fm.it/drive/3gku6o5lz661",
         "id": 23
       },
-      "last_scan_error": true,
+      "last_scan_error": false,
       "processabile": "si",
       "last_scan_empty": false
     },
     "24": {
       "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
       "content_fingerprint": "000490992814fe17f09733aa3fde90db0a2a597694c183ec70932ba246467316",
-      "last_scan": "2026-06-08T11:03:09.629112+00:00",
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -20319,12 +20337,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T19:45:29.397352+00:00",
-          "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-16T09:45:19.028259+00:00",
           "zip_hash": "2dba77459a0f2eaf85ce0876326f9198cefe7c06bec43cfa0e3d47103694c995",
@@ -20918,6 +20930,12 @@
           "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
+          "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -20933,8 +20951,8 @@
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-06-08T07:43:41.325661+00:00",
-      "last_scan_error": true,
+      "last_scan": "2026-06-08T11:05:54.549669+00:00",
+      "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
         "comune": "Montelparo",
@@ -21170,12 +21188,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-15T15:23:11.852197+00:00",
-          "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-15T17:44:37.710548+00:00",
           "zip_hash": "662eef54b01e8e213e2775b0d5295738e96b6b6201a1b6aa63c31fc72bbe5ce1",
@@ -21766,6 +21778,12 @@
         },
         {
           "time": "2026-06-07T18:07:53.183653+00:00",
+          "zip_hash": "a75a37df7a5947198dd93e3c517687f7fb9af5bb4ba28751473878883df20713",
+          "changed": false,
+          "file_count": 6
+        },
+        {
+          "time": "2026-06-08T11:05:54.549669+00:00",
           "zip_hash": "a75a37df7a5947198dd93e3c517687f7fb9af5bb4ba28751473878883df20713",
           "changed": false,
           "file_count": 6
@@ -34525,9 +34543,9 @@
   "meta": {
     "last_scan": "2026-06-08T11:05:54.549669+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 1,
-      "invariati": 19,
+      "scansionati": 25,
+      "aggiornati": 2,
+      "invariati": 23,
       "errori": 0,
       "vuoti": 0
     },
