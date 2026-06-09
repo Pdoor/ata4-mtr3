@@ -1926,7 +1926,15 @@
         "date": "2026-05-25",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 25 maggio 2026 15:00\nA: florianavandali@impregico.it; info@impregico.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Impregico - Sant'Elpidio a Mare\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle scheda \"IN_BIL_GEST_24\" e IN_BIL_GEST_25\" non sono state valorizzate le poste rettificative del capitale investito;\n2) all'interno del tool non sono stati riportati i valori degli indicatori R1 e R2;\n3) il foglio IN_CALCOLO_H non risulta compilato;\n4) all'interno del foglio \"IN_CESPITI\" sono stati inseriti cespiti non coerenti con quanto riportato all'interno del Pef 2024-2025;\n6) non risulta pervenuto il prospetto di riconciliazione contabile richiesto dall'ATA al fine di rendere pienamente verificabile la coerenza tra i dati riportati nel PEF grezzo e le fonti contabili obbligatorie da cui gli stessi derivano\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "gestore",
+            "date": "2026-06-08",
+            "text": "Buonasera,\ncon riferimento alla documentazione trasmessa, si specifica che con riferimento alle PR del capitale investito, il Tool espone PRa = 0; CINa 2026 = 1.029.669,84. Il documento trasmesso motiva l'assenza con il versamento del TFR al Fondo di Tesoreria INPS (impresa con ≥50 dipendenti, L. 296/2006). Il bilancio 2024 espone tuttavia un fondo TFR a libro di 1.222.442 € (al netto delle quote trasferite a Tesoreria). Poiché i costi del personale (B9) sono allocati alla commessa con driver, una quota proporzionale del fondo (stima circa 38.000 €, circa 3,13% del personale aziendale) sarebbe coerentemente imputabile a PRa, riducendo CIN e remunerazione.\nSi richiedono pertanto ulteriori chiarimenti in merito.\nSaluti\nIl 05/06/2026 15:50, florianavandali@impregico.it ha scritto:\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nBuon pomeriggio,\nin riferimento a quanto richiesto con Vs. mail del 25.05.2026, si inoltra quanto in oggetto.\nRimanendo a Vs. disposizione per eventuali ulteriori chiarimenti, si i coglie   l’occasione per porgere cordiali saluti.\n \n \n \n \nVia  per San Giorgio Ionico, 6900\n74121 – Taranto\nP.iva 03077030736\nSito internet : www.impregico.it\n \nFloriana Vandali\nUfficio Amministrativo\n \n099-9877164 _ 3917651593",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "comune",
