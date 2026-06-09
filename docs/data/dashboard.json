@@ -1,83 +1,101 @@
 {
   "comuni": {
     "1": {
-      "zip_hash": "b53a1715dcf700b7cca4b74858bac585d55e4aed776bd79c16976d601cdb49b4",
-      "content_fingerprint": "66709c4ada46adbb163ca6dad3106b187bdd736785d905c6760653ea243031ba",
-      "last_scan": "2026-06-09T10:53:09.078306+00:00",
-      "zip_changed": false,
+      "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
+      "content_fingerprint": "e7384c09c50eeb54bc63309a7c939080de9bf7d147bf5ca9306af7a1fcedc21d",
+      "last_scan": "2026-06-09T14:29:02.642622+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "3ba63bb9720d5bfcb72cb566bd53cae5a1911cc5236e4383856400ea9351109d",
+          "current_hash": "475e0399d5646114d2278f0881b961083c37cac8eb31963a01d22d4980bb539b",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
-          "current_size": 3986714,
+          "current_size": 3986605,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
-              "hash": "3ba63bb9720d5bfcb72cb566bd53cae5a1911cc5236e4383856400ea9351109d",
-              "size": 3986714
+              "hash": "475e0399d5646114d2278f0881b961083c37cac8eb31963a01d22d4980bb539b",
+              "size": 3986605
             }
           ],
           "first_upload": "2026-05-18T15:31:42.745657+00:00",
-          "last_upload": "2026-05-18T15:31:42.745657+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-09T14:29:02.642622+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:31:42.745657+00:00",
               "hash": "3ba63bb9720d5bfcb72cb566bd53cae5a1911cc5236e4383856400ea9351109d",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-09T14:29:02.642622+00:00",
+              "hash": "475e0399d5646114d2278f0881b961083c37cac8eb31963a01d22d4980bb539b",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "c97c006d62427a1b59db7b0dd316e233f765d105e636089c62e3f76d94177b70",
-          "current_file": "All.2_Altidona.pdf",
-          "current_size": 394352,
+          "current_hash": "7f7bea00dd016cb0ae89ecf0135d98ba683c049ce0719dfa8a8771cf9c1b90cc",
+          "current_file": "All.2_Altidona V2.pdf",
+          "current_size": 407123,
           "file_count": 1,
           "all_files": [
             {
-              "name": "All.2_Altidona.pdf",
-              "hash": "c97c006d62427a1b59db7b0dd316e233f765d105e636089c62e3f76d94177b70",
-              "size": 394352
+              "name": "All.2_Altidona V2.pdf",
+              "hash": "7f7bea00dd016cb0ae89ecf0135d98ba683c049ce0719dfa8a8771cf9c1b90cc",
+              "size": 407123
             }
           ],
           "first_upload": "2026-05-18T15:31:42.745657+00:00",
-          "last_upload": "2026-05-18T15:31:42.745657+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-09T14:29:02.642622+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:31:42.745657+00:00",
               "hash": "c97c006d62427a1b59db7b0dd316e233f765d105e636089c62e3f76d94177b70",
               "file": "All.2_Altidona.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-09T14:29:02.642622+00:00",
+              "hash": "7f7bea00dd016cb0ae89ecf0135d98ba683c049ce0719dfa8a8771cf9c1b90cc",
+              "file": "All.2_Altidona V2.pdf",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
+          "current_hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
           "current_file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "current_size": 199123,
+          "current_size": 199126,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-              "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-              "size": 199123
+              "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+              "size": 199126
             }
           ],
           "first_upload": "2026-05-18T15:31:42.745657+00:00",
-          "last_upload": "2026-05-18T15:31:42.745657+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-09T14:29:02.642622+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:31:42.745657+00:00",
               "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
               "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-09T14:29:02.642622+00:00",
+              "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+              "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -193,24 +211,24 @@
         {
           "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-          "size": 199123,
+          "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+          "size": 199126,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "All.2_Altidona.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Altidona.pdf",
-          "hash": "c97c006d62427a1b59db7b0dd316e233f765d105e636089c62e3f76d94177b70",
-          "size": 394352,
+          "name": "All.2_Altidona V2.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Altidona V2.pdf",
+          "hash": "7f7bea00dd016cb0ae89ecf0135d98ba683c049ce0719dfa8a8771cf9c1b90cc",
+          "size": 407123,
           "doc_key": "relazione",
           "source": "gestore"
         },
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_ALTIDONA.xlsx",
-          "hash": "3ba63bb9720d5bfcb72cb566bd53cae5a1911cc5236e4383856400ea9351109d",
-          "size": 3986714,
+          "hash": "475e0399d5646114d2278f0881b961083c37cac8eb31963a01d22d4980bb539b",
+          "size": 3986605,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -288,12 +306,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-16T13:42:20.911303+00:00",
-          "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-16T15:01:00.742479+00:00",
           "zip_hash": "8b1da90aff5ce6ba9508aaa17ab9924fec9c3bd540926a59e0ad969ad8a68987",
@@ -887,6 +899,12 @@
           "zip_hash": "b53a1715dcf700b7cca4b74858bac585d55e4aed776bd79c16976d601cdb49b4",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-06-09T14:29:02.642622+00:00",
+          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
+          "changed": true,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -929,7 +947,7 @@
     "2": {
       "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
       "content_fingerprint": "6f157b8453ebe6585d8cad35b0afceb575c21defe7fb90010765221bbe40acb2",
-      "last_scan": "2026-06-09T10:53:09.078306+00:00",
+      "last_scan": "2026-06-09T14:29:02.642622+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1212,12 +1230,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-16T09:45:19.028259+00:00",
-          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-05-16T11:06:03.044362+00:00",
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
@@ -1810,6 +1822,12 @@
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-09T14:29:02.642622+00:00",
+          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1827,7 +1845,7 @@
     "3": {
       "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
       "content_fingerprint": "0507231c0ca417250f792e243adff10ad9f9ee228f911f42e433bc3faf72f445",
-      "last_scan": "2026-06-09T10:53:09.078306+00:00",
+      "last_scan": "2026-06-09T14:29:02.642622+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2105,12 +2123,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-16T09:45:19.028259+00:00",
-          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-05-16T11:06:03.044362+00:00",
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
@@ -2703,6 +2715,12 @@
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-09T14:29:02.642622+00:00",
+          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2718,7 +2736,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-06-09T10:53:09.078306+00:00",
+      "last_scan": "2026-06-09T14:29:02.642622+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -2728,9 +2746,9 @@
         "url": "https://www.provincia.fm.it/drive/61jpijnphm7e",
         "id": 4
       },
-      "zip_hash": "c91fb2ecf8f143bc863c491da3b0b28bb519f70f6a6447abc9d5ae973a8f5ec3",
-      "content_fingerprint": "2f00a52a95c574ed338c5f82ed32dd3973ae60c1cbdf6bf2fbff090cfce15e2e",
-      "zip_changed": false,
+      "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
+      "content_fingerprint": "342d8126245f5a1ac632692883de443fd8cff6fdf724881b120ac978dde46fbe",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -2759,51 +2777,63 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "b06b61f66adcf6d4e8e5f2ab853d83f924c6c3754b257ab368a366336ca7920e",
-          "current_file": "All.2_Campofilone.pdf",
-          "current_size": 394352,
+          "current_hash": "8ff9c3a7d4747c2a54f228164814cac182f32d638b62f5e7160eff14fe9f40be",
+          "current_file": "All.2_Campofilone V2.pdf",
+          "current_size": 418575,
           "file_count": 1,
           "all_files": [
             {
-              "name": "All.2_Campofilone.pdf",
-              "hash": "b06b61f66adcf6d4e8e5f2ab853d83f924c6c3754b257ab368a366336ca7920e",
-              "size": 394352
+              "name": "All.2_Campofilone V2.pdf",
+              "hash": "8ff9c3a7d4747c2a54f228164814cac182f32d638b62f5e7160eff14fe9f40be",
+              "size": 418575
             }
           ],
           "first_upload": "2026-05-18T15:28:20.974917+00:00",
-          "last_upload": "2026-05-18T15:28:20.974917+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-09T14:29:02.642622+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:28:20.974917+00:00",
               "hash": "b06b61f66adcf6d4e8e5f2ab853d83f924c6c3754b257ab368a366336ca7920e",
               "file": "All.2_Campofilone.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-09T14:29:02.642622+00:00",
+              "hash": "8ff9c3a7d4747c2a54f228164814cac182f32d638b62f5e7160eff14fe9f40be",
+              "file": "All.2_Campofilone V2.pdf",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
+          "current_hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
           "current_file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "current_size": 199123,
+          "current_size": 199126,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
-              "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-              "size": 199123
+              "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+              "size": 199126
             }
           ],
           "first_upload": "2026-05-18T15:28:20.974917+00:00",
-          "last_upload": "2026-05-18T15:28:20.974917+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-09T14:29:02.642622+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-05-18T15:28:20.974917+00:00",
               "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
               "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-09T14:29:02.642622+00:00",
+              "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+              "file": "Allegato 3 - Dichiarazione_Veridicita.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -2953,27 +2983,21 @@
         {
           "name": "Allegato 3 - Dichiarazione_Veridicita.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato 3 - Dichiarazione_Veridicita.pdf",
-          "hash": "c5ef33baeb69b2744332908d0cf6edc5c44cc33f361bff89859c2529f9f9b5a0",
-          "size": 199123,
+          "hash": "b33eee3f51235b74364d9ee4f1804a777200a6f53b029a9cc875db6563f5ad28",
+          "size": 199126,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "All.2_Campofilone.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Campofilone.pdf",
-          "hash": "b06b61f66adcf6d4e8e5f2ab853d83f924c6c3754b257ab368a366336ca7920e",
-          "size": 394352,
+          "name": "All.2_Campofilone V2.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/All.2_Campofilone V2.pdf",
+          "hash": "8ff9c3a7d4747c2a54f228164814cac182f32d638b62f5e7160eff14fe9f40be",
+          "size": 418575,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-16T13:42:20.911303+00:00",
-          "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-16T15:01:00.742479+00:00",
           "zip_hash": "9300209eb72bf44a5b7e06029738bc2e18b7aa6b09e1ca983f6692f17924288e",
@@ -3567,6 +3591,12 @@
           "zip_hash": "c91fb2ecf8f143bc863c491da3b0b28bb519f70f6a6447abc9d5ae973a8f5ec3",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-09T14:29:02.642622+00:00",
+          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -3575,7 +3605,7 @@
     "5": {
       "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
       "content_fingerprint": "659b343e299b208713121bec3b5eabe9d1b5b986d5e02bbe637c6ff5bd18677d",
-      "last_scan": "2026-06-09T10:53:09.078306+00:00",
+      "last_scan": "2026-06-09T14:29:02.642622+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3821,12 +3851,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-16T09:45:19.028259+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-05-16T11:06:03.044362+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4417,6 +4441,12 @@
         },
         {
           "time": "2026-06-09T10:53:09.078306+00:00",
+          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
+          "changed": false,
+          "file_count": 8
+        },
+        {
+          "time": "2026-06-09T14:29:02.642622+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
           "file_count": 8
@@ -34960,11 +34990,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-09T10:53:09.078306+00:00",
+    "last_scan": "2026-06-09T14:29:02.642622+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 1,
-      "invariati": 39,
+      "scansionati": 5,
+      "aggiornati": 2,
+      "invariati": 3,
       "errori": 0,
       "vuoti": 0
     },
@@ -34974,7 +35004,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
