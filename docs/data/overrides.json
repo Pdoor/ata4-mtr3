@@ -1615,7 +1615,15 @@
                 "date": "2026-06-09",
                 "text": "Il 09/06/2026 10:29, Amministrazione SO.ECO SRL ha scritto:.\nBuongiorno, come ci siamo detti le invio tabella riepilogativa con i dati da inserire nelle celle che io non riesco a digitare\nGrazie per la collaborazione",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "gestore",
+                    "date": "2026-06-10",
+                    "text": "Buongiorno,\nok, attendiamo la sistemazione delle altre anomalie segnalate la scorsa settimana.\nSaluti",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
