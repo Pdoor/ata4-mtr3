@@ -929,6 +929,11 @@
       "status": "received",
       "date": "",
       "note": ""
+    },
+    "6_odc": {
+      "odc": true,
+      "by": "GM",
+      "at": "2026-06-10T08:22:55.409Z"
     }
   },
   "scadenze": {
