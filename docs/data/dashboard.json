@@ -26603,7 +26603,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26613,9 +26613,9 @@
         "url": "https://www.provincia.fm.it/drive/7gyyk7h9omge",
         "id": 31
       },
-      "zip_hash": "fa0f6c4d6c0622dcb1e661b046747c8cd0c6198bebfb488977ace443b2fad24f",
-      "content_fingerprint": "a8bb588576732afda8f28b70bc85ba9c0c01d8166f5e70cbb3e057d8de54b74d",
-      "zip_changed": false,
+      "zip_hash": "26e902ab49a7f3e9ea8fbb41f3df925ed04377bafd4bbd3bdf271b15b33902e4",
+      "content_fingerprint": "b3faed53b5ecbc85de856d1b7ea70f6899c25d32dfa298ec92554b5252b2a1a4",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26838,15 +26838,41 @@
           "size": 1075206,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef Petritoli-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef Petritoli-signed.pdf",
+          "hash": "57800969abe2233fe8778e7a86079e4a2c7a2d19cd4923c0e94c327076960701",
+          "size": 723441,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "hash": "577d39578ab495ad0885cd5988acbb2eaeb331af87a35a0ef62c2d7e7676ecb4",
+          "size": 144601,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Petritoli.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Petritoli.xlsx",
+          "hash": "422a99c8a4e8e23434a8d0dffc5b862de861ace32a905ff05a547822fa304c90",
+          "size": 11458,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Petritoli.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Petritoli.xlsx",
+          "hash": "1770f4adf95d6ef34c98538f4f788f17806ddc18de2ae86dc4b15e830af6471f",
+          "size": 10930,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "61706fe9b187ce5d1988a670ce923a85fcb7f408b0d0c2d482aa3b5eecb1fc04",
@@ -27440,15 +27466,46 @@
           "zip_hash": "fa0f6c4d6c0622dcb1e661b046747c8cd0c6198bebfb488977ace443b2fad24f",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "26e902ab49a7f3e9ea8fbb41f3df925ed04377bafd4bbd3bdf271b15b33902e4",
+          "changed": true,
+          "file_count": 11
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef Petritoli-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef Petritoli-signed.pdf",
+          "source": "comune",
+          "size": 723441
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "source": "comune",
+          "size": 144601
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Petritoli.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Petritoli.xlsx",
+          "source": "comune",
+          "size": 11458
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Petritoli.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Petritoli.xlsx",
+          "source": "comune",
+          "size": 10930
+        }
+      ],
       "processabile": "si"
     },
     "32": {
       "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
       "content_fingerprint": "b0649bb1306087d060e0cd580288148c4c9c01b248ac98c616c20d4b64f83a07",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27726,12 +27783,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T15:01:07.803256+00:00",
-          "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-05-17T17:02:08.644329+00:00",
           "zip_hash": "894de295925e6dfff11e17d4e76f077a67cb9cd7f5245b5df70c436cb1dfc29b",
@@ -28325,6 +28376,12 @@
           "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -28349,7 +28406,7 @@
     "33": {
       "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
       "content_fingerprint": "af73e7d37db5488a0965734c0aab6526d71080712ff827a5b7724fd2df341843",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -28751,12 +28808,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
-          "changed": false,
-          "file_count": 14
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "0268052fc57fe9c778d74d1ca0dd03118cf53e76f3bd3cbd8a8e2f52a87bc298",
@@ -29350,6 +29401,12 @@
           "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
           "changed": false,
           "file_count": 18
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
+          "changed": false,
+          "file_count": 18
         }
       ],
       "unclassified_files": [
@@ -29378,7 +29435,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -29627,12 +29684,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T13:41:33.536848+00:00",
-          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T15:01:07.803256+00:00",
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
@@ -30226,13 +30277,19 @@
           "zip_hash": "5d4d765f6f81c0cd73bea32048d026e6638057c1020eea775a5df8b62852093b",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "5d4d765f6f81c0cd73bea32048d026e6638057c1020eea775a5df8b62852093b",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "35": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -30506,12 +30563,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
@@ -31102,6 +31153,12 @@
         },
         {
           "time": "2026-06-11T12:03:49.130033+00:00",
+          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
           "file_count": 10
@@ -35408,9 +35465,9 @@
   "meta": {
     "last_scan": "2026-06-11T15:31:43.692140+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 8,
-      "invariati": 22,
+      "scansionati": 35,
+      "aggiornati": 9,
+      "invariati": 26,
       "errori": 0,
       "vuoti": 0
     },
