@@ -22312,7 +22312,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22556,12 +22556,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
           "changed": false,
@@ -23154,6 +23148,12 @@
           "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23162,7 +23162,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23377,12 +23377,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
@@ -23975,6 +23969,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23990,7 +23990,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24000,57 +24000,69 @@
         "url": "https://www.provincia.fm.it/drive/7c7tieb5szm0",
         "id": 28
       },
-      "zip_hash": "19ed669b10cee392b8bd5e6afe81b484119547dd94e701b2fa02792635fe480e",
-      "content_fingerprint": "9f08a339efe525817743ad807fdced12b3a4cb40bf5f13edc107a92e896d97ce",
-      "zip_changed": false,
+      "zip_hash": "6886fa668d055f5eac416de6e7da162219c3dc5db30847767f242fd42c1b10da",
+      "content_fingerprint": "7cf9decd77315d3c410c01cdbe24267835254d75cc762d28bc249a6c0e924c0e",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "current_size": 3971936,
+          "current_hash": "37d62c1979f74e59e5ba9ee566ebbe7a9b899c7afb1ca2ac8ffe7c4bd3c4c55f",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Moresco.xlsx",
+          "current_size": 3970651,
           "file_count": 1,
           "all_files": [
             {
-              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-              "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-              "size": 3971936
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Moresco.xlsx",
+              "hash": "37d62c1979f74e59e5ba9ee566ebbe7a9b899c7afb1ca2ac8ffe7c4bd3c4c55f",
+              "size": 3970651
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-11T15:31:43.692140+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
               "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-11T15:31:43.692140+00:00",
+              "hash": "37d62c1979f74e59e5ba9ee566ebbe7a9b899c7afb1ca2ac8ffe7c4bd3c4c55f",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Moresco.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-          "current_file": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "current_size": 704223,
+          "current_hash": "69980abc4f1d7a0f6e041be996e0683c72b9387fbe7ee68269c7a1a549d34a2a",
+          "current_file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Moresc.pdf",
+          "current_size": 696726,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-              "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-              "size": 704223
+              "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Moresc.pdf",
+              "hash": "69980abc4f1d7a0f6e041be996e0683c72b9387fbe7ee68269c7a1a549d34a2a",
+              "size": 696726
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-11T15:31:43.692140+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
               "file": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-11T15:31:43.692140+00:00",
+              "hash": "69980abc4f1d7a0f6e041be996e0683c72b9387fbe7ee68269c7a1a549d34a2a",
+              "file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Moresc.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -24190,10 +24202,10 @@
           "source": "comune"
         },
         {
-          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-          "size": 3971936,
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Moresco.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Moresco.xlsx",
+          "hash": "37d62c1979f74e59e5ba9ee566ebbe7a9b899c7afb1ca2ac8ffe7c4bd3c4c55f",
+          "size": 3970651,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -24206,21 +24218,31 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-          "size": 704223,
+          "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Moresc.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Moresc.pdf",
+          "hash": "69980abc4f1d7a0f6e041be996e0683c72b9387fbe7ee68269c7a1a549d34a2a",
+          "size": 696726,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione sulla corrispondenza Moresco-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Moresco-signed.pdf",
+          "hash": "bce331c1dab7feb0e3a1fbf87da66e0cbc0b9551d916de4c73afb126647381fa",
+          "size": 462223,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "hash": "f22cac1b409d462ffa33a3f754058cb83b1219ff43d89e3f8ca9f324f90ce835",
+          "size": 8046003,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
@@ -24814,13 +24836,32 @@
           "zip_hash": "19ed669b10cee392b8bd5e6afe81b484119547dd94e701b2fa02792635fe480e",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "6886fa668d055f5eac416de6e7da162219c3dc5db30847767f242fd42c1b10da",
+          "changed": true,
+          "file_count": 8
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione sulla corrispondenza Moresco-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Moresco-signed.pdf",
+          "source": "comune",
+          "size": 462223
+        },
+        {
+          "name": "Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "source": "comune",
+          "size": 8046003
+        }
+      ],
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24830,9 +24871,9 @@
         "url": "https://www.provincia.fm.it/drive/7s5e5627fjs",
         "id": 29
       },
-      "zip_hash": "21c50edce640bd34585a3563817514d647245946fea1c27966315f268e72676f",
-      "content_fingerprint": "4917d59ddac25d79f9bd54b99ff87f2c55259dd3968f06a3eeae9bb4fa4373ac",
-      "zip_changed": false,
+      "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
+      "content_fingerprint": "b6d33e79f461c442f23ceac00392f1661e75000774e49ef82a135d76a88876eb",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -25060,15 +25101,41 @@
           "size": 1025933,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef Ortezzano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef Ortezzano-signed.pdf",
+          "hash": "3c114d424619c3f04be0fb0aa61d885dc983ec87309c4658c388b4ec19913f9a",
+          "size": 627952,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "hash": "577d39578ab495ad0885cd5988acbb2eaeb331af87a35a0ef62c2d7e7676ecb4",
+          "size": 144601,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Ortezzano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Ortezzano.xlsx",
+          "hash": "dfc60cbe0a0b2c18ec6908769d2826f0625e83554ca1916d50db46eafe443354",
+          "size": 11414,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Ortezzano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Ortezzano.xlsx",
+          "hash": "627970feea728de934642b9f12ab5d840a768249c025896b671cf2d4d0d97c27",
+          "size": 10907,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
@@ -25662,13 +25729,44 @@
           "zip_hash": "21c50edce640bd34585a3563817514d647245946fea1c27966315f268e72676f",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef Ortezzano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef Ortezzano-signed.pdf",
+          "source": "comune",
+          "size": 627952
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "source": "comune",
+          "size": 144601
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Ortezzano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Ortezzano.xlsx",
+          "source": "comune",
+          "size": 11414
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Ortezzano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Ortezzano.xlsx",
+          "source": "comune",
+          "size": 10907
+        }
+      ],
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26490,6 +26588,12 @@
         },
         {
           "time": "2026-06-11T12:03:49.130033+00:00",
+          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
           "changed": false,
           "file_count": 7
@@ -35304,9 +35408,9 @@
   "meta": {
     "last_scan": "2026-06-11T15:31:43.692140+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 6,
-      "invariati": 19,
+      "scansionati": 30,
+      "aggiornati": 8,
+      "invariati": 22,
       "errori": 0,
       "vuoti": 0
     },
