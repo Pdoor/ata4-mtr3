@@ -4465,7 +4465,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4792,12 +4792,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T13:41:33.536848+00:00",
-          "zip_hash": "f97496f0b977daefbe95cb049b58775b3f8fbfb7dbb24575b3822995bcea4da8",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-05-17T15:01:07.803256+00:00",
           "zip_hash": "f97496f0b977daefbe95cb049b58775b3f8fbfb7dbb24575b3822995bcea4da8",
@@ -5391,6 +5385,12 @@
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -5448,7 +5448,7 @@
     "7": {
       "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
       "content_fingerprint": "28bb86ac2a20d891f71dce5f659fe441a24262a5063d961ac30812e3e161d2ae",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5701,12 +5701,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
           "changed": false,
@@ -6299,6 +6293,12 @@
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6314,7 +6314,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6324,9 +6324,9 @@
         "url": "https://www.provincia.fm.it/drive/3ahoqjicoqlx",
         "id": 8
       },
-      "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
-      "content_fingerprint": "d8a21d72d9aa88d2915f4994992c851b94e3f216d4e30ea75c878c2855fd0808",
-      "zip_changed": false,
+      "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
+      "content_fingerprint": "31604797e0409093b7a1882c4e18e28815789dc0be22c46f420cc0ce6e59e5d7",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -6567,15 +6567,25 @@
           "size": 770443,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Grottazzolina-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Grottazzolina-signed.pdf",
+          "hash": "db873659fbaef450781453124d41982a6302620a4db47487b725c5157cd86b14",
+          "size": 463897,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE TECNICA PROGETTO IGIENE URBANA GROTTAZZOLINA 2025-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/RELAZIONE TECNICA PROGETTO IGIENE URBANA GROTTAZZOLINA 2025-signed.pdf",
+          "hash": "00b6db3743dd1a2135dd5869bd82b2f919d06cc387852617d548dcaf5629f3a1",
+          "size": 958391,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "72abe93b15d2a97a7cd518aa2887cfbe9bb69c2976e4031d9775d9e978271619",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "72abe93b15d2a97a7cd518aa2887cfbe9bb69c2976e4031d9775d9e978271619",
@@ -7169,13 +7179,32 @@
           "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
+          "changed": true,
+          "file_count": 9
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione di corrispondenza dati contabili Grottazzolina-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Grottazzolina-signed.pdf",
+          "source": "comune",
+          "size": 463897
+        },
+        {
+          "name": "RELAZIONE TECNICA PROGETTO IGIENE URBANA GROTTAZZOLINA 2025-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/RELAZIONE TECNICA PROGETTO IGIENE URBANA GROTTAZZOLINA 2025-signed.pdf",
+          "source": "comune",
+          "size": 958391
+        }
+      ],
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7185,57 +7214,69 @@
         "url": "https://www.provincia.fm.it/drive/777cf7yak6om",
         "id": 9
       },
-      "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
-      "content_fingerprint": "d2604d94e7feb3c4fbef3fd8382e726a78db41168cdcb32ade6bd4e654f085e0",
-      "zip_changed": false,
+      "zip_hash": "5ecd17dd14da502db35cc642362e6539ec4e0b9652d545bcbee503cac23a34c3",
+      "content_fingerprint": "b42a54c1ff24b6a46c92a59c19b2b7765b20a21d1754be73145530c35d56c707",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "current_size": 3971936,
+          "current_hash": "f98851bddba84f24eafb4d23e36c9656b4338b01c9a3a1bc9db73f957503c6db",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona.xlsx",
+          "current_size": 3970436,
           "file_count": 1,
           "all_files": [
             {
-              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-              "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-              "size": 3971936
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona.xlsx",
+              "hash": "f98851bddba84f24eafb4d23e36c9656b4338b01c9a3a1bc9db73f957503c6db",
+              "size": 3970436
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-11T15:31:43.692140+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
               "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-11T15:31:43.692140+00:00",
+              "hash": "f98851bddba84f24eafb4d23e36c9656b4338b01c9a3a1bc9db73f957503c6db",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione": {
           "status": "received",
-          "current_hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-          "current_file": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "current_size": 704223,
+          "current_hash": "f79799f0eb38677e979da77eac23840e784369c9f73de9ecea837ab5b935cb0e",
+          "current_file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Lapedona.docx.pdf",
+          "current_size": 840300,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-              "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-              "size": 704223
+              "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Lapedona.docx.pdf",
+              "hash": "f79799f0eb38677e979da77eac23840e784369c9f73de9ecea837ab5b935cb0e",
+              "size": 840300
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-11T15:31:43.692140+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
               "file": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-11T15:31:43.692140+00:00",
+              "hash": "f79799f0eb38677e979da77eac23840e784369c9f73de9ecea837ab5b935cb0e",
+              "file": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Lapedona.docx.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -7420,10 +7461,10 @@
           "source": "comune"
         },
         {
-          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona e Moresco.xlsx",
-          "hash": "9c96b8331def8451e0f6d9b705f19537053376d2a7fec55efc5e034f57dc83d3",
-          "size": 3971936,
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Lapedona.xlsx",
+          "hash": "f98851bddba84f24eafb4d23e36c9656b4338b01c9a3a1bc9db73f957503c6db",
+          "size": 3970436,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -7436,21 +7477,31 @@
           "source": "gestore"
         },
         {
-          "name": "Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione di Accompagnamento comuni Lapedona e Moresco.pdf",
-          "hash": "ec60863955ea5a4ae4e1a7fb4533552b85d302079b872b0c5b2b75e6e9beb12b",
-          "size": 704223,
+          "name": "Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Lapedona.docx.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione accompagnamento 2026 Ecoinnova Pef_Grezzo_MTR3 Comune di Lapedona.docx.pdf",
+          "hash": "f79799f0eb38677e979da77eac23840e784369c9f73de9ecea837ab5b935cb0e",
+          "size": 840300,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione sulla corrispondenza Lapedona-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Lapedona-signed.pdf",
+          "hash": "4cf4fb7157a869ab46966bac43115788439f4fca99e5b83ce05d2117ffde9eaf",
+          "size": 462651,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "hash": "f22cac1b409d462ffa33a3f754058cb83b1219ff43d89e3f8ca9f324f90ce835",
+          "size": 8046003,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "d0747dcaac4eb6385e405ed41bd3cb85c3492139956dc5154f9e57b554908c33",
@@ -8044,13 +8095,32 @@
           "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "5ecd17dd14da502db35cc642362e6539ec4e0b9652d545bcbee503cac23a34c3",
+          "changed": true,
+          "file_count": 11
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione sulla corrispondenza Lapedona-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Lapedona-signed.pdf",
+          "source": "comune",
+          "size": 462651
+        },
+        {
+          "name": "Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
+          "source": "comune",
+          "size": 8046003
+        }
+      ],
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8060,9 +8130,9 @@
         "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev",
         "id": 10
       },
-      "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
-      "content_fingerprint": "72bc8299f8d462d711d520fa97918c2878c58157a7daa35149b95bc8f83513ba",
-      "zip_changed": false,
+      "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
+      "content_fingerprint": "2b3b8612bbba1f61a13e860d65555eb995a3bbe79a6feb9f2177b490b7bc4590",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8284,15 +8354,41 @@
           "size": 931899,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione sulla corrispondenza Magliano di Tenna-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Magliano di Tenna-signed.pdf",
+          "hash": "bcd1eedb3d24d89be50317f68bdeed404f1c53d1ecf3d2fa01fcd379a2b34481",
+          "size": 676001,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "hash": "577d39578ab495ad0885cd5988acbb2eaeb331af87a35a0ef62c2d7e7676ecb4",
+          "size": 144601,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova MdT.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova MdT.xlsx",
+          "hash": "80a2afe44701c04a78b728f9e283ae23f99065498320047cdf156588501a63ef",
+          "size": 12533,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova MdT.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova MdT.xlsx",
+          "hash": "369c796dab69ff5024892681ba5820e10d59e961119d3068392c930579c0486f",
+          "size": 12042,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T13:41:33.536848+00:00",
-          "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T15:01:07.803256+00:00",
           "zip_hash": "69c55b7637955db3ec2f5e4f495399bdc88948778d9308b735ceca84a96a8d65",
@@ -8886,9 +8982,40 @@
           "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione sulla corrispondenza Magliano di Tenna-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione sulla corrispondenza Magliano di Tenna-signed.pdf",
+          "source": "comune",
+          "size": 676001
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "source": "comune",
+          "size": 144601
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova MdT.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova MdT.xlsx",
+          "source": "comune",
+          "size": 12533
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova MdT.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova MdT.xlsx",
+          "source": "comune",
+          "size": 12042
+        }
+      ],
       "processabile": "si"
     },
     "11": {
@@ -35034,9 +35161,9 @@
   "meta": {
     "last_scan": "2026-06-11T15:31:43.692140+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 3,
+      "invariati": 7,
       "errori": 0,
       "vuoti": 0
     },
