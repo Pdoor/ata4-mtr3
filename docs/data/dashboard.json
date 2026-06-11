@@ -9021,7 +9021,7 @@
     "11": {
       "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
       "content_fingerprint": "b4972c518095261951ee6491d05d756c22e0f206963cc1818c3089aa685b9be9",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -9311,12 +9311,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
@@ -9910,6 +9904,12 @@
           "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -9927,7 +9927,7 @@
     "12": {
       "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
       "content_fingerprint": "3b992f99e547d846a27d4c7c26f342bfcbe3b74349119af84246d965cddcc49a",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10141,12 +10141,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "d80688de14a2df08ccffaca2aeb052955dae75b3a2fee817b87ac64602347105",
@@ -10740,6 +10734,12 @@
           "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -10757,7 +10757,7 @@
     "13": {
       "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
       "content_fingerprint": "0d0bc89a6d0b128e432fb7756980eff331457b4cc3a348a8cfc4c6a852be30f9",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11035,12 +11035,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
           "changed": false,
@@ -11633,6 +11627,12 @@
           "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -11650,7 +11650,7 @@
     "14": {
       "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
       "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11890,12 +11890,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T11:12:45.369908+00:00",
-          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-05-17T13:41:33.536848+00:00",
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
           "changed": false,
@@ -12488,6 +12482,12 @@
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -12503,7 +12503,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-06-11T12:03:49.130033+00:00",
+      "last_scan": "2026-06-11T15:31:43.692140+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -12513,9 +12513,9 @@
         "url": "https://www.provincia.fm.it/drive/4pkotlmc0c79",
         "id": 15
       },
-      "zip_hash": "5bdd77530084bd8d37ea3866b3cc781c653af17e714feabe5174f937218b7c28",
-      "content_fingerprint": "db2568bf1132e1d750397a0df888038e9f80b547e66c93ea22683a26796754f3",
-      "zip_changed": false,
+      "zip_hash": "01c80fd808741bf10704dd5dd7994415b88acbba8b3886e200497217d7cb8a18",
+      "content_fingerprint": "448124fe368890306337a9f4a96cb9ca627e0eb81ce00d2373ae97356e22bc4f",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -12749,15 +12749,41 @@
           "size": 931540,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione corrispondenza Monte Rinaldo-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione corrispondenza Monte Rinaldo-signed.pdf",
+          "hash": "71b6bc860f09a7313770fd0fc48e77ce7c9035e146895490b64e1cd091fcf16d",
+          "size": 627952,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "hash": "577d39578ab495ad0885cd5988acbb2eaeb331af87a35a0ef62c2d7e7676ecb4",
+          "size": 144601,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monte Rinaldo.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monte Rinaldo.xlsx",
+          "hash": "97ae419a454d3aa67cd34ecb2e753fc6daad7ca19d28949c9faabc53cd3336cd",
+          "size": 11564,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Monte Rinaldo.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Monte Rinaldo.xlsx",
+          "hash": "871626cb5e19800845edcdf3e39bd57861306d2be02924aa1620c2829898e30a",
+          "size": 11042,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T13:41:33.536848+00:00",
-          "zip_hash": "61f6799a7445ebecdd83be869d66838f179e7a158544ce42825994ae35a208b3",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T15:01:07.803256+00:00",
           "zip_hash": "61f6799a7445ebecdd83be869d66838f179e7a158544ce42825994ae35a208b3",
@@ -13351,9 +13377,40 @@
           "zip_hash": "5bdd77530084bd8d37ea3866b3cc781c653af17e714feabe5174f937218b7c28",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-11T15:31:43.692140+00:00",
+          "zip_hash": "01c80fd808741bf10704dd5dd7994415b88acbba8b3886e200497217d7cb8a18",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione corrispondenza Monte Rinaldo-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione corrispondenza Monte Rinaldo-signed.pdf",
+          "source": "comune",
+          "size": 627952
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "source": "comune",
+          "size": 144601
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monte Rinaldo.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monte Rinaldo.xlsx",
+          "source": "comune",
+          "size": 11564
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Monte Rinaldo.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Monte Rinaldo.xlsx",
+          "source": "comune",
+          "size": 11042
+        }
+      ],
       "processabile": "si"
     },
     "16": {
@@ -35161,9 +35218,9 @@
   "meta": {
     "last_scan": "2026-06-11T15:31:43.692140+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 3,
-      "invariati": 7,
+      "scansionati": 15,
+      "aggiornati": 4,
+      "invariati": 11,
       "errori": 0,
       "vuoti": 0
     },
