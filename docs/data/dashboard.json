@@ -22318,7 +22318,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-06-11T20:10:53.223552+00:00",
+      "last_scan": "2026-06-12T11:36:53.568567+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22328,9 +22328,9 @@
         "url": "https://www.provincia.fm.it/drive/6o5i523jjoxk",
         "id": 26
       },
-      "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
-      "content_fingerprint": "2080b5b12824f4890e6a8ac607c0f8f4e48df8eb2b4f5bc50450d1781e9edd68",
-      "zip_changed": false,
+      "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
+      "content_fingerprint": "24735a35dda62ccb3dac2b6611c68ff15e4c1594ada6a8ffe34db28bc7529848",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22558,15 +22558,41 @@
           "size": 931782,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Monterubbiano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Monterubbiano-signed.pdf",
+          "hash": "ca83ff620973ccfc52f4f780af3ab7cb89301f20f7b50092ce7a678bb6e4498d",
+          "size": 627994,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "hash": "577d39578ab495ad0885cd5988acbb2eaeb331af87a35a0ef62c2d7e7676ecb4",
+          "size": 144601,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monterubbiano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monterubbiano.xlsx",
+          "hash": "4bcc01b9bf251eb95ae4006909a764ceb6310e79aae43fa7bb454b22a20c071c",
+          "size": 11364,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Monterubbiano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Monterubbiano.xlsx",
+          "hash": "0746623b1da297a2373719efe638b9212ce4f295a7e295f12d077cb0a614d707",
+          "size": 10831,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T17:02:08.644329+00:00",
-          "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T19:15:49.345488+00:00",
           "zip_hash": "e4c49b7a4b1e0d0ed1d65567a9ab367913acd2dd33898ab2bfa14faba8f90b8b",
@@ -23160,15 +23186,46 @@
           "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-12T11:36:53.568567+00:00",
+          "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione di corrispondenza dati contabili Monterubbiano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Monterubbiano-signed.pdf",
+          "source": "comune",
+          "size": 627994
+        },
+        {
+          "name": "Allegato A_Ecoinnova Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Ecoinnova Bila 2024.pdf",
+          "source": "comune",
+          "size": 144601
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monterubbiano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoInnova Monterubbiano.xlsx",
+          "source": "comune",
+          "size": 11364
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_EcoInnova Monterubbiano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Monterubbiano.xlsx",
+          "source": "comune",
+          "size": 10831
+        }
+      ],
       "processabile": "si"
     },
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-06-11T20:10:53.223552+00:00",
+      "last_scan": "2026-06-12T11:36:53.568567+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23383,12 +23440,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T17:02:08.644329+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-05-17T19:15:49.345488+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
@@ -23981,6 +24032,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-06-12T11:36:53.568567+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -23996,7 +24053,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-06-11T20:10:53.223552+00:00",
+      "last_scan": "2026-06-12T11:36:53.568567+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24006,9 +24063,9 @@
         "url": "https://www.provincia.fm.it/drive/7c7tieb5szm0",
         "id": 28
       },
-      "zip_hash": "6886fa668d055f5eac416de6e7da162219c3dc5db30847767f242fd42c1b10da",
-      "content_fingerprint": "7cf9decd77315d3c410c01cdbe24267835254d75cc762d28bc249a6c0e924c0e",
-      "zip_changed": false,
+      "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
+      "content_fingerprint": "8415842857bd8f977e2978c5e740e75b3521328d2e8915693624767950be0c6d",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -24074,26 +24131,32 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "current_size": 199409,
+          "current_hash": "d0a01cbc757f4bff78e99ae40b6b917d3265262fd55988a261978b4c0f481be2",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita del 11.06.2026-signed.pdf",
+          "current_size": 199522,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-              "size": 199409
+              "name": "Allegato_3_-_Dichiarazione_Veridicita del 11.06.2026-signed.pdf",
+              "hash": "d0a01cbc757f4bff78e99ae40b6b917d3265262fd55988a261978b4c0f481be2",
+              "size": 199522
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-06-12T11:36:53.568567+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
               "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-06-12T11:36:53.568567+00:00",
+              "hash": "d0a01cbc757f4bff78e99ae40b6b917d3265262fd55988a261978b4c0f481be2",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita del 11.06.2026-signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -24216,10 +24279,10 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-          "size": 199409,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita del 11.06.2026-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita del 11.06.2026-signed.pdf",
+          "hash": "d0a01cbc757f4bff78e99ae40b6b917d3265262fd55988a261978b4c0f481be2",
+          "size": 199522,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -24249,12 +24312,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-17T17:02:08.644329+00:00",
-          "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-17T19:15:49.345488+00:00",
           "zip_hash": "185d801512975a6a557251f022168e57633708067f0a52447134f93f0ae26680",
@@ -24848,6 +24905,12 @@
           "zip_hash": "6886fa668d055f5eac416de6e7da162219c3dc5db30847767f242fd42c1b10da",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-12T11:36:53.568567+00:00",
+          "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -24867,7 +24930,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-06-11T20:10:53.223552+00:00",
+      "last_scan": "2026-06-12T11:36:53.568567+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25143,12 +25206,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-17T17:02:08.644329+00:00",
-          "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-17T19:15:49.345488+00:00",
           "zip_hash": "251ddabf5fae44a037f81b0f94f258198973191e94518cb4b3e0978258c6df05",
           "changed": false,
@@ -25741,6 +25798,12 @@
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-12T11:36:53.568567+00:00",
+          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -25772,7 +25835,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-06-11T20:10:53.223552+00:00",
+      "last_scan": "2026-06-12T11:36:53.568567+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26612,6 +26675,12 @@
         },
         {
           "time": "2026-06-11T20:10:53.223552+00:00",
+          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-12T11:36:53.568567+00:00",
           "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
           "changed": false,
           "file_count": 7
@@ -35483,9 +35552,9 @@
   "meta": {
     "last_scan": "2026-06-12T11:36:53.568567+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 1,
-      "invariati": 24,
+      "scansionati": 30,
+      "aggiornati": 3,
+      "invariati": 27,
       "errori": 0,
       "vuoti": 0
     },
