@@ -13420,7 +13420,7 @@
       "processabile": "si"
     },
     "16": {
-      "last_scan": "2026-06-14T19:11:03.766516+00:00",
+      "last_scan": "2026-06-15T13:48:10.475160+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -13430,9 +13430,9 @@
         "url": "https://www.provincia.fm.it/drive/3f5d1ahwmas",
         "id": 16
       },
-      "zip_hash": "3517c3c9bf4dc1df26cbfa894c9333586bffa8a319b56e64d51cfcd6fc1ecf16",
-      "content_fingerprint": "c0dc87634e0f0a8acd05830369f2cbf8575f8ce6ff323e74a4ecf8d8d5620c5d",
-      "zip_changed": false,
+      "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
+      "content_fingerprint": "37ec511a733f5c7816a1220f5ff1a6f10e194de1ead226602041faa09a7825e5",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -13732,15 +13732,25 @@
           "size": 733452,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef grezzo-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef grezzo-signed.pdf",
+          "hash": "a96f1f5921f7f23c935bf6d38fe841fd46c5fa628af4be32f73683e9f579101a",
+          "size": 499392,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "01_Relazione_tecnica_raccolta_rifiuti_Monte_San_Pietrangeli_2023-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/01_Relazione_tecnica_raccolta_rifiuti_Monte_San_Pietrangeli_2023-signed.pdf",
+          "hash": "243bd930e89c933c2dcb2c59e86b4c1057e4968a2a58abdd11799bc8cb7af7ff",
+          "size": 3790034,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-21T15:38:43.067821+00:00",
-          "zip_hash": "92afdca20d04350ec10449e30d70a54d432a9f8079877ab6f69034b5857c253e",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-05-21T18:03:42.394767+00:00",
           "zip_hash": "92afdca20d04350ec10449e30d70a54d432a9f8079877ab6f69034b5857c253e",
@@ -14334,6 +14344,12 @@
           "zip_hash": "3517c3c9bf4dc1df26cbfa894c9333586bffa8a319b56e64d51cfcd6fc1ecf16",
           "changed": false,
           "file_count": 14
+        },
+        {
+          "time": "2026-06-15T13:48:10.475160+00:00",
+          "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
+          "changed": true,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -14360,12 +14376,24 @@
           "path": "Comune/all.4 nota esplicativa.pdf",
           "source": "comune",
           "size": 51861
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef grezzo-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef grezzo-signed.pdf",
+          "source": "comune",
+          "size": 499392
+        },
+        {
+          "name": "01_Relazione_tecnica_raccolta_rifiuti_Monte_San_Pietrangeli_2023-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/01_Relazione_tecnica_raccolta_rifiuti_Monte_San_Pietrangeli_2023-signed.pdf",
+          "source": "comune",
+          "size": 3790034
         }
       ],
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-06-14T19:11:03.766516+00:00",
+      "last_scan": "2026-06-15T13:48:10.475160+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14375,9 +14403,9 @@
         "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz",
         "id": 17
       },
-      "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
-      "content_fingerprint": "491f9c332cfca97cf29e00b4aa58309392b5b11a60c5cf78f04807d7bdce78db",
-      "zip_changed": false,
+      "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
+      "content_fingerprint": "eddd0a1b3ba22318839065c90264277c72f0eb6207d400322a100fcf12b4eb5a",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -14638,15 +14666,41 @@
           "size": 942923,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef grezzo EcoElpidiense_Monte Urano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef grezzo EcoElpidiense_Monte Urano-signed.pdf",
+          "hash": "b094baadc550f4a62f073340138737fbee26606a888e172b61a0a3094251237e",
+          "size": 709049,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Eco Elpidiense Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Eco Elpidiense Bila 2024.pdf",
+          "hash": "fcda814f25b75f44284deac5e74b2584b7e7098f8461505b468e878a71c4d984",
+          "size": 170855,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoElpidiense Monte Urano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoElpidiense Monte Urano.xlsx",
+          "hash": "ef4158b79fe942254d27fa6819274ca64d3940bdfd229cb099dc2f391a74c2ce",
+          "size": 11417,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_Eco Elpidiense Monte Urano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_Eco Elpidiense Monte Urano.xlsx",
+          "hash": "7ea5358ea7bff0040ceec843531dd9d353b3221c7b69bad866689ffc80f61705",
+          "size": 10835,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-21T15:38:43.067821+00:00",
-          "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-21T18:03:42.394767+00:00",
           "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
@@ -15240,13 +15294,44 @@
           "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-15T13:48:10.475160+00:00",
+          "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
+          "changed": true,
+          "file_count": 13
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "Relazione di corrispondenza dati contabili Pef grezzo EcoElpidiense_Monte Urano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di corrispondenza dati contabili Pef grezzo EcoElpidiense_Monte Urano-signed.pdf",
+          "source": "comune",
+          "size": 709049
+        },
+        {
+          "name": "Allegato A_Eco Elpidiense Bila 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Eco Elpidiense Bila 2024.pdf",
+          "source": "comune",
+          "size": 170855
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn_EcoElpidiense Monte Urano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn_EcoElpidiense Monte Urano.xlsx",
+          "source": "comune",
+          "size": 11417
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria_Eco Elpidiense Monte Urano.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_Eco Elpidiense Monte Urano.xlsx",
+          "source": "comune",
+          "size": 10835
+        }
+      ],
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-06-14T19:11:03.766516+00:00",
+      "last_scan": "2026-06-15T13:48:10.475160+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15504,12 +15589,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-21T11:30:53.503604+00:00",
-          "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-21T15:38:43.067821+00:00",
           "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
           "changed": false,
@@ -16102,6 +16181,12 @@
           "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-15T13:48:10.475160+00:00",
+          "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -16135,7 +16220,7 @@
     "19": {
       "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
       "content_fingerprint": "b827f90f648a25f3807d8e72c26625933cd57998253bc3882f7e646cbfa3ad50",
-      "last_scan": "2026-06-14T19:11:03.766516+00:00",
+      "last_scan": "2026-06-15T13:48:10.475160+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -16375,12 +16460,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-21T11:30:53.503604+00:00",
-          "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-05-21T15:38:43.067821+00:00",
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
           "changed": false,
@@ -16973,6 +17052,12 @@
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-15T13:48:10.475160+00:00",
+          "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -16990,7 +17075,7 @@
     "20": {
       "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
       "content_fingerprint": "ae81c733c4d1484915e6d1b7586bd83c9f018486c5d7451fef9d065823eb9b9b",
-      "last_scan": "2026-06-14T19:11:03.766516+00:00",
+      "last_scan": "2026-06-15T13:48:10.475160+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17230,12 +17315,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-21T11:30:53.503604+00:00",
-          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-05-21T15:38:43.067821+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
@@ -17825,6 +17904,12 @@
         },
         {
           "time": "2026-06-14T19:11:03.766516+00:00",
+          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-15T13:48:10.475160+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
           "file_count": 7
@@ -35558,9 +35643,9 @@
   "meta": {
     "last_scan": "2026-06-15T13:48:10.475160+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 2,
+      "invariati": 18,
       "errori": 0,
       "vuoti": 0
     },
