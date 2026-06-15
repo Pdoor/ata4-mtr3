@@ -1426,7 +1426,15 @@
         "date": "2026-06-11",
         "text": "Spett.le Società,\nsulla base della documentazione trasmessa con riferimento al Comune in oggetto si rappresenta quanto segue:\n1) non risulta prodotto il prospetto di riconciliazione contabile richiesto dall'ATA in data 24/04/2026 (e che per comodità alleghiamo) al fine di rendere pienamente verificabile la coerenza tra i dati riportati nel PEF grezzo e le fonti contabili obbligatorie da cui gli stessi derivano.\n2) il foglio IN_CESPITI risulta vuoto, non sono stati riportati i cespiti presenti all'interno del Pef 2024-2025;\n\nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "comune",
+            "date": "2026-06-13",
+            "text": "Da: Francesco De Angelis - Ecoinnova <francesco.d@ecoinnovasrl.it> \nInviato: sabato 13 giugno 2026 09:54\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; 'Ata4fermo' <ata4fermo@provincia.fm.it>\nOggetto: R: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Ecoelpidiense srl - Monte San Pietrangeli\n\nGentile Dott. Nardi,\ncon la presente le comunico quanto segue:\n1)\til prospetto di riconciliazione contabile per i 3 comuni gestiti dalla eco elpidiense sarà inserito nei prossimi giorni. \n2)Per il Comune di Monte San Pietrangeli, il foglio cespiti pef comune di Monte San Pietrangeli risulta privo di valori in quanto la determinazione del pef grezzo del gestore si è basata su valori previsionali tratti dal quadro economico oggetto di offerta, il cui servizio è stato avviato a partire dal 1/1/2025; in tal senso, considerando altresì che codesto gestore opera su una pluralità di commesse, l’individuazione dei cespiti dedicata al servizio potrà essere puntualmente svolta e valorizzata solo a partire dal prossimo aggiornamento biennale, traendo spunto dai dati consuntivi 2026”\nSaluti.\n\nEco Elpidiense",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "comune",
@@ -1450,15 +1458,7 @@
         "date": "2026-06-11",
         "text": "Spett.le Società,\nsulla base della documentazione trasmessa con riferimento al Comuene in oggetto si rappresenta quanto segue:\n1) non risulta prodotto il prospetto di riconciliazione contabile richiesto dall'ATA in data 24/04/2026 (e che per comodità alleghiamo) al fine di rendere pienamente verificabile la coerenza tra i dati riportati nel PEF grezzo e le fonti contabili obbligatorie da cui gli stessi derivano.\n2) la componente CGG è passata da Euro 40.000 del precedente Pef a circa Euro 80.000 del Pef attuale, a cosa è imputabile il raddoppio di costo?;\n\nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": [
-          {
-            "cat": "gestore",
-            "date": "2026-06-13",
-            "text": "Gentile Dott. Nardi,\ncon la presente le comunico quanto segue:\n1)\til prospetto di riconciliazione contabile per i 3 comuni gestiti dalla eco elpidiense sarà inserito nei prossimi giorni. \n2)\tIn riferimento alla “componente CGG del Comune di Monte Urano” la differenza relativa all’incidenza di tale componente rispetto al pef grezzo della società riferito al biennio 2024 – 2025 è dovuta al fatto che nella precedente valorizzazione erano state impiegate le migliori stime disponibili fondate sul quadro economico di offerta (il nuovo servizio è partito nel 2023); per la determinazione del pef grezzo relativo al periodo 2026 – 2029 si è invece fatto ricorso alle rilevazioni consuntive 2024 che hanno consentito di quantificare con maggiore precisione, anche in relazione alle altre commesse gestite dalla società, l’entità della componente CGG effettivamente riconducibile al servizio prestato per il comune di Monte Urano.”",
-            "author": "GM",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "cat": "comune",
