@@ -952,7 +952,15 @@
         "date": "2026-06-11",
         "text": "Spett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita in tutte le annualità del quadriennio. \n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "pef",
+            "date": "2026-06-12",
+            "text": "Gent.mo,\nin riferimento ai costi d'uso del capitale, rileviamo che nella versione del PEF unitario trasmessaci, non risultano correttamente valorizzati i campi relativi al Fondo Ammortamento e al Contributo di un cespite a causa di un disallineamento di formule che non consente il recupero automatico degli importi, nello specifico, dalla cella AE10 dell'anno 2018 in avanti.\nVi chiediamo di voler cortesemente verificare e ritrasmetterci la versione definitiva.\nCordialmente,\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n \n\n\t(+39) 0131 1911646\n\n \n\n\twww.neopa.it\n\n \n\n\tVia Domenico Fontana 1, 22100, Como",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "gestore",
