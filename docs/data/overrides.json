@@ -1014,6 +1014,11 @@
       "status": "missing",
       "date": "2026-06-11",
       "note": ""
+    },
+    "4_wf_prospetto_riconciliaz": {
+      "date": "2026-06-11",
+      "by": "GM",
+      "at": "2026-06-16T07:57:04.792Z"
     }
   },
   "scadenze": {
