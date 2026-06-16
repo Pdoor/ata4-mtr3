@@ -958,7 +958,15 @@
             "date": "2026-06-12",
             "text": "Gent.mo,\nin riferimento ai costi d'uso del capitale, rileviamo che nella versione del PEF unitario trasmessaci, non risultano correttamente valorizzati i campi relativi al Fondo Ammortamento e al Contributo di un cespite a causa di un disallineamento di formule che non consente il recupero automatico degli importi, nello specifico, dalla cella AE10 dell'anno 2018 in avanti.\nVi chiediamo di voler cortesemente verificare e ritrasmetterci la versione definitiva.\nCordialmente,\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n \n\n\t(+39) 0131 1911646\n\n \n\n\twww.neopa.it\n\n \n\n\tVia Domenico Fontana 1, 22100, Como",
             "author": "GM",
-            "children": []
+            "children": [
+              {
+                "cat": "pef",
+                "date": "2026-06-15",
+                "text": "Buongiorno,\nringraziando per la segnalazione allego il tool con la correzione del refuso segnalato.\nSaluti\nIl 12/06/2026 12:39, Francesco Canti - NeoPA spa ha scritto:\nGent.mo,\nin riferimento ai costi d'uso del capitale, rileviamo che nella versione del PEF unitario trasmessaci, non risultano correttamente valorizzati i campi relativi al Fondo Ammortamento e al Contributo di un cespite a causa di un disallineamento di formule che non consente il recupero automatico degli importi, nello specifico, dalla cella AE10 dell'anno 2018 in avanti.\nVi chiediamo di voler cortesemente verificare e ritrasmetterci la versione definitiva.\nCordialmente,\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n \n\n\t(+39) 0131 1911646\n\n \n\n\twww.neopa.it\n\n \n\n\tVia Domenico Fontana 1, 22100, Como",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       },
