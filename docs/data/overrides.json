@@ -241,8 +241,8 @@
       "at": "2026-04-27T10:04:30.114Z"
     },
     "1_altre_com": {
-      "status": "received",
-      "date": "2026-06-11",
+      "status": "missing",
+      "date": "2026-04-27",
       "note": ""
     },
     "1_pef_validato": {
@@ -1010,20 +1010,10 @@
       "by": "GM",
       "at": "2026-06-16T07:53:51.419Z"
     },
-    "4_altre_com": {
-      "status": "received",
+    "30_altre_com": {
+      "status": "missing",
       "date": "2026-06-11",
       "note": ""
-    },
-    "4_wf_prospetto_riconciliaz": {
-      "date": "2026-06-11",
-      "by": "GM",
-      "at": "2026-06-16T07:57:04.792Z"
-    },
-    "4_wf_comune_visione": {
-      "date": "2026-06-11",
-      "by": "GM",
-      "at": "2026-06-16T07:57:17.552Z"
     }
   },
   "scadenze": {
