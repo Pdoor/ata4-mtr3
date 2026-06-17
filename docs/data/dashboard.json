@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
       "content_fingerprint": "e7384c09c50eeb54bc63309a7c939080de9bf7d147bf5ca9306af7a1fcedc21d",
-      "last_scan": "2026-06-17T16:51:47.010440+00:00",
+      "last_scan": "2026-06-17T20:01:34.400944+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -306,12 +306,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-22T18:57:08.273739+00:00",
-          "zip_hash": "1d3b596249b4f00db580edd2a7e91261376bf0b93badfe19f232a30ca063f855",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-22T20:44:31.537280+00:00",
           "zip_hash": "1d3b596249b4f00db580edd2a7e91261376bf0b93badfe19f232a30ca063f855",
@@ -905,6 +899,12 @@
           "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-06-17T20:01:34.400944+00:00",
+          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -947,7 +947,7 @@
     "2": {
       "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
       "content_fingerprint": "6f157b8453ebe6585d8cad35b0afceb575c21defe7fb90010765221bbe40acb2",
-      "last_scan": "2026-06-17T16:51:47.010440+00:00",
+      "last_scan": "2026-06-17T20:01:34.400944+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1230,12 +1230,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-22T16:29:00.559738+00:00",
-          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-05-22T18:57:08.273739+00:00",
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
@@ -1828,6 +1822,12 @@
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-06-17T20:01:34.400944+00:00",
+          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1845,7 +1845,7 @@
     "3": {
       "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
       "content_fingerprint": "0507231c0ca417250f792e243adff10ad9f9ee228f911f42e433bc3faf72f445",
-      "last_scan": "2026-06-17T16:51:47.010440+00:00",
+      "last_scan": "2026-06-17T20:01:34.400944+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2123,12 +2123,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-22T16:29:00.559738+00:00",
-          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-05-22T18:57:08.273739+00:00",
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
@@ -2721,6 +2715,12 @@
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-17T20:01:34.400944+00:00",
+          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2736,7 +2736,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-06-17T16:51:47.010440+00:00",
+      "last_scan": "2026-06-17T20:01:34.400944+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -2998,12 +2998,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-22T18:57:08.273739+00:00",
-          "zip_hash": "a33e99778c6063a2cdc9282b6a295b1d1d490bc327f126914d84112f2eebd1ff",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-22T20:44:31.537280+00:00",
           "zip_hash": "a33e99778c6063a2cdc9282b6a295b1d1d490bc327f126914d84112f2eebd1ff",
@@ -3597,6 +3591,12 @@
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-17T20:01:34.400944+00:00",
+          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -3605,7 +3605,7 @@
     "5": {
       "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
       "content_fingerprint": "659b343e299b208713121bec3b5eabe9d1b5b986d5e02bbe637c6ff5bd18677d",
-      "last_scan": "2026-06-17T16:51:47.010440+00:00",
+      "last_scan": "2026-06-17T20:01:34.400944+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3851,12 +3851,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-22T16:29:00.559738+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-05-22T18:57:08.273739+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4447,6 +4441,12 @@
         },
         {
           "time": "2026-06-17T16:51:47.010440+00:00",
+          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
+          "changed": false,
+          "file_count": 8
+        },
+        {
+          "time": "2026-06-17T20:01:34.400944+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
           "file_count": 8
@@ -35710,11 +35710,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-06-17T16:51:47.010440+00:00",
+    "last_scan": "2026-06-17T20:01:34.400944+00:00",
     "results": {
-      "scansionati": 40,
+      "scansionati": 5,
       "aggiornati": 0,
-      "invariati": 40,
+      "invariati": 5,
       "errori": 0,
       "vuoti": 0
     },
@@ -35724,7 +35724,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
