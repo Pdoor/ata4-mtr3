@@ -1904,6 +1904,13 @@
                     "text": "Buongiorno,\nok, attendiamo la sistemazione delle altre anomalie segnalate la scorsa settimana.\nSaluti",
                     "author": "GM",
                     "children": []
+                  },
+                  {
+                    "cat": "comune",
+                    "date": "2026-06-16",
+                    "text": "Buonasera,\nattendiamo ancora l'invio della documentazione aggiornata.\nSaluti",
+                    "author": "GM",
+                    "children": []
                   }
                 ]
               }
