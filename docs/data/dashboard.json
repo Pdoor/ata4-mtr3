@@ -13420,7 +13420,7 @@
       "processabile": "si"
     },
     "16": {
-      "last_scan": "2026-06-20T10:26:56.024390+00:00",
+      "last_scan": "2026-06-20T13:29:59.335230+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -13751,12 +13751,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-24T15:09:15.054467+00:00",
-          "zip_hash": "92afdca20d04350ec10449e30d70a54d432a9f8079877ab6f69034b5857c253e",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-05-24T17:09:15.615057+00:00",
           "zip_hash": "92afdca20d04350ec10449e30d70a54d432a9f8079877ab6f69034b5857c253e",
@@ -14350,6 +14344,12 @@
           "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-06-20T13:29:59.335230+00:00",
+          "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -14393,7 +14393,7 @@
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-06-20T10:26:56.024390+00:00",
+      "last_scan": "2026-06-20T13:29:59.335230+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14701,12 +14701,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-24T15:09:15.054467+00:00",
-          "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-05-24T17:09:15.615057+00:00",
           "zip_hash": "3e9dc1a6838ce9d6df48d0c681c1b30c19d34e4ff7e20dd5419aaf5fd34fe24a",
@@ -15300,6 +15294,12 @@
           "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-06-20T13:29:59.335230+00:00",
+          "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -15331,7 +15331,7 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-06-20T10:26:56.024390+00:00",
+      "last_scan": "2026-06-20T13:29:59.335230+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15589,12 +15589,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-24T13:45:22.015410+00:00",
-          "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
-          "changed": false,
-          "file_count": 3
-        },
-        {
           "time": "2026-05-24T15:09:15.054467+00:00",
           "zip_hash": "c8e2e7c21001a2a14916cacc14d19ed89397266a4653f958c1b6f3e9e2eb09a5",
           "changed": false,
@@ -16187,6 +16181,12 @@
           "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-20T13:29:59.335230+00:00",
+          "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -16218,10 +16218,10 @@
       "processabile": "si"
     },
     "19": {
-      "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
-      "content_fingerprint": "b827f90f648a25f3807d8e72c26625933cd57998253bc3882f7e646cbfa3ad50",
-      "last_scan": "2026-06-20T10:26:56.024390+00:00",
-      "zip_changed": false,
+      "zip_hash": "884fab1eb9f0d41391667903f5d3e4460d4dc28435d6e3e40811f0c72dafa6f5",
+      "content_fingerprint": "fb4ebb288a1abcf55267ab28539e6a699d6ff86b21b7068cb5794b8a5e98267d",
+      "last_scan": "2026-06-20T13:29:59.335230+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -16256,19 +16256,19 @@
         },
         "relazione": {
           "status": "received",
-          "current_hash": "f793c228c1d2ec68f97e45e4fa18ced20676e0456bdd5700de7e01644acbe779",
-          "current_file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.docx 08 05 26.pdf",
-          "current_size": 292407,
+          "current_hash": "efc25240b205fb71e3421062dc5f164603ffa9f4129bd69a98ea728a630cf3b8",
+          "current_file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.odt 20 06 2026.pdf",
+          "current_size": 209016,
           "file_count": 1,
           "all_files": [
             {
-              "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.docx 08 05 26.pdf",
-              "hash": "f793c228c1d2ec68f97e45e4fa18ced20676e0456bdd5700de7e01644acbe779",
-              "size": 292407
+              "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.odt 20 06 2026.pdf",
+              "hash": "efc25240b205fb71e3421062dc5f164603ffa9f4129bd69a98ea728a630cf3b8",
+              "size": 209016
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-05-08T09:44:33.270204+00:00",
+          "last_upload": "2026-06-20T13:29:59.335230+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -16281,6 +16281,12 @@
               "time": "2026-05-08T09:44:33.270204+00:00",
               "hash": "f793c228c1d2ec68f97e45e4fa18ced20676e0456bdd5700de7e01644acbe779",
               "file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.docx 08 05 26.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-06-20T13:29:59.335230+00:00",
+              "hash": "efc25240b205fb71e3421062dc5f164603ffa9f4129bd69a98ea728a630cf3b8",
+              "file": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.odt 20 06 2026.pdf",
               "event": "sostituzione"
             }
           ]
@@ -16298,9 +16304,9 @@
               "size": 258008
             },
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
-              "hash": "1bacd322c69f742a4f20047c7285ebfa37fd1f0b691353c61519f76f339640b7",
-              "size": 87792
+              "name": "Allegato3_DichiarazioneVeridicita.docx   20 06 26 .pdf",
+              "hash": "278d0aa97bc34bfe172605c952b096b721b6f5dd2ece0fe20d033f316c70d7f1",
+              "size": 86024
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
@@ -16442,29 +16448,23 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx 08 05 26.pdf",
-          "hash": "1bacd322c69f742a4f20047c7285ebfa37fd1f0b691353c61519f76f339640b7",
-          "size": 87792,
+          "name": "Allegato3_DichiarazioneVeridicita.docx   20 06 26 .pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato3_DichiarazioneVeridicita.docx   20 06 26 .pdf",
+          "hash": "278d0aa97bc34bfe172605c952b096b721b6f5dd2ece0fe20d033f316c70d7f1",
+          "size": 86024,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
         {
-          "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.docx 08 05 26.pdf",
-          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.docx 08 05 26.pdf",
-          "hash": "f793c228c1d2ec68f97e45e4fa18ced20676e0456bdd5700de7e01644acbe779",
-          "size": 292407,
+          "name": "RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.odt 20 06 2026.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE_monte vidon corrado _001_2023_DTAC_all2_PEF_2026_29.odt 20 06 2026.pdf",
+          "hash": "efc25240b205fb71e3421062dc5f164603ffa9f4129bd69a98ea728a630cf3b8",
+          "size": 209016,
           "doc_key": "relazione",
           "source": "gestore"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-24T13:45:22.015410+00:00",
-          "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-05-24T15:09:15.054467+00:00",
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
@@ -17058,6 +17058,12 @@
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-06-20T13:29:59.335230+00:00",
+          "zip_hash": "884fab1eb9f0d41391667903f5d3e4460d4dc28435d6e3e40811f0c72dafa6f5",
+          "changed": true,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -17075,7 +17081,7 @@
     "20": {
       "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
       "content_fingerprint": "ae81c733c4d1484915e6d1b7586bd83c9f018486c5d7451fef9d065823eb9b9b",
-      "last_scan": "2026-06-20T10:26:56.024390+00:00",
+      "last_scan": "2026-06-20T13:29:59.335230+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17315,12 +17321,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-05-24T13:45:22.015410+00:00",
-          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-05-24T15:09:15.054467+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
@@ -17910,6 +17910,12 @@
         },
         {
           "time": "2026-06-20T10:26:56.024390+00:00",
+          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-06-20T13:29:59.335230+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
           "file_count": 7
@@ -35712,9 +35718,9 @@
   "meta": {
     "last_scan": "2026-06-20T13:29:59.335230+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 0,
-      "invariati": 15,
+      "scansionati": 20,
+      "aggiornati": 1,
+      "invariati": 19,
       "errori": 0,
       "vuoti": 0
     },
