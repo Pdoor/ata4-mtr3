@@ -26818,7 +26818,7 @@
       "processabile": "si"
     },
     "31": {
-      "last_scan": "2026-06-21T19:16:56.842165+00:00",
+      "last_scan": "2026-06-22T08:49:25.382395+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -27088,12 +27088,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-26T15:51:30.259068+00:00",
-          "zip_hash": "f2506e47ddb9886cfa98658caa4d08cb419f0c1dae63fa0cf750671c4fd94822",
-          "changed": false,
-          "file_count": 4
-        },
         {
           "time": "2026-05-26T18:31:52.342788+00:00",
           "zip_hash": "f2506e47ddb9886cfa98658caa4d08cb419f0c1dae63fa0cf750671c4fd94822",
@@ -27687,6 +27681,12 @@
           "zip_hash": "26e902ab49a7f3e9ea8fbb41f3df925ed04377bafd4bbd3bdf271b15b33902e4",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-06-22T08:49:25.382395+00:00",
+          "zip_hash": "26e902ab49a7f3e9ea8fbb41f3df925ed04377bafd4bbd3bdf271b15b33902e4",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -27720,7 +27720,7 @@
     "32": {
       "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
       "content_fingerprint": "b0649bb1306087d060e0cd580288148c4c9c01b248ac98c616c20d4b64f83a07",
-      "last_scan": "2026-06-21T19:16:56.842165+00:00",
+      "last_scan": "2026-06-22T08:49:25.382395+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -27998,12 +27998,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-26T18:31:52.342788+00:00",
-          "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-05-26T20:57:21.882619+00:00",
           "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
@@ -28597,6 +28591,12 @@
           "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-06-22T08:49:25.382395+00:00",
+          "zip_hash": "f2c8f6d0ac91c4c4dcee8f28e9e2a41a8c8d60b57446a1a993715f3d82a64b6b",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -28619,10 +28619,10 @@
       "last_scan_empty": false
     },
     "33": {
-      "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
-      "content_fingerprint": "af73e7d37db5488a0965734c0aab6526d71080712ff827a5b7724fd2df341843",
-      "last_scan": "2026-06-21T19:16:56.842165+00:00",
-      "zip_changed": false,
+      "zip_hash": "7f289d2d84d33f8a37f5f82a55ae2702f09b38334e61598bcd304276cca3f5ce",
+      "content_fingerprint": "add0efb70ea2f4c3551ef79df84d33a987f86185e9849dc6ee3b89a90eb1939d",
+      "last_scan": "2026-06-22T08:49:25.382395+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -28873,7 +28873,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "f4d2c94d60ee28ffcf3ffd8a1a6a9418f735d1e19631be46631fdae6968ef450",
+          "current_file": "PORTO SAN GIORGIO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "current_size": 4270005,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "PORTO SAN GIORGIO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+              "hash": "0904ed66ba51e35b328a2e8240e2ffaf23f9ea1ff26d113f3dd5cffe2a94c2fb",
+              "size": 376970
+            },
+            {
+              "name": "PORTO SAN GIORGIO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+              "hash": "f4d2c94d60ee28ffcf3ffd8a1a6a9418f735d1e19631be46631fdae6968ef450",
+              "size": 4270005
+            },
+            {
+              "name": "PORTO SAN GIORGIO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "6920d0df5b2aad0b7f7069bf9b29019a1720b40f2878c663a9788015d481eaf0",
+              "size": 3686282
+            }
+          ],
+          "first_upload": "2026-06-22T08:49:25.382395+00:00",
+          "last_upload": "2026-06-22T08:49:25.382395+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-06-22T08:49:25.382395+00:00",
+              "hash": "f4d2c94d60ee28ffcf3ffd8a1a6a9418f735d1e19631be46631fdae6968ef450",
+              "file": "PORTO SAN GIORGIO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -29020,15 +29052,33 @@
           "size": 26172,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "PORTO SAN GIORGIO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/PORTO SAN GIORGIO - ALLEGATI 2-4 MTR3 2026-2029 - COMUNE.zip",
+          "hash": "0904ed66ba51e35b328a2e8240e2ffaf23f9ea1ff26d113f3dd5cffe2a94c2fb",
+          "size": 376970,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "PORTO SAN GIORGIO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/PORTO SAN GIORGIO - ALLEGATI 2-3 MTR3 2026-2029 - GESTORE.zip",
+          "hash": "f4d2c94d60ee28ffcf3ffd8a1a6a9418f735d1e19631be46631fdae6968ef450",
+          "size": 4270005,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "PORTO SAN GIORGIO - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/PORTO SAN GIORGIO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "6920d0df5b2aad0b7f7069bf9b29019a1720b40f2878c663a9788015d481eaf0",
+          "size": 3686282,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-26T15:51:30.259068+00:00",
-          "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
-          "changed": false,
-          "file_count": 18
-        },
         {
           "time": "2026-05-26T18:31:52.342788+00:00",
           "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
@@ -29622,6 +29672,12 @@
           "zip_hash": "fd800b5b29abc544cf89648c83e448c0836b8729b4c1b18b83024301fcb0ddd0",
           "changed": false,
           "file_count": 18
+        },
+        {
+          "time": "2026-06-22T08:49:25.382395+00:00",
+          "zip_hash": "7f289d2d84d33f8a37f5f82a55ae2702f09b38334e61598bcd304276cca3f5ce",
+          "changed": true,
+          "file_count": 21
         }
       ],
       "unclassified_files": [
@@ -29650,7 +29706,7 @@
       "last_scan_empty": false
     },
     "34": {
-      "last_scan": "2026-06-21T19:16:56.842165+00:00",
+      "last_scan": "2026-06-22T08:49:25.382395+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -29931,12 +29987,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-26T18:31:52.342788+00:00",
-          "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
-          "changed": false,
-          "file_count": 3
-        },
         {
           "time": "2026-05-26T20:57:21.882619+00:00",
           "zip_hash": "7912ad27b8bf680248ebad6be67bc17e5fdce3ad8460fdbcf13889e114ea64b6",
@@ -30530,6 +30580,12 @@
           "zip_hash": "b8b7a1576b039bc4287f1c5baace64f8ef7c74fc162cf1d0a561c702bf5491a7",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-06-22T08:49:25.382395+00:00",
+          "zip_hash": "b8b7a1576b039bc4287f1c5baace64f8ef7c74fc162cf1d0a561c702bf5491a7",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -30561,7 +30617,7 @@
       "processabile": "si"
     },
     "35": {
-      "last_scan": "2026-06-21T19:16:56.842165+00:00",
+      "last_scan": "2026-06-22T08:49:25.382395+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -30835,12 +30891,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-05-26T15:51:30.259068+00:00",
-          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-05-26T18:31:52.342788+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
@@ -31431,6 +31481,12 @@
         },
         {
           "time": "2026-06-21T19:16:56.842165+00:00",
+          "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-06-22T08:49:25.382395+00:00",
           "zip_hash": "1591dbbcdc505718bfdbf206e05a7f425961664bfe348a4c227c19abfbec1ed7",
           "changed": false,
           "file_count": 10
@@ -35737,9 +35793,9 @@
   "meta": {
     "last_scan": "2026-06-22T08:49:25.382395+00:00",
     "results": {
-      "scansionati": 30,
-      "aggiornati": 1,
-      "invariati": 29,
+      "scansionati": 35,
+      "aggiornati": 2,
+      "invariati": 33,
       "errori": 0,
       "vuoti": 0
     },
