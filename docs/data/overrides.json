@@ -1139,6 +1139,11 @@
       "date": "2026-06-24",
       "by": "GM",
       "at": "2026-06-24T14:19:10.742Z"
+    },
+    "17_odg": {
+      "odg": true,
+      "by": "GM",
+      "at": "2026-06-24T14:55:52.525Z"
     }
   },
   "scadenze": {
@@ -2013,13 +2018,6 @@
       }
     ],
     "24": [
-      {
-        "cat": "pef",
-        "date": "2026-06-23",
-        "text": "Buongiorno,\nho notato che per il Comune sono stati riportati gli importi comunicati mentre per il Gestore no.\nVorrei capire...\n\nDott.sa Luisa Remia\nUfficio ragioneria\n\n- - - - - - - - - - - - - - - - - - -\n \n\nComune di Monteleone di Fermo\nVia G. Garibaldi, 9\n63841 Monteleone di Fermo (FM)\nTel. 0734.773521\nPEC: monteleonedifermo@pec.it\n\nInformativa ai sensi  del Regolamento (UE) 2016/679\nLe informazioni contenute nella presente comunicazione e i relativi allegati possono essere riservate e sono, comunque, destinate esclusivamente alle persone o alla Società sopraindicate, per l’erogazione di servizi e per finalità istituzionali nei termini previsti dalla normativa vigente. La diffusione, distribuzione e/o copiatura, del documento trasmesso, da parte di qualsiasi soggetto diverso dal destinatario è proibita, sia ai sensi dell'art. 616 c.p. , che ai sensi del Regolamento (UE) 2016/679. Se avete ricevuto questo messaggio per errore, vi preghiamo di distruggerlo e di informare il mittente. La informiamo che per l’ esercizio dei diritti di cui agli articoli 15,16,17,18,20,21,22 del Reg. UE 2016/679 può rivolgersi al Titolare del trattamento: Comune di Monteleone di Fermo all'indirizzo: privacy@monteleonedifermo.com.\n\nLe informazioni contenute nella presente comunicazione ed i relativi allegati possono essere riservate e sono, comunque, destinate esclusivamente alle persone o alla Società sopra indicati. La diffusione e/o copiatura del documento trasmesso da parte di qualsiasi soggetto diverso dal destinatario è proibita, sia ai sensi dell'art. 616 c.p., che ai sensi del D.Lgs. n. 196/2003. Se avete ricevuto questo messaggio per errore, Vi preghiamo di distruggerlo e di informarci inviando un messaggio di risposta all'indirizzo del mittente.\n\n\nDa \"Gabriele Nardi - Media Gestum Consulting Srl\" gabriele.nardi@mediagestum.com\nA ragioneria@monteleonedifermo.com\nCc \"Gruppo ata4\" ata4@mediagestum.com,\"Ata4fermo\" ata4fermo@provincia.fm.it\nData Tue, 23 Jun 2026 17:59:01 +0200\nOggetto ATA4: Comune di Monteleone di Fermo - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi\n\n\n-- \nQuesto messaggio e' stato analizzato con Libraesva ESG ed e' risultato non infetto. \nClicca qui per segnalarlo come spam. \nClicca qui per metterlo in blocklist",
-        "author": "GM",
-        "children": []
-      },
       {
         "cat": "comune",
         "date": "2026-06-03",
