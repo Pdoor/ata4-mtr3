@@ -2589,6 +2589,13 @@
     ],
     "39": [
       {
+        "cat": "pef",
+        "date": "2026-06-24",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 13:05\nA: Protocollo Smerillo <protocollo@comune.smerillo.fm.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Smerillo - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
+        "author": "GM",
+        "children": []
+      },
+      {
         "cat": "comune",
         "date": "2026-05-04",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 4 maggio 2026 12:44\nA: Protocollo Smerillo <protocollo@comune.smerillo.fm.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Smerillo\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\", nella componente CRD è stato inserito il costo del servizio di raccolta svolto dal gestore SOECO, ma tale componente di costo è di competenza del gestore stesso, l'Ente deve valorizzare solamente le componenti di propria competenza, pertanto tale componente deve essere espunta dal tool di calcolo presentato dal Comune;\n2) all'interno della scheda \"IN_BIL_COM_25\" la componente CARC risulta pari ad Euro 4.012, mentre nella relazione di accompagnamento l'importo risulta di Euro 3.740.\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti",
