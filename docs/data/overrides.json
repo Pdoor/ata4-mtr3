@@ -1115,30 +1115,10 @@
       "by": "GM",
       "at": "2026-06-22T08:48:27.030Z"
     },
-    "40_wf_comune_visione": {
+    "14_wf_prospetto_riconciliaz": {
       "date": "2026-06-24",
       "by": "GM",
-      "at": "2026-06-24T14:11:31.453Z"
-    },
-    "13_wf_prospetto_riconciliaz": {
-      "date": "2026-06-24",
-      "by": "GM",
-      "at": "2026-06-24T14:12:20.334Z"
-    },
-    "13_wf_comune_visione": {
-      "date": "2026-06-24",
-      "by": "GM",
-      "at": "2026-06-24T14:12:25.878Z"
-    },
-    "35_wf_comune_visione": {
-      "date": "2026-06-24",
-      "by": "GM",
-      "at": "2026-06-24T14:12:50.166Z"
-    },
-    "11_wf_comune_visione": {
-      "date": "2026-06-24",
-      "by": "GM",
-      "at": "2026-06-24T14:13:35.493Z"
+      "at": "2026-06-24T14:14:03.630Z"
     }
   },
   "scadenze": {
@@ -1548,13 +1528,6 @@
     ],
     "11": [
       {
-        "cat": "pef",
-        "date": "2026-06-24",
-        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 15:05\nA: ragioneria <ragioneria@comunemassafermana.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Massa Fermana - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
-        "author": "GM",
-        "children": []
-      },
-      {
         "cat": "comune",
         "date": "2026-04-29",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 29 aprile 2026 16:45\nA: ragioneria <ragioneria@comunemassafermana.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Massa Fermana\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\"sono presenti delle componenti di costo (CTS) che non erano presenti all'interno del Pef 2024-2025. Potete verificare?\n\n2) la relazione di accompagnamento contiene molte parti così inserite  , se non di pertinenza del Comune devono essere cancellate dal file, non barrate.\n3) all'interno della relazione di accompagnamento, per l'anno 2025 sono stati inseriti CARC per Euro 1.512,25 mentre nel tool di calcolo la componente è pari a zero;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti",
@@ -1585,13 +1558,6 @@
       }
     ],
     "13": [
-      {
-        "cat": "pef",
-        "date": "2026-06-24",
-        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 15:19\nA: ragioneria@comunemontappone.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Montappone - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
-        "author": "GM",
-        "children": []
-      },
       {
         "cat": "gestore",
         "date": "2026-04-27",
@@ -2482,13 +2448,6 @@
     ],
     "35": [
       {
-        "cat": "pef",
-        "date": "2026-06-24",
-        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 15:11\nA: ragioneria@comune.rapagnano.fm.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; _Francesco - NeoPA <francesco.canti@neopa.it>; simone.pellegrin@neopa.it\nOggetto: ATA4: Comune di Rapagnano - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nche riportano il seguente scostamento \"extra-cap\" tra l'anno 2025  e l'anno 2026:\n \n\nLo scostamento può essere riportato nei limiti mediante:\n\na) inserimento di detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025;\n\nb) rimodulazione dell'extra-cap mediante rinvio della copertura ad esercizi successivi.\n\nEntrambe le soluzioni sopra indicate possono essere poste in essere, anche congiuntamente, sia lato gestore che lato Comune.\n\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
-        "author": "GM",
-        "children": []
-      },
-      {
         "cat": "comune",
         "date": "2026-04-16",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 16 aprile 2026 18:25\nA: ragioneria@comune.rapagnano.fm.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Rapagnano\n\nBuonasera,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risulta valorizzato il dato relativo al benchmark di riferimento degli anni 2026 e 2027;\n2) all'interno del tool di calcolo si desume che i dati di costo dell'anno 2025 risultano essere i medesimi dell'anno 2024, sulla scorta di quanto prevede Arera con riferimento alla possibilità di utilizzare i dati dell'anno a-2 anche per l'anno a-1. Di tale scelta all'interno della relazione di accompagnamento non viene data alcuna indicazione. Si richiede pertanto di inserire un piccolo paragrafo in tal senso;\n3) si richiede se l'iva indetraibile riportata all'interno del foglio \"IN_COexp-RC-T\" sia comprensiva anche alle fatture emesse dal gestore per i servizi svolti dallo stesso.\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti\nGabriele Nardi",
@@ -2632,13 +2591,6 @@
       }
     ],
     "40": [
-      {
-        "cat": "pef",
-        "date": "2026-06-24",
-        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 15:33\nA: ragioneria@comune.torresanpatrizio.fm.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it; _Francesco - NeoPA <francesco.canti@neopa.it>\nOggetto: ATA4: Comune di Torre San Patrizio - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
-        "author": "GM",
-        "children": []
-      },
       {
         "cat": "comune",
         "date": "2026-04-16",
