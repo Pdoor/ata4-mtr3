@@ -1559,6 +1559,13 @@
     ],
     "13": [
       {
+        "cat": "pef",
+        "date": "2026-06-24",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 24 giugno 2026 15:19\nA: ragioneria@comunemontappone.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Montappone - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio.\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
+        "author": "GM",
+        "children": []
+      },
+      {
         "cat": "gestore",
         "date": "2026-04-27",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 27 aprile 2026 11:49\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Montappone\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" sono stati inseriti cespiti, come anno di acquisizione ante 2024, con valori non coerenti con quelli inseriti nel Pef Tari 2024-2025. Mentre, per quelli post 2024, deve essere utilizzata la riclassificazione contenuta all'interno del tool;\n4) all'interno del foglio \"IN_BIL_GEST_24\" e \"IN_BIL_GEST_25\" sono stati valorizzati CCD per Euro 2.044. Nella relazione di accompagnamento non viene data alcuna evidenza degli stessi. A cosa sono riferiti?\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti",
