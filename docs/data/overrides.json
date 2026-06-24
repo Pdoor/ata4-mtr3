@@ -1140,10 +1140,10 @@
       "by": "GM",
       "at": "2026-06-24T14:19:10.742Z"
     },
-    "7_wf_comune_visione": {
+    "24_wf_comune_visione": {
       "date": "2026-06-23",
       "by": "GM",
-      "at": "2026-06-24T15:02:11.467Z"
+      "at": "2026-06-24T15:08:48.139Z"
     }
   },
   "scadenze": {
@@ -1441,13 +1441,6 @@
       }
     ],
     "7": [
-      {
-        "cat": "pef",
-        "date": "2026-06-24",
-        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: martedì 23 giugno 2026 18:18\nA: Comune Montefalcone <comune@montefalcone.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Montefalcone Appennino - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio ma vi è una riduzione \"anomala\" tra l'anno 2025 e l'anno 2026. Lato Comune risulterebbero mancanti, rispetto al precedente Pef, i costi CTS, non comunicati nella documentazione del Pef attuale. Potreste verificare questo aspetto?\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
-        "author": "GM",
-        "children": []
-      },
       {
         "cat": "gestore",
         "date": "2026-04-27",
