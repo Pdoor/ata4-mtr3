@@ -2696,6 +2696,13 @@
             "text": "Buongiorno \nda una verifica effettuata nella bozza del PEF si rileva che i costi non sono compatibili con le scritture contabili dell'Ete. \nDa un'analisi è emerso che non risultano contabilizzati e comunicati i costi dell'indifferenziato in discarica che è a carico dell'Ente in quanto non è stato possibile compilare la cella B7 che risulta bloccata (schede: IN_BIL_Com_24 -  IN_BIL_Com_25). \ncome possiamo comunicare e rettificar tale dato? \n  \nGrazie \n  \nPasquali Cristiano \nResponsabile Area Economico Finanziaria \nVia Dante Alighieri, 14 - 63856 Smerillo(FM) \nTel. 073479124  int.3 \nPEC: comune.smerillo@emarche.it  \nmail: ragioneria@comune.smerillo.fm.it",
             "author": "GM",
             "children": []
+          },
+          {
+            "cat": "pef",
+            "date": "2026-06-29",
+            "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 29 giugno 2026 09:27\nA: Comune di Smerillo <protocollo@comune.smerillo.fm.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Smerillo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\ndovete inserire il dettaglio all'interno della scheda IN_CTS_CTR_RC. Dopodichè, i dati verranno automaticamente recuperati nei fogli IN_BIL_COM_24 e IN_BIL_COM_25.\nSaluti",
+            "author": "GM",
+            "children": []
           }
         ]
       },
