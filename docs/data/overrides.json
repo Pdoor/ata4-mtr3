@@ -1875,6 +1875,21 @@
     ],
     "20": [
       {
+        "cat": "pef",
+        "date": "2026-06-23",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: martedì 23 giugno 2026 18:18\nA: Comune Montefalcone <comune@montefalcone.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Montefalcone Appennino - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nIl Pef rispetta il limite di crescita nell'interno quadriennio ma vi è una riduzione \"anomala\" tra l'anno 2025 e l'anno 2026. Lato Comune risulterebbero mancanti, rispetto al precedente Pef, i costi CTS, non comunicati nella documentazione del Pef attuale. Potreste verificare questo aspetto?\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
+        "author": "GM",
+        "children": [
+          {
+            "cat": "pef",
+            "date": "2026-06-29",
+            "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 29 giugno 2026 09:11\nA: Comune Montefalcone <comune@montefalcone.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; Amministrazione <amministrazione@soeco97.it>\nOggetto: Re: ATA4: Comune di Montefalcone Appennino - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\npreso atto di quanto comunicato, inserisco nella corrispondenza la soc. Soeco in modo che possa effettuare le opportune verifiche e considerazioni del caso.\nSaluti\nIl 26/06/2026 12:48, Comune Montefalcone ha scritto:\nBuongiorno\nin riferimento alla componente CTS, siamo a comunicare che i costi sono ricompresi nell'unico canone corrisposto al Gestore della raccolta SOECO srl. Pertanto non evidenziati separatamente.\nDa lato Comune i dati comunicati, anche nella bozza del TOOL non rilevano scostamenti evidenti tali da scaturire una riduzione del 50%(vedi tabella BOZZA PEF - tool inviato):\n \n\nPertanto non si riesce a risalire all'evidente e anomala riduzione.\nSi rimane a disposizione per ulteriori chiarimenti.\nCordiali saluti\nPasquali Cristiano\nResponsabile Area Finanziaria \nComune di Montefalcone Appennino\nProvincia di Fermo\nTel. 0734/79111 int. 1\nEmail: comune@montefalcone.it \nPEC comune@pec.montefalcone.it",
+            "author": "GM",
+            "children": []
+          }
+        ]
+      },
+      {
         "cat": "comune",
         "date": "2026-05-05",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: martedì 5 maggio 2026 18:26\nA: Comune Montefalcone <comune@montefalcone.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 - Montefalcone Appennino\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno delle schede \"IN_BIL_COM_24\" e \"IN_BIL_COM_25\", nella componente CRD è stato inserito il costo del servizio di raccolta svolto dal gestore SOECO, ma tale componente di costo è di competenza del gestore stesso, l'Ente deve valorizzare solamente le componenti di propria competenza, pertanto tale componente, ed eventuali anche altre ove presenti, devono essere espunte dal tool di calcolo presentato dal Comune;\n\nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità ove già presentata.\nSaluti",
