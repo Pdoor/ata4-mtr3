@@ -2084,7 +2084,15 @@
             "date": "2026-06-25",
             "text": "Da: ragioneria@monteleonedifermo.com <ragioneria@monteleonedifermo.com> \nInviato: giovedì 25 giugno 2026 10:47\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it\nOggetto: Re: ATA4: Comune di Monteleone di Fermo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\npremesso che la mia osservazione è fatta  solo nel tentativo di capire come si sviluppa il PEF unitario, mi riferisco alle seguenti voci:\n- Ricavi derivanti dai corrispettivi riconosciuti dal dai sistemi collettivi di compliance dopo sharing  b(ARa + ARsc,a)\n  che detrare 1618\n- Componente a conguaglio relativa ai costi fissi   RCtotTF\n  che somma 253.\n\nGrazie per la disponibilità.\n\nDott.sa Luisa Remia\nUfficio ragioneria",
             "author": "GM",
-            "children": []
+            "children": [
+              {
+                "cat": "pef",
+                "date": "2026-06-29",
+                "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 29 giugno 2026 09:19\nA: ragioneria@monteleonedifermo.com\nCc: Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it\nOggetto: Re: ATA4: Comune di Monteleone di Fermo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\ndi seguito i chiarimenti richiesti:\n- Ricavi derivanti dai corrispettivi riconosciuti dal dai sistemi collettivi di compliance dopo sharing: la valorizzazione dei parametri di determinazione del fattore di sharing è di competenza dell'ATA, per tale ragione è stato inserito il coefficiente maggiormente a favore dell'Ente, nei limiti di quanto previsto dall'Mtr-3;\n- Componente a conguaglio relativa ai costi fissi: deriva dal conguaglio ex comma 20.1, lett. i) del Mtr-3, il dettaglio di calcolo è riportato nel foglio IN_RCwacc%slic.\nSaluti",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       },
