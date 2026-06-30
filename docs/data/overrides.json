@@ -2336,7 +2336,15 @@
         "date": "2026-06-15",
         "text": "Spett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nche riportano il seguente scostamento \"extra-cap\" tra l'anno 2025 e l'anno 2026:\n \n\nLo scostamento può essere riportato nei limiti mediante:\n\na) inserimento di detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025;\n\nb) rimodulazione dell'extra-cap mediante rinvio della copertura ad esercizi successivi.\n\nEntrambe le soluzioni sopra indicate possono essere poste in essere, anche congiuntamente, sia lato gestore che lato Comune.\n\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
         "author": "GM",
-        "children": []
+        "children": [
+          {
+            "cat": "pef",
+            "date": "2026-06-29",
+            "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 29 giugno 2026 18:05\nA: Francesco Canti - NeoPA spa <francesco.canti@neopa.it>; ragioneria moresco <ragioneria.moresco@ucvaldaso.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it\nOggetto: Re: ATA4: Comune di Moresco - trasmissione bozza schema Pef Tari 2026-2029\n\nBuonasera,\nconfermiamo la possibilità di inserire, lato Comune, le detrazioni richieste. Alleghiamo il tool di calcolo modificato che risulta in linea con quello da voi elaborato.\nSaluti\nIl 29/06/2026 12:41, Francesco Canti - NeoPA spa ha scritto:\nGent.mi,\na seguito della ricezione della prima versione del PEF unitario 2026/2029 da Voi inviato in data 15/06/2026 e dopo aver avuto un confronto con il Comune, la presente per richiedere la modifica di alcuni importi.\nIn particolare, la presente comunicazione per richiedere di voler modificare i costi del Comune: in particolare, chiediamo di voler portare l’importo relativo alle attività di spazzamento e lavaggio a 2.967,47 € e quello relativo all'attività di gestione delle tariffe e dei rapporti con gli utenti a 1.483,94 €. Di queste modifiche daremo conto all’interno della nuova relazione e tool che il Comune caricherà nei prossimi giorni sul portale come versione 2.0.\nPer completezza, al fine di favorire il Vs confronto con la prima versione di PEF unitario da Voi inviata, alleghiamo nuova versione di tool unitario che tiene conto delle modifiche sopra richieste.\nRestando a disposizione per ogni eventuale chiarimento, restiamo in attesa di Vs cortese riscontro e, a seguito del caricamento di nuova versione del PEF grezzo del Comune e della Relazione di accompagnamento, di nuova versione di PEF unitario.\nL’occasione è gradita per porgere cordiali saluti.\n\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n\n \n\t(+39) 0131 1911646\n\n \n\twww.neopa.it\n\n \n\tVia Domenico Fontana 1, 22100, Como",
+            "author": "GM",
+            "children": []
+          }
+        ]
       },
       {
         "cat": "gestore",
