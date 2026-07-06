@@ -4483,7 +4483,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-06T11:56:46.741998+00:00",
+      "last_scan": "2026-07-06T15:21:55.906304+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4810,12 +4810,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T14:55:27.684316+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-10T18:25:27.602504+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
@@ -5409,6 +5403,12 @@
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-07-06T15:21:55.906304+00:00",
+          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -5466,7 +5466,7 @@
     "7": {
       "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
       "content_fingerprint": "e8c7e5aefcd75d1c826f0103b71a7583b2be06737437d2cd0db8ed3188ec5d23",
-      "last_scan": "2026-07-06T11:56:46.741998+00:00",
+      "last_scan": "2026-07-06T15:21:55.906304+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5718,12 +5718,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T14:55:27.684316+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-10T18:25:27.602504+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
@@ -6317,6 +6311,12 @@
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-06T15:21:55.906304+00:00",
+          "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6332,7 +6332,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-06T11:56:46.741998+00:00",
+      "last_scan": "2026-07-06T15:21:55.906304+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6344,7 +6344,7 @@
       },
       "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
       "content_fingerprint": "7f8c28c827956dfaaf5d99bc858d600b5df867563312a4c2ed74aca0e126b45f",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -6650,12 +6650,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T14:55:27.684316+00:00",
-          "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-10T18:25:27.602504+00:00",
           "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
@@ -7249,6 +7243,12 @@
           "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
           "changed": true,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-06T15:21:55.906304+00:00",
+          "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -7274,7 +7274,7 @@
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-06T11:56:46.741998+00:00",
+      "last_scan": "2026-07-06T15:21:55.906304+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7284,8 +7284,8 @@
         "url": "https://www.provincia.fm.it/drive/777cf7yak6om",
         "id": 9
       },
-      "zip_hash": "e990357a518d0aee37b239296d9d15a05140b5fd507033dca0f2d4b29aede3c7",
-      "content_fingerprint": "56aaf9c415bcc87281356acfb990d6ca4d92f421c8ed6e28aca81888d4e591db",
+      "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
+      "content_fingerprint": "6b753cbc71e1fd4dd40076be84843b8b6ff410475f5f33e56e8af899a4c0ee7a",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -7386,10 +7386,10 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "21306faf385602a3bc66446020009f3c30d74547797cf3762a376b7aab2bd5e4",
-          "current_file": "Lapedona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
-          "current_size": 3974460,
-          "file_count": 2,
+          "current_hash": "a355c98b19a925c0f827d94e74154477175d283419b796354ad0b1573ba586ed",
+          "current_file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.xlsx",
+          "current_size": 3977191,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Lapedona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
@@ -7400,26 +7400,37 @@
               "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...1_2.0.xlsx",
               "hash": "c6dcc00f2c29a4ba1ca1ae0e2b8980caa69308179f4e85aacf3f2196316cb682",
               "size": 3974382
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.xlsx",
+              "hash": "a355c98b19a925c0f827d94e74154477175d283419b796354ad0b1573ba586ed",
+              "size": 3977191
             }
           ],
           "first_upload": "2026-04-04T08:32:05.886006+00:00",
-          "last_upload": "2026-04-04T08:32:05.886006+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-06T15:21:55.906304+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-04T08:32:05.886006+00:00",
               "hash": "21306faf385602a3bc66446020009f3c30d74547797cf3762a376b7aab2bd5e4",
               "file": "Lapedona_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-06T15:21:55.906304+00:00",
+              "hash": "a355c98b19a925c0f827d94e74154477175d283419b796354ad0b1573ba586ed",
+              "file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "e4e3c8d89cf24a1cdf05a82d10e2b850c3d704c0a7eb416a3015f1fd9e62bb36",
-          "current_file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...2_3.0.docx",
-          "current_size": 171857,
-          "file_count": 2,
+          "current_hash": "13d852a9a8358b199a79dfcad9ec6316c35b02b38a10e23d16a99456ad64fed4",
+          "current_file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.docx",
+          "current_size": 173697,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato 2.docx",
@@ -7430,10 +7441,15 @@
               "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...2_3.0.docx",
               "hash": "e4e3c8d89cf24a1cdf05a82d10e2b850c3d704c0a7eb416a3015f1fd9e62bb36",
               "size": 171857
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.docx",
+              "hash": "13d852a9a8358b199a79dfcad9ec6316c35b02b38a10e23d16a99456ad64fed4",
+              "size": 173697
             }
           ],
           "first_upload": "2026-04-04T08:32:05.886006+00:00",
-          "last_upload": "2026-05-18T15:42:43.433876+00:00",
+          "last_upload": "2026-07-06T15:21:55.906304+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -7447,6 +7463,12 @@
               "hash": "e4e3c8d89cf24a1cdf05a82d10e2b850c3d704c0a7eb416a3015f1fd9e62bb36",
               "file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...2_3.0.docx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-06T15:21:55.906304+00:00",
+              "hash": "13d852a9a8358b199a79dfcad9ec6316c35b02b38a10e23d16a99456ad64fed4",
+              "file": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.docx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -7455,7 +7477,7 @@
           "current_hash": "9e335a78a134658e1473da6dce0d4e839fd60a09366b0327b3679c2ac03f6333",
           "current_file": "Dichiarazione_Veridicita_Comuni_signed.pdf",
           "current_size": 205831,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Dichiarazione_Veridicita_Comuni_signed.pdf",
@@ -7466,6 +7488,11 @@
               "name": "Dichiarazione_Veridicita_Comuni_2_signed.pdf",
               "hash": "6b4b6b98ab955b293d3671317991560fa0f07d544cc7005c65d62a4d97cb6def",
               "size": 205797
+            },
+            {
+              "name": "Dichiarazione_Veridicita_Comuni_B_signed.pdf",
+              "hash": "6040385647afff07fa5e6eb84c43d8eb95c27cb46bb6dd38300db3f5c4d90627",
+              "size": 205799
             }
           ],
           "first_upload": "2026-04-04T08:32:05.886006+00:00",
@@ -7505,6 +7532,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.xlsx",
+          "hash": "a355c98b19a925c0f827d94e74154477175d283419b796354ad0b1573ba586ed",
+          "size": 3977191,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato 2.docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato 2.docx",
           "hash": "1f50649b80a916d29d74fc6b4c8e27d357dba8c1c8d7eff3a55f4d44e8b715a1",
@@ -7521,6 +7556,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Lapedona (non ETC) 2026-2029_Allegato...sta B.docx",
+          "hash": "13d852a9a8358b199a79dfcad9ec6316c35b02b38a10e23d16a99456ad64fed4",
+          "size": 173697,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Dichiarazione_Veridicita_Comuni_signed.pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni_signed.pdf",
           "hash": "9e335a78a134658e1473da6dce0d4e839fd60a09366b0327b3679c2ac03f6333",
@@ -7533,6 +7576,14 @@
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni_2_signed.pdf",
           "hash": "6b4b6b98ab955b293d3671317991560fa0f07d544cc7005c65d62a4d97cb6def",
           "size": 205797,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "Dichiarazione_Veridicita_Comuni_B_signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni_B_signed.pdf",
+          "hash": "6040385647afff07fa5e6eb84c43d8eb95c27cb46bb6dd38300db3f5c4d90627",
+          "size": 205799,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -7586,12 +7637,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T14:55:27.684316+00:00",
-          "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-10T18:25:27.602504+00:00",
           "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
@@ -8185,6 +8230,12 @@
           "zip_hash": "e990357a518d0aee37b239296d9d15a05140b5fd507033dca0f2d4b29aede3c7",
           "changed": true,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-06T15:21:55.906304+00:00",
+          "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
+          "changed": true,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -8210,7 +8261,7 @@
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-06T11:56:46.741998+00:00",
+      "last_scan": "2026-07-06T15:21:55.906304+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8222,7 +8273,7 @@
       },
       "zip_hash": "ea7e5f2b22734a66ccf12f40565892221fed500a1ced7b7fdb7f7ac98d172f96",
       "content_fingerprint": "a8d43a4402a6489b1bff3b73ccbeb2da5a5b58797e9e814bb49f6a8f646d945b",
-      "zip_changed": true,
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8493,12 +8544,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T14:55:27.684316+00:00",
-          "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-10T18:25:27.602504+00:00",
           "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
@@ -9091,6 +9136,12 @@
           "time": "2026-07-06T11:56:46.741998+00:00",
           "zip_hash": "ea7e5f2b22734a66ccf12f40565892221fed500a1ced7b7fdb7f7ac98d172f96",
           "changed": true,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-06T15:21:55.906304+00:00",
+          "zip_hash": "ea7e5f2b22734a66ccf12f40565892221fed500a1ced7b7fdb7f7ac98d172f96",
+          "changed": false,
           "file_count": 11
         }
       ],
@@ -36174,9 +36225,9 @@
   "meta": {
     "last_scan": "2026-07-06T15:21:55.906304+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
