@@ -13544,7 +13544,7 @@
       "processabile": "si"
     },
     "16": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -13876,12 +13876,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-09T19:57:38.513690+00:00",
-          "zip_hash": "3517c3c9bf4dc1df26cbfa894c9333586bffa8a319b56e64d51cfcd6fc1ecf16",
-          "changed": false,
-          "file_count": 14
-        },
-        {
           "time": "2026-06-10T11:31:45.385682+00:00",
           "zip_hash": "3517c3c9bf4dc1df26cbfa894c9333586bffa8a319b56e64d51cfcd6fc1ecf16",
           "changed": false,
@@ -14474,6 +14468,12 @@
           "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -14517,7 +14517,7 @@
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14826,12 +14826,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-09T19:57:38.513690+00:00",
-          "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-06-10T11:31:45.385682+00:00",
           "zip_hash": "4c4108415c2e05621d9db6c011a17081a3141a5b1d729b7946efb215fd52c472",
           "changed": false,
@@ -15424,6 +15418,12 @@
           "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -15455,7 +15455,7 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15465,32 +15465,38 @@
         "url": "https://www.provincia.fm.it/drive/dqu9khjlx77",
         "id": 18
       },
-      "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
-      "content_fingerprint": "5534dac3f68b677506621e7da0df971a5c222d7be7f60e5d0ea8de0176f8088e",
-      "zip_changed": false,
+      "zip_hash": "ebe69cca035443f97aa446943cf5ccf61f2d23d52645f689e31f5347aebd23b6",
+      "content_fingerprint": "6f6b4c449c2280fccebecff1a29840f0c09dae1d307c9f4e754c619d599fed6b",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "2f986c76cc1fa7bdc21fa68826af216e1a9641e66666739809969dae0eb39067",
-          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte.xlsx",
-          "current_size": 3979529,
+          "current_hash": "f0ff7fbda4dff785755d33c6b3551c7229a95ec8275ffa94e53bbb41d4a98db8",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte_v2.xlsx",
+          "current_size": 3983028,
           "file_count": 1,
           "all_files": [
             {
-              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte.xlsx",
-              "hash": "2f986c76cc1fa7bdc21fa68826af216e1a9641e66666739809969dae0eb39067",
-              "size": 3979529
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte_v2.xlsx",
+              "hash": "f0ff7fbda4dff785755d33c6b3551c7229a95ec8275ffa94e53bbb41d4a98db8",
+              "size": 3983028
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-06T11:56:46.741998+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "2f986c76cc1fa7bdc21fa68826af216e1a9641e66666739809969dae0eb39067",
               "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-06T11:56:46.741998+00:00",
+              "hash": "f0ff7fbda4dff785755d33c6b3551c7229a95ec8275ffa94e53bbb41d4a98db8",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte_v2.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -15655,10 +15661,10 @@
           "source": "comune"
         },
         {
-          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte.xlsx",
-          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte.xlsx",
-          "hash": "2f986c76cc1fa7bdc21fa68826af216e1a9641e66666739809969dae0eb39067",
-          "size": 3979529,
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte_v2.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Monte Vidon Combatte_v2.xlsx",
+          "hash": "f0ff7fbda4dff785755d33c6b3551c7229a95ec8275ffa94e53bbb41d4a98db8",
+          "size": 3983028,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -15709,15 +15715,17 @@
           "size": 10815,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Monte Vidon Combatte-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Monte Vidon Combatte-signed.pdf",
+          "hash": "402a0f50aa90b7a7065e32de8f6baa00f65fe9960021fbe96da8b8279a800d35",
+          "size": 315063,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-09T19:57:38.513690+00:00",
-          "zip_hash": "c720ee046ab257c9fb063da97632f2880ffcaef275370b4cfafb80ab1d311ff1",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-10T11:31:45.385682+00:00",
           "zip_hash": "c720ee046ab257c9fb063da97632f2880ffcaef275370b4cfafb80ab1d311ff1",
@@ -16311,6 +16319,12 @@
           "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "ebe69cca035443f97aa446943cf5ccf61f2d23d52645f689e31f5347aebd23b6",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -16337,6 +16351,12 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/ALLEGA~2.xls",
           "source": "comune",
           "size": 10815
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Monte Vidon Combatte-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Monte Vidon Combatte-signed.pdf",
+          "source": "comune",
+          "size": 315063
         }
       ],
       "processabile": "si"
@@ -16344,7 +16364,7 @@
     "19": {
       "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
       "content_fingerprint": "b29c797fcd36029cf320fbe4bb09e28ff3e29a31f778b863ba6d200405844d46",
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -16646,12 +16666,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-09T19:57:38.513690+00:00",
-          "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-10T11:31:45.385682+00:00",
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
           "changed": false,
@@ -17244,6 +17258,12 @@
           "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -17261,7 +17281,7 @@
     "20": {
       "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
       "content_fingerprint": "bb2b9d6102c805b25e4715d05536000fbaa7a4b71b7c98a55642f15e6e6831b6",
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17501,12 +17521,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-09T19:57:38.513690+00:00",
-          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-10T11:31:45.385682+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
@@ -18096,6 +18110,12 @@
         },
         {
           "time": "2026-07-05T19:03:13.864200+00:00",
+          "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
           "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
           "changed": false,
           "file_count": 7
@@ -36088,9 +36108,9 @@
   "meta": {
     "last_scan": "2026-07-06T11:56:46.741998+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 4,
-      "invariati": 11,
+      "scansionati": 20,
+      "aggiornati": 5,
+      "invariati": 15,
       "errori": 0,
       "vuoti": 0
     },
