@@ -4483,7 +4483,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4810,12 +4810,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T11:31:45.385682+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-10T14:55:27.684316+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
@@ -5409,6 +5403,12 @@
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -5466,7 +5466,7 @@
     "7": {
       "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
       "content_fingerprint": "e8c7e5aefcd75d1c826f0103b71a7583b2be06737437d2cd0db8ed3188ec5d23",
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5718,12 +5718,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T11:31:45.385682+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-10T14:55:27.684316+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
@@ -6317,6 +6311,12 @@
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6332,7 +6332,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6342,9 +6342,9 @@
         "url": "https://www.provincia.fm.it/drive/3ahoqjicoqlx",
         "id": 8
       },
-      "zip_hash": "4834faebd6f29d0dc77b6e64ef600a4fa6649775aa03aadfde83f929070ca63a",
-      "content_fingerprint": "df59d434923ca6b4beecd2173cfcd84da066218696ddde6d4cc16ffc99ed9568",
-      "zip_changed": false,
+      "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+      "content_fingerprint": "7f8c28c827956dfaaf5d99bc858d600b5df867563312a4c2ed74aca0e126b45f",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -6639,15 +6639,17 @@
           "size": 958391,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Grottazzolina-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Grottazzolina-signed.pdf",
+          "hash": "9b5e0db67155cbab933406340a531a0fa4e6234deecb1f4f0bf42e3477924db5",
+          "size": 313542,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T11:31:45.385682+00:00",
-          "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-10T14:55:27.684316+00:00",
           "zip_hash": "0cc07515ad38341c809ff02ebf0e8834df24392eaca8b1ee32200058fabd2656",
@@ -7241,6 +7243,12 @@
           "zip_hash": "4834faebd6f29d0dc77b6e64ef600a4fa6649775aa03aadfde83f929070ca63a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -7255,12 +7263,18 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/RELAZIONE TECNICA PROGETTO IGIENE URBANA GROTTAZZOLINA 2025-signed.pdf",
           "source": "comune",
           "size": 958391
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Grottazzolina-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Grottazzolina-signed.pdf",
+          "source": "comune",
+          "size": 313542
         }
       ],
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7270,9 +7284,9 @@
         "url": "https://www.provincia.fm.it/drive/777cf7yak6om",
         "id": 9
       },
-      "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
-      "content_fingerprint": "14676a561a577a2d7ffaa2a1d352e45edc7fa791b93c64637b39b6bcb3984034",
-      "zip_changed": false,
+      "zip_hash": "e990357a518d0aee37b239296d9d15a05140b5fd507033dca0f2d4b29aede3c7",
+      "content_fingerprint": "56aaf9c415bcc87281356acfb990d6ca4d92f421c8ed6e28aca81888d4e591db",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -7561,15 +7575,17 @@
           "size": 8046003,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Lapedona-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Lapedona-signed.pdf",
+          "hash": "2d52dd4c91a3c3ba62f91621687b6a7ceb16a36ef162694086a1fe4707f1124f",
+          "size": 313786,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T11:31:45.385682+00:00",
-          "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-10T14:55:27.684316+00:00",
           "zip_hash": "14f1fe7b779ec7f1d8ef0e56ae01c4c62e4288bcfb4f798cd806e79aa7bb77d1",
@@ -8163,6 +8179,12 @@
           "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "e990357a518d0aee37b239296d9d15a05140b5fd507033dca0f2d4b29aede3c7",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -8177,12 +8199,18 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione Tecnica di progetto Lapedona-Moresco v.3-signed.pdf",
           "source": "comune",
           "size": 8046003
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Lapedona-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Lapedona-signed.pdf",
+          "source": "comune",
+          "size": 313786
         }
       ],
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-05T19:03:13.864200+00:00",
+      "last_scan": "2026-07-06T11:56:46.741998+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8192,32 +8220,38 @@
         "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev",
         "id": 10
       },
-      "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
-      "content_fingerprint": "2b3b8612bbba1f61a13e860d65555eb995a3bbe79a6feb9f2177b490b7bc4590",
-      "zip_changed": false,
+      "zip_hash": "ea7e5f2b22734a66ccf12f40565892221fed500a1ced7b7fdb7f7ac98d172f96",
+      "content_fingerprint": "a8d43a4402a6489b1bff3b73ccbeb2da5a5b58797e9e814bb49f6a8f646d945b",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "7fc9994e6f439639cf91e7e27db086d8a6432218b753c1addd413bcd43564f8c",
-          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna.xlsx",
-          "current_size": 3979713,
+          "current_hash": "0950a8646ddde8a9cbf724f8e76af9d3cc655774e9ec829900f542aea2f6e293",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna_v2.xlsx",
+          "current_size": 3982899,
           "file_count": 1,
           "all_files": [
             {
-              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna.xlsx",
-              "hash": "7fc9994e6f439639cf91e7e27db086d8a6432218b753c1addd413bcd43564f8c",
-              "size": 3979713
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna_v2.xlsx",
+              "hash": "0950a8646ddde8a9cbf724f8e76af9d3cc655774e9ec829900f542aea2f6e293",
+              "size": 3982899
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-06T11:56:46.741998+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "7fc9994e6f439639cf91e7e27db086d8a6432218b753c1addd413bcd43564f8c",
               "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-06T11:56:46.741998+00:00",
+              "hash": "0950a8646ddde8a9cbf724f8e76af9d3cc655774e9ec829900f542aea2f6e293",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna_v2.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -8394,10 +8428,10 @@
           "source": "comune"
         },
         {
-          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna.xlsx",
-          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna.xlsx",
-          "hash": "7fc9994e6f439639cf91e7e27db086d8a6432218b753c1addd413bcd43564f8c",
-          "size": 3979713,
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna_v2.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Magliano di Tenna_v2.xlsx",
+          "hash": "0950a8646ddde8a9cbf724f8e76af9d3cc655774e9ec829900f542aea2f6e293",
+          "size": 3982899,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -8448,15 +8482,17 @@
           "size": 12042,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Magliano di Tenna-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Magliano di Tenna-signed.pdf",
+          "hash": "a159fb49d365d2377d4c84d2405cf8f666258aabdcf242705ab0e536aad3e1e6",
+          "size": 314800,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-10T11:31:45.385682+00:00",
-          "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-10T14:55:27.684316+00:00",
           "zip_hash": "28abf65173b8f6a1afc609a9316290709d8d702ec8f2c85cd1476a9e0464fd6e",
@@ -9050,6 +9086,12 @@
           "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-06T11:56:46.741998+00:00",
+          "zip_hash": "ea7e5f2b22734a66ccf12f40565892221fed500a1ced7b7fdb7f7ac98d172f96",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -9076,6 +9118,12 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova MdT.xlsx",
           "source": "comune",
           "size": 12042
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Magliano di Tenna-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Magliano di Tenna-signed.pdf",
+          "source": "comune",
+          "size": 314800
         }
       ],
       "processabile": "si"
@@ -36020,9 +36068,9 @@
   "meta": {
     "last_scan": "2026-07-06T11:56:46.741998+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 3,
+      "invariati": 7,
       "errori": 0,
       "vuoti": 0
     },
