@@ -22822,7 +22822,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-07-07T10:46:51.884524+00:00",
+      "last_scan": "2026-07-07T14:09:18.786000+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22832,9 +22832,9 @@
         "url": "https://www.provincia.fm.it/drive/6o5i523jjoxk",
         "id": 26
       },
-      "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
-      "content_fingerprint": "24735a35dda62ccb3dac2b6611c68ff15e4c1594ada6a8ffe34db28bc7529848",
-      "zip_changed": false,
+      "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
+      "content_fingerprint": "c592efa1664a980a449a35391741dfa3167bcd0133acead468127b1f1bf0d4ae",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22919,12 +22919,17 @@
           "current_hash": "346adf226f86b56b91cd4e4a09b42cb25881d36fce28456068fda3985141211b",
           "current_file": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_2.0.xlsx",
           "current_size": 3986363,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_2.0.xlsx",
               "hash": "346adf226f86b56b91cd4e4a09b42cb25881d36fce28456068fda3985141211b",
               "size": 3986363
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 1_proposta B.xlsx",
+              "hash": "f64b76a0fbc9bc16d3e61f9866dc0b9df410ccdd18f504e6fb1f8e078bf9652d",
+              "size": 3985876
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -22950,12 +22955,17 @@
           "current_hash": "1920621663caeed01a479c8e9e29f754ce2469429a96672444c799d50a6922ba",
           "current_file": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_2.0.pdf",
           "current_size": 608767,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_2.0.pdf",
               "hash": "1920621663caeed01a479c8e9e29f754ce2469429a96672444c799d50a6922ba",
               "size": 608767
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_proposta B.docx",
+              "hash": "adb7cff1bde4f1d302a935c1c16f7015e3267720648846122c47d2924aa61c97",
+              "size": 194443
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -23024,10 +23034,26 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 1_proposta B.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 1_proposta B.xlsx",
+          "hash": "f64b76a0fbc9bc16d3e61f9866dc0b9df410ccdd18f504e6fb1f8e078bf9652d",
+          "size": 3985876,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_2.0.pdf",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_2.0.pdf",
           "hash": "1920621663caeed01a479c8e9e29f754ce2469429a96672444c799d50a6922ba",
           "size": 608767,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_proposta B.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Monterubbiano_2026-2029_Allegato 2_proposta B.docx",
+          "hash": "adb7cff1bde4f1d302a935c1c16f7015e3267720648846122c47d2924aa61c97",
+          "size": 194443,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -23097,12 +23123,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-11T12:03:49.130033+00:00",
-          "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "12bfdbfefdb5a20420f826c04726c6a2c9ec0de666fce22fd766b0b1495086cd",
@@ -23696,6 +23716,12 @@
           "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-07T14:09:18.786000+00:00",
+          "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -23729,7 +23755,7 @@
     "27": {
       "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
       "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-07-07T10:46:51.884524+00:00",
+      "last_scan": "2026-07-07T14:09:18.786000+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -23943,12 +23969,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-11T12:03:49.130033+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
@@ -24542,6 +24562,12 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-07T14:09:18.786000+00:00",
+          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -24557,7 +24583,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-07-07T10:46:51.884524+00:00",
+      "last_scan": "2026-07-07T14:09:18.786000+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -24870,12 +24896,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-11T12:03:49.130033+00:00",
-          "zip_hash": "19ed669b10cee392b8bd5e6afe81b484119547dd94e701b2fa02792635fe480e",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "6886fa668d055f5eac416de6e7da162219c3dc5db30847767f242fd42c1b10da",
           "changed": true,
@@ -25468,6 +25488,12 @@
           "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-07T14:09:18.786000+00:00",
+          "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -25493,7 +25519,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-07-07T10:46:51.884524+00:00",
+      "last_scan": "2026-07-07T14:09:18.786000+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25769,12 +25795,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-11T12:03:49.130033+00:00",
-          "zip_hash": "21c50edce640bd34585a3563817514d647245946fea1c27966315f268e72676f",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": true,
@@ -26367,6 +26387,12 @@
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-07T14:09:18.786000+00:00",
+          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -26398,7 +26424,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-07-07T10:46:51.884524+00:00",
+      "last_scan": "2026-07-07T14:09:18.786000+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26408,9 +26434,9 @@
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims",
         "id": 30
       },
-      "zip_hash": "d76aa98fb534e8ce52fbacab819637fb4785e7eddfeb38e8b2c9c09e9aa7ad52",
-      "content_fingerprint": "70d698b7c489a8fd7be3bec6d2cd1bb6e8912730cc9ae755413faf947db6423e",
-      "zip_changed": false,
+      "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
+      "content_fingerprint": "5c572688755b5b8e9edec53baa011e860f0578e73a8f60b59aa30ad32d7d2fa2",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26535,19 +26561,19 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "393abfd8d098d90c1c00da805ee9a7b5b14aeee9162ab883c5c6d590fd73f0ca",
+          "current_hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
           "current_file": "All.2_Pedaso (Relazione vers. rid.).docx",
-          "current_size": 211256,
+          "current_size": 291959,
           "file_count": 1,
           "all_files": [
             {
               "name": "All.2_Pedaso (Relazione vers. rid.).docx",
-              "hash": "393abfd8d098d90c1c00da805ee9a7b5b14aeee9162ab883c5c6d590fd73f0ca",
-              "size": 211256
+              "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
+              "size": 291959
             }
           ],
           "first_upload": "2026-06-09T10:53:09.078306+00:00",
-          "last_upload": "2026-07-05T15:06:41.245428+00:00",
+          "last_upload": "2026-07-07T14:09:18.786000+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -26571,6 +26597,12 @@
             {
               "time": "2026-07-05T15:06:41.245428+00:00",
               "hash": "393abfd8d098d90c1c00da805ee9a7b5b14aeee9162ab883c5c6d590fd73f0ca",
+              "file": "All.2_Pedaso (Relazione vers. rid.).docx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-07T14:09:18.786000+00:00",
+              "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
               "file": "All.2_Pedaso (Relazione vers. rid.).docx",
               "event": "sostituzione"
             }
@@ -26631,8 +26663,8 @@
         {
           "name": "All.2_Pedaso (Relazione vers. rid.).docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/All.2_Pedaso (Relazione vers. rid.).docx",
-          "hash": "393abfd8d098d90c1c00da805ee9a7b5b14aeee9162ab883c5c6d590fd73f0ca",
-          "size": 211256,
+          "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
+          "size": 291959,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -26678,12 +26710,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-11T12:03:49.130033+00:00",
-          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-11T15:31:43.692140+00:00",
           "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
@@ -27276,6 +27302,12 @@
           "time": "2026-07-07T10:46:51.884524+00:00",
           "zip_hash": "d76aa98fb534e8ce52fbacab819637fb4785e7eddfeb38e8b2c9c09e9aa7ad52",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-07T14:09:18.786000+00:00",
+          "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -36302,9 +36334,9 @@
   "meta": {
     "last_scan": "2026-07-07T14:09:18.786000+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 1,
-      "invariati": 24,
+      "scansionati": 30,
+      "aggiornati": 3,
+      "invariati": 27,
       "errori": 0,
       "vuoti": 0
     },
