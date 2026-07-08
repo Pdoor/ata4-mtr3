@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
       "content_fingerprint": "85fc18c3c9dfc5cdfedc3d277abe3b725aca03cc303193288abfaec7d7d1a498",
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -351,12 +351,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-12T14:37:17.302796+00:00",
-          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-06-12T17:59:44.120894+00:00",
           "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
@@ -950,6 +944,12 @@
           "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -992,8 +992,8 @@
     "2": {
       "zip_hash": "af5193a55ac4803179197fe7ea468d2ba6fdf151df0a558b64bbb2c0f05c351b",
       "content_fingerprint": "f6b0ec9e2697776d83b30770e17794a6ceefb5bb0575d11bba25e426c6e7a592",
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
-      "zip_changed": true,
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
+      "zip_changed": false,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -1310,12 +1310,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-12T14:37:17.302796+00:00",
-          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-12T17:59:44.120894+00:00",
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
@@ -1909,6 +1903,12 @@
           "zip_hash": "af5193a55ac4803179197fe7ea468d2ba6fdf151df0a558b64bbb2c0f05c351b",
           "changed": true,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "af5193a55ac4803179197fe7ea468d2ba6fdf151df0a558b64bbb2c0f05c351b",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1926,7 +1926,7 @@
     "3": {
       "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
       "content_fingerprint": "9118fe1e0c77ea671b5e45d9ce9bfc4bef5ff652717a7342e01dff0c05cf3ada",
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2203,12 +2203,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-12T14:37:17.302796+00:00",
-          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-12T17:59:44.120894+00:00",
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
@@ -2802,6 +2796,12 @@
           "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2817,7 +2817,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -3080,12 +3080,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-12T14:37:17.302796+00:00",
-          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-12T17:59:44.120894+00:00",
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
           "changed": false,
@@ -3678,39 +3672,51 @@
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "5": {
-      "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-      "content_fingerprint": "659b343e299b208713121bec3b5eabe9d1b5b986d5e02bbe637c6ff5bd18677d",
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
-      "zip_changed": false,
+      "zip_hash": "f8e38b1fa7b4b0f0bbfb900918826f33ebc939bb15e28cfaeee0e409b4449e72",
+      "content_fingerprint": "736074fcd0fa4c86f6580cf496755df5c9e185b086a6a0ef0a71c073e469529d",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
+          "current_hash": "9e588706faa00e623ef311738ef59abc36693ec7953444e116d53c59400aa3cb",
           "current_file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3985072,
+          "current_size": 4009467,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
-              "size": 3985072
+              "hash": "9e588706faa00e623ef311738ef59abc36693ec7953444e116d53c59400aa3cb",
+              "size": 4009467
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-08T13:42:45.250868+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
               "file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-08T13:42:45.250868+00:00",
+              "hash": "9e588706faa00e623ef311738ef59abc36693ec7953444e116d53c59400aa3cb",
+              "file": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3741,26 +3747,32 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "current_hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
           "current_file": "DIchiarazione di veridicità.pdf",
-          "current_size": 415566,
+          "current_size": 417519,
           "file_count": 1,
           "all_files": [
             {
               "name": "DIchiarazione di veridicità.pdf",
-              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
-              "size": 415566
+              "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+              "size": 417519
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-03-24T17:01:54.492520+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-08T13:42:45.250868+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:01:54.492520+00:00",
               "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
               "file": "DIchiarazione di veridicità.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-08T13:42:45.250868+00:00",
+              "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+              "file": "DIchiarazione di veridicità.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -3909,16 +3921,16 @@
         {
           "name": "Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_FALERONE_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "f3acab288ed29ddc730d642816943748cf7648fcac2752cb69a7c2ac5f0a572b",
-          "size": 3985072,
+          "hash": "9e588706faa00e623ef311738ef59abc36693ec7953444e116d53c59400aa3cb",
+          "size": 4009467,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
           "name": "DIchiarazione di veridicità.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DIchiarazione di veridicità.pdf",
-          "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
-          "size": 415566,
+          "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+          "size": 417519,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -3929,15 +3941,25 @@
           "size": 453865,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "R1 FALERONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R1 FALERONE.pdf",
+          "hash": "3607c26bb6c5164a818bbb47967ef9c2bd4edafebc622a17f8c5f8c2ed4c6087",
+          "size": 106112,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "R2 FALERONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R2 FALERONE.pdf",
+          "hash": "06821a3a7e3546773cdb3dba789914c7c7a66dc814fbd7c3b2914c1070344a18",
+          "size": 95952,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-12T14:37:17.302796+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-12T17:59:44.120894+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4531,9 +4553,28 @@
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "f8e38b1fa7b4b0f0bbfb900918826f33ebc939bb15e28cfaeee0e409b4449e72",
+          "changed": true,
+          "file_count": 10
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "R1 FALERONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R1 FALERONE.pdf",
+          "source": "comune",
+          "size": 106112
+        },
+        {
+          "name": "R2 FALERONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R2 FALERONE.pdf",
+          "source": "comune",
+          "size": 95952
+        }
+      ],
       "info": {
         "comune": "Falerone",
         "gestore": "PIN.ECO",
@@ -36401,11 +36442,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-07-08T10:08:38.004585+00:00",
+    "last_scan": "2026-07-08T13:42:45.250868+00:00",
     "results": {
-      "scansionati": 40,
+      "scansionati": 5,
       "aggiornati": 1,
-      "invariati": 39,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -36415,7 +36456,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
