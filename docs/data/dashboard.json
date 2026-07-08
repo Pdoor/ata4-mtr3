@@ -22954,7 +22954,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23256,12 +23256,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-12T11:36:53.568567+00:00",
-          "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
-          "changed": true,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-12T14:37:17.302796+00:00",
           "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
           "changed": false,
@@ -23854,6 +23848,12 @@
           "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -23885,10 +23885,10 @@
       "processabile": "si"
     },
     "27": {
-      "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-      "content_fingerprint": "e5539c22d73cb828b589b432e75ee431204aee6fcb41cb578efadcc1358f716d",
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
-      "zip_changed": false,
+      "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
+      "content_fingerprint": "5eddd8cecfa81d8cdeb38d42f4268b6f31ca5fac7dc091c3f36912154b9fd0d2",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -23942,26 +23942,32 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
+          "current_hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
           "current_file": "DIchiarazione di veridicità.pdf",
-          "current_size": 415566,
+          "current_size": 417519,
           "file_count": 1,
           "all_files": [
             {
               "name": "DIchiarazione di veridicità.pdf",
-              "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
-              "size": 415566
+              "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+              "size": 417519
             }
           ],
           "first_upload": "2026-03-24T17:27:38.274504+00:00",
-          "last_upload": "2026-03-24T17:27:38.274504+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-08T13:42:45.250868+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-03-24T17:27:38.274504+00:00",
               "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
               "file": "DIchiarazione di veridicità.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-08T13:42:45.250868+00:00",
+              "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+              "file": "DIchiarazione di veridicità.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -24086,8 +24092,8 @@
         {
           "name": "DIchiarazione di veridicità.pdf",
           "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/DIchiarazione di veridicità.pdf",
-          "hash": "8c388976e8b47c8e7c3034ece8b6095e07d2ce949e9086ba0ed30a37d16f16aa",
-          "size": 415566,
+          "hash": "94ea382e002d8766577b51832bcac2cca1103046389eb567ed7f9e7da9df104f",
+          "size": 417519,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -24098,15 +24104,25 @@
           "size": 458988,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "R1 MONTOTTONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R1 MONTOTTONE.pdf",
+          "hash": "e40860e655b0c9774ef69e22c890a6d793c34de67278381eb352a4225d0b4802",
+          "size": 101041,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "R2 MONTOTTONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R2 MONTOTTONE.pdf",
+          "hash": "ce3e5ac65ad521ebd6c4806471b49660df52603d756b904ce3848f774d61d837",
+          "size": 95859,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-12T11:36:53.568567+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-12T14:37:17.302796+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
@@ -24700,9 +24716,28 @@
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
+          "changed": true,
+          "file_count": 8
         }
       ],
-      "unclassified_files": [],
+      "unclassified_files": [
+        {
+          "name": "R1 MONTOTTONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R1 MONTOTTONE.pdf",
+          "source": "comune",
+          "size": 101041
+        },
+        {
+          "name": "R2 MONTOTTONE.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/R2 MONTOTTONE.pdf",
+          "source": "comune",
+          "size": 95859
+        }
+      ],
       "info": {
         "comune": "Montottone",
         "gestore": "PIN.ECO",
@@ -24715,7 +24750,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25028,12 +25063,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-12T11:36:53.568567+00:00",
-          "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
-          "changed": true,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-12T14:37:17.302796+00:00",
           "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
           "changed": false,
@@ -25626,6 +25655,12 @@
           "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -25651,7 +25686,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25927,12 +25962,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-12T11:36:53.568567+00:00",
-          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-12T14:37:17.302796+00:00",
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
@@ -26525,6 +26554,12 @@
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
+          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [
@@ -26556,7 +26591,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-07-08T10:08:38.004585+00:00",
+      "last_scan": "2026-07-08T13:42:45.250868+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26843,12 +26878,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-12T11:36:53.568567+00:00",
-          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-12T14:37:17.302796+00:00",
           "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
           "changed": false,
@@ -27438,6 +27467,12 @@
         },
         {
           "time": "2026-07-08T10:08:38.004585+00:00",
+          "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-08T13:42:45.250868+00:00",
           "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
           "changed": false,
           "file_count": 7
@@ -36504,9 +36539,9 @@
   "meta": {
     "last_scan": "2026-07-08T13:42:45.250868+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 3,
-      "invariati": 22,
+      "scansionati": 30,
+      "aggiornati": 4,
+      "invariati": 26,
       "errori": 0,
       "vuoti": 0
     },
