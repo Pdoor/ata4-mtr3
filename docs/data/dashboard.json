@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
       "content_fingerprint": "85fc18c3c9dfc5cdfedc3d277abe3b725aca03cc303193288abfaec7d7d1a498",
-      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "last_scan": "2026-07-09T14:33:22.159780+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -351,12 +351,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T15:26:39.366494+00:00",
-          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-06-13T17:13:25.800829+00:00",
           "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
@@ -950,6 +944,12 @@
           "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
           "changed": false,
           "file_count": 16
+        },
+        {
+          "time": "2026-07-09T14:33:22.159780+00:00",
+          "zip_hash": "3c04b77c4cbb02ed436299e088a57d3594fdb42e62d316918b63753b65bdb46f",
+          "changed": false,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -990,9 +990,9 @@
       "last_scan_empty": false
     },
     "2": {
-      "zip_hash": "a8329df5bdd350608cbd6f184fd9ddeae0ff3572d35187520b98cb7359c98843",
-      "content_fingerprint": "0720db906c616427c659ffb7d3cb581d3f6a0244094a61f3563b995225eed8f0",
-      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "zip_hash": "ab6193c1c2170fcad7f18617b535070aa2826791389eef3b2a59556414c82dfd",
+      "content_fingerprint": "31869ef906d779f5210836a9c5558d8726fecca8dfca5d44ffb334af03ddf5cd",
+      "last_scan": "2026-07-09T14:33:22.159780+00:00",
       "zip_changed": true,
       "docs": {
         "tool_mtr3": {
@@ -1092,19 +1092,19 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "5abdf68ee6d1b89a68587f2e5283d43dd5b6d8daaee274a530b6fb991b091bf7",
-          "current_file": "Allegato_1_-_AMANDOLA_Tool_di_calcolo_MTR-3_2026-2029_COMPLESSIVO_08072026.xlsx",
-          "current_size": 4661248,
+          "current_hash": "90f498bd42dc6b4fbed9f4c2e952612bb950d60866efc992e2021e0e5c8f5850",
+          "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "current_size": 3984987,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato_1_-_AMANDOLA_Tool_di_calcolo_MTR-3_2026-2029_COMPLESSIVO_08072026.xlsx",
-              "hash": "5abdf68ee6d1b89a68587f2e5283d43dd5b6d8daaee274a530b6fb991b091bf7",
-              "size": 4661248
+              "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "hash": "90f498bd42dc6b4fbed9f4c2e952612bb950d60866efc992e2021e0e5c8f5850",
+              "size": 3984987
             }
           ],
           "first_upload": "2026-04-10T09:00:36.849828+00:00",
-          "last_upload": "2026-07-09T10:46:46.653522+00:00",
+          "last_upload": "2026-07-09T14:33:22.159780+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1148,24 +1148,30 @@
               "hash": "5abdf68ee6d1b89a68587f2e5283d43dd5b6d8daaee274a530b6fb991b091bf7",
               "file": "Allegato_1_-_AMANDOLA_Tool_di_calcolo_MTR-3_2026-2029_COMPLESSIVO_08072026.xlsx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-09T14:33:22.159780+00:00",
+              "hash": "90f498bd42dc6b4fbed9f4c2e952612bb950d60866efc992e2021e0e5c8f5850",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "3ddf9c45182b7431cbd2501af046648603e43f57a468bca312f1816a95ea3726",
+          "current_hash": "4c3f4475b3ae8fedcf2d8861f7c58acf72a8d8f59db1f1530d5eb21f0124f897",
           "current_file": "Relazione_Comune_Amandola.docx",
-          "current_size": 163855,
+          "current_size": 168520,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione_Comune_Amandola.docx",
-              "hash": "3ddf9c45182b7431cbd2501af046648603e43f57a468bca312f1816a95ea3726",
-              "size": 163855
+              "hash": "4c3f4475b3ae8fedcf2d8861f7c58acf72a8d8f59db1f1530d5eb21f0124f897",
+              "size": 168520
             }
           ],
           "first_upload": "2026-04-10T09:00:36.849828+00:00",
-          "last_upload": "2026-07-08T10:08:38.004585+00:00",
+          "last_upload": "2026-07-09T14:33:22.159780+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -1195,6 +1201,12 @@
             {
               "time": "2026-07-08T10:08:38.004585+00:00",
               "hash": "3ddf9c45182b7431cbd2501af046648603e43f57a468bca312f1816a95ea3726",
+              "file": "Relazione_Comune_Amandola.docx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-09T14:33:22.159780+00:00",
+              "hash": "4c3f4475b3ae8fedcf2d8861f7c58acf72a8d8f59db1f1530d5eb21f0124f897",
               "file": "Relazione_Comune_Amandola.docx",
               "event": "sostituzione"
             }
@@ -1251,18 +1263,18 @@
       },
       "all_files": [
         {
-          "name": "Allegato_1_-_AMANDOLA_Tool_di_calcolo_MTR-3_2026-2029_COMPLESSIVO_08072026.xlsx",
-          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_AMANDOLA_Tool_di_calcolo_MTR-3_2026-2029_COMPLESSIVO_08072026.xlsx",
-          "hash": "5abdf68ee6d1b89a68587f2e5283d43dd5b6d8daaee274a530b6fb991b091bf7",
-          "size": 4661248,
+          "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+          "hash": "90f498bd42dc6b4fbed9f4c2e952612bb950d60866efc992e2021e0e5c8f5850",
+          "size": 3984987,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
           "name": "Relazione_Comune_Amandola.docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Relazione_Comune_Amandola.docx",
-          "hash": "3ddf9c45182b7431cbd2501af046648603e43f57a468bca312f1816a95ea3726",
-          "size": 163855,
+          "hash": "4c3f4475b3ae8fedcf2d8861f7c58acf72a8d8f59db1f1530d5eb21f0124f897",
+          "size": 168520,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -1316,12 +1328,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T15:26:39.366494+00:00",
-          "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-13T17:13:25.800829+00:00",
           "zip_hash": "98663b508af5caf0f0f57fac5965c38ef1d5f9a67c2cd518aced92fff6335e7c",
@@ -1915,6 +1921,12 @@
           "zip_hash": "a8329df5bdd350608cbd6f184fd9ddeae0ff3572d35187520b98cb7359c98843",
           "changed": true,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-09T14:33:22.159780+00:00",
+          "zip_hash": "ab6193c1c2170fcad7f18617b535070aa2826791389eef3b2a59556414c82dfd",
+          "changed": true,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -1932,7 +1944,7 @@
     "3": {
       "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
       "content_fingerprint": "9118fe1e0c77ea671b5e45d9ce9bfc4bef5ff652717a7342e01dff0c05cf3ada",
-      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "last_scan": "2026-07-09T14:33:22.159780+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -2210,12 +2222,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T15:26:39.366494+00:00",
-          "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-06-13T17:13:25.800829+00:00",
           "zip_hash": "aa7e9257d42868fa4d08ab6939ccf1ad7cd15ceeb0bff31a2351343699dbd21e",
           "changed": false,
@@ -2808,6 +2814,12 @@
           "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-09T14:33:22.159780+00:00",
+          "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
+          "changed": false,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2823,7 +2835,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "last_scan": "2026-07-09T14:33:22.159780+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -3085,12 +3097,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T15:26:39.366494+00:00",
-          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-13T17:13:25.800829+00:00",
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
@@ -3684,6 +3690,12 @@
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-09T14:33:22.159780+00:00",
+          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -3692,7 +3704,7 @@
     "5": {
       "zip_hash": "f8e38b1fa7b4b0f0bbfb900918826f33ebc939bb15e28cfaeee0e409b4449e72",
       "content_fingerprint": "736074fcd0fa4c86f6580cf496755df5c9e185b086a6a0ef0a71c073e469529d",
-      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "last_scan": "2026-07-09T14:33:22.159780+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -3967,12 +3979,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T15:26:39.366494+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-13T17:13:25.800829+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
           "changed": false,
@@ -4562,6 +4568,12 @@
         },
         {
           "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "f8e38b1fa7b4b0f0bbfb900918826f33ebc939bb15e28cfaeee0e409b4449e72",
+          "changed": false,
+          "file_count": 10
+        },
+        {
+          "time": "2026-07-09T14:33:22.159780+00:00",
           "zip_hash": "f8e38b1fa7b4b0f0bbfb900918826f33ebc939bb15e28cfaeee0e409b4449e72",
           "changed": false,
           "file_count": 10
@@ -36581,11 +36593,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-07-09T10:46:46.653522+00:00",
+    "last_scan": "2026-07-09T14:33:22.159780+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 3,
-      "invariati": 37,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -36595,7 +36607,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
