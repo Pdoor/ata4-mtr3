@@ -2594,7 +2594,15 @@
                         "date": "2026-07-08",
                         "text": "-----Messaggio originale-----\nDa: comune.ortezzano@emarche.it <comune.ortezzano@emarche.it> \nInviato: mercoledì 8 luglio 2026 12:29\nA: ata4fermo@emarche.it; ATA4@MEDIAGESTUM.COM\nCc: Ecoinnovasrl <ecoinnovasrl@pec.it>\nOggetto: Pef Comune di Ortezzano - Conferma e verifica detrazioni sostenibili\n\nCOMUNE DI ORTEZZANO\nPROVINCIA DI FERMO\n\nVista la nota del 06.07.2026 a firma della società Ecoinnova Srl incaricata della raccolta e gestione dei rifiuti per il Comune di Ortezzano assegnata previa gara di evidenza pubblica, ns prot. 2423, con la presente si fornisce il proprio benestare all'inserimento di quanto indicato alle detrazioni ex art. 4.5.\n\nConfidando in un pronto accoglimento ed in attesa della trasmissione, con cortese sollecitudine, del pef grezzo rielaborato per necessarie verifiche e rimando alla S.V. per la procedura di validazione, si porgono cordiali saluti.\n\nIL SINDACO\nDott.ssa Carla Piermarini",
                         "author": "GM",
-                        "children": []
+                        "children": [
+                          {
+                            "cat": "pef",
+                            "date": "2026-07-08",
+                            "text": "COMUNE DI ORTEZZANO \nPROVINCIA DI FERMO \n\nVista la nota del 06.07.2026 a firma della società Ecoinnova Srl \nincaricata della raccolta e gestione dei rifiuti per il Comune di \nOrtezzano assegnata previa gara di evidenza pubblica, ns prot. 2423, con \nla presente si fornisce il proprio benestare all'inserimento di quanto \nindicato alle detrazioni ex art. 4.5. \n\nConfidando in un pronto accoglimento ed in attesa della trasmissione, \ncon cortese sollecitudine, del pef grezzo rielaborato per necessarie \nverifiche e rimando alla S.V. per la procedura di validazione, si \nporgono cordiali saluti. \n\nIL SINDACO \nDott.ssa Carla Piermarini",
+                            "author": "GM",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   }
