@@ -32251,7 +32251,7 @@
     "36": {
       "zip_hash": "b35e671d0adba38d34adeb5b68c2bdcbc1953875e69841ca84ce4bc7cad041e6",
       "content_fingerprint": "0d36ef6569a42171e6ea97613738df3de3345a1059e73d5d916ff9fb38558490",
-      "last_scan": "2026-07-08T19:09:13.270038+00:00",
+      "last_scan": "2026-07-09T10:46:46.653522+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -32508,12 +32508,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T10:22:07.958858+00:00",
-          "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-13T13:28:00.017887+00:00",
           "zip_hash": "2fc88c379dab14e03ef6fe3efd3a9192df563aa8cf7a4ba2a04b1e1f2db154c2",
@@ -33107,6 +33101,12 @@
           "zip_hash": "b35e671d0adba38d34adeb5b68c2bdcbc1953875e69841ca84ce4bc7cad041e6",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "b35e671d0adba38d34adeb5b68c2bdcbc1953875e69841ca84ce4bc7cad041e6",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -33122,7 +33122,7 @@
       "last_scan_empty": false
     },
     "37": {
-      "last_scan": "2026-07-08T19:09:13.270038+00:00",
+      "last_scan": "2026-07-09T10:46:46.653522+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -33386,12 +33386,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T10:22:07.958858+00:00",
-          "zip_hash": "37d6db6e26d9d5f05ef6b6a2d44aac49956020eacdbb333482257455773cb8d8",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-13T13:28:00.017887+00:00",
           "zip_hash": "37d6db6e26d9d5f05ef6b6a2d44aac49956020eacdbb333482257455773cb8d8",
           "changed": false,
@@ -33984,13 +33978,19 @@
           "zip_hash": "37d6db6e26d9d5f05ef6b6a2d44aac49956020eacdbb333482257455773cb8d8",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "37d6db6e26d9d5f05ef6b6a2d44aac49956020eacdbb333482257455773cb8d8",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
       "processabile": "si"
     },
     "38": {
-      "last_scan": "2026-07-08T19:09:13.270038+00:00",
+      "last_scan": "2026-07-09T10:46:46.653522+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -34146,12 +34146,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T10:22:07.958858+00:00",
-          "zip_hash": "20ca112d9219b72dd1fda2c02144e694af484886ce8161b9c3826e9e8c57bace",
-          "changed": false,
-          "file_count": 4
-        },
-        {
           "time": "2026-06-13T13:28:00.017887+00:00",
           "zip_hash": "20ca112d9219b72dd1fda2c02144e694af484886ce8161b9c3826e9e8c57bace",
           "changed": false,
@@ -34744,6 +34738,12 @@
           "zip_hash": "20ca112d9219b72dd1fda2c02144e694af484886ce8161b9c3826e9e8c57bace",
           "changed": false,
           "file_count": 4
+        },
+        {
+          "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "20ca112d9219b72dd1fda2c02144e694af484886ce8161b9c3826e9e8c57bace",
+          "changed": false,
+          "file_count": 4
         }
       ],
       "unclassified_files": [
@@ -34759,7 +34759,7 @@
     "39": {
       "zip_hash": "388fabd5b228b9e88b83f118d56acd30766f79575275d8e3d59bd23b0e9b9439",
       "content_fingerprint": "f8fd9903f1ecca49f92b0868ccbe3a19804452849824d48c84c194ada4527f05",
-      "last_scan": "2026-07-08T19:09:13.270038+00:00",
+      "last_scan": "2026-07-09T10:46:46.653522+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -35022,12 +35022,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T13:28:00.017887+00:00",
-          "zip_hash": "33f98c01f08d193d188bbc2b2676f86e2b896e53fedbf16df516b4e8c81a942f",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-13T15:26:39.366494+00:00",
           "zip_hash": "33f98c01f08d193d188bbc2b2676f86e2b896e53fedbf16df516b4e8c81a942f",
@@ -35621,6 +35615,12 @@
           "zip_hash": "388fabd5b228b9e88b83f118d56acd30766f79575275d8e3d59bd23b0e9b9439",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "388fabd5b228b9e88b83f118d56acd30766f79575275d8e3d59bd23b0e9b9439",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -35636,10 +35636,10 @@
       "last_scan_empty": false
     },
     "40": {
-      "zip_hash": "0d3c6c3985f78560ea601ba8150c16233a23cce84289c13832aa1911b15c30ff",
-      "content_fingerprint": "7106567f9aa74b27e8615fab8242af539f16386036728fe17eb31628e0524d04",
-      "last_scan": "2026-07-08T19:09:13.270038+00:00",
-      "zip_changed": false,
+      "zip_hash": "f965ef2835144766f2533f1ea26176c5e4e8bbbb71177f8f1f35218a52b3c602",
+      "content_fingerprint": "2940085982ef12b8b1472e1dce97339eef7573fd776f800de0dda41955c8290f",
+      "last_scan": "2026-07-09T10:46:46.653522+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -35738,10 +35738,10 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "f80e69f1f3dc86014ef8faf8362f5041607a6814d2f7a1ab08455ce2d62aae60",
-          "current_file": "Torre San Patrizio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
-          "current_size": 3971678,
-          "file_count": 2,
+          "current_hash": "7c1251ecf8140f88af23b6e79921abac9ddd78b6913e0e718db28b6eca3808c9",
+          "current_file": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 1_C.2.xlsx",
+          "current_size": 3972540,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Torre San Patrizio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
@@ -35752,10 +35752,15 @@
               "name": "Torre San Patrizio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
               "hash": "f80e69f1f3dc86014ef8faf8362f5041607a6814d2f7a1ab08455ce2d62aae60",
               "size": 3971678
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 1_C.2.xlsx",
+              "hash": "7c1251ecf8140f88af23b6e79921abac9ddd78b6913e0e718db28b6eca3808c9",
+              "size": 3972540
             }
           ],
           "first_upload": "2026-03-30T09:15:32.512921+00:00",
-          "last_upload": "2026-04-21T09:18:11.829099+00:00",
+          "last_upload": "2026-07-09T10:46:46.653522+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -35769,6 +35774,12 @@
               "hash": "f80e69f1f3dc86014ef8faf8362f5041607a6814d2f7a1ab08455ce2d62aae60",
               "file": "Torre San Patrizio_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_2.0.xlsx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-09T10:46:46.653522+00:00",
+              "hash": "7c1251ecf8140f88af23b6e79921abac9ddd78b6913e0e718db28b6eca3808c9",
+              "file": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 1_C.2.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -35777,7 +35788,7 @@
           "current_hash": "f59d32662a89f77a149979799d2ec95f4f63cd2219f7c6c80e39d194f51a8049",
           "current_file": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_2.0_signed.pdf",
           "current_size": 757141,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio (non ETC) 2026-2029_Allegato 2_signed.pdf",
@@ -35788,6 +35799,11 @@
               "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_2.0_signed.pdf",
               "hash": "f59d32662a89f77a149979799d2ec95f4f63cd2219f7c6c80e39d194f51a8049",
               "size": 757141
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_C.2.pdf.p7m",
+              "hash": "a001528a5d9367e37b60ad388457ffb1e2f0c1e976643bfe1d962e9510030378",
+              "size": 741189
             }
           ],
           "first_upload": "2026-03-30T09:15:32.512921+00:00",
@@ -35869,6 +35885,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 1_C.2.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 1_C.2.xlsx",
+          "hash": "7c1251ecf8140f88af23b6e79921abac9ddd78b6913e0e718db28b6eca3808c9",
+          "size": 3972540,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio (non ETC) 2026-2029_Allegato 2_signed.pdf",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Torre San Patrizio (non ETC) 2026-2029_Allegato 2_signed.pdf",
           "hash": "c5e5daa6604e01826a94f6f271f0ecb395b76995decd48d82c3ea98978dc1f53",
@@ -35881,6 +35905,14 @@
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_2.0_signed.pdf",
           "hash": "f59d32662a89f77a149979799d2ec95f4f63cd2219f7c6c80e39d194f51a8049",
           "size": 757141,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
+          "name": "Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_C.2.pdf.p7m",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune di Torre San Patrizio 2026-2029_Allegato 2_C.2.pdf.p7m",
+          "hash": "a001528a5d9367e37b60ad388457ffb1e2f0c1e976643bfe1d962e9510030378",
+          "size": 741189,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -35934,12 +35966,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T10:22:07.958858+00:00",
-          "zip_hash": "b212196c13c04b87ec20478ef8d3098fe33ff8f144838aa9aa9367889c059225",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-13T13:28:00.017887+00:00",
           "zip_hash": "b212196c13c04b87ec20478ef8d3098fe33ff8f144838aa9aa9367889c059225",
@@ -36533,6 +36559,12 @@
           "zip_hash": "0d3c6c3985f78560ea601ba8150c16233a23cce84289c13832aa1911b15c30ff",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-09T10:46:46.653522+00:00",
+          "zip_hash": "f965ef2835144766f2533f1ea26176c5e4e8bbbb71177f8f1f35218a52b3c602",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
@@ -36551,9 +36583,9 @@
   "meta": {
     "last_scan": "2026-07-09T10:46:46.653522+00:00",
     "results": {
-      "scansionati": 35,
-      "aggiornati": 2,
-      "invariati": 33,
+      "scansionati": 40,
+      "aggiornati": 3,
+      "invariati": 37,
       "errori": 0,
       "vuoti": 0
     },
@@ -36563,7 +36595,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": true
+    "scan_in_progress": false
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
