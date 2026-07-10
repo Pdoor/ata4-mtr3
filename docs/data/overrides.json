@@ -2137,7 +2137,15 @@
                 "date": "2026-07-09",
                 "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 9 luglio 2026 17:37\nA: francesco.canti@neopa.it; Ragioneria Monte San Pietrangeli <ragioneria@comune.montesanpietrangeli.fm.it>\nCc: ata4fermo@provincia.fm.it; Gruppo ata4 <ata4@mediagestum.com>\nOggetto: Re: Invio per posta elettronica: Predisposizione PEF grezzo Comune di Monte San Pietrangeli 2026-2029_Allegato 2_proposta C.docx, Dichiarazione_Veridicita_Comuni 07-07-2026.pdf.p7m, Monte San Pietrangeli_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_...\n\nBuonasera,\nalla luce di quanto comunicato dal Comune in merito alle detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025 lato gestore e tenuto conto che il termine assegnato dall'Ente a quest'ultimo per poter effettuare le comunicazioni di propria competenza risulta spirato, abbiamo aggiornato d'ufficio lo schema di Pef trasmesso in precedenza. Lo trovate in allegato.\nRimaniamo in attesa di vs. riscontro in merito.\nSaluti",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-07-10",
+                    "text": "Buonasera,\nallego lo schema corretto.\nSaluti\nIl 10/07/2026 13:57, Francesco Canti - NeoPA spa ha scritto:\nGent.mo,\nla presente per segnalarle diverso importo all'interno del foglio IN_BIL_Com_24 alla cella H26: l'importo da Voi inserito nel tool allegato risulta pari a 6.689 €, mentre nell'ultimo tool grezzo inviato dal Comune la medesima voce trova spazio per un totale di € 6.658. Precisiamo altresì, per completezza, che anche nella prima versione di tool grezzo lato Comune l'importo risulta € 6.658.\nChiediamo di voler cortesemente correggere tale importo. Restiamo altresì in attesa di nuova versione del PEF unitario.\nRestando a completa disposizione si porgono cordiali saluti.\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n \n\n\t(+39) 0131 1911646\n\n \n\n\twww.neopa.it\n\n \n\n\tVia Domenico Fontana 1, 22100, Como",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
