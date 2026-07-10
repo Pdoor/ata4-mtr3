@@ -1578,7 +1578,15 @@
                         "date": "2026-07-10",
                         "text": "Da: joele.tosoni@comune.fermo.it <joele.tosoni@comune.fermo.it> \nInviato: venerdì 10 luglio 2026 13:57\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; _Francesco - NeoPA <francesco.canti@neopa.it>; simone.pellegrin@neopa.it; Federica Paoloni <federica.paoloni@comune.fermo.it>; joele.tosoni@hotmail.it\nOggetto: Re: ATA4: Comune di Fermo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno, ho notato che lato comune negli accantonamenti nell'ultimo caricamento il valore è circa 99000 euro anzichè quello da voi trasmesso di 264000 euro. Abbiamo effettuato il caricamento del pef in data 8/7/2026 e risulta l'importo di 99000 euro ca.\nSe sono presenti ulteriori differenze, si rimanda al controllo che sta facendo Neopa.\nCordiali saluti\nJoele Tosoni",
                         "author": "GM",
-                        "children": []
+                        "children": [
+                          {
+                            "cat": "pef",
+                            "date": "2026-07-10",
+                            "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: venerdì 10 luglio 2026 14:46\nA: joele.tosoni@comune.fermo.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; _Francesco - NeoPA <francesco.canti@neopa.it>; simone.pellegrin@neopa.it; Federica Paoloni <federica.paoloni@comune.fermo.it>; joele.tosoni@hotmail.it\nOggetto: Re: ATA4: Comune di Fermo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\nallego il tool con aggiornato l'importo degli accantonamenti.\nSaluti",
+                            "author": "GM",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   }
