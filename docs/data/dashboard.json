@@ -22996,7 +22996,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-07-09T19:23:23.914424+00:00",
+      "last_scan": "2026-07-10T10:44:46.889519+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23298,12 +23298,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T19:09:42.524960+00:00",
-          "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-14T10:44:52.734142+00:00",
           "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
           "changed": false,
@@ -23896,6 +23890,12 @@
           "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-10T10:44:46.889519+00:00",
+          "zip_hash": "d39aabe01bad9f12a1291b5fcb9245ef458b6c3e1d2014b9326c58a4a2c3f3d4",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -23929,7 +23929,7 @@
     "27": {
       "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
       "content_fingerprint": "5eddd8cecfa81d8cdeb38d42f4268b6f31ca5fac7dc091c3f36912154b9fd0d2",
-      "last_scan": "2026-07-09T19:23:23.914424+00:00",
+      "last_scan": "2026-07-10T10:44:46.889519+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24166,12 +24166,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T19:09:42.524960+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-14T10:44:52.734142+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
@@ -24764,6 +24758,12 @@
           "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-10T10:44:46.889519+00:00",
+          "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -24792,7 +24792,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-07-09T19:23:23.914424+00:00",
+      "last_scan": "2026-07-10T10:44:46.889519+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25105,12 +25105,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-13T19:09:42.524960+00:00",
-          "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-14T10:44:52.734142+00:00",
           "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
           "changed": false,
@@ -25703,6 +25697,12 @@
           "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-10T10:44:46.889519+00:00",
+          "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -25728,7 +25728,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-07-09T19:23:23.914424+00:00",
+      "last_scan": "2026-07-10T10:44:46.889519+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25738,32 +25738,38 @@
         "url": "https://www.provincia.fm.it/drive/7s5e5627fjs",
         "id": 29
       },
-      "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
-      "content_fingerprint": "b6d33e79f461c442f23ceac00392f1661e75000774e49ef82a135d76a88876eb",
-      "zip_changed": false,
+      "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
+      "content_fingerprint": "f2ad3edba750c4a7da1a98e86085a917ceb1e014f15b572d91a70b19dca57fcf",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "01d5f91e90745622cf95ab060ed8f8c495a1dac04a9015d64f662ec92324bd75",
-          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano.xlsx",
-          "current_size": 3979313,
+          "current_hash": "f6b257cc875743ec1fa0c51ce59abb716214629fb87503f6eb660d5925069206",
+          "current_file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano_v2.xlsx",
+          "current_size": 3982888,
           "file_count": 1,
           "all_files": [
             {
-              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano.xlsx",
-              "hash": "01d5f91e90745622cf95ab060ed8f8c495a1dac04a9015d64f662ec92324bd75",
-              "size": 3979313
+              "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano_v2.xlsx",
+              "hash": "f6b257cc875743ec1fa0c51ce59abb716214629fb87503f6eb660d5925069206",
+              "size": 3982888
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-10T10:44:46.889519+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "01d5f91e90745622cf95ab060ed8f8c495a1dac04a9015d64f662ec92324bd75",
               "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-10T10:44:46.889519+00:00",
+              "hash": "f6b257cc875743ec1fa0c51ce59abb716214629fb87503f6eb660d5925069206",
+              "file": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano_v2.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -25794,26 +25800,32 @@
         },
         "dich_veridicita": {
           "status": "received",
-          "current_hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-          "current_file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "current_size": 199409,
+          "current_hash": "5cd4b6c3a1c7ca5c5c9cdf36a01cf46cfb9122b1671675740718dd3c08270610",
+          "current_file": "Allegato_3_-_Dichiarazione_Veridicita ORTEZZANO-signed.pdf",
+          "current_size": 199558,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-              "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-              "size": 199409
+              "name": "Allegato_3_-_Dichiarazione_Veridicita ORTEZZANO-signed.pdf",
+              "hash": "5cd4b6c3a1c7ca5c5c9cdf36a01cf46cfb9122b1671675740718dd3c08270610",
+              "size": 199558
             }
           ],
           "first_upload": "2026-06-01T13:42:22.752444+00:00",
-          "last_upload": "2026-06-01T13:42:22.752444+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-10T10:44:46.889519+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-06-01T13:42:22.752444+00:00",
               "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
               "file": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-10T10:44:46.889519+00:00",
+              "hash": "5cd4b6c3a1c7ca5c5c9cdf36a01cf46cfb9122b1671675740718dd3c08270610",
+              "file": "Allegato_3_-_Dichiarazione_Veridicita ORTEZZANO-signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -25946,18 +25958,18 @@
           "source": "comune"
         },
         {
-          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano.xlsx",
-          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano.xlsx",
-          "hash": "01d5f91e90745622cf95ab060ed8f8c495a1dac04a9015d64f662ec92324bd75",
-          "size": 3979313,
+          "name": "EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano_v2.xlsx",
+          "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/EcoInnova_Tool_di_calcolo_MTR-3_2026-2029_Ortezzano_v2.xlsx",
+          "hash": "f6b257cc875743ec1fa0c51ce59abb716214629fb87503f6eb660d5925069206",
+          "size": 3982888,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita-signed.pdf",
-          "hash": "a11eee3229e4b58cd9b2110e8fcefc053c0a9ab31b83046fba2c63ef1a025767",
-          "size": 199409,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita ORTEZZANO-signed.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita ORTEZZANO-signed.pdf",
+          "hash": "5cd4b6c3a1c7ca5c5c9cdf36a01cf46cfb9122b1671675740718dd3c08270610",
+          "size": 199558,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -26000,15 +26012,17 @@
           "size": 10907,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Ortezzano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Ortezzano-signed.pdf",
+          "hash": "a75691fbfe9f12d0af3b2c893ae81210f41c0f48adad1885e36a49d6891c1e02",
+          "size": 314649,
+          "doc_key": null,
+          "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T19:09:42.524960+00:00",
-          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-14T10:44:52.734142+00:00",
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
@@ -26602,6 +26616,12 @@
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-10T10:44:46.889519+00:00",
+          "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -26628,12 +26648,18 @@
           "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria_EcoInnova Ortezzano.xlsx",
           "source": "comune",
           "size": 10907
+        },
+        {
+          "name": "Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Ortezzano-signed.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Detrazioni PEF grezzo 26_27 EcoInnova_Comune di Ortezzano-signed.pdf",
+          "source": "comune",
+          "size": 314649
         }
       ],
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-07-09T19:23:23.914424+00:00",
+      "last_scan": "2026-07-10T10:44:46.889519+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26643,9 +26669,9 @@
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims",
         "id": 30
       },
-      "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
-      "content_fingerprint": "5c572688755b5b8e9edec53baa011e860f0578e73a8f60b59aa30ad32d7d2fa2",
-      "zip_changed": false,
+      "zip_hash": "2c3e2ccdc195ccc17cc335bd04067723f8832c9b795710c5e4b29314d0a6c701",
+      "content_fingerprint": "b9ad5280090bde441d436b36db744fb7c4f05559a306b9c57d020a9a8e0c7a0c",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26770,19 +26796,19 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
+          "current_hash": "b360c7457a238709778d3363d77f3589fc597890268d51dd65c44d6a89a0b86f",
           "current_file": "All.2_Pedaso (Relazione vers. rid.).docx",
-          "current_size": 291959,
+          "current_size": 209385,
           "file_count": 1,
           "all_files": [
             {
               "name": "All.2_Pedaso (Relazione vers. rid.).docx",
-              "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
-              "size": 291959
+              "hash": "b360c7457a238709778d3363d77f3589fc597890268d51dd65c44d6a89a0b86f",
+              "size": 209385
             }
           ],
           "first_upload": "2026-06-09T10:53:09.078306+00:00",
-          "last_upload": "2026-07-07T14:09:18.786000+00:00",
+          "last_upload": "2026-07-10T10:44:46.889519+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -26812,6 +26838,12 @@
             {
               "time": "2026-07-07T14:09:18.786000+00:00",
               "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
+              "file": "All.2_Pedaso (Relazione vers. rid.).docx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-10T10:44:46.889519+00:00",
+              "hash": "b360c7457a238709778d3363d77f3589fc597890268d51dd65c44d6a89a0b86f",
               "file": "All.2_Pedaso (Relazione vers. rid.).docx",
               "event": "sostituzione"
             }
@@ -26872,8 +26904,8 @@
         {
           "name": "All.2_Pedaso (Relazione vers. rid.).docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/All.2_Pedaso (Relazione vers. rid.).docx",
-          "hash": "20b38ee19ce13222f89dd311845e65e6c6c49bd79882cc182c9b62eee9360356",
-          "size": 291959,
+          "hash": "b360c7457a238709778d3363d77f3589fc597890268d51dd65c44d6a89a0b86f",
+          "size": 209385,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -26919,12 +26951,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-13T19:09:42.524960+00:00",
-          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-14T10:44:52.734142+00:00",
           "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
@@ -27517,6 +27543,12 @@
           "time": "2026-07-09T19:23:23.914424+00:00",
           "zip_hash": "a3b5b5e75519ff3d1fd3b0524bf87f9a7af400c578602d5a99d02e7df2ef1bdd",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-10T10:44:46.889519+00:00",
+          "zip_hash": "2c3e2ccdc195ccc17cc335bd04067723f8832c9b795710c5e4b29314d0a6c701",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -36613,9 +36645,9 @@
   "meta": {
     "last_scan": "2026-07-10T10:44:46.889519+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 3,
-      "invariati": 22,
+      "scansionati": 30,
+      "aggiornati": 5,
+      "invariati": 25,
       "errori": 0,
       "vuoti": 0
     },
