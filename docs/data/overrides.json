@@ -1386,6 +1386,21 @@
     ],
     "3": [
       {
+        "cat": "pef",
+        "date": "2026-06-23",
+        "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: martedì 23 giugno 2026 17:49\nA: ragioneria@comunebelmontepiceno.it; Michelangelo Mattii <ragioneria.belmontepiceno@gmail.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Comune di Belmonte Piceno - trasmissione bozza schema Pef Tari 2026-2029\n\nSpett.le Ente,\nin allegato si trasmette per vs. verifica e visione lo schema di Pef Tari 2026-2029 redatto sulla base dei dati trasmessi dal Comune e dal soggetto gestore e sulla base delle indicazioni ricevute dall'ATA.\nQueste le risultanze sintetiche:\n \nche riportano il seguente scostamento \"extra-cap\" tra l'anno 2025 e l'anno 2026:\n \n\nLo scostamento può essere riportato nei limiti mediante:\n\na) inserimento di detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025;\n\nb) rimodulazione dell'extra-cap mediante rinvio della copertura ad esercizi successivi.\n\nEntrambe le soluzioni sopra indicate possono essere poste in essere, anche congiuntamente, sia lato gestore che lato Comune.\n\n\nLe richieste di chiarimento e/o osservazioni formulate da parte del Comune devono essere trasmesse alle mail ata4fermo@provincia.fm.it e ata4@mediagestum.com\nSaluti\nGabriele Nardi",
+        "author": "GM",
+        "children": [
+          {
+            "cat": "pef",
+            "date": "2026-07-10",
+            "text": "Da: Michelangelo Mattii <ragioneria@comunebelmontepiceno.it> \nInviato: venerdì 10 luglio 2026 17:12\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Belmonte Piceno - trasmissione bozza schema Pef Tari 2026-2029\n\nBuon pomeriggio,\ntrasmetto in allegato lo schema Pef Tari 2026-2029 modificato aggiungendo alcune detrazioni che il Comune ritiene di poter applicare.\nC'è la possibilità che anche per la parte relativa al gestore si possano rilevare delle economie tali da poter allineare il Pef totale a circa 66.000 euro?\nQualora lo ritenga necessario, può contattarmi ai recapiti in calce.\nRingrazio anticipatamente ed in attesa di riscontro, saluto cordialmente.\n\nMichelangelo Mattii\nUff. Ragioneria\nComune di Belmonte Piceno\ntel 0734/771100\nmob. 339/5981619",
+            "author": "GM",
+            "children": []
+          }
+        ]
+      },
+      {
         "cat": "gestore",
         "date": "2026-04-17",
         "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: venerdì 17 aprile 2026 11:28\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: ATA4: Richiesta chiarimenti Pef Tari 2026-2029 SoEco - Belmonte Piceno\n\nBuongiorno,\ncon riferimento alla documentazione del Pef Tari 2026-2029 da Voi trasmessa all'ATA4, con la presente si richiedono alcuni chiarimenti rispetto ai dati trasmessi:\n1) all'interno della scheda \"IN_PAR\" non risultano valorizzati nè l'indicatore R1 nè l'indicatore R2. Di tali dati non è stata data alcuna evidenza all'interno della relazione;\n2) non risulta compilato il foglio \"IN_CALCOLO_H\". Pur avendo inserito \"mancanza di dati richiesti\" vi sono dei dati inseriti all'interno della procedura. Potete verificare? Di tali dati non è stata data alcuna evidenza all'interno della relazione di accompagnamento;\n3) all'interno del foglio \"IN_CESPITI\" risultano valorizzati beni come \"AUTOMEZZI E AUTOVEICOLI\" ma tale distinzione non è presente all'interno della categoria \"RACCOLTA E TRASPORTO\", nel Pef precedente avevate inserito \"COMPATTATORI, SPAZZATRICI E AUTOCARRI ATTREZZATI\". Si ricorda che dovete inserire gli stessi cespiti presenti nel tool di calcolo del Pef 2024-2025 unitamente alle nuove acquisizioni negli anni fino al 2025. Nel Pef 2024-2025 erano presenti dei cespiti acquisiti nell'anno 2020 che non sono presenti all'interno del documento trasmesso. \nSi prega di ritrasmettere la documentazione sulla base delle indicazioni sopra riportate, ivi compreso l'invio di una nuova dichiarazione di veridicità.  \nA disposizione per eventuali chiarimenti.\nSaluti\nGabriele Nardi",
