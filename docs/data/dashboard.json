@@ -22996,7 +22996,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-07-11T18:46:46.616342+00:00",
+      "last_scan": "2026-07-12T09:43:41.077345+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23317,12 +23317,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-16T18:25:07.764264+00:00",
-          "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-17T12:10:42.273241+00:00",
           "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
           "changed": false,
@@ -23915,6 +23909,12 @@
           "zip_hash": "c5c5919f66a2c6deb46c7b70bd4e366e9c21497f5d7a1095fd5fc994bb52b12f",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-12T09:43:41.077345+00:00",
+          "zip_hash": "c5c5919f66a2c6deb46c7b70bd4e366e9c21497f5d7a1095fd5fc994bb52b12f",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -23948,7 +23948,7 @@
     "27": {
       "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
       "content_fingerprint": "5eddd8cecfa81d8cdeb38d42f4268b6f31ca5fac7dc091c3f36912154b9fd0d2",
-      "last_scan": "2026-07-11T18:46:46.616342+00:00",
+      "last_scan": "2026-07-12T09:43:41.077345+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -24185,12 +24185,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-16T18:25:07.764264+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-17T12:10:42.273241+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
           "changed": false,
@@ -24783,6 +24777,12 @@
           "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-12T09:43:41.077345+00:00",
+          "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -24811,7 +24811,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-07-11T18:46:46.616342+00:00",
+      "last_scan": "2026-07-12T09:43:41.077345+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25124,12 +25124,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-16T18:25:07.764264+00:00",
-          "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-17T12:10:42.273241+00:00",
           "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
           "changed": false,
@@ -25722,6 +25716,12 @@
           "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-12T09:43:41.077345+00:00",
+          "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -25747,7 +25747,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-07-11T18:46:46.616342+00:00",
+      "last_scan": "2026-07-12T09:43:41.077345+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26043,12 +26043,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-16T18:25:07.764264+00:00",
-          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-17T12:10:42.273241+00:00",
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
@@ -26641,6 +26635,12 @@
           "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-12T09:43:41.077345+00:00",
+          "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -26678,7 +26678,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-07-11T18:46:46.616342+00:00",
+      "last_scan": "2026-07-12T09:43:41.077345+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26688,9 +26688,9 @@
         "url": "https://www.provincia.fm.it/drive/47bsbtq69ims",
         "id": 30
       },
-      "zip_hash": "2c3e2ccdc195ccc17cc335bd04067723f8832c9b795710c5e4b29314d0a6c701",
-      "content_fingerprint": "b9ad5280090bde441d436b36db744fb7c4f05559a306b9c57d020a9a8e0c7a0c",
-      "zip_changed": false,
+      "zip_hash": "f7767594f5884016164af1ea2c2a04a518d8c223f2d54d0fccb82378bc5d5f8e",
+      "content_fingerprint": "dbcd554d2a2ef39e0336d5ef4b468c3cbccb885ea5a6fe73c823c6c9b29792fd",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -26870,9 +26870,9 @@
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "4d3d96849ab96461ee5cebf4f5ee5b2ccafc798449cee50bcd5649432c5c27ed",
-          "current_file": "Dichiarazione di veridicità - All. 4.pdf",
-          "current_size": 55225,
+          "current_hash": "f75e2824c5cb322bf2e2ff609d4ce12b7c54875f1902b1c98cd92a1ad5e3059c",
+          "current_file": "Allegato 4- Dichiarazione di veridicità.pdf",
+          "current_size": 391929,
           "file_count": 2,
           "all_files": [
             {
@@ -26881,13 +26881,13 @@
               "size": 39494
             },
             {
-              "name": "Dichiarazione di veridicità - All. 4.pdf",
-              "hash": "4d3d96849ab96461ee5cebf4f5ee5b2ccafc798449cee50bcd5649432c5c27ed",
-              "size": 55225
+              "name": "Allegato 4- Dichiarazione di veridicità.pdf",
+              "hash": "f75e2824c5cb322bf2e2ff609d4ce12b7c54875f1902b1c98cd92a1ad5e3059c",
+              "size": 391929
             }
           ],
           "first_upload": "2026-06-09T10:53:09.078306+00:00",
-          "last_upload": "2026-06-17T12:10:42.273241+00:00",
+          "last_upload": "2026-07-12T09:43:41.077345+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -26900,6 +26900,12 @@
               "time": "2026-06-17T12:10:42.273241+00:00",
               "hash": "4d3d96849ab96461ee5cebf4f5ee5b2ccafc798449cee50bcd5649432c5c27ed",
               "file": "Dichiarazione di veridicità - All. 4.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-12T09:43:41.077345+00:00",
+              "hash": "f75e2824c5cb322bf2e2ff609d4ce12b7c54875f1902b1c98cd92a1ad5e3059c",
+              "file": "Allegato 4- Dichiarazione di veridicità.pdf",
               "event": "sostituzione"
             }
           ]
@@ -26937,10 +26943,10 @@
           "source": "comune"
         },
         {
-          "name": "Dichiarazione di veridicità - All. 4.pdf",
-          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità - All. 4.pdf",
-          "hash": "4d3d96849ab96461ee5cebf4f5ee5b2ccafc798449cee50bcd5649432c5c27ed",
-          "size": 55225,
+          "name": "Allegato 4- Dichiarazione di veridicità.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Allegato 4- Dichiarazione di veridicità.pdf",
+          "hash": "f75e2824c5cb322bf2e2ff609d4ce12b7c54875f1902b1c98cd92a1ad5e3059c",
+          "size": 391929,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -26970,12 +26976,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-16T18:25:07.764264+00:00",
-          "zip_hash": "bf254406dab5d722cf5ac2e1f0b77fe1eff381e07040e76935252965b5eaceb7",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-17T12:10:42.273241+00:00",
           "zip_hash": "01490b20fd82a69c4269fd4f9e2b5bdab2f35dfca5d73344bc6d4be2d6d65229",
@@ -27568,6 +27568,12 @@
           "time": "2026-07-11T18:46:46.616342+00:00",
           "zip_hash": "2c3e2ccdc195ccc17cc335bd04067723f8832c9b795710c5e4b29314d0a6c701",
           "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-12T09:43:41.077345+00:00",
+          "zip_hash": "f7767594f5884016164af1ea2c2a04a518d8c223f2d54d0fccb82378bc5d5f8e",
+          "changed": true,
           "file_count": 7
         }
       ],
@@ -36716,9 +36722,9 @@
   "meta": {
     "last_scan": "2026-07-12T09:43:41.077345+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 0,
-      "invariati": 25,
+      "scansionati": 30,
+      "aggiornati": 1,
+      "invariati": 29,
       "errori": 0,
       "vuoti": 0
     },
