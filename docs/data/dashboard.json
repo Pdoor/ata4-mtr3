@@ -4611,7 +4611,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-12T18:52:17.311293+00:00",
+      "last_scan": "2026-07-13T10:50:51.129098+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4621,9 +4621,9 @@
         "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm",
         "id": 6
       },
-      "zip_hash": "0fa78bed2f0ba057430db26f4900a4cb45edcc06545571752fd811ea55a73d9e",
-      "content_fingerprint": "802d8fba559765590d7c214fd52e463e0da87f9ff4efd5269a32bca6cd336c74",
-      "zip_changed": false,
+      "zip_hash": "c6f15bb91b4e7a5799f0b5a9d097b406ed7d8cad4c508397e15986c5ae9ee98f",
+      "content_fingerprint": "d0606e7d4e323b38a2edcaa74b32e62e26938ac1c88d2e9fc1b375efbd08ee07",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -4747,19 +4747,19 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "67d4ed7ead8ca1696e874829feaa6d9575cf72197bfeb30632a3736d905d7490",
+          "current_hash": "92d29a60038adbb805f39f09da6ee835d6f17f1f3139c6f6bcfd3f9793d61606",
           "current_file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
-          "current_size": 189590,
+          "current_size": 189314,
           "file_count": 1,
           "all_files": [
             {
               "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
-              "hash": "67d4ed7ead8ca1696e874829feaa6d9575cf72197bfeb30632a3736d905d7490",
-              "size": 189590
+              "hash": "92d29a60038adbb805f39f09da6ee835d6f17f1f3139c6f6bcfd3f9793d61606",
+              "size": 189314
             }
           ],
           "first_upload": "2026-05-29T15:52:01.779744+00:00",
-          "last_upload": "2026-07-08T13:42:45.250868+00:00",
+          "last_upload": "2026-07-13T10:50:51.129098+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -4773,6 +4773,12 @@
               "hash": "67d4ed7ead8ca1696e874829feaa6d9575cf72197bfeb30632a3736d905d7490",
               "file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-13T10:50:51.129098+00:00",
+              "hash": "92d29a60038adbb805f39f09da6ee835d6f17f1f3139c6f6bcfd3f9793d61606",
+              "file": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
+              "event": "sostituzione"
             }
           ]
         },
@@ -4781,7 +4787,7 @@
           "current_hash": "a7aa225018a4295ef0833f5291ec02c573f67551126aa249d54db747cc803da7",
           "current_file": "firma_sindaco_4-6-26.pdf",
           "current_size": 582852,
-          "file_count": 3,
+          "file_count": 4,
           "all_files": [
             {
               "name": "Firma_Sindaco.pdf",
@@ -4796,6 +4802,11 @@
             {
               "name": "firma_sindaco_8-7-2026-signed.pdf",
               "hash": "32a1f6909d22bcd34c6f997f076f30fefb5fffd34474b6e3b0f7a543f4edbee2",
+              "size": 204744
+            },
+            {
+              "name": "firma_sindaco_13-7-2026-signed.pdf",
+              "hash": "f2c0ecb91dd9b61f530bda01a9582929372ebcf907de653e9cfe7b746a99483a",
               "size": 204744
             }
           ],
@@ -4844,8 +4855,8 @@
         {
           "name": "Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Comune di Fermo_Predisposizione PEF grezzo_Allegato 2_B.docx",
-          "hash": "67d4ed7ead8ca1696e874829feaa6d9575cf72197bfeb30632a3736d905d7490",
-          "size": 189590,
+          "hash": "92d29a60038adbb805f39f09da6ee835d6f17f1f3139c6f6bcfd3f9793d61606",
+          "size": 189314,
           "doc_key": "relazione_c",
           "source": "comune"
         },
@@ -4869,6 +4880,14 @@
           "name": "firma_sindaco_8-7-2026-signed.pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/firma_sindaco_8-7-2026-signed.pdf",
           "hash": "32a1f6909d22bcd34c6f997f076f30fefb5fffd34474b6e3b0f7a543f4edbee2",
+          "size": 204744,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "firma_sindaco_13-7-2026-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/firma_sindaco_13-7-2026-signed.pdf",
+          "hash": "f2c0ecb91dd9b61f530bda01a9582929372ebcf907de653e9cfe7b746a99483a",
           "size": 204744,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
@@ -4906,42 +4925,18 @@
           "source": "comune"
         },
         {
-          "name": "Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
-          "hash": "91bb636c1cc3dbdb57137e831fd3d077145defb95c363e92cf23d8f9cbf9e3c9",
-          "size": 24199,
+          "name": "REL.VERIDICITA.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/REL.VERIDICITA.pdf",
+          "hash": "9fc135cab5f4adddbf52d2badee54cf0092de160aa37f07b3127cdedf4977139",
+          "size": 47957,
           "doc_key": null,
           "source": "comune"
         },
         {
-          "name": "Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
-          "hash": "0d260888ffdf6a1405df0e29c5ce5e1fd7ccd59fa750fa2bb32eb23219ab5b43",
-          "size": 14149,
-          "doc_key": null,
-          "source": "comune"
-        },
-        {
-          "name": "Allegato C_Dati analitici per componente tariffaria.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria.xlsx",
-          "hash": "c6b1b2e0759b07cccecb46ba7c30c4252167d6e7a91f9e86212fd8b642451126",
-          "size": 19064,
-          "doc_key": null,
-          "source": "comune"
-        },
-        {
-          "name": "Relazione di riconciliazione contabile Pef 2026-2029.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di riconciliazione contabile Pef 2026-2029.pdf",
-          "hash": "1cf6180238c11463befab49c0151456e2dbeeff32930b2fb939c61a072c6e94c",
-          "size": 1129569,
-          "doc_key": null,
-          "source": "comune"
-        },
-        {
-          "name": "dichiarazione di veridicità.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/dichiarazione di veridicità.pdf",
-          "hash": "f3e23002bdb8b138daa06695be3645cbeed19b34303445258dd27c784f7bb698",
-          "size": 149161,
+          "name": "CK_Confronto cespiti 2022-2024 Asite.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/CK_Confronto cespiti 2022-2024 Asite.xlsx",
+          "hash": "62fe4f19828e79723b69fd0553194e529a025459e0099b9e603bd70b75ca7fc9",
+          "size": 45092,
           "doc_key": null,
           "source": "comune"
         },
@@ -4954,21 +4949,55 @@
           "source": "comune"
         },
         {
-          "name": "CK_Confronto cespiti 2022-2024 Asite.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/CK_Confronto cespiti 2022-2024 Asite.xlsx",
-          "hash": "62fe4f19828e79723b69fd0553194e529a025459e0099b9e603bd70b75ca7fc9",
-          "size": 45092,
+          "name": "dichiarazione di veridicità.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/dichiarazione di veridicità.pdf",
+          "hash": "f3e23002bdb8b138daa06695be3645cbeed19b34303445258dd27c784f7bb698",
+          "size": 149161,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Relazione di riconciliazione contabile Pef 2026-2029.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di riconciliazione contabile Pef 2026-2029.pdf",
+          "hash": "1cf6180238c11463befab49c0151456e2dbeeff32930b2fb939c61a072c6e94c",
+          "size": 1129569,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria.xlsx",
+          "hash": "c6b1b2e0759b07cccecb46ba7c30c4252167d6e7a91f9e86212fd8b642451126",
+          "size": 19064,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
+          "hash": "0d260888ffdf6a1405df0e29c5ce5e1fd7ccd59fa750fa2bb32eb23219ab5b43",
+          "size": 14149,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
+          "hash": "91bb636c1cc3dbdb57137e831fd3d077145defb95c363e92cf23d8f9cbf9e3c9",
+          "size": 24199,
+          "doc_key": null,
+          "source": "comune"
+        },
+        {
+          "name": "RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "hash": "da6b4a6934c620e84eb274e88f011ec587af9cae0642d6ce9a102b19767e2c78",
+          "size": 1792868,
           "doc_key": null,
           "source": "comune"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T15:27:56.161581+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-19T17:48:07.577160+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
@@ -5562,6 +5591,12 @@
           "zip_hash": "0fa78bed2f0ba057430db26f4900a4cb45edcc06545571752fd811ea55a73d9e",
           "changed": false,
           "file_count": 17
+        },
+        {
+          "time": "2026-07-13T10:50:51.129098+00:00",
+          "zip_hash": "c6f15bb91b4e7a5799f0b5a9d097b406ed7d8cad4c508397e15986c5ae9ee98f",
+          "changed": true,
+          "file_count": 20
         }
       ],
       "unclassified_files": [
@@ -5572,34 +5607,16 @@
           "size": 46564
         },
         {
-          "name": "Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
+          "name": "REL.VERIDICITA.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/REL.VERIDICITA.pdf",
           "source": "comune",
-          "size": 24199
+          "size": 47957
         },
         {
-          "name": "Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
+          "name": "CK_Confronto cespiti 2022-2024 Asite.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/CK_Confronto cespiti 2022-2024 Asite.xlsx",
           "source": "comune",
-          "size": 14149
-        },
-        {
-          "name": "Allegato C_Dati analitici per componente tariffaria.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria.xlsx",
-          "source": "comune",
-          "size": 19064
-        },
-        {
-          "name": "Relazione di riconciliazione contabile Pef 2026-2029.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di riconciliazione contabile Pef 2026-2029.pdf",
-          "source": "comune",
-          "size": 1129569
-        },
-        {
-          "name": "dichiarazione di veridicità.pdf",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/dichiarazione di veridicità.pdf",
-          "source": "comune",
-          "size": 149161
+          "size": 45092
         },
         {
           "name": "Relazione di accompagnamento.pdf",
@@ -5608,10 +5625,40 @@
           "size": 1792322
         },
         {
-          "name": "CK_Confronto cespiti 2022-2024 Asite.xlsx",
-          "path": "Gestore/Eventuali - Comunicazioni supplementari/CK_Confronto cespiti 2022-2024 Asite.xlsx",
+          "name": "dichiarazione di veridicità.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/dichiarazione di veridicità.pdf",
           "source": "comune",
-          "size": 45092
+          "size": 149161
+        },
+        {
+          "name": "Relazione di riconciliazione contabile Pef 2026-2029.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Relazione di riconciliazione contabile Pef 2026-2029.pdf",
+          "source": "comune",
+          "size": 1129569
+        },
+        {
+          "name": "Allegato C_Dati analitici per componente tariffaria.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato C_Dati analitici per componente tariffaria.xlsx",
+          "source": "comune",
+          "size": 19064
+        },
+        {
+          "name": "Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato B_Raccordo bilancio civilistico CoAn.xlsx",
+          "source": "comune",
+          "size": 14149
+        },
+        {
+          "name": "Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/Allegato A_Fermo Asite Srl unip CE Bilancio xbrl 2024.pdf",
+          "source": "comune",
+          "size": 24199
+        },
+        {
+          "name": "RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "path": "Gestore/Eventuali - Comunicazioni supplementari/RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "source": "comune",
+          "size": 1792868
         }
       ],
       "processabile": "si"
@@ -5619,7 +5666,7 @@
     "7": {
       "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
       "content_fingerprint": "e8c7e5aefcd75d1c826f0103b71a7583b2be06737437d2cd0db8ed3188ec5d23",
-      "last_scan": "2026-07-12T18:52:17.311293+00:00",
+      "last_scan": "2026-07-13T10:50:51.129098+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5872,12 +5919,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T15:27:56.161581+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-19T17:48:07.577160+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
           "changed": false,
@@ -6470,6 +6511,12 @@
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-13T10:50:51.129098+00:00",
+          "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6485,7 +6532,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-12T18:52:17.311293+00:00",
+      "last_scan": "2026-07-13T10:50:51.129098+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6803,12 +6850,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T15:27:56.161581+00:00",
-          "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-19T17:48:07.577160+00:00",
           "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
@@ -7402,6 +7443,12 @@
           "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-13T10:50:51.129098+00:00",
+          "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -7427,7 +7474,7 @@
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-12T18:52:17.311293+00:00",
+      "last_scan": "2026-07-13T10:50:51.129098+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7790,12 +7837,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T15:27:56.161581+00:00",
-          "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-19T17:48:07.577160+00:00",
           "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
@@ -8389,6 +8430,12 @@
           "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-07-13T10:50:51.129098+00:00",
+          "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
+          "changed": false,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -8414,7 +8461,7 @@
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-12T18:52:17.311293+00:00",
+      "last_scan": "2026-07-13T10:50:51.129098+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8703,12 +8750,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T15:27:56.161581+00:00",
-          "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-19T17:48:07.577160+00:00",
           "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
@@ -9299,6 +9340,12 @@
         },
         {
           "time": "2026-07-12T18:52:17.311293+00:00",
+          "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-13T10:50:51.129098+00:00",
           "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
           "changed": false,
           "file_count": 11
@@ -36728,9 +36775,9 @@
   "meta": {
     "last_scan": "2026-07-13T10:50:51.129098+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 1,
-      "invariati": 4,
+      "scansionati": 10,
+      "aggiornati": 2,
+      "invariati": 8,
       "errori": 0,
       "vuoti": 0
     },
