@@ -4650,7 +4650,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-14T15:17:09.056803+00:00",
+      "last_scan": "2026-07-14T17:04:22.837590+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5064,12 +5064,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
-        {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
           "changed": false,
@@ -5662,6 +5656,12 @@
           "zip_hash": "383199613113bfa7b4ef974997094d80ed6b5d0dbd02dff251836d3f0f5b7259",
           "changed": false,
           "file_count": 22
+        },
+        {
+          "time": "2026-07-14T17:04:22.837590+00:00",
+          "zip_hash": "383199613113bfa7b4ef974997094d80ed6b5d0dbd02dff251836d3f0f5b7259",
+          "changed": false,
+          "file_count": 22
         }
       ],
       "unclassified_files": [
@@ -5729,10 +5729,10 @@
       "processabile": "si"
     },
     "7": {
-      "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
-      "content_fingerprint": "e8c7e5aefcd75d1c826f0103b71a7583b2be06737437d2cd0db8ed3188ec5d23",
-      "last_scan": "2026-07-14T15:17:09.056803+00:00",
-      "zip_changed": false,
+      "zip_hash": "73fbd5845efa5c35b206039d4a2b541d4709be63d4a608777709474b10da0ada",
+      "content_fingerprint": "741e1614d1f0714421deb6491445e6b43e025b683fa5f6184ddaa01f59e196db",
+      "last_scan": "2026-07-14T17:04:22.837590+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -5913,7 +5913,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "9ff857e73cb550ee98177b0978d1d358635d6df6cde0bad87a0328fb95c283e2",
+          "current_file": "FRANCAVILLA DETE - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3814088,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "FRANCAVILLA DETE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "faa8e221b69ac50aff288333643933bc5a633b2e40e08af49025dce8aebc4beb",
+              "size": 747892
+            },
+            {
+              "name": "FRANCAVILLA DETE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "14fd9a4dfa503b28c19179db82cda36c858324e2d86440eb33062d0296510d60",
+              "size": 250787
+            },
+            {
+              "name": "FRANCAVILLA DETE - PEF TARI MTR3 2026-2029.zip",
+              "hash": "9ff857e73cb550ee98177b0978d1d358635d6df6cde0bad87a0328fb95c283e2",
+              "size": 3814088
+            }
+          ],
+          "first_upload": "2026-07-14T17:04:22.837590+00:00",
+          "last_upload": "2026-07-14T17:04:22.837590+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-14T17:04:22.837590+00:00",
+              "hash": "9ff857e73cb550ee98177b0978d1d358635d6df6cde0bad87a0328fb95c283e2",
+              "file": "FRANCAVILLA DETE - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -5980,15 +6012,33 @@
           "size": 174651,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "FRANCAVILLA DETE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/FRANCAVILLA DETE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "faa8e221b69ac50aff288333643933bc5a633b2e40e08af49025dce8aebc4beb",
+          "size": 747892,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "FRANCAVILLA DETE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/FRANCAVILLA DETE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "14fd9a4dfa503b28c19179db82cda36c858324e2d86440eb33062d0296510d60",
+          "size": 250787,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "FRANCAVILLA DETE - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/FRANCAVILLA DETE - PEF TARI MTR3 2026-2029.zip",
+          "hash": "9ff857e73cb550ee98177b0978d1d358635d6df6cde0bad87a0328fb95c283e2",
+          "size": 3814088,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
@@ -6582,6 +6632,12 @@
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-14T17:04:22.837590+00:00",
+          "zip_hash": "73fbd5845efa5c35b206039d4a2b541d4709be63d4a608777709474b10da0ada",
+          "changed": true,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -6597,7 +6653,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-14T15:17:09.056803+00:00",
+      "last_scan": "2026-07-14T17:04:22.837590+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6915,12 +6971,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
@@ -7514,6 +7564,12 @@
           "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-14T17:04:22.837590+00:00",
+          "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -7539,7 +7595,7 @@
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-14T15:17:09.056803+00:00",
+      "last_scan": "2026-07-14T17:04:22.837590+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7902,12 +7958,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
@@ -8501,6 +8551,12 @@
           "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-07-14T17:04:22.837590+00:00",
+          "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
+          "changed": false,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -8526,7 +8582,7 @@
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-14T15:17:09.056803+00:00",
+      "last_scan": "2026-07-14T17:04:22.837590+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8815,12 +8871,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
@@ -9411,6 +9461,12 @@
         },
         {
           "time": "2026-07-14T15:17:09.056803+00:00",
+          "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-14T17:04:22.837590+00:00",
           "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
           "changed": false,
           "file_count": 11
@@ -37034,9 +37090,9 @@
   "meta": {
     "last_scan": "2026-07-14T17:04:22.837590+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
