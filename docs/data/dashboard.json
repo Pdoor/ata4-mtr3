@@ -23126,7 +23126,7 @@
       "processabile": "si"
     },
     "26": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -23447,12 +23447,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "c7cc2da81303f7e1fae2fe399f66f6480fdb4b217202f1f09d1b1ba01d1c5abd",
           "changed": false,
@@ -24045,6 +24039,12 @@
           "zip_hash": "c5c5919f66a2c6deb46c7b70bd4e366e9c21497f5d7a1095fd5fc994bb52b12f",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "c5c5919f66a2c6deb46c7b70bd4e366e9c21497f5d7a1095fd5fc994bb52b12f",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -24076,10 +24076,10 @@
       "processabile": "si"
     },
     "27": {
-      "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
-      "content_fingerprint": "5eddd8cecfa81d8cdeb38d42f4268b6f31ca5fac7dc091c3f36912154b9fd0d2",
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
-      "zip_changed": false,
+      "zip_hash": "ee3109a47d3b2acf091e19ae54515e23953c1ae6cebf937a787bdbfc4286ac4a",
+      "content_fingerprint": "80b49083a6a9734f3a7364a2c601cf775e28f75a06cbdc8306712932f4e7878c",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -24167,76 +24167,99 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "ba606764ecb981896947269ccca6f47e2ae884591db3ca2d4760c59537e4dcd9",
+          "current_hash": "ea9518a357d8b7bb135458e01de2440a054cefa0f6f256adec3e721efce733b2",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
-          "current_size": 3970491,
+          "current_size": 3970607,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
-              "hash": "ba606764ecb981896947269ccca6f47e2ae884591db3ca2d4760c59537e4dcd9",
-              "size": 3970491
+              "hash": "ea9518a357d8b7bb135458e01de2440a054cefa0f6f256adec3e721efce733b2",
+              "size": 3970607
             }
           ],
           "first_upload": "2026-04-14T10:57:01.795965+00:00",
-          "last_upload": "2026-04-14T10:57:01.795965+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-14T09:48:03.362299+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-14T10:57:01.795965+00:00",
               "hash": "ba606764ecb981896947269ccca6f47e2ae884591db3ca2d4760c59537e4dcd9",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-14T09:48:03.362299+00:00",
+              "hash": "ea9518a357d8b7bb135458e01de2440a054cefa0f6f256adec3e721efce733b2",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "13451d95035fa61edb91c067784e001df4faf28df752b5a33a13b6547eb04220",
+          "current_hash": "a0e473b4533d4d8abae0ffe35c8553ddc164748edbee5db8bf6c2df15d0e4f8f",
           "current_file": "Relazione_Comune di Montottone.docx",
-          "current_size": 156119,
+          "current_size": 155987,
           "file_count": 1,
           "all_files": [
             {
               "name": "Relazione_Comune di Montottone.docx",
-              "hash": "13451d95035fa61edb91c067784e001df4faf28df752b5a33a13b6547eb04220",
-              "size": 156119
+              "hash": "a0e473b4533d4d8abae0ffe35c8553ddc164748edbee5db8bf6c2df15d0e4f8f",
+              "size": 155987
             }
           ],
           "first_upload": "2026-04-14T10:57:01.795965+00:00",
-          "last_upload": "2026-04-14T10:57:01.795965+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-14T09:48:03.362299+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-14T10:57:01.795965+00:00",
               "hash": "13451d95035fa61edb91c067784e001df4faf28df752b5a33a13b6547eb04220",
               "file": "Relazione_Comune di Montottone.docx",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-14T09:48:03.362299+00:00",
+              "hash": "a0e473b4533d4d8abae0ffe35c8553ddc164748edbee5db8bf6c2df15d0e4f8f",
+              "file": "Relazione_Comune di Montottone.docx",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "57780e56e4ebcf5cd9b1ac44a6f491c10365418acc686a6cec7902d5b4c7289d",
-          "current_file": "DICHIRAZIONE DI VERIDICITA-signed.pdf",
-          "current_size": 707809,
-          "file_count": 1,
+          "current_hash": "49da2c8b3a8e04f32ca997ec3c2546c2fd43f753d411276fd50f147ce0a8e2a3",
+          "current_file": "Dichiarazione_Veridicita_Comune Montottone-signed.pdf",
+          "current_size": 280578,
+          "file_count": 2,
           "all_files": [
             {
-              "name": "DICHIRAZIONE DI VERIDICITA-signed.pdf",
-              "hash": "57780e56e4ebcf5cd9b1ac44a6f491c10365418acc686a6cec7902d5b4c7289d",
-              "size": 707809
+              "name": "Dichiarazione_Veridicita_Comune Montottone-signed.pdf",
+              "hash": "49da2c8b3a8e04f32ca997ec3c2546c2fd43f753d411276fd50f147ce0a8e2a3",
+              "size": 280578
+            },
+            {
+              "name": "CIE FARINA CRISTINA.pdf",
+              "hash": "05ae073433c72352a314dcd9227d1177f39559646fe3df8316ba9d6f09823347",
+              "size": 218209
             }
           ],
           "first_upload": "2026-04-14T10:57:01.795965+00:00",
-          "last_upload": "2026-04-14T10:57:01.795965+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-14T09:48:03.362299+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-14T10:57:01.795965+00:00",
               "hash": "57780e56e4ebcf5cd9b1ac44a6f491c10365418acc686a6cec7902d5b4c7289d",
               "file": "DICHIRAZIONE DI VERIDICITA-signed.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-14T09:48:03.362299+00:00",
+              "hash": "49da2c8b3a8e04f32ca997ec3c2546c2fd43f753d411276fd50f147ce0a8e2a3",
+              "file": "Dichiarazione_Veridicita_Comune Montottone-signed.pdf",
+              "event": "sostituzione"
             }
           ]
         },
@@ -24251,24 +24274,32 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029_Comune di Montottone.xlsx",
-          "hash": "ba606764ecb981896947269ccca6f47e2ae884591db3ca2d4760c59537e4dcd9",
-          "size": 3970491,
+          "hash": "ea9518a357d8b7bb135458e01de2440a054cefa0f6f256adec3e721efce733b2",
+          "size": 3970607,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
           "name": "Relazione_Comune di Montottone.docx",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Relazione_Comune di Montottone.docx",
-          "hash": "13451d95035fa61edb91c067784e001df4faf28df752b5a33a13b6547eb04220",
-          "size": 156119,
+          "hash": "a0e473b4533d4d8abae0ffe35c8553ddc164748edbee5db8bf6c2df15d0e4f8f",
+          "size": 155987,
           "doc_key": "relazione_c",
           "source": "comune"
         },
         {
-          "name": "DICHIRAZIONE DI VERIDICITA-signed.pdf",
-          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/DICHIRAZIONE DI VERIDICITA-signed.pdf",
-          "hash": "57780e56e4ebcf5cd9b1ac44a6f491c10365418acc686a6cec7902d5b4c7289d",
-          "size": 707809,
+          "name": "Dichiarazione_Veridicita_Comune Montottone-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comune Montottone-signed.pdf",
+          "hash": "49da2c8b3a8e04f32ca997ec3c2546c2fd43f753d411276fd50f147ce0a8e2a3",
+          "size": 280578,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "CIE FARINA CRISTINA.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/CIE FARINA CRISTINA.pdf",
+          "hash": "05ae073433c72352a314dcd9227d1177f39559646fe3df8316ba9d6f09823347",
+          "size": 218209,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -24314,12 +24345,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
-          "changed": false,
-          "file_count": 6
-        },
         {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "74d78863fd187933b5b547f0f84d7debf51dac991847ba16489c60b3a1887776",
@@ -24913,6 +24938,12 @@
           "zip_hash": "5ce8a253c76bcb2f2b3a30c1e713c7469e4d1652b2d205ad9666ace418590cae",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "ee3109a47d3b2acf091e19ae54515e23953c1ae6cebf937a787bdbfc4286ac4a",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [
@@ -24941,7 +24972,7 @@
       "last_scan_empty": false
     },
     "28": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -25254,12 +25285,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "2b82ce69989ecc3dc4bb96b19b3bad61ad932e8bcc57435ec0f6c49fbdd3ac5a",
           "changed": false,
@@ -25852,6 +25877,12 @@
           "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "0f913e36f3a51dbab3354d50f21cfe415642ba673dedd573a42af5e2d4fcaf7e",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -25877,7 +25908,7 @@
       "processabile": "si"
     },
     "29": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -26173,12 +26204,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "447bdc6fa63613772501099ac207980be63a9cf3f57332d5a2345cbece4f06dc",
           "changed": false,
@@ -26771,6 +26796,12 @@
           "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "f7ef50f79fb20df1be70f19237a1aacadb894dbc915bd3e2fc68218bd9aec723",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -26808,7 +26839,7 @@
       "processabile": "si"
     },
     "30": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -27107,12 +27138,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "01490b20fd82a69c4269fd4f9e2b5bdab2f35dfca5d73344bc6d4be2d6d65229",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "01490b20fd82a69c4269fd4f9e2b5bdab2f35dfca5d73344bc6d4be2d6d65229",
           "changed": false,
@@ -27702,6 +27727,12 @@
         },
         {
           "time": "2026-07-13T19:13:25.061187+00:00",
+          "zip_hash": "f7767594f5884016164af1ea2c2a04a518d8c223f2d54d0fccb82378bc5d5f8e",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
           "zip_hash": "f7767594f5884016164af1ea2c2a04a518d8c223f2d54d0fccb82378bc5d5f8e",
           "changed": false,
           "file_count": 7
@@ -36908,9 +36939,9 @@
   "meta": {
     "last_scan": "2026-07-14T09:48:03.362299+00:00",
     "results": {
-      "scansionati": 25,
-      "aggiornati": 3,
-      "invariati": 22,
+      "scansionati": 30,
+      "aggiornati": 4,
+      "invariati": 26,
       "errori": 0,
       "vuoti": 0
     },
