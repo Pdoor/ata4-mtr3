@@ -13874,7 +13874,7 @@
       "processabile": "si"
     },
     "16": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -13884,9 +13884,9 @@
         "url": "https://www.provincia.fm.it/drive/3f5d1ahwmas",
         "id": 16
       },
-      "zip_hash": "554e84739796e5eed3d3c1bb81334b405718c482c56f1e2a20e70f329ce455c1",
-      "content_fingerprint": "47692a6b38c60b346cd927645fda2cc59762e442f18428ab8542c6f69e15e1ef",
-      "zip_changed": false,
+      "zip_hash": "3625716b4283deedc4f5dd4136cebd9eafdacf60ce339274a89eff1c68dfe2bb",
+      "content_fingerprint": "0812c59d205428ffcda5cea51387f1912f48de31b8e0ed962ccd03b086b41bf5",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -13985,8 +13985,8 @@
             },
             {
               "name": "Monte San Pietrangeli_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_proposta C.xlsx",
-              "hash": "23a7e5e9226ed10cceae5b3a0813a75766369f089794717ed369022470987579",
-              "size": 3973269
+              "hash": "974be1da82f8676993cecd258281fd56c55f8da3a27eae230b12ea5e45cf8248",
+              "size": 3972786
             },
             {
               "name": "Predisposizione PEF grezzo Comune di Monte San Pietrangeli 2026-2029_Allegato 2_proposta C.docx",
@@ -14049,10 +14049,10 @@
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "a10aebcbdff7be54034ac0bad0f5f128cd859ffcf8920c64ae5a1b36f2798c20",
-          "current_file": "ALL.3 DICHIARAZIONE LEG.RAPR. 2026.pdf.p7m",
-          "current_size": 331956,
-          "file_count": 3,
+          "current_hash": "faece8b4d5778f867ce7bebe5c9881b90fdff9ad50d926768596f1b64ed66107",
+          "current_file": "DICHIARAZIONE VER.14-07-2026.pdf.p7m",
+          "current_size": 331957,
+          "file_count": 4,
           "all_files": [
             {
               "name": "ALL.3 DICHIARAZIONE LEG.RAPR. 2026.pdf.p7m",
@@ -14068,17 +14068,28 @@
               "name": "Dichiarazione_Veridicita_Comuni 07-07-2026.pdf.p7m",
               "hash": "47e64ad068497fe9e0de2d314d8e2fed77af5589741ff646d12ab5ff94722bb9",
               "size": 145055
+            },
+            {
+              "name": "DICHIARAZIONE VER.14-07-2026.pdf.p7m",
+              "hash": "faece8b4d5778f867ce7bebe5c9881b90fdff9ad50d926768596f1b64ed66107",
+              "size": 331957
             }
           ],
           "first_upload": "2026-04-10T10:44:38.463984+00:00",
-          "last_upload": "2026-04-10T10:44:38.463984+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-14T09:48:03.362299+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-10T10:44:38.463984+00:00",
               "hash": "a10aebcbdff7be54034ac0bad0f5f128cd859ffcf8920c64ae5a1b36f2798c20",
               "file": "ALL.3 DICHIARAZIONE LEG.RAPR. 2026.pdf.p7m",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-14T09:48:03.362299+00:00",
+              "hash": "faece8b4d5778f867ce7bebe5c9881b90fdff9ad50d926768596f1b64ed66107",
+              "file": "DICHIARAZIONE VER.14-07-2026.pdf.p7m",
+              "event": "sostituzione"
             }
           ]
         },
@@ -14109,8 +14120,8 @@
         {
           "name": "Monte San Pietrangeli_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_proposta C.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Monte San Pietrangeli_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune)_proposta C.xlsx",
-          "hash": "23a7e5e9226ed10cceae5b3a0813a75766369f089794717ed369022470987579",
-          "size": 3973269,
+          "hash": "974be1da82f8676993cecd258281fd56c55f8da3a27eae230b12ea5e45cf8248",
+          "size": 3972786,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
@@ -14159,6 +14170,14 @@
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comuni 07-07-2026.pdf.p7m",
           "hash": "47e64ad068497fe9e0de2d314d8e2fed77af5589741ff646d12ab5ff94722bb9",
           "size": 145055,
+          "doc_key": "dich_veridicita_c",
+          "source": "comune"
+        },
+        {
+          "name": "DICHIARAZIONE VER.14-07-2026.pdf.p7m",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/DICHIARAZIONE VER.14-07-2026.pdf.p7m",
+          "hash": "faece8b4d5778f867ce7bebe5c9881b90fdff9ad50d926768596f1b64ed66107",
+          "size": 331957,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -14244,12 +14263,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-20T10:26:56.024390+00:00",
-          "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-20T13:29:59.335230+00:00",
           "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
@@ -14843,6 +14856,12 @@
           "zip_hash": "554e84739796e5eed3d3c1bb81334b405718c482c56f1e2a20e70f329ce455c1",
           "changed": false,
           "file_count": 19
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "3625716b4283deedc4f5dd4136cebd9eafdacf60ce339274a89eff1c68dfe2bb",
+          "changed": true,
+          "file_count": 20
         }
       ],
       "unclassified_files": [
@@ -14886,7 +14905,7 @@
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14896,9 +14915,9 @@
         "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz",
         "id": 17
       },
-      "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
-      "content_fingerprint": "eddd0a1b3ba22318839065c90264277c72f0eb6207d400322a100fcf12b4eb5a",
-      "zip_changed": false,
+      "zip_hash": "a801a57e5f99a366f52cd739c119d977277c422e7e2ef3fcdaf0749e207b994c",
+      "content_fingerprint": "354080f92a2970cc6d770ceaceae031f06e5ad044e449148f6a869cea5c5ffee",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -14983,7 +15002,7 @@
           "current_hash": "04071d849aaae78d29ad4a7cf3021e1cb65f77881c874c8fe415af3179d1d0bb",
           "current_file": "2_Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_2.0.xlsx",
           "current_size": 3994229,
-          "file_count": 2,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Monte Urano_Tool_di_calcolo_MTR-3_2026-2029 (grezzo Comune).xlsx",
@@ -14994,6 +15013,11 @@
               "name": "2_Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_2.0.xlsx",
               "hash": "04071d849aaae78d29ad4a7cf3021e1cb65f77881c874c8fe415af3179d1d0bb",
               "size": 3994229
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_C.xlsx",
+              "hash": "dc5cae18b13c80e414add524ce67ed94c7f0980b8cf08d73e373e1674c7336e9",
+              "size": 3983035
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -15016,10 +15040,10 @@
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "1c62842507b8de52267ce21a3ef8760d190d216579dbe6834ed586cd5069c2c2",
-          "current_file": "2_Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_2.0.pdf",
-          "current_size": 332513,
-          "file_count": 2,
+          "current_hash": "2d0b2e242d67816a8b26790d22dc2f4bd5339cf726f677fa9c691023e0c9a4dd",
+          "current_file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_C.pdf",
+          "current_size": 332861,
+          "file_count": 3,
           "all_files": [
             {
               "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
@@ -15030,10 +15054,15 @@
               "name": "2_Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_2.0.pdf",
               "hash": "1c62842507b8de52267ce21a3ef8760d190d216579dbe6834ed586cd5069c2c2",
               "size": 332513
+            },
+            {
+              "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_C.pdf",
+              "hash": "2d0b2e242d67816a8b26790d22dc2f4bd5339cf726f677fa9c691023e0c9a4dd",
+              "size": 332861
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
-          "last_upload": "2026-05-14T12:55:31.518441+00:00",
+          "last_upload": "2026-07-14T09:48:03.362299+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -15046,6 +15075,12 @@
               "time": "2026-05-14T12:55:31.518441+00:00",
               "hash": "1c62842507b8de52267ce21a3ef8760d190d216579dbe6834ed586cd5069c2c2",
               "file": "2_Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_2.0.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-14T09:48:03.362299+00:00",
+              "hash": "2d0b2e242d67816a8b26790d22dc2f4bd5339cf726f677fa9c691023e0c9a4dd",
+              "file": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_C.pdf",
               "event": "sostituzione"
             }
           ]
@@ -15064,8 +15099,8 @@
             },
             {
               "name": "2_Dichiarazione_Veridicita_Comuni(firmato).pdf",
-              "hash": "f1693e04072006a3c2812d3d82856bf1cb847f2225873767ecb622e3c2e00751",
-              "size": 79411
+              "hash": "9025ce7406f82bb135f5f57a4eb7c03b27bc6faa82f8cc6a6ebdb1be31b93a57",
+              "size": 80358
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -15105,6 +15140,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_C.xlsx",
+          "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_C.xlsx",
+          "hash": "dc5cae18b13c80e414add524ce67ed94c7f0980b8cf08d73e373e1674c7336e9",
+          "size": 3983035,
+          "doc_key": "tool_mtr3_c",
+          "source": "comune"
+        },
+        {
           "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
           "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano.pdf",
           "hash": "c810eb4c145c9bfd49d35f6b969836166dfd5871abbd936e3ad40b50a1704f21",
@@ -15121,6 +15164,14 @@
           "source": "comune"
         },
         {
+          "name": "Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_C.pdf",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Predisposizione PEF grezzo Comune (non ETC) 2026-2029_Comune di Monte Urano_Allegato 2_C.pdf",
+          "hash": "2d0b2e242d67816a8b26790d22dc2f4bd5339cf726f677fa9c691023e0c9a4dd",
+          "size": 332861,
+          "doc_key": "relazione_c",
+          "source": "comune"
+        },
+        {
           "name": "Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione_Veridicita_Comune_2026(firmato).pdf",
           "hash": "cfd4d2dee699d43e77c31eeb280ddc6dc32000d649cf847744c9a2855fc7fd2e",
@@ -15131,8 +15182,8 @@
         {
           "name": "2_Dichiarazione_Veridicita_Comuni(firmato).pdf",
           "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/2_Dichiarazione_Veridicita_Comuni(firmato).pdf",
-          "hash": "f1693e04072006a3c2812d3d82856bf1cb847f2225873767ecb622e3c2e00751",
-          "size": 79411,
+          "hash": "9025ce7406f82bb135f5f57a4eb7c03b27bc6faa82f8cc6a6ebdb1be31b93a57",
+          "size": 80358,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -15194,12 +15245,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
@@ -15793,6 +15838,12 @@
           "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "a801a57e5f99a366f52cd739c119d977277c422e7e2ef3fcdaf0749e207b994c",
+          "changed": true,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -15824,7 +15875,7 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16102,12 +16153,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
           "changed": false,
@@ -16700,6 +16745,12 @@
           "zip_hash": "a3546c1bab72f798632fab239eff00f1b0e061ea7a2cdde77078f3fa12aa8343",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "a3546c1bab72f798632fab239eff00f1b0e061ea7a2cdde77078f3fa12aa8343",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -16739,7 +16790,7 @@
     "19": {
       "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
       "content_fingerprint": "b29c797fcd36029cf320fbe4bb09e28ff3e29a31f778b863ba6d200405844d46",
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17041,12 +17092,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "b10d224b43d04eb7fc41a178c9b7fda1f4c3f2ce4ea73ffae3725dba775c582c",
           "changed": false,
@@ -17639,6 +17684,12 @@
           "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -17656,7 +17707,7 @@
     "20": {
       "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
       "content_fingerprint": "bb2b9d6102c805b25e4715d05536000fbaa7a4b71b7c98a55642f15e6e6831b6",
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17896,12 +17947,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-19T19:27:17.917911+00:00",
-          "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-20T10:26:56.024390+00:00",
           "zip_hash": "9b88846cbd1c9c5abc0edfe2e2f78a96c24f59fffa7d2ee3a73a274ad743944a",
           "changed": false,
@@ -18491,6 +18536,12 @@
         },
         {
           "time": "2026-07-13T19:13:25.061187+00:00",
+          "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
           "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
           "changed": false,
           "file_count": 7
@@ -36857,9 +36908,9 @@
   "meta": {
     "last_scan": "2026-07-14T09:48:03.362299+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 1,
-      "invariati": 14,
+      "scansionati": 20,
+      "aggiornati": 3,
+      "invariati": 17,
       "errori": 0,
       "vuoti": 0
     },
