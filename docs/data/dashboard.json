@@ -4611,7 +4611,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -4621,9 +4621,9 @@
         "url": "https://www.provincia.fm.it/drive/5kjjqgjp52bm",
         "id": 6
       },
-      "zip_hash": "c6f15bb91b4e7a5799f0b5a9d097b406ed7d8cad4c508397e15986c5ae9ee98f",
-      "content_fingerprint": "d0606e7d4e323b38a2edcaa74b32e62e26938ac1c88d2e9fc1b375efbd08ee07",
-      "zip_changed": false,
+      "zip_hash": "383199613113bfa7b4ef974997094d80ed6b5d0dbd02dff251836d3f0f5b7259",
+      "content_fingerprint": "b299f2c306c5f0bacf12cc345f87ba532d856a7cb66906ab7f1dcd75e278716a",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -4655,12 +4655,17 @@
           "current_hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
           "current_file": "Relazione di accompagnamento PEF 2026-2029.pdf",
           "current_size": 1804261,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "Relazione di accompagnamento PEF 2026-2029.pdf",
               "hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
               "size": 1804261
+            },
+            {
+              "name": "RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+              "hash": "da6b4a6934c620e84eb274e88f011ec587af9cae0642d6ce9a102b19767e2c78",
+              "size": 1792868
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -4680,12 +4685,17 @@
           "current_hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
           "current_file": "all 3.pdf",
           "current_size": 445896,
-          "file_count": 1,
+          "file_count": 2,
           "all_files": [
             {
               "name": "all 3.pdf",
               "hash": "e735a473cfad3a5702beb7093baeb2c682b90209f80f91b40abe7fe20e521407",
               "size": 445896
+            },
+            {
+              "name": "REL.VERIDICITA.pdf",
+              "hash": "9fc135cab5f4adddbf52d2badee54cf0092de160aa37f07b3127cdedf4977139",
+              "size": 47957
             }
           ],
           "first_upload": "2026-04-02T11:19:15.277201+00:00",
@@ -4909,10 +4919,26 @@
           "source": "gestore"
         },
         {
+          "name": "REL.VERIDICITA.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/REL.VERIDICITA.pdf",
+          "hash": "9fc135cab5f4adddbf52d2badee54cf0092de160aa37f07b3127cdedf4977139",
+          "size": 47957,
+          "doc_key": "dich_veridicita",
+          "source": "gestore"
+        },
+        {
           "name": "Relazione di accompagnamento PEF 2026-2029.pdf",
           "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/Relazione di accompagnamento PEF 2026-2029.pdf",
           "hash": "bbde8e77021a2b43faaefa0d879635655b0a13d9c0dbdf7794e1f77841bc8bc0",
           "size": 1804261,
+          "doc_key": "relazione",
+          "source": "gestore"
+        },
+        {
+          "name": "RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "path": "Gestore/Allegato2 - Relazione di accompagnamento - Gestore/RELAZIONE DI ACCOMPAGNAMENTO AL 13.07.2026.pdf",
+          "hash": "da6b4a6934c620e84eb274e88f011ec587af9cae0642d6ce9a102b19767e2c78",
+          "size": 1792868,
           "doc_key": "relazione",
           "source": "gestore"
         },
@@ -4998,12 +5024,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-20T13:29:59.335230+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-20T15:29:16.617529+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
@@ -5597,6 +5617,12 @@
           "zip_hash": "c6f15bb91b4e7a5799f0b5a9d097b406ed7d8cad4c508397e15986c5ae9ee98f",
           "changed": false,
           "file_count": 20
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "383199613113bfa7b4ef974997094d80ed6b5d0dbd02dff251836d3f0f5b7259",
+          "changed": true,
+          "file_count": 22
         }
       ],
       "unclassified_files": [
@@ -5666,7 +5692,7 @@
     "7": {
       "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
       "content_fingerprint": "e8c7e5aefcd75d1c826f0103b71a7583b2be06737437d2cd0db8ed3188ec5d23",
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -5919,12 +5945,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-20T13:29:59.335230+00:00",
-          "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
-          "changed": false,
-          "file_count": 8
-        },
-        {
           "time": "2026-06-20T15:29:16.617529+00:00",
           "zip_hash": "ef160c0dc4ed48ac1b55828531c998cb68c447224b0a588d7ed73d0b0dbea39f",
           "changed": false,
@@ -6517,6 +6537,12 @@
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [],
@@ -6532,7 +6558,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6850,12 +6876,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-20T13:29:59.335230+00:00",
-          "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-06-20T15:29:16.617529+00:00",
           "zip_hash": "e23ba7b20a5870f36b7f28afc71d4a83cb237c435062399b3d80b292fe78ab05",
@@ -7449,6 +7469,12 @@
           "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -7474,7 +7500,7 @@
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -7837,12 +7863,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-20T13:29:59.335230+00:00",
-          "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-20T15:29:16.617529+00:00",
           "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
@@ -8436,6 +8456,12 @@
           "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
+          "zip_hash": "0c0bb86921c2dce100de9ce6cc2d651a498b2f367dc4dc2f1db13828709b1b74",
+          "changed": false,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -8461,7 +8487,7 @@
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-13T19:13:25.061187+00:00",
+      "last_scan": "2026-07-14T09:48:03.362299+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8750,12 +8776,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-20T13:29:59.335230+00:00",
-          "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-20T15:29:16.617529+00:00",
           "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
@@ -9346,6 +9366,12 @@
         },
         {
           "time": "2026-07-13T19:13:25.061187+00:00",
+          "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-14T09:48:03.362299+00:00",
           "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
           "changed": false,
           "file_count": 11
@@ -36831,9 +36857,9 @@
   "meta": {
     "last_scan": "2026-07-14T09:48:03.362299+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 1,
+      "invariati": 9,
       "errori": 0,
       "vuoti": 0
     },
