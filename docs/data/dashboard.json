@@ -18879,10 +18879,10 @@
       "last_scan_empty": false
     },
     "21": {
-      "zip_hash": "01f204b150ab569bcfe2b227d4273c0f40230075f2da1194ca9dc2313d7faf4e",
-      "content_fingerprint": "46346fecb94711a0be44e1077e317b4acf4673d398757b88ea0f0425d7da3ae9",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
-      "zip_changed": false,
+      "zip_hash": "48a9e6279a7b3c9129489225c31d4f120664bf4807a7f6df46c8e91546fe80a4",
+      "content_fingerprint": "c49b234ae73f975855445408eb8a112b6dc350c40c1a1ede8c5b8c9d1016e5fb",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -19082,7 +19082,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "d54d1911e89dfff74f1df156794d54ab455fd4772d7a2946b92cebe3c6632cb3",
+          "current_file": "MONTEFORTINO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3743001,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MONTEFORTINO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "d54d1911e89dfff74f1df156794d54ab455fd4772d7a2946b92cebe3c6632cb3",
+              "size": 3743001
+            },
+            {
+              "name": "MONTEFORTINO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "4873a384f3c22b783bb59e0137f7bcb4ac38bb85024696ef7c0a62c1cb79b2dd",
+              "size": 279375
+            },
+            {
+              "name": "MONTEFORTINO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "7854ee8763b6bc49a7dac71ae3d009b454c8e525e9acd480eb7e5e6877ddc602",
+              "size": 280835
+            }
+          ],
+          "first_upload": "2026-07-15T09:06:38.833770+00:00",
+          "last_upload": "2026-07-15T09:06:38.833770+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-15T09:06:38.833770+00:00",
+              "hash": "d54d1911e89dfff74f1df156794d54ab455fd4772d7a2946b92cebe3c6632cb3",
+              "file": "MONTEFORTINO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -19141,15 +19173,33 @@
           "size": 206354,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "MONTEFORTINO - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/MONTEFORTINO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "d54d1911e89dfff74f1df156794d54ab455fd4772d7a2946b92cebe3c6632cb3",
+          "size": 3743001,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTEFORTINO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/MONTEFORTINO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "4873a384f3c22b783bb59e0137f7bcb4ac38bb85024696ef7c0a62c1cb79b2dd",
+          "size": 279375,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTEFORTINO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/MONTEFORTINO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "7854ee8763b6bc49a7dac71ae3d009b454c8e525e9acd480eb7e5e6877ddc602",
+          "size": 280835,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "312530995cb938c94e9e1fa3fd3cd714e978115b05d0260f7f3a9b39a3ecc858",
@@ -19743,6 +19793,12 @@
           "zip_hash": "01f204b150ab569bcfe2b227d4273c0f40230075f2da1194ca9dc2313d7faf4e",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "48a9e6279a7b3c9129489225c31d4f120664bf4807a7f6df46c8e91546fe80a4",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -19758,7 +19814,7 @@
       "last_scan_empty": false
     },
     "22": {
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -20002,12 +20058,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
           "changed": false,
@@ -20600,6 +20650,12 @@
           "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
           "changed": false,
           "file_count": 6
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "99140718549f71b9c24e63e915e42873517e59bcc9f3d16aed14a9353bdb2b05",
+          "changed": false,
+          "file_count": 6
         }
       ],
       "unclassified_files": [],
@@ -20608,7 +20664,7 @@
     "23": {
       "zip_hash": "a3bd487caa1117970321991e3e4927ad08887a4fba13bd27cf4ed9f47b915844",
       "content_fingerprint": "7165c380ffb047dc92814e321d2ae526286c88da3725aa331250494b66eaca43",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21007,12 +21063,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
-          "changed": false,
-          "file_count": 19
-        },
-        {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "e18ccf642c74e3d2f7d719ce06dbfedbc77d99ee8f60d37c9c1898a35569ec23",
           "changed": false,
@@ -21605,6 +21655,12 @@
           "zip_hash": "a3bd487caa1117970321991e3e4927ad08887a4fba13bd27cf4ed9f47b915844",
           "changed": false,
           "file_count": 23
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "a3bd487caa1117970321991e3e4927ad08887a4fba13bd27cf4ed9f47b915844",
+          "changed": false,
+          "file_count": 23
         }
       ],
       "unclassified_files": [
@@ -21689,7 +21745,7 @@
     "24": {
       "zip_hash": "c711fc19d5af20e3c8975341a0917fa7208a4f888edbfa763b873d12bb44fe36",
       "content_fingerprint": "1f0fb3d6cdc453fefa922f4d773f2f9ae86cbc27b4b2bef0a074fe7485de5d80",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -21947,12 +22003,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "63092b2dec07388a11523a93f621d099c493c825e9869aa3680945fbbca451c9",
           "changed": false,
@@ -22545,6 +22595,12 @@
           "zip_hash": "c711fc19d5af20e3c8975341a0917fa7208a4f888edbfa763b873d12bb44fe36",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "c711fc19d5af20e3c8975341a0917fa7208a4f888edbfa763b873d12bb44fe36",
+          "changed": false,
+          "file_count": 7
         }
       ],
       "unclassified_files": [],
@@ -22560,7 +22616,7 @@
       "last_scan_empty": false
     },
     "25": {
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -22570,9 +22626,9 @@
         "url": "https://www.provincia.fm.it/drive/nypzmc5ct79",
         "id": 25
       },
-      "zip_hash": "0889bc985e0f78afa6aa9620fc520aa37a0d33934c79a6001ede16625aa89bdc",
-      "content_fingerprint": "f42f6b1eb164f79d69d97471b9ba17c7b0808133c909495256955e515e9bf9db",
-      "zip_changed": false,
+      "zip_hash": "82e9023edcddbf110d1bb1414c7bc3be361dd6b4ecda8035855e30f947edb54d",
+      "content_fingerprint": "63ef441f113b4d8d125fe5a86074b9bdfa67dfc9134af84facff03a2f170c377",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -22743,7 +22799,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "3f39b99d93626f33cd73626f2bd77bbee863358c059d7a4955aeb40617c0fe0d",
+          "current_file": "MONTELPARO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3616893,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MONTELPARO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "3f39b99d93626f33cd73626f2bd77bbee863358c059d7a4955aeb40617c0fe0d",
+              "size": 3616893
+            },
+            {
+              "name": "MONTELPARO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "2ae4ec62afc0bb0f7a3c7bffa21d616366a276498f36eaa327083bd27e53132f",
+              "size": 801891
+            },
+            {
+              "name": "MONTELPARO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "95a405971ba1d328fd9ec1cc58d6ae5a7dafed3fafe2a6a548bd209c00862409",
+              "size": 251548
+            }
+          ],
+          "first_upload": "2026-07-15T09:06:38.833770+00:00",
+          "last_upload": "2026-07-15T09:06:38.833770+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-15T09:06:38.833770+00:00",
+              "hash": "3f39b99d93626f33cd73626f2bd77bbee863358c059d7a4955aeb40617c0fe0d",
+              "file": "MONTELPARO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -22818,15 +22906,33 @@
           "size": 313057,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "MONTELPARO - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/MONTELPARO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "3f39b99d93626f33cd73626f2bd77bbee863358c059d7a4955aeb40617c0fe0d",
+          "size": 3616893,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTELPARO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/MONTELPARO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "2ae4ec62afc0bb0f7a3c7bffa21d616366a276498f36eaa327083bd27e53132f",
+          "size": 801891,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTELPARO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/MONTELPARO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "95a405971ba1d328fd9ec1cc58d6ae5a7dafed3fafe2a6a548bd209c00862409",
+          "size": 251548,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T11:00:15.335229+00:00",
-          "zip_hash": "28ecab7ccd1f72985075f633da2514e21c55243d50e857ffa5f11eaafbe1f681",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-21T13:50:02.134079+00:00",
           "zip_hash": "28ecab7ccd1f72985075f633da2514e21c55243d50e857ffa5f11eaafbe1f681",
@@ -23420,6 +23526,12 @@
           "zip_hash": "0889bc985e0f78afa6aa9620fc520aa37a0d33934c79a6001ede16625aa89bdc",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "82e9023edcddbf110d1bb1414c7bc3be361dd6b4ecda8035855e30f947edb54d",
+          "changed": true,
+          "file_count": 12
         }
       ],
       "unclassified_files": [
@@ -37426,9 +37538,9 @@
   "meta": {
     "last_scan": "2026-07-15T09:06:38.833770+00:00",
     "results": {
-      "scansionati": 20,
-      "aggiornati": 2,
-      "invariati": 18,
+      "scansionati": 25,
+      "aggiornati": 4,
+      "invariati": 21,
       "errori": 0,
       "vuoti": 0
     },
