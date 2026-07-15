@@ -3788,7 +3788,15 @@
             "date": "2026-06-29",
             "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 29 giugno 2026 09:27\nA: Comune di Smerillo <protocollo@comune.smerillo.fm.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Smerillo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\ndovete inserire il dettaglio all'interno della scheda IN_CTS_CTR_RC. Dopodichè, i dati verranno automaticamente recuperati nei fogli IN_BIL_COM_24 e IN_BIL_COM_25.\nSaluti",
             "author": "GM",
-            "children": []
+            "children": [
+              {
+                "cat": "pef",
+                "date": "2026-07-15",
+                "text": "Da: COMUNE DI SMERILLO <comune.smerillo@emarche.it> \nInviato: mercoledì 15 luglio 2026 11:56\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>; ata4fermo@emarche.it\nOggetto: Prot. N.3251 del 15-07-2026 - Re: ATA4: Comune di Smerillo - trasmissione bozza schema Pef Tari 2026-2029\n\n\n \n \nBuongiorno\n\nin riferimento a quanto trasmesso confermiamo che i dati riportati nella bozza del PEF 2026-2029 sono in linea con i dati trasmessi dall'Ente.\nPertanto confermiamo l'accettazione del PEF inoltratoci.\nCordiali saluti\n\n\nPasquali Cristiano\nResponsabile Area Economico Finanziaria\nVia Dante Alighieri, 14 - 63856 Smerillo(FM)\nTel. 073479124  int.3\nPEC: comune.smerillo@emarche.it \nmail: ragioneria@comune.smerillo.fm.it\n \n \nTesto e-mail inviata da gabriele.nardi@mediagestum.com a protocollo@comune.smerillo.fm.it il 13-07-2026 alle 18:54 \nprotocollata con il n.3220 del 14-07-2026 \n \n \nBuonasera,\nsi allega il nuovo schema di pef alla luce dei nuovi dati trasmessi dal Comune.\nRimaniamo in attesa di un vs. riscontro in merito.\nSaluti",
+                "author": "GM",
+                "children": []
+              }
+            ]
           }
         ]
       },
