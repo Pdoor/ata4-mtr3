@@ -9563,10 +9563,10 @@
       "processabile": "si"
     },
     "11": {
-      "zip_hash": "13d67ffc16f53daa14c1550a91a50b09caae9ebc121584620b34c0f5f5ad5f03",
-      "content_fingerprint": "48628102689af40d5976e0681fa2190fdf38fabcb89a4003173bad81f5a2e4ed",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
-      "zip_changed": false,
+      "zip_hash": "f30b71b0ca8d0415cee3603339663195a864d00192ac5935d7efe4ab0c8cde51",
+      "content_fingerprint": "256d2307b72808804221d5d75e542d09e774fc5616dfc7b87c7041dab80f6aef",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -9769,7 +9769,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "e6dfe2039d8d27cf2928c1e7c70195b731c0cf156f2e91fafb5a2ff9f50909dc",
+          "current_file": "MASSA FERMANA - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3622333,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MASSA FERMANA - PEF TARI MTR3 2026-2029.zip",
+              "hash": "e6dfe2039d8d27cf2928c1e7c70195b731c0cf156f2e91fafb5a2ff9f50909dc",
+              "size": 3622333
+            },
+            {
+              "name": "MASSA FERMANA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "bebe42166123b0b6f15ce51f5ff59cf4f02fb018bfc590116101e9a85d1c531b",
+              "size": 249725
+            },
+            {
+              "name": "MASSA FERMANA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "43b2d07096e4b11acef0c4d284d2a7c1e917b1855e409df865a1fcc00c054699",
+              "size": 204764
+            }
+          ],
+          "first_upload": "2026-07-15T09:06:38.833770+00:00",
+          "last_upload": "2026-07-15T09:06:38.833770+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-15T09:06:38.833770+00:00",
+              "hash": "e6dfe2039d8d27cf2928c1e7c70195b731c0cf156f2e91fafb5a2ff9f50909dc",
+              "file": "MASSA FERMANA - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -9852,15 +9884,33 @@
           "size": 174852,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "MASSA FERMANA - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/MASSA FERMANA - PEF TARI MTR3 2026-2029.zip",
+          "hash": "e6dfe2039d8d27cf2928c1e7c70195b731c0cf156f2e91fafb5a2ff9f50909dc",
+          "size": 3622333,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MASSA FERMANA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/MASSA FERMANA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "bebe42166123b0b6f15ce51f5ff59cf4f02fb018bfc590116101e9a85d1c531b",
+          "size": 249725,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MASSA FERMANA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/MASSA FERMANA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "43b2d07096e4b11acef0c4d284d2a7c1e917b1855e409df865a1fcc00c054699",
+          "size": 204764,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T13:50:02.134079+00:00",
-          "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-21T15:46:33.006857+00:00",
           "zip_hash": "0359d9dccd221b86401bbdaed61d000ac6abf280cdb4aeb6826c82754b453d86",
@@ -10454,6 +10504,12 @@
           "zip_hash": "13d67ffc16f53daa14c1550a91a50b09caae9ebc121584620b34c0f5f5ad5f03",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "f30b71b0ca8d0415cee3603339663195a864d00192ac5935d7efe4ab0c8cde51",
+          "changed": true,
+          "file_count": 13
         }
       ],
       "unclassified_files": [],
@@ -10471,7 +10527,7 @@
     "12": {
       "zip_hash": "8ab00aa0378b1d9e1f176ce9527c440350f92468c0eab9660e1e2c070c1da7ac",
       "content_fingerprint": "6b191bb9a7390ac57cfe7bd5d98db6095af256f46bb5e5fb0f57920cce5238bc",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -10708,12 +10764,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T13:50:02.134079+00:00",
-          "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
-          "changed": false,
-          "file_count": 6
-        },
-        {
           "time": "2026-06-21T15:46:33.006857+00:00",
           "zip_hash": "01819391fe8a657aa85b8a30c97eb5a0c8a6b36b11d138779ccf5fda5972f363",
           "changed": false,
@@ -11306,6 +11356,12 @@
           "zip_hash": "8ab00aa0378b1d9e1f176ce9527c440350f92468c0eab9660e1e2c070c1da7ac",
           "changed": false,
           "file_count": 8
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "8ab00aa0378b1d9e1f176ce9527c440350f92468c0eab9660e1e2c070c1da7ac",
+          "changed": false,
+          "file_count": 8
         }
       ],
       "unclassified_files": [
@@ -11336,7 +11392,7 @@
     "13": {
       "zip_hash": "c1e5a5a55900dbde77e5c5469f765c924526d679db2ba7422375dfc0401f53ed",
       "content_fingerprint": "070f2e67baf1a2d678cdd065f119fc5c20b579edb0cba8fc0163674258d2279d",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -11670,12 +11726,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T13:50:02.134079+00:00",
-          "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
-          "changed": false,
-          "file_count": 9
-        },
-        {
           "time": "2026-06-21T15:46:33.006857+00:00",
           "zip_hash": "f898aa17f51a919142f978468b843cd4992f3033d5800187589ff27f4ee7cbed",
           "changed": false,
@@ -12268,6 +12318,12 @@
           "zip_hash": "c1e5a5a55900dbde77e5c5469f765c924526d679db2ba7422375dfc0401f53ed",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "c1e5a5a55900dbde77e5c5469f765c924526d679db2ba7422375dfc0401f53ed",
+          "changed": false,
+          "file_count": 12
         }
       ],
       "unclassified_files": [],
@@ -12283,10 +12339,10 @@
       "last_scan_empty": false
     },
     "14": {
-      "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
-      "content_fingerprint": "b7ea63db33112e3643337062ebda1542735e864394ad2a2ead2c9f4edcf1b5d1",
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
-      "zip_changed": false,
+      "zip_hash": "c9db1e42938060aec85e1ae0bd357aec77797c48dcaa3c54cf1615a4a0670da9",
+      "content_fingerprint": "e622b09633e14aeca876ff7aa925e45fef4b6645cd7edfe0cea2f016892f42e1",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -12462,7 +12518,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "47084602159afd5d281b16a42894e578fffd753f1c75c8dc590d7a4e2f1199b8",
+          "current_file": "MONTE GIBERTO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3640476,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MONTE GIBERTO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "47084602159afd5d281b16a42894e578fffd753f1c75c8dc590d7a4e2f1199b8",
+              "size": 3640476
+            },
+            {
+              "name": "MONTE GIBERTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "f8b392503d964b42666cc84b92fceee97d62c74fbd0e2444acfd9db786f066ec",
+              "size": 283841
+            },
+            {
+              "name": "MONTE GIBERTO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "4f17dd92501da7ae3ffce52e5a424cac37f75e85be50e5f5a7ff6e68a09ead51",
+              "size": 882360
+            }
+          ],
+          "first_upload": "2026-07-15T09:06:38.833770+00:00",
+          "last_upload": "2026-07-15T09:06:38.833770+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-15T09:06:38.833770+00:00",
+              "hash": "47084602159afd5d281b16a42894e578fffd753f1c75c8dc590d7a4e2f1199b8",
+              "file": "MONTE GIBERTO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -12521,15 +12609,33 @@
           "size": 207540,
           "doc_key": "relazione",
           "source": "gestore"
+        },
+        {
+          "name": "MONTE GIBERTO - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/MONTE GIBERTO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "47084602159afd5d281b16a42894e578fffd753f1c75c8dc590d7a4e2f1199b8",
+          "size": 3640476,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTE GIBERTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/MONTE GIBERTO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "f8b392503d964b42666cc84b92fceee97d62c74fbd0e2444acfd9db786f066ec",
+          "size": 283841,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTE GIBERTO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/MONTE GIBERTO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "4f17dd92501da7ae3ffce52e5a424cac37f75e85be50e5f5a7ff6e68a09ead51",
+          "size": 882360,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-21T13:50:02.134079+00:00",
-          "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-21T15:46:33.006857+00:00",
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
@@ -13123,6 +13229,12 @@
           "zip_hash": "89bc406d9f647bf29b9009760841e0398e9cb5027b3c945cecc164d9bc41ba69",
           "changed": false,
           "file_count": 7
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
+          "zip_hash": "c9db1e42938060aec85e1ae0bd357aec77797c48dcaa3c54cf1615a4a0670da9",
+          "changed": true,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -13138,7 +13250,7 @@
       "last_scan_empty": false
     },
     "15": {
-      "last_scan": "2026-07-14T19:04:07.058758+00:00",
+      "last_scan": "2026-07-15T09:06:38.833770+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -13446,12 +13558,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-21T13:50:02.134079+00:00",
-          "zip_hash": "01c80fd808741bf10704dd5dd7994415b88acbba8b3886e200497217d7cb8a18",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-21T15:46:33.006857+00:00",
           "zip_hash": "01c80fd808741bf10704dd5dd7994415b88acbba8b3886e200497217d7cb8a18",
           "changed": false,
@@ -14041,6 +14147,12 @@
         },
         {
           "time": "2026-07-14T19:04:07.058758+00:00",
+          "zip_hash": "00ad12ac0cdd2cc3dfae8fa8a6ddb33beca0d00e7f83c297bbd55b2afac61645",
+          "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-15T09:06:38.833770+00:00",
           "zip_hash": "00ad12ac0cdd2cc3dfae8fa8a6ddb33beca0d00e7f83c297bbd55b2afac61645",
           "changed": false,
           "file_count": 11
@@ -37314,9 +37426,9 @@
   "meta": {
     "last_scan": "2026-07-15T09:06:38.833770+00:00",
     "results": {
-      "scansionati": 10,
-      "aggiornati": 0,
-      "invariati": 10,
+      "scansionati": 15,
+      "aggiornati": 2,
+      "invariati": 13,
       "errori": 0,
       "vuoti": 0
     },
