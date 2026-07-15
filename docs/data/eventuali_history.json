@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 1,
-    "last_update": "2026-07-14T19:15:08.587532+00:00",
-    "dashboard_last_scan": "2026-07-14T19:04:07.058758+00:00",
+    "last_update": "2026-07-15T08:48:05.330027+00:00",
+    "dashboard_last_scan": "2026-07-15T08:47:42.197339+00:00",
     "files_tracked": 89
   },
   "comuni": {
@@ -723,7 +723,7 @@
           "current_hash": "4cf4fb7157a869ab46966bac43115788439f4fca99e5b83ce05d2117ffde9eaf",
           "current_size": 462651,
           "first_seen": "2026-06-11T15:31:43.692140+00:00",
-          "last_seen": "2026-07-14T19:04:07.058758+00:00",
+          "last_seen": "2026-07-15T08:47:42.197339+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -741,7 +741,7 @@
           "current_hash": "f22cac1b409d462ffa33a3f754058cb83b1219ff43d89e3f8ca9f324f90ce835",
           "current_size": 8046003,
           "first_seen": "2026-06-11T15:31:43.692140+00:00",
-          "last_seen": "2026-07-14T19:04:07.058758+00:00",
+          "last_seen": "2026-07-15T08:47:42.197339+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
@@ -759,7 +759,7 @@
           "current_hash": "2d52dd4c91a3c3ba62f91621687b6a7ceb16a36ef162694086a1fe4707f1124f",
           "current_size": 313786,
           "first_seen": "2026-07-06T11:56:46.741998+00:00",
-          "last_seen": "2026-07-14T19:04:07.058758+00:00",
+          "last_seen": "2026-07-15T08:47:42.197339+00:00",
           "status": "presente",
           "removed_at": null,
           "history": [
