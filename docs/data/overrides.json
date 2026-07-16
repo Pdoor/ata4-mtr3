@@ -2494,7 +2494,15 @@
                     "date": "2026-07-15",
                     "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 15 luglio 2026 12:15\nA: francesco.canti@neopa.it; ragioneria@comune.monteurano.fm.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; simone.pellegrin@neopa.it\nOggetto: Re: ATA4: Comune di Monte Urano - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\nin allegato quanto richiesto.\nSaluti\nIl 15/07/2026 11:48, Francesco Canti - NeoPA spa ha scritto:\nGent.mo,\nla presente per chiederLe di voler cortesemente apportare una modifica alle voci relative ai costi previsionali del Comune per l’annualità 2027. In particolare nell’ultima versione di tool ricevuta rileviamo che la voce CTS∆exp,TV,a del Comune sia stata valorizzata solamente per l’annualità 2026, mentre nell’ultima versione del tool grezzo ricaricata dal Comune trova spazio pe entrambe le annualità 2026 e 2027.\nChiediamo di voler cortesemente inserire il valore corretto per entrambe le annualità e precisiamo altresì che questa sia l’unica osservazione in merito all’ultimo tool ricevuto, pertanto corretta questo refuso restiamo in attesa di validazione.\nRestando a disposizione si porgono cordiali saluti.\n\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n\n \n\t(+39) 0131 1911646\n\n \n\twww.neopa.it\n\n \n\tVia Domenico Fontana 1, 22100, Como",
                     "author": "GM",
-                    "children": []
+                    "children": [
+                      {
+                        "cat": "pef",
+                        "date": "2026-07-16",
+                        "text": "Da: ragioneria@comune.monteurano.fm.it <ragioneria@comune.monteurano.fm.it> \nInviato: giovedì 16 luglio 2026 10:03\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: francesco.canti@neopa.it; Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it; simone.pellegrin@neopa.it\nOggetto: Re: ATA4: Comune di Monte Urano - trasmissione bozza schema Pef Tari 2026-2029\nPriorità: Alta\n\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nBuongiorno, \nsi prende atto delle variazioni apportate al PEF e se ne accetta la versione definitiva così come da ultimo trasmessa. \nRestiamo quindi in attesa della trasmissione del PEF validato\n\nCordiali Saluti \nResponsbaile Area Finanziaria\nMarco G. Tomassoni \n\nUfficio Ragioneria\nComune di Monte Urano (FM)\nPiazza della Liberta' 1\n63813 Monte Urano (FM)\nTel. 0734-848735/848736",
+                        "author": "GM",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
