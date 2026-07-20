@@ -4791,7 +4791,7 @@
       "last_scan_empty": false
     },
     "6": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -5260,12 +5260,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-29T16:49:41.492059+00:00",
-          "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-29T19:44:28.786570+00:00",
           "zip_hash": "f66bb4e6eac9204ed93a74101d23d2a04af5569b1f2ff124d1cc7f989c5fcfd5",
@@ -5859,6 +5853,12 @@
           "zip_hash": "f06dcb7c3b354e96e76c1805ebd90db62af603802eecb265e04b14decfeab4c4",
           "changed": false,
           "file_count": 25
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "f06dcb7c3b354e96e76c1805ebd90db62af603802eecb265e04b14decfeab4c4",
+          "changed": false,
+          "file_count": 25
         }
       ],
       "unclassified_files": [
@@ -5928,7 +5928,7 @@
     "7": {
       "zip_hash": "73fbd5845efa5c35b206039d4a2b541d4709be63d4a608777709474b10da0ada",
       "content_fingerprint": "741e1614d1f0714421deb6491445e6b43e025b683fa5f6184ddaa01f59e196db",
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -6236,12 +6236,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-29T16:49:41.492059+00:00",
-          "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-06-29T19:44:28.786570+00:00",
           "zip_hash": "63175ffb6f8022569efaa4005877c228e65f97a8b0cfabf1fba1ae396a6377d0",
@@ -6835,6 +6829,12 @@
           "zip_hash": "73fbd5845efa5c35b206039d4a2b541d4709be63d4a608777709474b10da0ada",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "73fbd5845efa5c35b206039d4a2b541d4709be63d4a608777709474b10da0ada",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -6850,7 +6850,7 @@
       "last_scan_empty": false
     },
     "8": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -6860,9 +6860,9 @@
         "url": "https://www.provincia.fm.it/drive/3ahoqjicoqlx",
         "id": 8
       },
-      "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
-      "content_fingerprint": "7f8c28c827956dfaaf5d99bc858d600b5df867563312a4c2ed74aca0e126b45f",
-      "zip_changed": false,
+      "zip_hash": "ae70ebe47077ea0ab9c46fbabe4fcbe6e716a56eacb7f4773b221fefaf06e325",
+      "content_fingerprint": "1da67392c3b9657b11374adf331b67fd9b389c1dec36042c9ac3b22cbca8fc6a",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -7066,7 +7066,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "ed3f62824da36069913445cbe5d5692a2e52e9b0c6e1ce4c37f5d492708fc662",
+          "current_file": "GROTTAZZOLINA - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3635258,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "GROTTAZZOLINA - PEF TARI MTR3 2026-2029.zip",
+              "hash": "ed3f62824da36069913445cbe5d5692a2e52e9b0c6e1ce4c37f5d492708fc662",
+              "size": 3635258
+            },
+            {
+              "name": "GROTTAZZOLINA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "a6bd288702488910aca5ad0f4e4490f16e6a41b8c06784ca4e6d0e1639078fb1",
+              "size": 864380
+            },
+            {
+              "name": "GROTTAZZOLINA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "f2da66ad9e26850cb2cedff2353904ff379d0b3aea0942f5d165e1cb0271ed7c",
+              "size": 349601
+            }
+          ],
+          "first_upload": "2026-07-20T10:42:09.379816+00:00",
+          "last_upload": "2026-07-20T10:42:09.379816+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-20T10:42:09.379816+00:00",
+              "hash": "ed3f62824da36069913445cbe5d5692a2e52e9b0c6e1ce4c37f5d492708fc662",
+              "file": "GROTTAZZOLINA - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -7165,15 +7197,33 @@
           "size": 313542,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "GROTTAZZOLINA - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/GROTTAZZOLINA - PEF TARI MTR3 2026-2029.zip",
+          "hash": "ed3f62824da36069913445cbe5d5692a2e52e9b0c6e1ce4c37f5d492708fc662",
+          "size": 3635258,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "GROTTAZZOLINA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/GROTTAZZOLINA - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "a6bd288702488910aca5ad0f4e4490f16e6a41b8c06784ca4e6d0e1639078fb1",
+          "size": 864380,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "GROTTAZZOLINA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/GROTTAZZOLINA - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "f2da66ad9e26850cb2cedff2353904ff379d0b3aea0942f5d165e1cb0271ed7c",
+          "size": 349601,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-29T12:24:08.317823+00:00",
-          "zip_hash": "4834faebd6f29d0dc77b6e64ef600a4fa6649775aa03aadfde83f929070ca63a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-29T16:49:41.492059+00:00",
           "zip_hash": "4834faebd6f29d0dc77b6e64ef600a4fa6649775aa03aadfde83f929070ca63a",
@@ -7767,6 +7817,12 @@
           "zip_hash": "60ae7f93f04436c595d63d3a798aeeb963fce53f50c4bd972048dd9f7164737c",
           "changed": false,
           "file_count": 12
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "ae70ebe47077ea0ab9c46fbabe4fcbe6e716a56eacb7f4773b221fefaf06e325",
+          "changed": true,
+          "file_count": 15
         }
       ],
       "unclassified_files": [
@@ -7792,7 +7848,7 @@
       "processabile": "si"
     },
     "9": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8211,12 +8267,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-29T19:44:28.786570+00:00",
-          "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
-          "changed": false,
-          "file_count": 11
-        },
         {
           "time": "2026-06-30T10:49:20.558578+00:00",
           "zip_hash": "34439d99192b47a56d3a51371fc1d3a680d5fc4f6c31cccb851c9ee919c52a6a",
@@ -8810,6 +8860,12 @@
           "zip_hash": "a5a4b92a031e144516947ef9cd49ce93d9fed662daaf5add62aed744d4713f75",
           "changed": false,
           "file_count": 18
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "a5a4b92a031e144516947ef9cd49ce93d9fed662daaf5add62aed744d4713f75",
+          "changed": false,
+          "file_count": 18
         }
       ],
       "unclassified_files": [
@@ -8835,7 +8891,7 @@
       "processabile": "si"
     },
     "10": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -8845,9 +8901,9 @@
         "url": "https://www.provincia.fm.it/drive/1vz0zkp2tqev",
         "id": 10
       },
-      "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
-      "content_fingerprint": "c0bff6d69589ca123a12268bf634530c5ef3e9dae1cd40950f0a25a2f3af2430",
-      "zip_changed": false,
+      "zip_hash": "585a0bf7b921b752851f947be440f3ecce8fc434405a26801853f1bc713254fd",
+      "content_fingerprint": "d9d1d9e9358fbef8b03556c06bd5d18f427fdbec53d7abd72ad37ec9d513be72",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -8941,19 +8997,19 @@
         },
         "tool_mtr3_c": {
           "status": "received",
-          "current_hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
+          "current_hash": "058003b5c6d838c46863c14817f25b3503d982cd8d2fa800706cff5736640827",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "current_size": 3979981,
+          "current_size": 3979911,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-              "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
-              "size": 3979981
+              "hash": "058003b5c6d838c46863c14817f25b3503d982cd8d2fa800706cff5736640827",
+              "size": 3979911
             }
           ],
           "first_upload": "2026-04-13T13:04:30.788592+00:00",
-          "last_upload": "2026-05-25T09:39:33.636536+00:00",
+          "last_upload": "2026-07-20T10:42:09.379816+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -8967,49 +9023,61 @@
               "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
               "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-20T10:42:09.379816+00:00",
+              "hash": "058003b5c6d838c46863c14817f25b3503d982cd8d2fa800706cff5736640827",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
+              "event": "sostituzione"
             }
           ]
         },
         "relazione_c": {
           "status": "received",
-          "current_hash": "1ba98ebceb291ad9c4ed6b278f77212fc92db6d67a2265c103133c5e6a4e7ce3",
-          "current_file": "Relazione_Comune_Magliano di tenna.pdf",
-          "current_size": 744072,
+          "current_hash": "e12bf876831bb395ff61f7cfab948933f41f9aff28b714d51060e57e5b970ab9",
+          "current_file": "Relazione_Comune_Magliano di tenna.docx",
+          "current_size": 148395,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Relazione_Comune_Magliano di tenna.pdf",
-              "hash": "1ba98ebceb291ad9c4ed6b278f77212fc92db6d67a2265c103133c5e6a4e7ce3",
-              "size": 744072
+              "name": "Relazione_Comune_Magliano di tenna.docx",
+              "hash": "e12bf876831bb395ff61f7cfab948933f41f9aff28b714d51060e57e5b970ab9",
+              "size": 148395
             }
           ],
           "first_upload": "2026-04-13T15:09:23.002132+00:00",
-          "last_upload": "2026-04-13T15:09:23.002132+00:00",
-          "replaced": false,
+          "last_upload": "2026-07-20T10:42:09.379816+00:00",
+          "replaced": true,
           "upload_history": [
             {
               "time": "2026-04-13T15:09:23.002132+00:00",
               "hash": "1ba98ebceb291ad9c4ed6b278f77212fc92db6d67a2265c103133c5e6a4e7ce3",
               "file": "Relazione_Comune_Magliano di tenna.pdf",
               "event": "primo_caricamento"
+            },
+            {
+              "time": "2026-07-20T10:42:09.379816+00:00",
+              "hash": "e12bf876831bb395ff61f7cfab948933f41f9aff28b714d51060e57e5b970ab9",
+              "file": "Relazione_Comune_Magliano di tenna.docx",
+              "event": "sostituzione"
             }
           ]
         },
         "dich_veridicita_c": {
           "status": "received",
-          "current_hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
-          "current_file": "Dichiarazione di veridicità.pdf",
-          "current_size": 324424,
+          "current_hash": "2ec5d67eaddbd96ee58186cec913beffda9e5350d27946c9fdfba6375b8fcb7e",
+          "current_file": "Dichiarazione di veridicità-signed.pdf",
+          "current_size": 359876,
           "file_count": 1,
           "all_files": [
             {
-              "name": "Dichiarazione di veridicità.pdf",
-              "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
-              "size": 324424
+              "name": "Dichiarazione di veridicità-signed.pdf",
+              "hash": "2ec5d67eaddbd96ee58186cec913beffda9e5350d27946c9fdfba6375b8fcb7e",
+              "size": 359876
             }
           ],
           "first_upload": "2026-04-13T13:04:30.788592+00:00",
-          "last_upload": "2026-05-25T09:39:33.636536+00:00",
+          "last_upload": "2026-07-20T10:42:09.379816+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -9022,6 +9090,12 @@
               "time": "2026-05-25T09:39:33.636536+00:00",
               "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
               "file": "Dichiarazione di veridicità.pdf",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-20T10:42:09.379816+00:00",
+              "hash": "2ec5d67eaddbd96ee58186cec913beffda9e5350d27946c9fdfba6375b8fcb7e",
+              "file": "Dichiarazione di veridicità-signed.pdf",
               "event": "sostituzione"
             }
           ]
@@ -9037,24 +9111,24 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
           "path": "Comune/Allegato 1 - Tool MTR3 - Comune/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx",
-          "hash": "f5d2a5d9b4234db677a1d36673c338e2736ea734b293ce33677df3e87869766c",
-          "size": 3979981,
+          "hash": "058003b5c6d838c46863c14817f25b3503d982cd8d2fa800706cff5736640827",
+          "size": 3979911,
           "doc_key": "tool_mtr3_c",
           "source": "comune"
         },
         {
-          "name": "Relazione_Comune_Magliano di tenna.pdf",
-          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Relazione_Comune_Magliano di tenna.pdf",
-          "hash": "1ba98ebceb291ad9c4ed6b278f77212fc92db6d67a2265c103133c5e6a4e7ce3",
-          "size": 744072,
+          "name": "Relazione_Comune_Magliano di tenna.docx",
+          "path": "Comune/Allegato 2 - Relazione di accompagnamento - Comune/Relazione_Comune_Magliano di tenna.docx",
+          "hash": "e12bf876831bb395ff61f7cfab948933f41f9aff28b714d51060e57e5b970ab9",
+          "size": 148395,
           "doc_key": "relazione_c",
           "source": "comune"
         },
         {
-          "name": "Dichiarazione di veridicità.pdf",
-          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità.pdf",
-          "hash": "bfef0f1cc7dbab43f468f038286830be30d78337a9767b918c722a7e03b79715",
-          "size": 324424,
+          "name": "Dichiarazione di veridicità-signed.pdf",
+          "path": "Comune/Allegato 3 - Dichiarazione di veridicità - Comune/Dichiarazione di veridicità-signed.pdf",
+          "hash": "2ec5d67eaddbd96ee58186cec913beffda9e5350d27946c9fdfba6375b8fcb7e",
+          "size": 359876,
           "doc_key": "dich_veridicita_c",
           "source": "comune"
         },
@@ -9124,12 +9198,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-29T16:49:41.492059+00:00",
-          "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
-          "changed": false,
-          "file_count": 10
-        },
         {
           "time": "2026-06-29T19:44:28.786570+00:00",
           "zip_hash": "47b2503371d93ea32ce39fd20336adadd4537756f8754bae943c3ab1f5963176",
@@ -9722,6 +9790,12 @@
           "time": "2026-07-19T18:52:47.440941+00:00",
           "zip_hash": "005300bf05a76bbd45ceacfbac0e859b20f498843fdbf8c906d4695576d0c6d2",
           "changed": false,
+          "file_count": 11
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "585a0bf7b921b752851f947be440f3ecce8fc434405a26801853f1bc713254fd",
+          "changed": true,
           "file_count": 11
         }
       ],
@@ -38254,9 +38328,9 @@
   "meta": {
     "last_scan": "2026-07-20T10:42:09.379816+00:00",
     "results": {
-      "scansionati": 5,
-      "aggiornati": 0,
-      "invariati": 5,
+      "scansionati": 10,
+      "aggiornati": 2,
+      "invariati": 8,
       "errori": 0,
       "vuoti": 0
     },
