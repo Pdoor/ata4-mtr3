@@ -14520,7 +14520,7 @@
       "processabile": "si"
     },
     "16": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -14965,12 +14965,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T19:04:08.593295+00:00",
-          "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
-          "changed": false,
-          "file_count": 16
-        },
         {
           "time": "2026-06-29T12:24:08.317823+00:00",
           "zip_hash": "0b8cded5f9b7cfb125c413df1b8d304edfa5b86ad5406626c0641191b891d3d0",
@@ -15564,6 +15558,12 @@
           "zip_hash": "b14cd9738fd6dc90981c3a6125c12546aa0bc9fdad09f9851e00e514551e0dab",
           "changed": false,
           "file_count": 23
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "b14cd9738fd6dc90981c3a6125c12546aa0bc9fdad09f9851e00e514551e0dab",
+          "changed": false,
+          "file_count": 23
         }
       ],
       "unclassified_files": [
@@ -15607,7 +15607,7 @@
       "processabile": "si"
     },
     "17": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -15617,9 +15617,9 @@
         "url": "https://www.provincia.fm.it/drive/4bfxoupe20oz",
         "id": 17
       },
-      "zip_hash": "a801a57e5f99a366f52cd739c119d977277c422e7e2ef3fcdaf0749e207b994c",
-      "content_fingerprint": "354080f92a2970cc6d770ceaceae031f06e5ad044e449148f6a869cea5c5ffee",
-      "zip_changed": false,
+      "zip_hash": "f260deae4e30c5666e1ebc62bd622e668f1c2147dc1d8f7827ad7a3a96f308ca",
+      "content_fingerprint": "619b9decda40f48c59b2a0417f9df1502750c6b6a7f42a5c7ec7586c93e6e645",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -15821,7 +15821,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "86f9fa086d70288b5746251219dd717cbd2cc5a01b138096d0779288d3229084",
+          "current_file": "MONTE URANO - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3620459,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "MONTE URANO - PEF TARI MTR3 2026-2029.zip",
+              "hash": "86f9fa086d70288b5746251219dd717cbd2cc5a01b138096d0779288d3229084",
+              "size": 3620459
+            },
+            {
+              "name": "MONTE URANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "8585d858f08ab34fa4511c0186f87ee9ffe67a02696e58c9d64913617fa31fe8",
+              "size": 347737
+            },
+            {
+              "name": "MONTE URANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "e5eb34e5deef32e40eb04a9231413eebebc6a68210bbd3f1ddd77603f6298db8",
+              "size": 1002079
+            }
+          ],
+          "first_upload": "2026-07-20T10:42:09.379816+00:00",
+          "last_upload": "2026-07-20T10:42:09.379816+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-20T10:42:09.379816+00:00",
+              "hash": "86f9fa086d70288b5746251219dd717cbd2cc5a01b138096d0779288d3229084",
+              "file": "MONTE URANO - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -15944,15 +15976,33 @@
           "size": 10835,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "MONTE URANO - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/MONTE URANO - PEF TARI MTR3 2026-2029.zip",
+          "hash": "86f9fa086d70288b5746251219dd717cbd2cc5a01b138096d0779288d3229084",
+          "size": 3620459,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTE URANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/MONTE URANO - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "8585d858f08ab34fa4511c0186f87ee9ffe67a02696e58c9d64913617fa31fe8",
+          "size": 347737,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "MONTE URANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/MONTE URANO - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "e5eb34e5deef32e40eb04a9231413eebebc6a68210bbd3f1ddd77603f6298db8",
+          "size": 1002079,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T16:59:26.109804+00:00",
-          "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-06-28T19:04:08.593295+00:00",
           "zip_hash": "9dfdd6dff27146ee85f17c3d15ee7db2eaba681279aa4a80263db7a74239b87d",
@@ -16546,6 +16596,12 @@
           "zip_hash": "a801a57e5f99a366f52cd739c119d977277c422e7e2ef3fcdaf0749e207b994c",
           "changed": false,
           "file_count": 15
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "f260deae4e30c5666e1ebc62bd622e668f1c2147dc1d8f7827ad7a3a96f308ca",
+          "changed": true,
+          "file_count": 18
         }
       ],
       "unclassified_files": [
@@ -16577,7 +16633,7 @@
       "processabile": "si"
     },
     "18": {
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -16855,12 +16911,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-28T16:59:26.109804+00:00",
-          "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
-          "changed": false,
-          "file_count": 10
-        },
-        {
           "time": "2026-06-28T19:04:08.593295+00:00",
           "zip_hash": "918923ea0cf18a5c2527631178ef99ebc5acae26b758b4756d9f75b595f05048",
           "changed": false,
@@ -17453,6 +17503,12 @@
           "zip_hash": "a3546c1bab72f798632fab239eff00f1b0e061ea7a2cdde77078f3fa12aa8343",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "a3546c1bab72f798632fab239eff00f1b0e061ea7a2cdde77078f3fa12aa8343",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [
@@ -17492,7 +17548,7 @@
     "19": {
       "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
       "content_fingerprint": "b29c797fcd36029cf320fbe4bb09e28ff3e29a31f778b863ba6d200405844d46",
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -17794,12 +17850,6 @@
       ],
       "scan_history": [
         {
-          "time": "2026-06-28T16:59:26.109804+00:00",
-          "zip_hash": "884fab1eb9f0d41391667903f5d3e4460d4dc28435d6e3e40811f0c72dafa6f5",
-          "changed": false,
-          "file_count": 7
-        },
-        {
           "time": "2026-06-28T19:04:08.593295+00:00",
           "zip_hash": "884fab1eb9f0d41391667903f5d3e4460d4dc28435d6e3e40811f0c72dafa6f5",
           "changed": false,
@@ -18392,6 +18442,12 @@
           "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
           "changed": false,
           "file_count": 10
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
+          "zip_hash": "3282810432b5a900d37c1738dbadf9f84bc13ff598a32e3db3aa8d8e666cc9ee",
+          "changed": false,
+          "file_count": 10
         }
       ],
       "unclassified_files": [],
@@ -18409,7 +18465,7 @@
     "20": {
       "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
       "content_fingerprint": "bb2b9d6102c805b25e4715d05536000fbaa7a4b71b7c98a55642f15e6e6831b6",
-      "last_scan": "2026-07-19T18:52:47.440941+00:00",
+      "last_scan": "2026-07-20T10:42:09.379816+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -18648,12 +18704,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-06-28T16:59:26.109804+00:00",
-          "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-06-28T19:04:08.593295+00:00",
           "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
@@ -19244,6 +19294,12 @@
         },
         {
           "time": "2026-07-19T18:52:47.440941+00:00",
+          "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
+          "changed": false,
+          "file_count": 7
+        },
+        {
+          "time": "2026-07-20T10:42:09.379816+00:00",
           "zip_hash": "39421dbcb63fdb5e21c88bd58ec1060e0a2a76d6082ff1ee439276b697dae008",
           "changed": false,
           "file_count": 7
@@ -38384,9 +38440,9 @@
   "meta": {
     "last_scan": "2026-07-20T10:42:09.379816+00:00",
     "results": {
-      "scansionati": 15,
-      "aggiornati": 3,
-      "invariati": 12,
+      "scansionati": 20,
+      "aggiornati": 4,
+      "invariati": 16,
       "errori": 0,
       "vuoti": 0
     },
