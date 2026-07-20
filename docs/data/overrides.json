@@ -1692,7 +1692,15 @@
                 "date": "2026-07-20",
                 "text": "Da: Francesco Canti - NeoPA spa <francesco.canti@neopa.it> \nInviato: lunedì 20 luglio 2026 12:32\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: simone.pellegrin@neopa.it; Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Campofilone - trasmissione bozza schema Pef Tari 2026-2029\n\nGent.mo,\ninviamo versione di tool aggiornata: la detrazione relativa all'anno 2027 da considerarsi è pari a € 14.000,20, così come indicato nella comunicazione. Quanto indicato precedentemente non teneva conto dell'adeguamento ISTAT ipotetivo per il 2027.\nCordialmente,\n\nDott. Francesco Mario Canti\nNeoPA S.p.a.\n#AreaTributi\n \n\n \n\t(+39) 0131 1911646\n\n \n\twww.neopa.it\n\n \n\tVia Domenico Fontana 1, 22100, Como",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-07-20",
+                    "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 20 luglio 2026 13:20\nA: Ragioneria - Campofilone <ragioneria.campofilone@ucvaldaso.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>; _Francesco - NeoPA <francesco.canti@neopa.it>; simone.pellegrin@neopa.it\nOggetto: Re: ATA4: Comune di Campofilone - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\ntenuto conto delle detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025 richieste al gestore e confermate dallo stesso, del nuovo \"pef grezzo\" inviato dal Comune, e facendo seguito alla richiesta dei vs. advisor circa la diversa imputazioni delle detraizoni ex. 4.5 comunicate dal gestore e delle detrazioni ex Determina 1/2025 di vs. competenza, si allega il tool aggiornato.\nRimaniamo in attesa di vs. riscontri in merito.\nSaluti",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
