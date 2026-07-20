@@ -3346,7 +3346,15 @@
                 "date": "2026-07-14",
                 "text": "Da: tributi@montottone.eu <tributi@montottone.eu> \nInviato: martedì 14 luglio 2026 10:40\nA: Gruppo ata4 <ata4@mediagestum.com>\nCc: Gabriele Nardi <gabriele.nardi@mediagestum.com>; ata4@provincia.fm.it\nOggetto: Trasmissione definitiva mtr3\n\nQuesta è la prima volta che ricevi un'email da questo mittente. Assicurati che sia qualcuno di cui ti fidi. \nBuongiorno, in riscontro al Vs. invio del 09/07/2026, si comunica che abbiamo provveduto ad inserire sul portale la documentazione finale del MTR3 - 2026-2029.\nSi comunica inoltre che nel caso dopo la rielaborazione del PEF dovesse rimanere un superamento del limite, questo Ente chiede che lo stesso venga coperto negli esercizi successivi.\n\nRingraziandoVi anticipatamente, si porgono distinti saluti.\nufficio tributi Comune di Montottone",
                 "author": "GM",
-                "children": []
+                "children": [
+                  {
+                    "cat": "pef",
+                    "date": "2026-07-20",
+                    "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: lunedì 20 luglio 2026 15:31\nA: tributi@montottone.eu; ufficio.ragioneria@montottone.eu\nCc: ata4@provincia.fm.it; Gruppo ata4 <ata4@mediagestum.com>\nOggetto: Re: Trasmissione definitiva mtr3\n\nBuongiorno,\nsi richiede un sollecito riscontro alla mail in calce in modo che l'Ata possa procedere con la validazione del Pef.\nSaluti\nIl 14/07/2026 17:38, Gabriele Nardi - Media Gestum Consulting Srl ha scritto:\nBuonasera,\nnella documentazione trasmessa l'unica variaizone inserita sono le detrazioni ex Det. 1/DTAC/2025 di Arera. Tali importi non concorrono alla determinazione del livello di costo complessivo del Pef ma servono per determinare il cd. \"montante tariffario\". Per cui abbiamo operate delle rimodulazioni che trovate indicate nel foglio IN_RIMD.\nRimaniamo in attesa di vs. riscontro in merito.\nSaluti",
+                    "author": "GM",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
