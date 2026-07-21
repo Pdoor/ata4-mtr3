@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
       "content_fingerprint": "9e6179753d7b526e647010a1c27b9da5e03518047762c4eade6e4199e1165fb0",
-      "last_scan": "2026-07-21T13:18:36.148125+00:00",
+      "last_scan": "2026-07-21T15:29:17.166463+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -407,12 +407,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-01T19:40:25.807002+00:00",
-          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-07-02T10:29:17.620364+00:00",
           "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
@@ -1006,6 +1000,12 @@
           "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
           "changed": false,
           "file_count": 19
+        },
+        {
+          "time": "2026-07-21T15:29:17.166463+00:00",
+          "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
+          "changed": false,
+          "file_count": 19
         }
       ],
       "unclassified_files": [
@@ -1048,7 +1048,7 @@
     "2": {
       "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
       "content_fingerprint": "c9657971ea630ad992c516321f060168887b32e4c00d56bd7602d73c901c4c15",
-      "last_scan": "2026-07-21T13:18:36.148125+00:00",
+      "last_scan": "2026-07-21T15:29:17.166463+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1446,12 +1446,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-01T17:47:03.063720+00:00",
-          "zip_hash": "d3a150177fecbb8eae4c6504f4b45fe6d23b829de4ced7f88d0cf43278c4256f",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-01T19:40:25.807002+00:00",
           "zip_hash": "d3a150177fecbb8eae4c6504f4b45fe6d23b829de4ced7f88d0cf43278c4256f",
@@ -2045,6 +2039,12 @@
           "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-21T15:29:17.166463+00:00",
+          "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -2060,26 +2060,26 @@
       "last_scan_empty": false
     },
     "3": {
-      "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
-      "content_fingerprint": "9118fe1e0c77ea671b5e45d9ce9bfc4bef5ff652717a7342e01dff0c05cf3ada",
-      "last_scan": "2026-07-21T13:18:36.148125+00:00",
-      "zip_changed": false,
+      "zip_hash": "94427547faf4ea2ef1004434942fd891d260bec0e598c45cedae22a8fc65ab71",
+      "content_fingerprint": "603dd37a8408c4c5af5dc2685363dc2d3992e7155162e1d24cb55bcb824a370d",
+      "last_scan": "2026-07-21T15:29:17.166463+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
+          "current_hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "current_size": 4106415,
+          "current_size": 4106440,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-              "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
-              "size": 4106415
+              "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
+              "size": 4106440
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-05-07T19:47:25.676790+00:00",
+          "last_upload": "2026-07-21T15:29:17.166463+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -2091,6 +2091,12 @@
             {
               "time": "2026-05-07T19:47:25.676790+00:00",
               "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-21T15:29:17.166463+00:00",
+              "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
               "event": "sostituzione"
             }
@@ -2140,9 +2146,9 @@
               "size": 258008
             },
             {
-              "name": "Allegato3_DichiarazioneVeridicita.docx   22 06 26 .pdf",
-              "hash": "30d7783de551f47be43114107efea3023cd87cc39aac85b2bfd7d62a06c6e94a",
-              "size": 86024
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
+              "hash": "a8463cea1bb498b28410e6b4ff0ae395384c4c1d66ca12365b15273781391702",
+              "size": 87385
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -2308,8 +2314,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "hash": "e2a07abd8f0cd709c7bb21c67462e89a9ef91f8dd8a1b10fcb3ccc2fe4fe1f1e",
-          "size": 4106415,
+          "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
+          "size": 4106440,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -2322,10 +2328,10 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato3_DichiarazioneVeridicita.docx   22 06 26 .pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato3_DichiarazioneVeridicita.docx   22 06 26 .pdf",
-          "hash": "30d7783de551f47be43114107efea3023cd87cc39aac85b2bfd7d62a06c6e94a",
-          "size": 86024,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
+          "hash": "a8463cea1bb498b28410e6b4ff0ae395384c4c1d66ca12365b15273781391702",
+          "size": 87385,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -2339,12 +2345,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-01T17:47:03.063720+00:00",
-          "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-01T19:40:25.807002+00:00",
           "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
@@ -2938,6 +2938,12 @@
           "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-21T15:29:17.166463+00:00",
+          "zip_hash": "94427547faf4ea2ef1004434942fd891d260bec0e598c45cedae22a8fc65ab71",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2953,7 +2959,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-07-21T13:18:36.148125+00:00",
+      "last_scan": "2026-07-21T15:29:17.166463+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -3306,12 +3312,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-01T17:47:03.063720+00:00",
-          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-07-01T19:40:25.807002+00:00",
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
@@ -3905,6 +3905,12 @@
           "zip_hash": "f521cbadd3b0cb7ae58461747555958c21e102638d1e754c4b3ee16956a84b23",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-21T15:29:17.166463+00:00",
+          "zip_hash": "f521cbadd3b0cb7ae58461747555958c21e102638d1e754c4b3ee16956a84b23",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -3926,7 +3932,7 @@
     "5": {
       "zip_hash": "4009f55864d0be27fba907d7f18703bdd490bbdbb5716599324dcd4bc87e44d5",
       "content_fingerprint": "908df5abb3fc211457ea431f874a3354ec751a97917022926cc7c7129cf2f4df",
-      "last_scan": "2026-07-21T13:18:36.148125+00:00",
+      "last_scan": "2026-07-21T15:29:17.166463+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -4239,12 +4245,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-01T17:47:03.063720+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-01T19:40:25.807002+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4835,6 +4835,12 @@
         },
         {
           "time": "2026-07-21T13:18:36.148125+00:00",
+          "zip_hash": "4009f55864d0be27fba907d7f18703bdd490bbdbb5716599324dcd4bc87e44d5",
+          "changed": false,
+          "file_count": 13
+        },
+        {
+          "time": "2026-07-21T15:29:17.166463+00:00",
           "zip_hash": "4009f55864d0be27fba907d7f18703bdd490bbdbb5716599324dcd4bc87e44d5",
           "changed": false,
           "file_count": 13
@@ -38905,11 +38911,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-07-21T13:18:36.148125+00:00",
+    "last_scan": "2026-07-21T15:29:17.166463+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 0,
-      "invariati": 40,
+      "scansionati": 5,
+      "aggiornati": 1,
+      "invariati": 4,
       "errori": 0,
       "vuoti": 0
     },
@@ -38919,7 +38925,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
