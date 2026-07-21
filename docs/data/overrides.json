@@ -1634,6 +1634,11 @@
       "status": "received",
       "date": "",
       "note": ""
+    },
+    "3_altre_com": {
+      "status": "missing",
+      "date": "0026-06-04",
+      "note": ""
     }
   },
   "scadenze": {
