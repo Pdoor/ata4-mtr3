@@ -2821,7 +2821,15 @@
                                     "date": "2026-07-10",
                                     "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: venerdì 10 luglio 2026 13:05\nA: Gianmario Borroni <borroni.g@studioborroni.com>; Ragioneria-Comune di Monte Rinaldo <ragioneria@comune.monterinaldo.fm.it>; Protocollo-Comune di Monte Rinaldo <protocollo@comune.monterinaldo.fm.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it\nOggetto: Re: Fw:Re: ATA4: Comune di Monte Rinaldo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\nalla luce della nuova documentazione trasmessa dal gestore successivamente all'invio della bozza in calce, e il cui caricamento da parte dello stesso è stato completato in data odierna, si invia la nuova bozza che evidenzia i costi CTS così come comunicati dal gestore, pur ad invarianza degli importi complessivi già comunicati in precedenza.\nSaluti\nIl 10/07/2026 11:58, Gianmario Borroni ha scritto:\nBuongiorno,\nnel nuovo schema di pef\nnon è stata compilato il campo CTS (smaltimento) come se il gestore non sostenga costi di smaltimento.\nFerma restando la disponibilità del gestore alle rinunce come già comunicato formalmenmte, si richiede la rettifica ai fini della corretta compilazione del pef con espressa valorizzazione del campo cts.\nGrazie\nCordialmente\n \nGianmario Borroni\nSindaco\nComune di Monte Rinaldo FM",
                                     "author": "GM",
-                                    "children": []
+                                    "children": [
+                                      {
+                                        "cat": "pef",
+                                        "date": "2026-07-22",
+                                        "text": "Da: Ragioneria-Comune di Monte Rinaldo <ragioneria@comune.monterinaldo.fm.it> \nInviato: mercoledì 22 luglio 2026 09:07\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it\nOggetto: Re: Fw:Re: ATA4: Comune di Monte Rinaldo - trasmissione bozza schema Pef Tari 2026-2029\nPriorità: Alta\n\nBuon giorno, \ncon la presente si conferma schema PEF Tari 2026-2029. Si chiede pertanto di procedere con la validazione. \nGrazie\nCordiali saluti\n\n\nDott.ssa Elisabetta Natali \nArea Amministrativa-Contabile del Comune di Monte Rinaldo (Fm)\nVia Borgo Nuovo n. 16 - 63852 Monte Rinaldo C.F.- P.Iva 00396470445\nPec: comune.monterinaldo@emarche.it Tel. 0734/777121 Mobile 3392177086\n\n\nDa \"Gabriele Nardi - Media Gestum Consulting Srl\" gabriele.nardi@mediagestum.com\nA ragioneria@comune.monterinaldo.fm.it\nCc ata4@mediagestum.com, ata4fermo@provincia.fm.it\nData Tue, 21 Jul 2026 13:09:04 +0200\nOggetto Re: Fw:Re: ATA4: Comune di Monte Rinaldo - trasmissione bozza schema Pef Tari 2026-2029\n\nBuongiorno,\nsi allega lo schema di Pef aggiornato come da vs. indicazioni.\nRimaniamo in attesa di vs. indicazioni in merito.\nSaluti",
+                                        "author": "GM",
+                                        "children": []
+                                      }
+                                    ]
                                   }
                                 ]
                               }
