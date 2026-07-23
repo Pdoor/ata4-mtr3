@@ -3,7 +3,7 @@
     "1": {
       "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
       "content_fingerprint": "9e6179753d7b526e647010a1c27b9da5e03518047762c4eade6e4199e1165fb0",
-      "last_scan": "2026-07-22T18:58:25.806694+00:00",
+      "last_scan": "2026-07-23T10:12:14.532651+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -407,12 +407,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-03T17:14:22.077106+00:00",
-          "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
-          "changed": false,
-          "file_count": 13
-        },
         {
           "time": "2026-07-03T19:03:38.492748+00:00",
           "zip_hash": "11fa9e049e3197328e2cf31b86ed98caa8e0be70a1a1d5587065a8d19a3c878d",
@@ -1006,6 +1000,12 @@
           "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
           "changed": false,
           "file_count": 19
+        },
+        {
+          "time": "2026-07-23T10:12:14.532651+00:00",
+          "zip_hash": "9f0483d60ca2680b34a0516e244c839ce5f5d69a7e5ea2814b03ed0056b402de",
+          "changed": false,
+          "file_count": 19
         }
       ],
       "unclassified_files": [
@@ -1048,7 +1048,7 @@
     "2": {
       "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
       "content_fingerprint": "c9657971ea630ad992c516321f060168887b32e4c00d56bd7602d73c901c4c15",
-      "last_scan": "2026-07-22T18:58:25.806694+00:00",
+      "last_scan": "2026-07-23T10:12:14.532651+00:00",
       "zip_changed": false,
       "docs": {
         "tool_mtr3": {
@@ -1446,12 +1446,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-03T15:48:58.598834+00:00",
-          "zip_hash": "cdd7e40f9e38fb22242a1d95d547b99e8ca4f2838cdca853481fbb4bfdcf8595",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-03T17:14:22.077106+00:00",
           "zip_hash": "cdd7e40f9e38fb22242a1d95d547b99e8ca4f2838cdca853481fbb4bfdcf8595",
@@ -2045,6 +2039,12 @@
           "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
           "changed": false,
           "file_count": 11
+        },
+        {
+          "time": "2026-07-23T10:12:14.532651+00:00",
+          "zip_hash": "90147f75f0831921ae76cdc6bf530ad1cf1bda7ef406dd0f495595b4c7e6c889",
+          "changed": false,
+          "file_count": 11
         }
       ],
       "unclassified_files": [],
@@ -2060,26 +2060,26 @@
       "last_scan_empty": false
     },
     "3": {
-      "zip_hash": "94427547faf4ea2ef1004434942fd891d260bec0e598c45cedae22a8fc65ab71",
-      "content_fingerprint": "603dd37a8408c4c5af5dc2685363dc2d3992e7155162e1d24cb55bcb824a370d",
-      "last_scan": "2026-07-22T18:58:25.806694+00:00",
-      "zip_changed": false,
+      "zip_hash": "1af5f37e30422f46ba2fa147f08753fa75debc201f9b842c067d974bb408e4bc",
+      "content_fingerprint": "c6ca65dd77f5319ce5420ccf11e54a034ddc40866ffbe6fddc0996bc09e995cf",
+      "last_scan": "2026-07-23T10:12:14.532651+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
-          "current_hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
+          "current_hash": "02cd39f92f6e139c00a20ae117120570ed8ce6af2678633f6ed6172a75f291aa",
           "current_file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "current_size": 4106440,
+          "current_size": 4106494,
           "file_count": 1,
           "all_files": [
             {
               "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-              "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
-              "size": 4106440
+              "hash": "02cd39f92f6e139c00a20ae117120570ed8ce6af2678633f6ed6172a75f291aa",
+              "size": 4106494
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
-          "last_upload": "2026-07-21T15:29:17.166463+00:00",
+          "last_upload": "2026-07-23T10:12:14.532651+00:00",
           "replaced": true,
           "upload_history": [
             {
@@ -2097,6 +2097,12 @@
             {
               "time": "2026-07-21T15:29:17.166463+00:00",
               "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
+              "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
+              "event": "sostituzione"
+            },
+            {
+              "time": "2026-07-23T10:12:14.532651+00:00",
+              "hash": "02cd39f92f6e139c00a20ae117120570ed8ce6af2678633f6ed6172a75f291aa",
               "file": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
               "event": "sostituzione"
             }
@@ -2146,9 +2152,9 @@
               "size": 258008
             },
             {
-              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
-              "hash": "a8463cea1bb498b28410e6b4ff0ae395384c4c1d66ca12365b15273781391702",
-              "size": 87385
+              "name": "Allegato_3_-_Dichiarazione_Veridicita.docx23 07 26.pdf",
+              "hash": "a1d311fc1d80522237b780671b069377f393f783e4b7c1261c9bd66346827658",
+              "size": 87384
             }
           ],
           "first_upload": "2026-03-24T17:01:54.492520+00:00",
@@ -2314,8 +2320,8 @@
         {
           "name": "Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
           "path": "Gestore/Allegato 1 - Tool MTR3 - Gestore/Allegato_1_-_Tool_di_calcolo_MTR-3_2026-2029.xlsx BELMONTE PICENO.xlsx",
-          "hash": "179bbf6a110e12805aea14408cc6b40f8a1e2a48bc56ed15593eadb406ba7b08",
-          "size": 4106440,
+          "hash": "02cd39f92f6e139c00a20ae117120570ed8ce6af2678633f6ed6172a75f291aa",
+          "size": 4106494,
           "doc_key": "tool_mtr3",
           "source": "gestore"
         },
@@ -2328,10 +2334,10 @@
           "source": "gestore"
         },
         {
-          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
-          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx21 07 26.pdf",
-          "hash": "a8463cea1bb498b28410e6b4ff0ae395384c4c1d66ca12365b15273781391702",
-          "size": 87385,
+          "name": "Allegato_3_-_Dichiarazione_Veridicita.docx23 07 26.pdf",
+          "path": "Gestore/Allegato 3 - Dichiarazione di veridicità - Gestore/Allegato_3_-_Dichiarazione_Veridicita.docx23 07 26.pdf",
+          "hash": "a1d311fc1d80522237b780671b069377f393f783e4b7c1261c9bd66346827658",
+          "size": 87384,
           "doc_key": "dich_veridicita",
           "source": "gestore"
         },
@@ -2345,12 +2351,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-03T15:48:58.598834+00:00",
-          "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
-          "changed": false,
-          "file_count": 9
-        },
         {
           "time": "2026-07-03T17:14:22.077106+00:00",
           "zip_hash": "74ccd73ab8fc173ca7eda0ab0c1f9a2340fb0e04e919991390d3092ac911c1b6",
@@ -2944,6 +2944,12 @@
           "zip_hash": "94427547faf4ea2ef1004434942fd891d260bec0e598c45cedae22a8fc65ab71",
           "changed": false,
           "file_count": 9
+        },
+        {
+          "time": "2026-07-23T10:12:14.532651+00:00",
+          "zip_hash": "1af5f37e30422f46ba2fa147f08753fa75debc201f9b842c067d974bb408e4bc",
+          "changed": true,
+          "file_count": 9
         }
       ],
       "unclassified_files": [],
@@ -2959,7 +2965,7 @@
       "last_scan_empty": false
     },
     "4": {
-      "last_scan": "2026-07-22T18:58:25.806694+00:00",
+      "last_scan": "2026-07-23T10:12:14.532651+00:00",
       "last_scan_error": false,
       "last_scan_empty": false,
       "info": {
@@ -3312,12 +3318,6 @@
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-03T15:48:58.598834+00:00",
-          "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
-          "changed": false,
-          "file_count": 7
-        },
         {
           "time": "2026-07-03T17:14:22.077106+00:00",
           "zip_hash": "c024acde9ddab28c4df7636d84e3df0c9b75a4ef65f21e844e646b14f2858cbb",
@@ -3911,6 +3911,12 @@
           "zip_hash": "f521cbadd3b0cb7ae58461747555958c21e102638d1e754c4b3ee16956a84b23",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-23T10:12:14.532651+00:00",
+          "zip_hash": "f521cbadd3b0cb7ae58461747555958c21e102638d1e754c4b3ee16956a84b23",
+          "changed": false,
+          "file_count": 13
         }
       ],
       "unclassified_files": [
@@ -3930,10 +3936,10 @@
       "processabile": "si"
     },
     "5": {
-      "zip_hash": "4009f55864d0be27fba907d7f18703bdd490bbdbb5716599324dcd4bc87e44d5",
-      "content_fingerprint": "908df5abb3fc211457ea431f874a3354ec751a97917022926cc7c7129cf2f4df",
-      "last_scan": "2026-07-22T18:58:25.806694+00:00",
-      "zip_changed": false,
+      "zip_hash": "d9f6d8045d28c8be4ab4c9a27a07cf8e6ebc9c531ab5bdb251ed0accdbaf1d22",
+      "content_fingerprint": "ad13f70d1a1e958aa5147b251bbe88365f50b4990e2a99b4603f25093e8186b5",
+      "last_scan": "2026-07-23T10:12:14.532651+00:00",
+      "zip_changed": true,
       "docs": {
         "tool_mtr3": {
           "status": "received",
@@ -4135,7 +4141,39 @@
           "status": "missing"
         },
         "pef_validato": {
-          "status": "missing"
+          "status": "received",
+          "current_hash": "bb89f92a0b1f89f31550c22c3bec53f15f5009d002923cfbe715a50e69279faa",
+          "current_file": "FALERONE - PEF TARI MTR3 2026-2029.zip",
+          "current_size": 3726762,
+          "file_count": 3,
+          "all_files": [
+            {
+              "name": "FALERONE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+              "hash": "01d572e622d7b87527fccd3e692e3e9a82b634d85fb69fa27d5fd5f66dd0a3e9",
+              "size": 842651
+            },
+            {
+              "name": "FALERONE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+              "hash": "95ae4b08960641429776d0c208bd2b2251c90ba614c54eae05599cdf0ad7cda7",
+              "size": 443969
+            },
+            {
+              "name": "FALERONE - PEF TARI MTR3 2026-2029.zip",
+              "hash": "bb89f92a0b1f89f31550c22c3bec53f15f5009d002923cfbe715a50e69279faa",
+              "size": 3726762
+            }
+          ],
+          "first_upload": "2026-07-23T10:12:14.532651+00:00",
+          "last_upload": "2026-07-23T10:12:14.532651+00:00",
+          "replaced": false,
+          "upload_history": [
+            {
+              "time": "2026-07-23T10:12:14.532651+00:00",
+              "hash": "bb89f92a0b1f89f31550c22c3bec53f15f5009d002923cfbe715a50e69279faa",
+              "file": "FALERONE - PEF TARI MTR3 2026-2029.zip",
+              "event": "primo_caricamento"
+            }
+          ]
         }
       },
       "all_files": [
@@ -4242,15 +4280,33 @@
           "size": 95952,
           "doc_key": null,
           "source": "comune"
+        },
+        {
+          "name": "FALERONE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "path": "PEF Validato/FALERONE - ALLEGATI 2-3 PEF TARI 2026-2029 - GESTORE.zip",
+          "hash": "01d572e622d7b87527fccd3e692e3e9a82b634d85fb69fa27d5fd5f66dd0a3e9",
+          "size": 842651,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "FALERONE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "path": "PEF Validato/FALERONE - ALLEGATI 2-4 PEF TARI 2026-2029 - COMUNE.zip",
+          "hash": "95ae4b08960641429776d0c208bd2b2251c90ba614c54eae05599cdf0ad7cda7",
+          "size": 443969,
+          "doc_key": "pef_validato",
+          "source": "ata4"
+        },
+        {
+          "name": "FALERONE - PEF TARI MTR3 2026-2029.zip",
+          "path": "PEF Validato/FALERONE - PEF TARI MTR3 2026-2029.zip",
+          "hash": "bb89f92a0b1f89f31550c22c3bec53f15f5009d002923cfbe715a50e69279faa",
+          "size": 3726762,
+          "doc_key": "pef_validato",
+          "source": "ata4"
         }
       ],
       "scan_history": [
-        {
-          "time": "2026-07-03T15:48:58.598834+00:00",
-          "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
-          "changed": false,
-          "file_count": 8
-        },
         {
           "time": "2026-07-03T17:14:22.077106+00:00",
           "zip_hash": "b29eea3364586ff80513ddc391b1bc28b3a1d9bc9475b5471f9e0857c513b2c4",
@@ -4844,6 +4900,12 @@
           "zip_hash": "4009f55864d0be27fba907d7f18703bdd490bbdbb5716599324dcd4bc87e44d5",
           "changed": false,
           "file_count": 13
+        },
+        {
+          "time": "2026-07-23T10:12:14.532651+00:00",
+          "zip_hash": "d9f6d8045d28c8be4ab4c9a27a07cf8e6ebc9c531ab5bdb251ed0accdbaf1d22",
+          "changed": true,
+          "file_count": 16
         }
       ],
       "unclassified_files": [
@@ -39097,11 +39159,11 @@
     }
   },
   "meta": {
-    "last_scan": "2026-07-22T18:58:25.806694+00:00",
+    "last_scan": "2026-07-23T10:12:14.532651+00:00",
     "results": {
-      "scansionati": 40,
-      "aggiornati": 0,
-      "invariati": 40,
+      "scansionati": 5,
+      "aggiornati": 2,
+      "invariati": 3,
       "errori": 0,
       "vuoti": 0
     },
@@ -39111,7 +39173,7 @@
       "termine_ata_gestori": "2026-05-31",
       "termine_ata_comuni": "2026-05-31"
     },
-    "scan_in_progress": false
+    "scan_in_progress": true
   },
   "scadenze": {
     "termine_arera_mtr3": "2026-07-31",
