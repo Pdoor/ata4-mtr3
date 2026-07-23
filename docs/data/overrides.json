@@ -3261,7 +3261,15 @@
                                 "date": "2026-07-22",
                                 "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: mercoledì 22 luglio 2026 13:23\nA: Amministrazione <amministrazione@soeco97.it>\nCc: Gruppo ata4 <ata4@mediagestum.com>; ata4fermo@provincia.fm.it\nOggetto: Re: ATA4: Comuni di Montefalcone Appenino e Belmonte Piceno - richiesta chiarimenti nuovi dati trasmessi - URGENTE\n\nBuongiorno,\ncon riferimento al riscontro fornito, precisiamo quanto segue.\nPer quanto riguarda BELMONTE PICENO, nel nuovo schema di Pef grezzo non sono state valorizzate le detrazioni ex art. 4.5, della Deliberazione Arera n. 397/2025 ma è stato ridotto il costo effettivo sostenuto. Se conferma che trattasi di un costo sostenuto ma di avere intenzione di inserire le detrazioni è necessario ripristinare il costo inserito inizialmente e inserire la corrispondente detrazione nel foglio IN_DETR 4.5.\nPer quanto concerne MONTEFALCONE APPENNINO, si richiede se l'errore nel mancato inserimento iniziale sia dovuto ad un'errata allocazione e rappresentazione dei costi dell'extra-perimetro oppure se derivi da una diversa rappresentazione della stratificazione dei costi sul perimetro MTR-3 del bacino dell'Ata4.\nSaluti\nIl 22/07/2026 12:50, Amministrazione ha scritto:\nIn  risconrtro  alla  vs  si  forniscono  i seguenti chiarimenti  :\n•\tBelmonte Piceno  -  abbiamo  provveduto  a  ridurre  i costi  per  € 2.500,00   accettando  le detrazioni richieste  dal Comune di Belmonte Piceno , ai sensi dell ' art 4.5 della  Deliberazione Arera 397/2025\n•\tMontefalcone Appennino - nella  predisposizione  del  Pef  ARERA  erroneamente   e' stato inserito un importo inferiore per  un servizio , rispetto  all'importo contrattuale  in essere;  pertanto si e'provveduto a correggere  il dato di costo   per allinearci   all' importo  contrattuale  tra  il  Comune  di Montefalcone APPENINO  e il gestore  SOECO  SRL, importo  derivate da  aggiudicazione di gara d'appalto  .\nA disposizione ,\ncordiali  saluti\nGiuggiolini Sonia \nditta  SOECO  SRL",
                                 "author": "GM",
-                                "children": []
+                                "children": [
+                                  {
+                                    "cat": "pef",
+                                    "date": "2026-07-23",
+                                    "text": "________________________________________\nDa: Amministrazione <amministrazione@soeco97.it>\nInviato: giovedì, luglio 23, 2026 5:24:40 PM\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nOggetto: Re: ATA4: Comuni di Montefalcone Appenino - richiesta chiarimenti nuovi dati trasmessi - URGENTE\n\nAd  integrazione  della  mail precedente  in  rifermento  al  pef  Comune di Montefalcone Appennino   si precisa  che  i  maggiori costi inseriti  non erano stati previsti  perche' erroneamente imputati  a comuni  non facenti parti  dell ata 4 ma semre gestiti  dal  gestore SOECO  SRL .\nA disposizione ,\nSonia  Giuggiolini\nSOECO  SRL",
+                                    "author": "GM",
+                                    "children": []
+                                  }
+                                ]
                               }
                             ]
                           }
