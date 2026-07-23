@@ -2080,7 +2080,15 @@
                                 "date": "2026-07-23",
                                 "text": "Da: Gabriele Nardi <gabriele.nardi@mediagestum.com> \nInviato: giovedì 23 luglio 2026 16:13\nA: Michelangelo Mattii <ragioneria.belmontepiceno@gmail.com>; ragioneria@comunebelmontepiceno.it\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Belmonte Piceno\n\nBuonasera,\npreso atto della documentazione definitiva trasmessa dal gestore nella giornata odierna, a termine dello svolgimento dei controlli di rito, si allega il nuovo schema di Pef che tiene conto delle detrazioni del Comune e del gestore.\nRimaniamo in attesa di vs. indicazioni in merito.\nSaluti\nIl 21/07/2026 16:44, Michelangelo Mattii ha scritto:\nBuon pomeriggio, \nho appena parlato con il nostro gestore (SOECO) e mi dice di aver caricato un aggiornamento dei dati relativi al PEF. Lo schema dovrebbe essere come quello che allego alla presente.\nIn ogni caso chiedo l'invio del tool di calcolo del PEF con l'ultimo aggiornamento così da poter dare conferma ai fini della validazione.\nIn attesa di gentile riscontro, saluto cordialmente.\n\nMichelangelo Mattii\nUff. Ragioneria\nComune di Belmonte Piceno",
                                 "author": "GM",
-                                "children": []
+                                "children": [
+                                  {
+                                    "cat": "pef",
+                                    "date": "2026-07-23",
+                                    "text": "Da: Michelangelo Mattii <ragioneria@comunebelmontepiceno.it> \nInviato: giovedì 23 luglio 2026 17:36\nA: Gabriele Nardi <gabriele.nardi@mediagestum.com>\nCc: Gruppo ata4 <ata4@mediagestum.com>; Ata4fermo <ata4fermo@provincia.fm.it>\nOggetto: Re: ATA4: Comune di Belmonte Piceno\n\nBuonasera,\ncon la presente si conferma lo schema PEF come ricevuto da vostra ultima comunicazione.\nCordialmente,\n\nMichelangelo Mattii\nUff. Ragioneria",
+                                    "author": "GM",
+                                    "children": []
+                                  }
+                                ]
                               }
                             ]
                           }
